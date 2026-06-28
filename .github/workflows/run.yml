@@ -2,8 +2,11 @@ name: Actualizador automatico FIRMS
 
 on:
   schedule:
-    - cron: '0 * * * *' # Se ejecuta solo cada hora en la nube
-  workflow_dispatch: # Activa el botón manual que buscas
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write # ESTA LÍNEA OBLIGA A GITHUB A DARTE PERMISOS DE ESCRITURA EN REPOS PRIVADOS
 
 jobs:
   run-tracker:
