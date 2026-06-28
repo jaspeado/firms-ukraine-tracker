@@ -22,6 +22,12 @@ jobs:
         with:
           python-version: '3.11'
 
+      # SOLUCIÓN DE INFRAESTRUCTURA: Forzar el DNS de Google en el sistema operativo Linux de GitHub
+      - name: Forzar DNS publico en Linux
+        run: |
+          sudo echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+          sudo echo "nameserver 1.1.1.1" | sudo tee -a /etc/resolv.conf > /dev/null
+
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely
 
