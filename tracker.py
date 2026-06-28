@@ -7,17 +7,16 @@ from datetime import datetime, timezone, timedelta
 import pandas as pd
 import geopandas as gpd
 
-# Configuración de la NASA FIRMS
+# Configuración Real de la NASA FIRMS
 MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
 BBOX = "22,44,41,53"
 DAYS = 5
 SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
 
-# URL CORRECTA Y COMPLETA DE DEEPSTATE
+# URL Real y Completa de DeepState
 URL_DEEPSTATE = "https://github.com"
 
 def download_firms_source(source):
-    # URL CORRECTA Y COMPLETA DE LA NASA FIRMS
     url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=60) as response:
@@ -45,7 +44,7 @@ def main():
     fecha_hoy_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     # ==========================================================================
-    # BLOQUE A: PROCESAMIENTO DE DEEPSTATE UA
+    # BLOQUE A: DEEPSTATE UA
     # ==========================================================================
     print("Descargando datos de DeepState...")
     try:
@@ -66,10 +65,10 @@ def main():
         gdf_ds_filtrado.to_file("output/deepstate_actualizado.geojson", driver="GeoJSON")
         print("✅ Capa DeepState guardada.")
     except Exception as e:
-        print(f"❌ Error en DeepState: {e}")
+        print(f"Error en DeepState: {e}")
 
     # ==========================================================================
-    # BLOQUE B: PROCESAMIENTO DE ALERTAS FIRMS (NASA)
+    # BLOQUE B: ALERTAS FIRMS (NASA)
     # ==========================================================================
     print("\nDescargando alertas térmicas de la NASA...")
     frames = []
@@ -82,20 +81,20 @@ def main():
             print(f"Error en {source}: {e}")
 
     if not frames:
-        print("Sin alertas térmicas registradas (fallo de API o sin datos).")
+        print("Sin alertas térmicas de la NASA en este lote.")
         return
 
     df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["detection_id"])
     
-    # Conservar los últimos 5 días móviles para no colapsar la pantalla
+    # Mantener últimos 5 días móviles
     df_all["acq_date_dt"] = pd.to_datetime(df_all["acq_date"])
     limite_tiempo = datetime.now(timezone.utc) - timedelta(days=5)
     df_all = df_all[df_all["acq_date_dt"] >= limite_tiempo.replace(tzinfo=None)]
     df_all.drop(columns=["acq_date_dt"], inplace=True)
 
-    # Filtrar fuegos por potencia (>10 MW)
+    # Filtrado estricto solicitado: > 10 MW
     df_filtrado = df_all[df_all["frp_num"] > 10]
-    print(f"Registrados {len(df_filtrado)} focos térmicos tácticos superiores a 10 MW.")
+    print(f"Registrados {len(df_filtrado)} focos superiores a 10 MW.")
 
     if not df_filtrado.empty:
         gdf_firms = gpd.GeoDataFrame(
@@ -104,14 +103,13 @@ def main():
             crs="EPSG:4326"
         )
         
-        # Intentar cargar tu base para heredar nombres de columnas
+        # Validar si existe tu archivo para inyectar campos GADM locales
         if os.path.exists("firmsconubicacion.gpkg"):
             try:
                 base = gpd.read_file("firmsconubicacion.gpkg")
                 lookup = base[['COUNTRY', 'NAME_1', 'locality', 'geometry']].drop_duplicates(subset=['locality'])
                 gdf_firms = gpd.sjoin_nearest(gdf_firms, lookup, how="left", max_distance=0.15)
                 gdf_firms.drop(columns=["index_right"], inplace=True, errors="ignore")
-                print("✅ Atributos de ubicación asignados de forma adaptativa.")
             except Exception as e:
                 print(f"Aviso en indexación espacial: {e}")
                 gdf_firms["COUNTRY"] = "UA"
@@ -123,10 +121,11 @@ def main():
             gdf_firms["locality"] = "Foco Activo"
 
         gdf_firms.to_file("output/fuegos_actualizados.geojson", driver="GeoJSON")
-        print("✅ Capa FIRMS guardada correctamente.")
+        print("✅ Capa FIRMS generada correctamente.")
     else:
-        print("No se encontraron registros superiores a 10 MW para guardar.")
+        print("No se encontraron registros superiores a 10 MW para exportar.")
 
 if __name__ == "__main__":
     main()
+
 
