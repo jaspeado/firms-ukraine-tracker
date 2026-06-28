@@ -9,16 +9,20 @@ jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar codigo
+      - name: Descargar codigo con Token de Escritura
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalar librerias
-        run: pip install pandas geopandas pyogrio shapely
+      - name: Instalar librerias de Cartografia
+        run: |
+          pip install pandas geopandas pyogrio shapely
 
       - name: Ejecutar script de la NASA
         run: python tracker.py
