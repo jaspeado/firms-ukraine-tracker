@@ -43,7 +43,10 @@ jobs:
           OUT_GEOJSON = "./fires.geojson"
 
           def download_source(source):
-              url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+              # Forzamos la concatenación limpia de caracteres para no arrastrar la caché corrupta
+              host_nasa = "firms.modaps.eosdis.nasa.gov"
+              url = f"https://{host_nasa}/api/area/csv/{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+              
               print(f"\n[INFO] Conectando a la NASA para: {source}...")
               print(f"[Ruta Real] {url}")
               headers = {"User-Agent": "Mozilla/5.0"}
@@ -98,5 +101,3 @@ jobs:
           git add fires.geojson
           git commit -m "Sincronizacion automatica NASA" || exit 0
           git push origin main
-
-
