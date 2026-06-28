@@ -22,7 +22,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Instalar librerias de Cartografia
+      # EL PARCHE REAL DE INGENIERÍA: Instala los drivers de mapas en el Linux de GitHub
+      - name: Instalar dependencias del Sistema Operativo Linux (GDAL)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gdal-bin libgdal-dev
+
+      - name: Instalar librerias de Cartografia en Python
         run: |
           pip install pandas geopandas fiona pyogrio shapely
 
