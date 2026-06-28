@@ -35,56 +35,69 @@ st.title("🛰️ Visor 3D Dinámico (Procesado en la Nube)")
 
 @st.cache_data(ttl=900)
 def descargar_datos_nasa():
-    url = "https://nasa.gov"
     headers = {"User-Agent": "Mozilla/5.0"}
+    
+    # 1. Descarga del archivo oficial global de incendios de las últimas 24 horas de la NASA
     try:
-        req = urllib.request.Request(url, headers=headers)
+        url_24h = "https://nasa.gov"
+        req = urllib.request.Request(url_24h, headers=headers)
         with urllib.request.urlopen(req, timeout=30) as res:
             df = pd.read_csv(res)
+            if not df.empty:
+                # Recorte geográfico estricto del frente de Ucrania usando tu BBOX original
+                df = df[(df["latitude"] >= 44.0) & (df["latitude"] <= 53.0) & 
+                        (df["longitude"] >= 22.0) & (df["longitude"] <= 41.0)]
+                df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
+                return df[df["frp_num"] > 10]
     except Exception:
-        try:
-            url_alt = "https://nasa.gov"
-            req_alt = urllib.request.Request(url_alt, headers=headers)
-            with urllib.request.urlopen(req_alt, timeout=30) as res_alt:
-                df = pd.read_csv(res_alt)
-        except Exception:
-            return pd.DataFrame()
+        pass
 
-    if df.empty:
+    # 2. Servidor API de respaldo secundario por si falla el enlace global directo
+    try:
+        url_backup = "https://nasa.gov"
+        req = urllib.request.Request(url_backup, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as res:
+            df = pd.read_csv(res)
+            if not df.empty:
+                df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
+                return df[df["frp_num"] > 10]
+    except Exception:
         return pd.DataFrame()
-        
-    df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
-    return df[df["frp_num"] > 10]
 
-# LA LÍNEA CRUCIAL QUE FALTABA: Definir la variable del mapa
+    return pd.DataFrame()
+
+# Llamada oficial a la función de la NASA
 df_fuegos = descargar_datos_nasa()
 
-# 3. RENDERIZADO DEL MAPA INTERACTIVO 3D
-if df_fuegos.empty:
+# 3. RENDERIZADO DEL MAPA INTERACTIVO 3D (PYDECK)
+if df_fuegos is None or df_fuegos.empty:
     st.warning("No se han detectado focos activos en las coordenadas seleccionadas en las últimas horas.")
 else:
     st.write(f"Mostrando {len(df_fuegos)} alertas térmicas reales procesadas de forma autónoma.")
 
+    # Capa 3D: Columnas rojas tridimensionales proporcionales a la potencia térmica (FRP)
     layer_fuegos = pdk.Layer(
         "ColumnLayer",
         df_fuegos,
         get_position="[longitude, latitude]",
         get_elevation="frp_num",
-        elevation_scale=150,
-        radius=2000,
-        get_fill_color="[230, 0, 0, 160]",  # Rojo translúcido fijado explícitamente
+        elevation_scale=150,  # Multiplicador de la altura visual de las columnas
+        radius=2000,          # Ancho del cilindro en metros
+        get_fill_color="[230, 0, 0, 180]",  # Rojo translúcido táctico
         pickable=True,
         auto_highlight=True,
     )
 
+    # Enfoque inicial de la cámara centrado en el mapa con perspectiva 3D
     vista_inicial = pdk.ViewState(
         latitude=48.3794,
         longitude=31.1656,
         zoom=5.5,
-        pitch=45,
+        pitch=45,  # Ángulo de inclinación necesario para apreciar el relieve en 3D
         bearing=0
     )
 
+    # Inyección final en la interfaz web con visualización de datos flotante (Tooltip)
     st.pydeck_chart(pdk.Deck(
         layers=[layer_fuegos],
         initial_view_state=vista_inicial,
