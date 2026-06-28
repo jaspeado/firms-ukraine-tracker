@@ -25,9 +25,9 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      - name: Crear script de Python limpio
+      - name: Crear script de Python con nombre nuevo
         run: |
-          cat << 'EOF' > final_nasa.py
+          cat << 'EOF' > motor_tactico_limpio.py
           import os
           import time
           import sys
@@ -43,7 +43,8 @@ jobs:
           OUT_GEOJSON = "./fires.geojson"
 
           def download_source(source):
-              url = "https://nasa.gov" + MAP_KEY + "/" + source + "/" + BBOX + "/" + str(DAYS)
+              # URL REVISADA CARACTER A CARACTER
+              url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
               print(f"\n[INFO] Conectando a la NASA para: {source}...")
               print(f"[Ruta Real] {url}")
               headers = {"User-Agent": "Mozilla/5.0"}
@@ -89,7 +90,7 @@ jobs:
           EOF
 
       - name: Ejecutar script de la NASA limpio
-        run: python final_nasa.py
+        run: python motor_tactico_limpio.py
 
       - name: Auto-subir Datos a GitHub
         run: |
