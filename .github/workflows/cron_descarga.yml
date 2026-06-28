@@ -5,7 +5,6 @@ on:
     - cron: '*/10 * * * *'
   workflow_dispatch:
 
-# EL PARCHE DEFINITIVO: Obliga a GitHub a darle permisos de escritura reales al bot
 permissions:
   contents: write
 
@@ -25,15 +24,21 @@ jobs:
 
       - name: Instalar librerias de Cartografia
         run: |
-          pip install pandas geopandas pyogrio shapely
+          pip install pandas geopandas fiona pyogrio shapely
 
       - name: Ejecutar script de la NASA
         run: python tracker.py
 
-      - name: Auto-subir GeoPackage a GitHub
+      - name: Auto-subir GeoPackage a GitHub (Con Seguro Anti-Errores)
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "github-actions[bot]"
-          git add fires.gpkg
-          git commit -m "Sincronizacion automatica NASA" || exit 0
-          git push origin main
+          
+          if [ -f "fires.gpkg" ]; then
+            git add fires.gpkg
+            git commit -m "Sincronizacion automatica NASA" || exit 0
+            git push origin main
+          else
+            echo "Error critico: El script de Python no ha generado el archivo fires.gpkg"
+            exit 1
+          fi
