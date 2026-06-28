@@ -1,16 +1,6 @@
-import os
-import subprocess
-import sys
-
-# Bloque de seguridad: Fuerza la instalación de geopandas si el servidor de la nube no leyó el requirements.txt
-try:
-    import geopandas as gpd
-except ModuleNotFoundError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "geopandas"])
-    import geopandas as gpd
-
 import streamlit as st
 import pandas as pd
+import geopandas as gpd
 import pydeck as pdk
 import urllib.request
 import json
