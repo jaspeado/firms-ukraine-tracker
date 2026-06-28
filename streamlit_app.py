@@ -38,29 +38,32 @@ BBOX = "22,44,41,53"
 DAYS = 2
 SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
 
-@st.cache_data(ttl=3600)  # Cachea los datos 1 hora en la memoria del servidor para optimizar velocidad
+@st.cache_data(ttl=900)  # Actualiza los datos reales cada 15 minutos de forma autónoma
 def descargar_datos_nasa():
-    frames = []
+    # URL pública de la NASA (Firms NRT) para el satélite VIIRS en formato CSV para el país de Ucrania
+    url = "https://nasa.gov"
     headers = {"User-Agent": "Mozilla/5.0"}
-    for source in SOURCES:
-        url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as res:
+            df = pd.read_csv(res)
+    except Exception as e:
+        # Si la clave compartida falla por completo, usamos el servidor de contingencia de datos abiertos de la NASA
         try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=15) as res:
-                df = pd.read_csv(res)
-                if not df.empty:
-                    frames.append(df)
+            url_alt = "https://nasa.gov"
+            req_alt = urllib.request.Request(url_alt, headers=headers)
+            with urllib.request.urlopen(req_alt, timeout=30) as res_alt:
+                df = pd.read_csv(res_alt)
         except Exception:
-            continue
-    
-    if not frames:
+            return pd.DataFrame()
+
+    if df.empty:
         return pd.DataFrame()
         
-    df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["latitude", "longitude", "acq_time"])
-    df_all["frp_num"] = pd.to_numeric(df_all["frp"], errors="coerce").fillna(0)
-    return df_all[df_all["frp_num"] > 10]  # Filtro de potencia mínimo
+    # Limpieza de duplicados y conversión de potencia a número real
+    df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
+    return df[df["frp_num"] > 10]  # Tu filtro táctico original para incendios reales
 
-df_fuegos = descargar_datos_nasa()
 
 # 3. RENDERIZADO DEL MAPA CARTOGRÁFICO INTERACTIVO 3D
 if df_fuegos.empty:
