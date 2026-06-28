@@ -1,4 +1,4 @@
-name: REVENTAR CACHE DEFINITIVO
+name: DESTRUIR CACHE DE RED
 
 on:
   schedule:
@@ -27,7 +27,6 @@ jobs:
 
       - name: Crear script de Python real sin fallos
         run: |
-          cat << 'EOF' > final_nasa.py
           import os
           import time
           import sys
@@ -43,10 +42,13 @@ jobs:
           OUT_GEOJSON = "./fires.geojson"
 
           def download_source(source):
-              # URL REAL LIMPIA Y COMPROBADA
-              url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+              # Construcción matemática limpia calcada de tu script local original
+              parte1 = "https://nasa.gov"
+              url = f"{parte1}{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+              
               print(f"\n[INFO] Conectando a la NASA para: {source}...")
               print(f"[Ruta Real] {url}")
+              
               headers = {"User-Agent": "Mozilla/5.0"}
               try:
                   response = requests.get(url, headers=headers, timeout=45)
@@ -78,7 +80,7 @@ jobs:
                       frames.append(df)
                   time.sleep(2)
               if not frames:
-                  print("\n[FIN] Cero detecciones hoy.")
+                  print("\n[FIN] Cero detecciones en la consulta.")
                   sys.exit(1)
               df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["detection_id"])
               gdf = gpd.GeoDataFrame(df_all, geometry=gpd.points_from_xy(df_all["longitude"], df_all["latitude"]), crs="EPSG:4326")
@@ -87,7 +89,12 @@ jobs:
 
           if __name__ == "__main__":
               main()
-          EOF
+          EOF_SCRIPT
+          
+          # Forzamos la escritura directa saltándonos cualquier caché de Git
+          echo "$SCRIPT_DATA" > final_nasa.py
+        env:
+          SCRIPT_DATA: ${{ steps.run-script.outputs.stdout }} # Evita que se crucen archivos temporales
 
       - name: Ejecutar script de la NASA limpio
         run: python final_nasa.py
@@ -99,3 +106,4 @@ jobs:
           git add fires.geojson
           git commit -m "Sincronizacion automatica NASA" || exit 0
           git push origin main
+
