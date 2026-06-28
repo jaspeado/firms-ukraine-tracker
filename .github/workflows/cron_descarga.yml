@@ -5,14 +5,17 @@ on:
     - cron: '*/10 * * * *'
   workflow_dispatch:
 
+# EL PARCHE DEFINITIVO: Obliga a GitHub a darle permisos de escritura reales al bot
+permissions:
+  contents: write
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar codigo con Token de Escritura
+      - name: Descargar codigo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: true
 
       - name: Configurar Python
@@ -30,7 +33,7 @@ jobs:
       - name: Auto-subir GeoPackage a GitHub
         run: |
           git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.name "github-actions[bot]"
           git add fires.gpkg
           git commit -m "Sincronizacion automatica NASA" || exit 0
           git push origin main
