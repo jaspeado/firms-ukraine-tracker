@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # ESTA LÍNEA OBLIGA A GITHUB A DARTE PERMISOS DE ESCRITURA EN REPOS PRIVADOS
+  contents: write
 
 jobs:
   run-tracker:
@@ -14,6 +14,8 @@ jobs:
     steps:
     - name: Clonar el proyecto
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }} # OBLIGA A USAR LOS PERMISOS DE ESCRITURA CONCEDIDOS
 
     - name: Configurar Python
       uses: actions/setup-python@v5
