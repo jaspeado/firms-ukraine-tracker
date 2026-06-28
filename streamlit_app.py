@@ -27,18 +27,19 @@ if not st.session_state["autenticado"]:
 
 st.title("🛰️ Visor 3D Dinámico (Procesado en la Nube)")
 
-ARCHIVO_GPKG = "fires.gpkg"
+# Leemos el archivo GeoJSON generado por el robot de GitHub
+ARCHIVO_DATA = "fires.geojson"
 
-if not os.path.exists(ARCHIVO_GPKG):
-    st.warning("El servidor de GitHub Actions está ejecutando la primera descarga. Espera 1 minuto...")
+if not os.path.exists(ARCHIVO_DATA):
+    st.warning("Esperando el primer despliegue automático de datos...")
 else:
     try:
-        gdf = gpd.read_file(ARCHIVO_GPKG, layer="fires")
+        gdf = gpd.read_file(ARCHIVO_DATA)
         df_fuegos = pd.DataFrame(gdf.drop(columns="geometry"))
         df_fuegos["latitude"] = gdf.geometry.y
         df_fuegos["longitude"] = gdf.geometry.x
         
-        st.success(f"Monitoreo activo: {len(df_fuegos)} alertas térmicas cargadas desde el GeoPackage de la nube.")
+        st.success(f"Monitoreo activo: {len(df_fuegos)} alertas térmicas reales cargadas.")
 
         layer_fuegos = pdk.Layer(
             "ColumnLayer",
@@ -69,4 +70,4 @@ else:
             }
         ))
     except Exception as e:
-        st.error(f"Error procesando cartografía: {e}")
+        st.error(f"Error cargando mapa: {e}")

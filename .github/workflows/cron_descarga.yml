@@ -22,29 +22,23 @@ jobs:
         with:
           python-version: '3.11'
 
-      # EL PARCHE REAL DE INGENIERÍA: Instala los drivers de mapas en el Linux de GitHub
-      - name: Instalar dependencias del Sistema Operativo Linux (GDAL)
+      - name: Instalar librerias basicas
         run: |
-          sudo apt-get update
-          sudo apt-get install -y gdal-bin libgdal-dev
+          pip install pandas geopandas shapely
 
-      - name: Instalar librerias de Cartografia en Python
-        run: |
-          pip install pandas geopandas fiona pyogrio shapely
-
-      - name: Ejecutar script de la NASA
+      - name: Ejecutar tu script de la NASA
         run: python tracker.py
 
-      - name: Auto-subir GeoPackage a GitHub (Con Seguro Anti-Errores)
+      - name: Auto-subir Datos a GitHub
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "github-actions[bot]"
           
-          if [ -f "fires.gpkg" ]; then
-            git add fires.gpkg
+          if [ -f "fires.geojson" ]; then
+            git add fires.geojson
             git commit -m "Sincronizacion automatica NASA" || exit 0
             git push origin main
           else
-            echo "Error critico: El script de Python no ha generado el archivo fires.gpkg"
+            echo "Error critico: El archivo fires.geojson no se ha generado"
             exit 1
           fi
