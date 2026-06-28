@@ -1,131 +1,75 @@
 import os
+import time
 import urllib.request
-import json
-import gzip
-from io import BytesIO
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
+
 import pandas as pd
 import geopandas as gpd
 
-# Configuración Real de la NASA FIRMS
 MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
 BBOX = "22,44,41,53"
 DAYS = 5
-SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
 
-# URL Real y Completa de DeepState
-URL_DEEPSTATE = "https://github.com"
+SOURCES = [
+    "VIIRS_NOAA21_NRT",
+    "VIIRS_NOAA20_NRT",
+    "VIIRS_SNPP_NRT",
+]
 
-def download_firms_source(source):
+# Ajustado para el almacenamiento en el servidor de GitHub
+OUT_DIR = "."
+OUT_GPKG = os.path.join(OUT_DIR, "fires.gpkg")
+LAYER_NAME = "fires"
+
+def download_source(source):
     url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+    print("\nConsultando:")
+    print(url)
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=60) as response:
         df = pd.read_csv(response)
     if df.empty:
+        print(f"{source}: sin detecciones")
         return df
-    
+
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     df["source_query"] = source
-    df["download_time_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    df["download_time_utc"] = now_utc
     df["acq_time_str"] = df["acq_time"].astype(str).str.zfill(4)
     df["detection_time_utc"] = (
-        df["acq_date"].astype(str) + " " +
-        df["acq_time_str"].str[:2] + ":" + df["acq_time_str"].str[2:] + ":00 UTC"
+        df["acq_date"].astype(str) + " " + df["acq_time_str"].str[:2] + ":" + df["acq_time_str"].str[2:] + ":00 UTC"
     )
     df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
     df["detection_id"] = (
-        df["satellite"].astype(str) + "|" + df["latitude"].astype(str) + "|" +
-        df["longitude"].astype(str) + "|" + df["acq_date"].astype(str) + "|" +
-        df["acq_time"].astype(str) + "|" + df["instrument"].astype(str)
+        df["satellite"].astype(str) + "|" + df["latitude"].astype(str) + "|" + df["longitude"].astype(str) + "|" +
+        df["acq_date"].astype(str) + "|" + df["acq_time"].astype(str) + "|" + df["instrument"].astype(str)
     )
+    print(f"{source}: {len(df)} detecciones")
     return df
 
 def main():
-    os.makedirs("output", exist_ok=True)
-    fecha_hoy_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-    # ==========================================================================
-    # BLOQUE A: DEEPSTATE UA
-    # ==========================================================================
-    print("Descargando datos de DeepState...")
-    try:
-        req = urllib.request.Request(URL_DEEPSTATE, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=60) as res:
-            content = res.read()
-
-        with gzip.open(BytesIO(content), "rt", encoding="utf-8") as f:
-            gdf_deepstate = gpd.read_file(f)
-
-        gdf_deepstate["date"] = pd.to_datetime(gdf_deepstate["date"]).dt.strftime("%Y-%m-%d")
-        gdf_ds_filtrado = gdf_deepstate[gdf_deepstate["date"] == fecha_hoy_str]
-
-        if gdf_ds_filtrado.empty:
-            fecha_ayer_str = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
-            gdf_ds_filtrado = gdf_deepstate[gdf_deepstate["date"] == fecha_ayer_str]
-
-        gdf_ds_filtrado.to_file("output/deepstate_actualizado.geojson", driver="GeoJSON")
-        print("✅ Capa DeepState guardada.")
-    except Exception as e:
-        print(f"Error en DeepState: {e}")
-
-    # ==========================================================================
-    # BLOQUE B: ALERTAS FIRMS (NASA)
-    # ==========================================================================
-    print("\nDescargando alertas térmicas de la NASA...")
+    os.makedirs(OUT_DIR, exist_ok=True)
     frames = []
     for source in SOURCES:
         try:
-            df = download_firms_source(source)
+            df = download_source(source)
             if not df.empty:
                 frames.append(df)
+            time.sleep(2)
         except Exception as e:
-            print(f"Error en {source}: {e}")
+            print(f"ERROR en {source}: {e}")
 
     if not frames:
-        print("Sin alertas térmicas de la NASA en este lote.")
+        print("\nNo se encontraron detecciones.")
         return
 
-    df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["detection_id"])
-    
-    # Mantener últimos 5 días móviles
-    df_all["acq_date_dt"] = pd.to_datetime(df_all["acq_date"])
-    limite_tiempo = datetime.now(timezone.utc) - timedelta(days=5)
-    df_all = df_all[df_all["acq_date_dt"] >= limite_tiempo.replace(tzinfo=None)]
-    df_all.drop(columns=["acq_date_dt"], inplace=True)
+    df_all = pd.concat(frames, ignore_index=True)
+    df_all = df_all.drop_duplicates(subset=["detection_id"])
+    df_all = df_all.sort_values(by=["acq_date", "acq_time", "frp_num"], ascending=[False, False, False])
 
-    # Filtrado estricto solicitado: > 10 MW
-    df_filtrado = df_all[df_all["frp_num"] > 10]
-    print(f"Registrados {len(df_filtrado)} focos superiores a 10 MW.")
-
-    if not df_filtrado.empty:
-        gdf_firms = gpd.GeoDataFrame(
-            df_filtrado,
-            geometry=gpd.points_from_xy(df_filtrado["longitude"], df_filtrado["latitude"]),
-            crs="EPSG:4326"
-        )
-        
-        # Validar si existe tu archivo para inyectar campos GADM locales
-        if os.path.exists("firmsconubicacion.gpkg"):
-            try:
-                base = gpd.read_file("firmsconubicacion.gpkg")
-                lookup = base[['COUNTRY', 'NAME_1', 'locality', 'geometry']].drop_duplicates(subset=['locality'])
-                gdf_firms = gpd.sjoin_nearest(gdf_firms, lookup, how="left", max_distance=0.15)
-                gdf_firms.drop(columns=["index_right"], inplace=True, errors="ignore")
-            except Exception as e:
-                print(f"Aviso en indexación espacial: {e}")
-                gdf_firms["COUNTRY"] = "UA"
-                gdf_firms["NAME_1"] = "Zona Frente"
-                gdf_firms["locality"] = "Foco Activo"
-        else:
-            gdf_firms["COUNTRY"] = "UA"
-            gdf_firms["NAME_1"] = "Zona Frente"
-            gdf_firms["locality"] = "Foco Activo"
-
-        gdf_firms.to_file("output/fuegos_actualizados.geojson", driver="GeoJSON")
-        print("✅ Capa FIRMS generada correctamente.")
-    else:
-        print("No se encontraron registros superiores a 10 MW para exportar.")
+    gdf = gpd.GeoDataFrame(df_all, geometry=gpd.points_from_xy(df_all["longitude"], df_all["latitude"]), crs="EPSG:4326")
+    gdf.to_file(OUT_GPKG, layer=LAYER_NAME, driver="GPKG")
+    print(f"\nGeoPackage generado: {OUT_GPKG}. Total: {len(gdf)}")
 
 if __name__ == "__main__":
     main()
-
-
