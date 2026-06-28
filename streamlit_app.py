@@ -1,118 +1,109 @@
+import os
+import subprocess
+import sys
+
+# Bloque de seguridad: Fuerza la instalación de geopandas si el servidor de la nube no leyó el requirements.txt
+try:
+    import geopandas as gpd
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "geopandas"])
+    import geopandas as gpd
+
 import streamlit as st
 import pandas as pd
-import geopandas as gpd
 import pydeck as pdk
 import urllib.request
+import json
 import gzip
 from io import BytesIO
 from datetime import datetime, timezone, timedelta
 
 # 1. CONTROL DE ACCESO PRIVADO (Cifrado con Secrets)
-st.set_page_config(page_title="Consola Táctica Privada", layout="wide")
+try:
+    PASSWORD_SECRETA = st.secrets["CONTRASENA_SECRETA"]
+except Exception:
+    PASSWORD_SECRETA = "1234"  # Clave de respaldo por si no guardaste los Secrets de la nube
+
+st.set_page_config(page_title="Consola Táctica Privada 3D", layout="wide")
 
 if "autenticado" not in st.session_state:
     st.session_state["autenticado"] = False
 
 if not st.session_state["autenticado"]:
-    st.subheader("🔒 Acceso Restringido")
+    st.title("🔒 Acceso Restringido")
     password = st.text_input("Introduce la clave secreta de acceso:", type="password")
     if st.button("Entrar"):
-        # Lee la contraseña de forma invisible desde la sección Advanced Settings de la nube
-        if password == st.secrets["CONTRASENA_SECRETA"]:
+        if password == PASSWORD_SECRETA:
             st.session_state["autenticado"] = True
             st.rerun()
         else:
             st.error("Clave incorrecta. Acceso denegado.")
     st.stop()
 
-# ==============================================================================
-# 2. DESCARGA Y PROCESAMIENTO EN MEMORIA
-# ==============================================================================
-st.title("🔥 Monitor Táctico 3D en Vivo - firewarwatch")
+# 2. PROCESAMIENTO DE DATOS EN LA NUBE (No consume recursos de tu PC)
+st.title("🛰️ Visor 3D Dinámico (Procesado en la Nube)")
 
 MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
 BBOX = "22,44,41,53"
-DAYS = 5
+DAYS = 2
 SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
-URL_DEEPSTATE = "https://github.com"
 
-@st.cache_data(ttl=900)
-def cargar_datos_totales():
-    df_frente_puntos = pd.DataFrame()
-    try:
-        req = urllib.request.Request(URL_DEEPSTATE, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=30) as res:
-            with gzip.open(BytesIO(res.read()), "rt", encoding="utf-8") as f:
-                gdf_ds = gpd.read_file(f)
-        gdf_ds["date"] = pd.to_datetime(gdf_ds["date"]).dt.strftime("%Y-%m-%d")
-        hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        gdf_ds_hoy = gdf_ds[gdf_ds["date"] == hoy]
-        if gdf_ds_hoy.empty:
-            ayer = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
-            gdf_ds_hoy = gdf_ds[gdf_ds["date"] == ayer]
-        
-        gdf_ds_hoy = gdf_ds_hoy.to_crs(epsg=4326)
-        gdf_ds_hoy["longitude"] = gdf_ds_hoy.geometry.centroid.x
-        gdf_ds_hoy["latitude"] = gdf_ds_hoy.geometry.centroid.y
-        df_frente_puntos = pd.DataFrame(gdf_ds_hoy.drop(columns='geometry'))
-    except:
-        pass
-
+@st.cache_data(ttl=3600)  # Cachea los datos 1 hora en la memoria del servidor para optimizar velocidad
+def descargar_datos_nasa():
     frames = []
-    for s in SOURCES:
+    headers = {"User-Agent": "Mozilla/5.0"}
+    for source in SOURCES:
+        url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
         try:
-            url = f"https://nasa.gov{MAP_KEY}/{s}/{BBOX}/{DAYS}"
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=30) as res:
-                data_bytes = res.read()
-                df = pd.read_csv(BytesIO(data_bytes))
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as res:
+                df = pd.read_csv(res)
                 if not df.empty:
                     frames.append(df)
-        except:
-            pass
-            
-    if not frames:
-        df_all = pd.DataFrame([
-            {"latitude": 48.3, "longitude": 38.0, "frp": 150.0, "acq_date": "Activo", "acq_time": "1200"},
-            {"latitude": 47.9, "longitude": 37.3, "frp": 300.0, "acq_date": "Activo", "acq_time": "1430"}
-        ])
-    else:
-        df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["latitude", "longitude", "acq_time"])
+        except Exception:
+            continue
     
-    df_all["frp_num"] = pd.to_numeric(df_all["frp"], errors="coerce").fillna(0)
-    df_filtrado = df_all[df_all["frp_num"] > 10].copy()
-    if df_filtrado.empty:
-        df_filtrado = df_all.copy()
+    if not frames:
+        return pd.DataFrame()
         
-    df_filtrado["elevation"] = df_filtrado["frp_num"] * 150
-    return df_frente_puntos, df_filtrado
+    df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["latitude", "longitude", "acq_time"])
+    df_all["frp_num"] = pd.to_numeric(df_all["frp"], errors="coerce").fillna(0)
+    return df_all[df_all["frp_num"] > 10]  # Filtro de potencia mínimo
 
-df_frente, df_fuegos = cargar_datos_totales()
+df_fuegos = descargar_datos_nasa()
 
-# ==============================================================================
-# 3. MOTOR GRÁFICO AUTÓNOMO 3D
-# ==============================================================================
-capa_fuegos = pdk.Layer(
-    "ColumnLayer",
-    data=df_fuegos,
-    get_position="[longitude, latitude]",
-    get_elevation="elevation",
-    elevation_scale=1,
-    radius=1500,
-    get_fill_color=[255, 75, 75, 200],
-    pickable=True,
-    auto_highlight=True,
-)
+# 3. RENDERIZADO DEL MAPA CARTOGRÁFICO INTERACTIVO 3D
+if df_fuegos.empty:
+    st.warning("No se han detectado focos activos en las coordenadas seleccionadas en las últimas horas.")
+else:
+    st.write(f"Mostrando {len(df_fuegos)} alertas térmicas procesadas de forma autónoma.")
 
-capas_render = [capa_fuegos]
-vista_camara = pdk.ViewState(latitude=48.5, longitude=35.0, zoom=6, pitch=45, bearing=0)
+    # Capa 3D: Torres de luz rojas proporcionales a los Megavatios (FRP)
+    layer_fuegos = pdk.Layer(
+        "ColumnLayer",
+        df_fuegos,
+        get_position="[longitude, latitude]",
+        get_elevation="frp_num",
+        elevation_scale=150,  # Multiplicador de altura de las columnas en el mapa
+        radius=2000,          # Radio del cilindro en metros
+        get_fill_color="[230, 0, 0, 180]",  # Color rojo translúcido (R, G, B, Alfa)
+        pickable=True,
+        auto_highlight=True,
+    )
 
-r = pdk.Deck(
-    layers=capas_render,
-    initial_view_state=vista_camara,
-    map_style="carto-dark",
-    tooltip={"text": "🔥 Potencia: {frp_num} MW\n📅 Info: {acq_date} {acq_time}"}
-)
+    # Posición inicial de la cámara enfocando el área de interés con inclinación 3D
+    vista_inicial = pdk.ViewState(
+        latitude=48.3794,
+        longitude=31.1656,
+        zoom=5.5,
+        pitch=45,  # Ángulo para apreciar el relieve y el volumen 3D
+        bearing=0
+    )
 
-st.pydeck_chart(r)
-st.success(f"Visor táctico en vivo. Focos registrados: {len(df_fuegos)}")
+    # Construcción final del mapa con Pop-up de información al pasar el ratón (Tooltip)
+    st.pydeck_chart(pdk.Deck(
+        layers=[layer_fuegos],
+        initial_view_state=vista_inicial,
+        map_style="mapbox://styles/mapbox/dark-v10",
+        tooltip={"text": "Latitud: {latitude}\nLongitud: {longitude}\nPotencia: {frp} MW\nHora Satélite: {acq_time}"}
+    ))
