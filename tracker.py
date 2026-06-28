@@ -21,11 +21,7 @@ OUT_DIR = "."
 OUT_GEOJSON = os.path.join(OUT_DIR, "fires.geojson")
 
 def download_source(source):
-    # DIRECCIÓN REAL CALCADA DE TU PC: Sin mezclas raras con nasa.gov
-    url = (
-        f"https://nasa.gov"
-        f"{MAP_KEY}/{source}/{BBOX}/{DAYS}"
-    )
+    url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
     print(f"\n[INFO] Conectando a la NASA para: {source}...")
     print(f"[Ruta] {url}")
     
@@ -33,7 +29,6 @@ def download_source(source):
     
     try:
         response = requests.get(url, headers=headers, timeout=45)
-        
         if response.status_code != 200:
             print(f"[ERROR] Código de estado de la NASA: {response.status_code}")
             return pd.DataFrame()
@@ -67,7 +62,6 @@ def download_source(source):
             df["acq_time"].astype(str) + "|" + df["instrument"].astype(str)
         )
         return df
-        
     except Exception as e:
         print(f"[ERROR DE RED] Fallo en {source}: {e}", file=sys.stderr)
         return pd.DataFrame()
@@ -75,7 +69,6 @@ def download_source(source):
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     frames = []
-
     for source in SOURCES:
         df = download_source(source)
         if not df.empty:
@@ -95,7 +88,6 @@ def main():
         geometry=gpd.points_from_xy(df_all["longitude"], df_all["latitude"]),
         crs="EPSG:4326"
     )
-
     gdf.to_file(OUT_GEOJSON, driver="GeoJSON")
     print(f"\n[OK] Archivo 'fires.geojson' generado con éxito. Total: {len(gdf)}")
 
