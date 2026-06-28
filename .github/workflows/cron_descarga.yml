@@ -22,22 +22,81 @@ jobs:
         with:
           python-version: '3.11'
 
-      # SOLUCIÓN DE INFRAESTRUCTURA: Forzar el DNS de Google en el sistema operativo Linux de GitHub
-      - name: Forzar DNS publico en Linux
-        run: |
-          sudo echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
-          sudo echo "nameserver 1.1.1.1" | sudo tee -a /etc/resolv.conf > /dev/null
-
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      - name: Ejecutar tu script de la NASA
-        run: python tracker.py
+      # PASO MAESTRO: Escribe el script limpio directamente en el disco virtual antes de correrlo
+      - name: Crear script de Python con URL limpia
+        run: |
+          cat << 'EOF' > nubescript.py
+          import os
+          import time
+          import sys
+          from datetime import datetime, timezone
+          import pandas as pd
+          import geopandas as gpd
+          import requests
+
+          MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
+          BBOX = "22,44,41,53"
+          DAYS = 5
+          SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
+          OUT_GEOJSON = "./fires.geojson"
+
+          def download_source(source):
+              url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+              print(f"\n[INFO] Conectando a la NASA para: {source}...")
+              print(f"[Ruta Real] {url}")
+              headers = {"User-Agent": "Mozilla/5.0"}
+              try:
+                  response = requests.get(url, headers=headers, timeout=45)
+                  if response.status_code != 200:
+                      print(f"[ERROR] HTTP {response.status_code}")
+                      return pd.DataFrame()
+                  from io import StringIO
+                  df = pd.read_csv(StringIO(response.text))
+                  if df.empty:
+                      return pd.DataFrame()
+                  
+                  now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+                  df["source_query"] = source
+                  df["download_time_utc"] = now_utc
+                  df["acq_time_str"] = df["acq_time"].astype(str).str.zfill(4)
+                  df["detection_time_utc"] = df["acq_date"].astype(str) + " " + df["acq_time_str"].str[:2] + ":" + df["acq_time_str"].str[2:] + ":00 UTC"
+                  df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
+                  df["detection_id"] = df["satellite"].astype(str) + "|" + df["latitude"].astype(str) + "|" + df["longitude"].astype(str) + "|" + df["acq_date"].astype(str) + "|" + df["acq_time"].astype(str)
+                  return df
+              except Exception as e:
+                  print(f"[ERROR] {e}", file=sys.stderr)
+                  return pd.DataFrame()
+
+          def main():
+              frames = []
+              for source in SOURCES:
+                  df = download_source(source)
+                  if not df.empty:
+                      frames.append(df)
+                  time.sleep(2)
+              if not frames:
+                  print("\n[FIN] Cero detecciones hoy.")
+                  sys.exit(1)
+              df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["detection_id"])
+              gdf = gpd.GeoDataFrame(df_all, geometry=gpd.points_from_xy(df_all["longitude"], df_all["latitude"]), crs="EPSG:4326")
+              gdf.to_file(OUT_GEOJSON, driver="GeoJSON")
+              print(f"\n[OK] Archivo 'fires.geojson' generado. Total: {len(gdf)}")
+
+          if __name__ == "__main__":
+              main()
+          EOF
+
+      # Ejecuta el script que acabamos de inyectar arriba
+      - name: Ejecutar script de la NASA
+        run: python nubescript.py
 
       - name: Auto-subir Datos a GitHub
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
+          git add fires.geojson
           git commit -m "Sincronizacion automatica NASA" || exit 0
           git push origin main
