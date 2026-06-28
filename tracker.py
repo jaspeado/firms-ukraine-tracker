@@ -21,12 +21,18 @@ OUT_DIR = "."
 OUT_GEOJSON = os.path.join(OUT_DIR, "fires.geojson")
 
 def download_source(source):
-    url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
-    print(f"\n[INFO] Conectando a la NASA para: {source}...")
+    # PARCHE MAESTRO DE RED: Usamos la IP numérica directa de la NASA para saltarnos el error de DNS de GitHub
+    url = f"https://169.154.128{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+    print(f"\n[INFO] Conectando vía IP directa a la NASA para: {source}...")
     
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    # Es obligatorio inyectar el Host original en las cabeceras para que la IP funcione mediante HTTPS
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        "Host": "firms.modaps.eosdis.nasa.gov"
+    }
     
     try:
+        req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=45) as response:
             df = pd.read_csv(response)
         
@@ -72,7 +78,7 @@ def main():
         time.sleep(3)
 
     if not frames:
-        print("\n[FIN] No hay datos en esta ejecucion.")
+        print("\n[FIN] No hay datos en esta ejecucion debido al bloqueo de red.")
         sys.exit(1)
 
     df_all = pd.concat(frames, ignore_index=True)
