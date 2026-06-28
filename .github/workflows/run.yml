@@ -14,8 +14,6 @@ jobs:
     steps:
     - name: Clonar el proyecto
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }} # OBLIGA A USAR LOS PERMISOS DE ESCRITURA CONCEDIDOS
 
     - name: Configurar Python
       uses: actions/setup-python@v5
@@ -29,10 +27,8 @@ jobs:
     - name: Procesar fuegos
       run: python tracker.py
 
-    - name: Publicar el mapa actualizado
-      run: |
-        git config --global user.name "FIRMS Bot"
-        git config --global user.email "firms-bot@github.com"
-        git add output/fuegos_actualizados.geojson output/deepstate_actualizado.geojson
-        git commit -m "Sincronizacion automatica: $(date)" || exit 0
-        git push
+    - name: Publicar el mapa actualizado de forma segura
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Sincronizacion automatica de mapas"
+        file_pattern: 'output/*.geojson'
