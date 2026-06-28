@@ -1,0 +1,33 @@
+name: Actualizador automatico FIRMS
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Se ejecuta solo cada hora en la nube
+  workflow_dispatch: # Activa el botón manual que buscas
+
+jobs:
+  run-tracker:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clonar el proyecto
+      uses: actions/checkout@v4
+
+    - name: Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Instalar librerias espaciales
+      run: |
+        pip install pandas geopandas shapely fiona requests
+
+    - name: Procesar fuegos
+      run: python tracker.py
+
+    - name: Publicar el mapa actualizado
+      run: |
+        git config --global user.name "FIRMS Bot"
+        git config --global user.email "firms-bot@github.com"
+        git add output/fuegos_actualizados.geojson output/deepstate_actualizado.geojson
+        git commit -m "Sincronizacion automatica: $(date)" || exit 0
+        git push
