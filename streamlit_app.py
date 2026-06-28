@@ -3,12 +3,21 @@ import pandas as pd
 import geopandas as gpd
 import pydeck as pdk
 import urllib.request
-import json
-import gzip
-from io import BytesIO
-from datetime import datetime, timezone, timedelta
+import os
+import time
+from datetime import datetime, timezone
 
-# 1. CONTROL DE ACCESO PRIVADO
+# --- CONFIGURACIÓN IDÉNTICA A TU SCRIPT LOCAL ---
+MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
+BBOX = "22,44,41,53"
+DAYS = 5
+SOURCES = [
+    "VIIRS_NOAA21_NRT",
+    "VIIRS_NOAA20_NRT",
+    "VIIRS_SNPP_NRT",
+]
+
+# --- 1. CONTROL DE ACCESO PRIVADO ---
 try:
     PASSWORD_SECRETA = st.secrets["CONTRASENA_SECRETA"]
 except Exception:
@@ -30,77 +39,120 @@ if not st.session_state["autenticado"]:
             st.error("Clave incorrecta. Acceso denegado.")
     st.stop()
 
-# 2. PROCESAMIENTO DE DATOS EN LA NUBE
+# --- 2. PROCESAMIENTO EN LA NUBE REPLICANDO TU LÓGICA ---
 st.title("🛰️ Visor 3D Dinámico (Procesado en la Nube)")
 
-@st.cache_data(ttl=900)
-def descargar_datos_nasa():
-    headers = {"User-Agent": "Mozilla/5.0"}
-    
-    # 1. Descarga del archivo oficial global de incendios de las últimas 24 horas de la NASA
-    try:
-        url_24h = "https://nasa.gov"
-        req = urllib.request.Request(url_24h, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as res:
-            df = pd.read_csv(res)
-            if not df.empty:
-                # Recorte geográfico estricto del frente de Ucrania usando tu BBOX original
-                df = df[(df["latitude"] >= 44.0) & (df["latitude"] <= 53.0) & 
-                        (df["longitude"] >= 22.0) & (df["longitude"] <= 41.0)]
-                df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
-                return df[df["frp_num"] > 10]
-    except Exception:
-        pass
+def download_source(source):
+    # Usamos exactamente tu misma URL por AREA
+    url = (
+        f"https://nasa.gov"
+        f"{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+    )
 
-    # 2. Servidor API de respaldo secundario por si falla el enlace global directo
-    try:
-        url_backup = "https://nasa.gov"
-        req = urllib.request.Request(url_backup, headers=headers)
-        with urllib.request.urlopen(req, timeout=30) as res:
-            df = pd.read_csv(res)
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0"}
+    )
+
+    with urllib.request.urlopen(req, timeout=60) as response:
+        df = pd.read_csv(response)
+
+    if df.empty:
+        return df
+
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
+    df["source_query"] = source
+    df["download_time_utc"] = now_utc
+    df["acq_time_str"] = df["acq_time"].astype(str).str.zfill(4)
+
+    df["detection_time_utc"] = (
+        df["acq_date"].astype(str)
+        + " "
+        + df["acq_time_str"].str[:2]
+        + ":"
+        + df["acq_time_str"].str[2:]
+        + ":00 UTC"
+    )
+
+    df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
+
+    # Tu misma ID de detección única para evitar duplicados entre satélites
+    df["detection_id"] = (
+        df["satellite"].astype(str)
+        + "|"
+        + df["latitude"].astype(str)
+        + "|"
+        + df["longitude"].astype(str)
+        + "|"
+        + df["acq_date"].astype(str)
+        + "|"
+        + df["acq_time"].astype(str)
+        + "|"
+        + df["instrument"].astype(str)
+    )
+
+    return df
+
+@st.cache_data(ttl=900)  # Actualiza automáticamente cada 15 minutos en la nube
+def obtener_datos_completos():
+    frames = []
+    for source in SOURCES:
+        try:
+            df = download_source(source)
             if not df.empty:
-                df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
-                return df[df["frp_num"] > 10]
-    except Exception:
+                frames.append(df)
+            time.sleep(1)
+        except Exception as e:
+            st.error(f"Error descargando {source}: {e}")
+
+    if not frames:
         return pd.DataFrame()
 
-    return pd.DataFrame()
+    df_all = pd.concat(frames, ignore_index=True)
+    df_all = df_all.drop_duplicates(subset=["detection_id"])
+    df_all = df_all.sort_values(
+        by=["acq_date", "acq_time", "frp_num"],
+        ascending=[False, False, False]
+    )
+    return df_all
 
-# Llamada oficial a la función de la NASA
-df_fuegos = descargar_datos_nasa()
+df_fuegos = obtener_datos_completos()
 
-# 3. RENDERIZADO DEL MAPA INTERACTIVO 3D (PYDECK)
-if df_fuegos is None or df_fuegos.empty:
-    st.warning("No se han detectado focos activos en las coordenadas seleccionadas en las últimas horas.")
+# --- 3. RENDERIZADO DEL MAPA INTERACTIVO 3D ---
+if df_fuegos.empty:
+    st.warning("No se encontraron detecciones en la consulta a la NASA.")
 else:
-    st.write(f"Mostrando {len(df_fuegos)} alertas térmicas reales procesadas de forma autónoma.")
+    st.success(f"Monitoreo activo: {len(df_fuegos)} detecciones únicas en los últimos {DAYS} días.")
 
-    # Capa 3D: Columnas rojas tridimensionales proporcionales a la potencia térmica (FRP)
+    # Capa 3D: Cilindros con altura real proporcional a tu columna 'frp_num'
     layer_fuegos = pdk.Layer(
         "ColumnLayer",
         df_fuegos,
         get_position="[longitude, latitude]",
         get_elevation="frp_num",
-        elevation_scale=150,  # Multiplicador de la altura visual de las columnas
-        radius=2000,          # Ancho del cilindro en metros
-        get_fill_color="[230, 0, 0, 180]",  # Rojo translúcido táctico
+        elevation_scale=100,  # Escalado visual para las columnas 3D
+        radius=1500,          # Grosor del foco en metros
+        get_fill_color=[255, 0, 0, 180],  # Rojo táctico translúcido
         pickable=True,
         auto_highlight=True,
     )
 
-    # Enfoque inicial de la cámara centrado en el mapa con perspectiva 3D
+    # Centrado inicial de la cámara en el frente de Ucrania con inclinación 3D (Pitch)
     vista_inicial = pdk.ViewState(
         latitude=48.3794,
         longitude=31.1656,
-        zoom=5.5,
-        pitch=45,  # Ángulo de inclinación necesario para apreciar el relieve en 3D
+        zoom=5.8,
+        pitch=45,  # Ángulo de inclinación de la cámara para ver las 3 dimensiones
         bearing=0
     )
 
-    # Inyección final en la interfaz web con visualización de datos flotante (Tooltip)
+    # Despliegue del mapa con tu información al pasar el ratón
     st.pydeck_chart(pdk.Deck(
         layers=[layer_fuegos],
         initial_view_state=vista_inicial,
         map_style="mapbox://styles/mapbox/dark-v10",
-        tooltip={"text": "Latitud: {latitude}\nLongitud: {longitude}\nPotencia: {frp} MW\nHora Satélite: {acq_time}"}
+        tooltip={
+            "text": "ID: {detection_id}\nSatélite: {satellite}\nFecha/Hora: {detection_time_utc}\nPotencia (FRP): {frp} MW"
+        }
     ))
