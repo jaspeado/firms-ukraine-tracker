@@ -1,0 +1,32 @@
+name: Descarga Automatica Cada 10 Minutos
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar librerias
+        run: pip install pandas geopandas pyogrio shapely
+
+      - name: Ejecutar script de la NASA
+        run: python tracker.py
+
+      - name: Auto-subir GeoPackage a GitHub
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add fires.gpkg
+          git commit -m "Sincronizacion automatica NASA" || exit 0
+          git push origin main
