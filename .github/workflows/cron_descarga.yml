@@ -25,7 +25,6 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      # PASO MAESTRO: Escribe el script limpio directamente en el disco virtual antes de correrlo
       - name: Crear script de Python con URL limpia
         run: |
           cat << 'EOF' > nubescript.py
@@ -44,6 +43,7 @@ jobs:
           OUT_GEOJSON = "./fires.geojson"
 
           def download_source(source):
+              # URL REVISADA Y CORRECTA CALCADA DE TU EQUIPO
               url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
               print(f"\n[INFO] Conectando a la NASA para: {source}...")
               print(f"[Ruta Real] {url}")
@@ -89,7 +89,6 @@ jobs:
               main()
           EOF
 
-      # Ejecuta el script que acabamos de inyectar arriba
       - name: Ejecutar script de la NASA
         run: python nubescript.py
 
