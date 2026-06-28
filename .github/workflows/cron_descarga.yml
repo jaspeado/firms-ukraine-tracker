@@ -1,4 +1,4 @@
-name: DESTRUIR CACHE DE RED
+name: Monitor Tactico Nube
 
 on:
   schedule:
@@ -25,8 +25,9 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      - name: Crear script de Python real sin fallos
+      - name: Crear script de Python limpio
         run: |
+          cat << 'EOF' > final_nasa.py
           import os
           import time
           import sys
@@ -42,13 +43,9 @@ jobs:
           OUT_GEOJSON = "./fires.geojson"
 
           def download_source(source):
-              # Construcción matemática limpia calcada de tu script local original
-              parte1 = "https://nasa.gov"
-              url = f"{parte1}{MAP_KEY}/{source}/{BBOX}/{DAYS}"
-              
+              url = "https://nasa.gov" + MAP_KEY + "/" + source + "/" + BBOX + "/" + str(DAYS)
               print(f"\n[INFO] Conectando a la NASA para: {source}...")
               print(f"[Ruta Real] {url}")
-              
               headers = {"User-Agent": "Mozilla/5.0"}
               try:
                   response = requests.get(url, headers=headers, timeout=45)
@@ -89,12 +86,7 @@ jobs:
 
           if __name__ == "__main__":
               main()
-          EOF_SCRIPT
-          
-          # Forzamos la escritura directa saltándonos cualquier caché de Git
-          echo "$SCRIPT_DATA" > final_nasa.py
-        env:
-          SCRIPT_DATA: ${{ steps.run-script.outputs.stdout }} # Evita que se crucen archivos temporales
+          EOF
 
       - name: Ejecutar script de la NASA limpio
         run: python final_nasa.py
@@ -106,4 +98,5 @@ jobs:
           git add fires.geojson
           git commit -m "Sincronizacion automatica NASA" || exit 0
           git push origin main
+
 
