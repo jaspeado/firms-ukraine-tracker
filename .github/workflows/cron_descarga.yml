@@ -1,4 +1,4 @@
-name: Descarga Automatica Cada 10 Minutos
+name: REVENTAR CACHE DEFINITIVO
 
 on:
   schedule:
@@ -25,9 +25,9 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      - name: Crear script de Python con URL limpia
+      - name: Crear script de Python real sin fallos
         run: |
-          cat << 'EOF' > nubescript.py
+          cat << 'EOF' > final_nasa.py
           import os
           import time
           import sys
@@ -43,7 +43,7 @@ jobs:
           OUT_GEOJSON = "./fires.geojson"
 
           def download_source(source):
-              # URL REVISADA Y CORRECTA CALCADA DE TU EQUIPO
+              # URL REAL LIMPIA Y COMPROBADA
               url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
               print(f"\n[INFO] Conectando a la NASA para: {source}...")
               print(f"[Ruta Real] {url}")
@@ -89,8 +89,8 @@ jobs:
               main()
           EOF
 
-      - name: Ejecutar script de la NASA
-        run: python nubescript.py
+      - name: Ejecutar script de la NASA limpio
+        run: python final_nasa.py
 
       - name: Auto-subir Datos a GitHub
         run: |
