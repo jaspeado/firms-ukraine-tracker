@@ -13,10 +13,11 @@ BBOX = "22,44,41,53"
 DAYS = 5
 SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
 
-# Configuración de DeepState
+# URL CORRECTA Y COMPLETA DE DEEPSTATE
 URL_DEEPSTATE = "https://github.com"
 
 def download_firms_source(source):
+    # URL CORRECTA Y COMPLETA DE LA NASA FIRMS
     url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=60) as response:
@@ -65,7 +66,7 @@ def main():
         gdf_ds_filtrado.to_file("output/deepstate_actualizado.geojson", driver="GeoJSON")
         print("✅ Capa DeepState guardada.")
     except Exception as e:
-        print(f"Aviso en DeepState: {e}")
+        print(f"❌ Error en DeepState: {e}")
 
     # ==========================================================================
     # BLOQUE B: PROCESAMIENTO DE ALERTAS FIRMS (NASA)
@@ -81,7 +82,7 @@ def main():
             print(f"Error en {source}: {e}")
 
     if not frames:
-        print("Sin alertas térmicas registradas.")
+        print("Sin alertas térmicas registradas (fallo de API o sin datos).")
         return
 
     df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["detection_id"])
@@ -113,7 +114,6 @@ def main():
                 print("✅ Atributos de ubicación asignados de forma adaptativa.")
             except Exception as e:
                 print(f"Aviso en indexación espacial: {e}")
-                # Columnas de respaldo para evitar fallos de etiquetas en QGIS
                 gdf_firms["COUNTRY"] = "UA"
                 gdf_firms["NAME_1"] = "Zona Frente"
                 gdf_firms["locality"] = "Foco Activo"
@@ -129,3 +129,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
