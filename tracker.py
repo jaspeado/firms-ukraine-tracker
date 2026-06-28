@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 
 import pandas as pd
 import geopandas as gpd
-import requests  # CAMBIO MAESTRO: 'requests' rompe el bloqueo de red de GitHub
+import requests
 
 MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
 BBOX = "22,44,41,53"
@@ -21,20 +21,23 @@ OUT_DIR = "."
 OUT_GEOJSON = os.path.join(OUT_DIR, "fires.geojson")
 
 def download_source(source):
-    url = f"https://nasa.gov{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+    # DIRECCIÓN REAL CALCADA DE TU PC: Sin mezclas raras con nasa.gov
+    url = (
+        f"https://nasa.gov"
+        f"{MAP_KEY}/{source}/{BBOX}/{DAYS}"
+    )
     print(f"\n[INFO] Conectando a la NASA para: {source}...")
+    print(f"[Ruta] {url}")
     
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
     
     try:
-        # requests gestiona la red de la máquina virtual de GitHub sin dar errores de DNS
         response = requests.get(url, headers=headers, timeout=45)
         
         if response.status_code != 200:
             print(f"[ERROR] Código de estado de la NASA: {response.status_code}")
             return pd.DataFrame()
             
-        # Convertimos el texto recibido en una tabla de pandas directamente
         from io import StringIO
         df = pd.read_csv(StringIO(response.text))
         
@@ -80,7 +83,7 @@ def main():
         time.sleep(3)
 
     if not frames:
-        print("\n[FIN] No hay datos en esta ejecucion debido al bloqueo de red.")
+        print("\n[FIN] No se pudieron obtener datos. Revisa la URL o las coordenadas.")
         sys.exit(1)
 
     df_all = pd.concat(frames, ignore_index=True)
@@ -94,7 +97,7 @@ def main():
     )
 
     gdf.to_file(OUT_GEOJSON, driver="GeoJSON")
-    print(f"\n[OK] Archivo 'fires.geojson' generado. Total: {len(gdf)}")
+    print(f"\n[OK] Archivo 'fires.geojson' generado con éxito. Total: {len(gdf)}")
 
 if __name__ == "__main__":
     main()
