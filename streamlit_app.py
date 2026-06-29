@@ -97,7 +97,7 @@ if fires_data:
             'date': row['date'].strftime('%Y-%m-%d')
         })
     
-    # --- HTML CON CESIUM (CON EL FIX DE CLAUDE) ---
+    # --- HTML CON CESIUM (CON AMBOS FIXES) ---
     html_code = f"""
     <!DOCTYPE html>
     <html>
@@ -177,7 +177,7 @@ if fires_data:
                     try {{
                         Cesium.Ion.defaultAccessToken = TOKEN;
 
-                        // --- CREAR VISOR ---
+                        // --- CREAR VISOR (SIN imageryProvider, se añade async) ---
                         const viewer = new Cesium.Viewer('cesiumContainer', {{
                             baseLayerPicker: false,
                             infoBox: false,
@@ -190,26 +190,40 @@ if fires_data:
                             sceneModePicker: false,
                         }});
 
-                        // --- ✅ FIX PRINCIPAL: async terrain loading (Cesium >= 1.110) ---
+                        // --- ✅ FIX 1: TERRENO ASYNC (Cesium >= 1.110) ---
                         Cesium.createWorldTerrainAsync({{
                             requestVertexNormals: true,
                             requestWaterMask: false,
                         }}).then(function(terrain) {{
                             viewer.terrainProvider = terrain;
                             document.getElementById('info').textContent = '✅ Terreno 3D cargado';
-                            console.log('✅ Terreno cargado correctamente');
+                            console.log('✅ Terreno cargado');
                         }}).catch(function(err) {{
-                            document.getElementById('info').textContent = '⚠️ Terreno no disponible — puntos visibles igualmente';
+                            document.getElementById('info').textContent = '⚠️ Sin terreno — puntos visibles';
                             console.warn('Terrain error:', err);
                         }});
 
-                        // --- IMAGEN DE SATÉLITE (ESRI) ---
+                        // --- ✅ FIX 2: IMAGERY ASYNC (fromUrl, no constructor) ---
                         viewer.imageryLayers.removeAll();
-                        viewer.imageryLayers.addImageryProvider(
-                            new Cesium.ArcGisMapServerImageryProvider({{
-                                url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-                            }})
-                        );
+                        Cesium.ArcGisMapServerImageryProvider.fromUrl(
+                            'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
+                        ).then(function(provider) {{
+                            viewer.imageryLayers.addImageryProvider(provider);
+                            console.log('✅ Imagery cargada');
+                        }}).catch(function(err) {{
+                            console.warn('Imagery error:', err);
+                            // Fallback: usar Bing Maps si está disponible
+                            try {{
+                                viewer.imageryLayers.addImageryProvider(
+                                    new Cesium.BingMapsImageryProvider({{
+                                        url: 'https://dev.virtualearth.net',
+                                        key: 'AgtA5c6eP4r8D5mPq6N9rS7tX2dF4gH8jK3lM5nQ6'
+                                    }})
+                                );
+                            }} catch(e) {{
+                                console.warn('Bing fallback error:', e);
+                            }}
+                        }});
 
                         // --- AÑADIR PUNTOS ---
                         PUNTOS.forEach(function(p) {{
@@ -284,7 +298,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #666; font-size: 12px;">
-    Datos: FIRMS (NASA) | Terreno 3D: Cesium World Terrain (async) | Renderizado: iframe con fix
+    Datos: FIRMS (NASA) | Terreno 3D: Cesium World Terrain (async) | Imagery: ArcGIS (async)
     </div>
     """,
     unsafe_allow_html=True
