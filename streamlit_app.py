@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 import gzip
 from io import BytesIO
 import geopandas as gpd
+import math
 
 # Configurar la página
 st.set_page_config(
@@ -74,22 +75,6 @@ if fires_data:
     num_fires = len(df_deduplicado)
     st.info(f"🔥 Mostrando **{num_fires}** puntos únicos con FRP > 10 MW en últimas 48h")
     
-    # --- RECONSTRUIR GEOJSON ---
-    filtered_features = []
-    for _, row in df_deduplicado.iterrows():
-        feature = {
-            "type": "Feature",
-            "geometry": {"type": "Point", "coordinates": [row['lon'], row['lat']]},
-            "properties": {
-                "frp": row['frp'],
-                "acq_date": row['date'].strftime('%Y-%m-%d'),
-                "satellite": row.get('satellite', 'VIIRS')
-            }
-        }
-        filtered_features.append(feature)
-    
-    fire_geojson = {"type": "FeatureCollection", "features": filtered_features}
-    
     # --- ESTADÍSTICAS ---
     col1, col2, col3 = st.columns(3)
     col1.metric("🔥 Puntos únicos", f"{num_fires:,}")
@@ -103,7 +88,20 @@ if fires_data:
         st.error("❌ Falta CESIUM_TOKEN en Secrets. Configúralo en Streamlit Cloud.")
         st.stop()
     
-    # --- HTML CON CESIUM Y TERRENO PROPIO ---
+    # --- Preparar datos para Cesium (lista de puntos) ---
+    puntos_cesium = []
+    for _, row in df_deduplicado.iterrows():
+        # Escalar el FRP para el tamaño del punto (más FRP = más grande)
+        size = max(5, min(20, row['frp'] / 10))
+        puntos_cesium.append({
+            'lon': row['lon'],
+            'lat': row['lat'],
+            'frp': row['frp'],
+            'size': size,
+            'date': row['date'].strftime('%Y-%m-%d')
+        })
+    
+    # --- HTML CON CESIUM (CARGA MANUAL DE PUNTOS) ---
     html_code = f"""
     <!DOCTYPE html>
     <html>
@@ -117,10 +115,6 @@ if fires_data:
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
-            }}
-            .cesium-viewer {{
-                width: 100%;
-                height: 100%;
             }}
             #info {{
                 position: absolute;
@@ -139,7 +133,7 @@ if fires_data:
     </head>
     <body>
         <div id="info">
-            <strong>🌍 Visor 3D</strong> | {num_fires} incendios | Terreno Cesium
+            <strong>🌍 Visor 3D</strong> | {num_fires} incendios | FRP > 10 MW
         </div>
         <div id="cesiumContainer"></div>
 
@@ -152,7 +146,7 @@ if fires_data:
             // --- CONFIGURACIÓN ---
             Cesium.Ion.defaultAccessToken = '{cesium_token}';
             
-            // --- CREAR VISOR CON TERRENO DE CESIUM ---
+            // --- CREAR VISOR CON TERRENO ---
             const viewer = new Cesium.Viewer('cesiumContainer', {{
                 terrainProvider: new Cesium.CesiumTerrainProvider({{
                     url: 'https://assets.cesium.com/1/'
@@ -165,43 +159,63 @@ if fires_data:
                 animation: false,
             }});
             
-            // --- CARGAR INCENDIOS Y ADHERIRLOS AL TERRENO ---
-            const fireData = {json.dumps(fire_geojson)};
-            
-            try {{
-                Cesium.GeoJsonDataSource.load(fireData, {{
-                    markerColor: Cesium.Color.RED,
-                    markerSize: 10,
-                    clampToGround: true,  // Adhiere al terreno
-                    stroke: Cesium.Color.ORANGE,
-                    fill: Cesium.Color.RED.withAlpha(0.6),
-                    strokeWidth: 2,
-                }}).then(function(dataSource) {{
-                    viewer.dataSources.add(dataSource);
-                    console.log('✅ Incendios cargados: ' + fireData.features.length);
-                }});
-            }} catch (e) {{
-                console.warn('⚠️ Error cargando incendios:', e);
-            }}
-            
-            // --- VOLAR A UCRANIA CON UNA ALTURA ADECUADA ---
-            viewer.camera.flyTo({{
-                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 500000),
-                duration: 2
-            }});
-            
-            // --- AÑADIR UNA CAPA DE IMÁGENES PARA CONTEXTO ---
+            // --- AÑADIR CAPA DE IMÁGENES ---
             viewer.imageryLayers.addImageryProvider(
                 new Cesium.ArcGisMapServerImageryProvider({{
                     url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
                 }})
             );
+            
+            // --- CARGAR PUNTOS MANUALMENTE (UNO POR UNO) ---
+            const puntos = {json.dumps(puntos_cesium)};
+            
+            console.log('📊 Cargando ' + puntos.length + ' puntos...');
+            
+            puntos.forEach(function(p) {{
+                // Crear cada punto como una entidad independiente
+                viewer.entities.add({{
+                    position: Cesium.Cartesian3.fromDegrees(p.lon, p.lat, 0),
+                    point: {{
+                        pixelSize: p.size,
+                        color: Cesium.Color.RED,
+                        outlineColor: Cesium.Color.ORANGE,
+                        outlineWidth: 2,
+                        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+                        distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 5000000)
+                    }},
+                    properties: {{
+                        frp: p.frp,
+                        date: p.date
+                    }}
+                }});
+            }});
+            
+            console.log('✅ ' + puntos.length + ' puntos cargados correctamente');
+            
+            // --- VOLAR A UCRANIA ---
+            viewer.camera.flyTo({{
+                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 500000),
+                duration: 2
+            }});
+            
+            // --- MOSTRAR INFORMACIÓN AL HACER CLIC ---
+            const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+            handler.setInputAction(function(movement) {{
+                const pickedObject = viewer.scene.pick(movement.position);
+                if (pickedObject && pickedObject.id && pickedObject.id.properties) {{
+                    const props = pickedObject.id.properties;
+                    const frp = props.frp.getValue() || 'N/A';
+                    const date = props.date.getValue() || 'N/A';
+                    const msg = '🔥 FRP: ' + frp + ' MW\\n📅 Fecha: ' + date;
+                    alert(msg);
+                }}
+            }}, Cesium.ScreenSpaceEventType.LEFT_CLICK);
         </script>
     </body>
     </html>
     """
     
-    # --- USAR st.components.v1.html ---
+    # --- MOSTRAR VISOR ---
     st.components.v1.html(html_code, height=600, scrolling=False)
     
     # --- TABLA DE DATOS ---
