@@ -1,0 +1,11 @@
+jobs:
+  - name: actualizar-datos
+    plan: Starter
+    schedule: "0 3 * * *"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
+    envVars:
+      - key: FIRMS_API_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
