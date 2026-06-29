@@ -1,12 +1,10 @@
 import streamlit as st
 import requests
-import json
 import pandas as pd
+import pydeck as pdk
+import numpy as np
 from datetime import datetime, timedelta
-import gzip
-from io import BytesIO
-import geopandas as gpd
-import math
+import json
 
 # Configurar la página
 st.set_page_config(
@@ -15,8 +13,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🌍 Visor 3D Dinámico - Alertas Térmicas en Ucrania")
-st.markdown("**Terreno 3D Mundial de Cesium** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
+st.title("🌍 Visor 3D - Alertas Térmicas en Ucrania")
+st.markdown("**Mapa 3D con pydeck** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
 
 # --- Cargar datos desde GitHub ---
 @st.cache_data(ttl=3600)
@@ -81,140 +79,69 @@ if fires_data:
     col2.metric("📅 Últimas 48h", "Filtro activo")
     col3.metric("⚡ FRP > 10 MW", "Filtro activo")
     
-    # --- OBTENER TOKEN DE CESIUM ---
-    cesium_token = st.secrets.get("CESIUM_TOKEN")
+    # --- PREPARAR DATOS PARA PYDECK ---
+    # Normalizar FRP para el tamaño de los puntos
+    min_frp = df_deduplicado['frp'].min()
+    max_frp = df_deduplicado['frp'].max()
     
-    if not cesium_token:
-        st.error("❌ Falta CESIUM_TOKEN en Secrets. Configúralo en Streamlit Cloud.")
-        st.stop()
+    if max_frp > min_frp:
+        df_deduplicado['size'] = 5 + (df_deduplicado['frp'] - min_frp) / (max_frp - min_frp) * 45
+    else:
+        df_deduplicado['size'] = 10
     
-    # --- Preparar datos para Cesium ---
-    puntos_cesium = []
-    for _, row in df_deduplicado.iterrows():
-        size = max(5, min(20, row['frp'] / 10))
-        puntos_cesium.append({
-            'lon': row['lon'],
-            'lat': row['lat'],
-            'frp': row['frp'],
-            'size': size,
-            'date': row['date'].strftime('%Y-%m-%d')
-        })
+    # Crear columna de altura (opcional, para efecto 3D)
+    df_deduplicado['height'] = df_deduplicado['frp'] / 5
     
-    # --- HTML CON CESIUM Y TERRENO 3D MUNDIAL ---
-    html_code = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Visor 3D Ucrania</title>
-        <style>
-            html, body, #cesiumContainer {{
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-            }}
-            #info {{
-                position: absolute;
-                top: 10px;
-                left: 10px;
-                background: rgba(0,0,0,0.7);
-                color: white;
-                padding: 8px 14px;
-                border-radius: 5px;
-                font-family: Arial, sans-serif;
-                font-size: 12px;
-                z-index: 1000;
-                pointer-events: none;
-            }}
-        </style>
-    </head>
-    <body>
-        <div id="info">
-            <strong>🌍 Visor 3D</strong> | {num_fires} incendios | Terreno Mundial
-        </div>
-        <div id="cesiumContainer"></div>
-
-        <script src="https://cesium.com/downloads/cesiumjs/releases/1.128/Build/Cesium/Cesium.js">
-        </script>
-        <link href="https://cesium.com/downloads/cesiumjs/releases/1.128/Build/Cesium/Widgets/widgets.css" 
-              rel="stylesheet">
-
-        <script>
-            // --- CONFIGURACIÓN ---
-            Cesium.Ion.defaultAccessToken = '{cesium_token}';
-            
-            // --- CREAR VISOR CON TERRENO 3D MUNDIAL ---
-            const viewer = new Cesium.Viewer('cesiumContainer', {{
-                terrainProvider: new Cesium.CesiumTerrainProvider({{
-                    url: 'https://api.cesium.com/v1/terrain',
-                    requestVertexNormals: true,
-                }}),
-                baseLayerPicker: false,
-                infoBox: false,
-                selectionIndicator: false,
-                navigationHelpButton: false,
-                timeline: false,
-                animation: false,
-            }});
-            
-            // --- AÑADIR CAPA DE IMAGEN DE SATÉLITE ---
-            viewer.imageryLayers.addImageryProvider(
-                new Cesium.ArcGisMapServerImageryProvider({{
-                    url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-                }})
-            );
-            
-            // --- CARGAR PUNTOS CON CLAMP AL TERRENO ---
-            const puntos = {json.dumps(puntos_cesium)};
-            
-            console.log('📊 Cargando ' + puntos.length + ' puntos...');
-            
-            puntos.forEach(function(p) {{
-                viewer.entities.add({{
-                    position: Cesium.Cartesian3.fromDegrees(p.lon, p.lat, 0),
-                    point: {{
-                        pixelSize: p.size,
-                        color: Cesium.Color.RED,
-                        outlineColor: Cesium.Color.YELLOW,
-                        outlineWidth: 2,
-                        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-                        distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 5000000)
-                    }},
-                    properties: {{
-                        frp: p.frp,
-                        date: p.date
-                    }}
-                }});
-            }});
-            
-            console.log('✅ ' + puntos.length + ' puntos cargados correctamente');
-            
-            // --- VOLAR A UCRANIA CON ALTURA BAJA PARA VER EL TERRENO ---
-            viewer.camera.flyTo({{
-                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 300000),
-                duration: 2
-            }});
-            
-            // --- MOSTRAR INFORMACIÓN AL HACER CLIC ---
-            const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
-            handler.setInputAction(function(movement) {{
-                const pickedObject = viewer.scene.pick(movement.position);
-                if (pickedObject && pickedObject.id && pickedObject.id.properties) {{
-                    const props = pickedObject.id.properties;
-                    const frp = props.frp.getValue() || 'N/A';
-                    const date = props.date.getValue() || 'N/A';
-                    alert('🔥 FRP: ' + frp + ' MW\\n📅 Fecha: ' + date);
-                }}
-            }}, Cesium.ScreenSpaceEventType.LEFT_CLICK);
-        </script>
-    </body>
-    </html>
-    """
+    # --- CREAR MAPA 3D CON PYDECK ---
     
-    # --- MOSTRAR VISOR ---
-    st.components.v1.html(html_code, height=600, scrolling=False)
+    # Capa de puntos (ScatterplotLayer)
+    scatter_layer = pdk.Layer(
+        "ScatterplotLayer",
+        data=df_deduplicado,
+        get_position='[lon, lat]',
+        get_color='[255, 50, 50, 200]',
+        get_radius='size * 100',  # Tamaño en metros
+        pickable=True,
+        auto_highlight=True,
+        radius_min_pixels=3,
+        radius_max_pixels=20,
+    )
+    
+    # Capa de columnas (ColumnLayer) para efecto 3D
+    column_layer = pdk.Layer(
+        "ColumnLayer",
+        data=df_deduplicado,
+        get_position='[lon, lat]',
+        get_elevation='height * 100',
+        get_color='[255, 100, 50, 200]',
+        pickable=True,
+        auto_highlight=True,
+        radius=50,
+        elevation_scale=1,
+    )
+    
+    # Vista inicial (centrada en Ucrania con inclinación 3D)
+    view_state = pdk.ViewState(
+        latitude=48.5,
+        longitude=31.0,
+        zoom=6,
+        pitch=45,  # Inclinación para ver en 3D
+        bearing=0,
+    )
+    
+    # Crear el mapa
+    deck = pdk.Deck(
+        layers=[scatter_layer, column_layer],
+        initial_view_state=view_state,
+        map_style="mapbox://styles/mapbox/satellite-v9",  # Mapa satelital
+        tooltip={
+            "html": "<b>🔥 FRP:</b> {frp} MW<br/><b>📅 Fecha:</b> {date}<br/><b>🛰️ Satélite:</b> {satellite}",
+            "style": {"color": "white", "font-family": "Arial", "font-size": "14px"}
+        },
+    )
+    
+    # --- MOSTRAR MAPA ---
+    st.pydeck_chart(deck, use_container_width=True)
     
     # --- TABLA DE DATOS ---
     with st.expander("📊 Datos detallados (FRP > 10 MW, últimos 48h)"):
@@ -237,7 +164,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #666; font-size: 12px;">
-    Datos: FIRMS (NASA) | Terreno 3D: Cesium World Terrain | Imagen: ArcGIS Satellite
+    Datos: FIRMS (NASA) | Visualización: pydeck 3D | Filtros: 48h, FRP > 10 MW, deduplicado
     </div>
     """,
     unsafe_allow_html=True
