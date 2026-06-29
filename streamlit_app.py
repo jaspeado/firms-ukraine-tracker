@@ -96,14 +96,14 @@ if fires_data:
     col2.metric("📅 Últimas 48h", "Filtro activo")
     col3.metric("⚡ FRP > 10 MW", "Filtro activo")
     
-    # --- OBTENER TOKEN DE CESIUM (SOLO ESTE, SIN GOOGLE) ---
+    # --- OBTENER TOKEN DE CESIUM ---
     cesium_token = st.secrets.get("CESIUM_TOKEN")
     
     if not cesium_token:
         st.error("❌ Falta CESIUM_TOKEN en Secrets. Configúralo en Streamlit Cloud.")
         st.stop()
     
-    # --- HTML CON CESIUM Y TERRENO PROPIO (SIN GOOGLE) ---
+    # --- HTML CON CESIUM Y TERRENO PROPIO ---
     html_code = f"""
     <!DOCTYPE html>
     <html>
@@ -113,10 +113,14 @@ if fires_data:
         <style>
             html, body, #cesiumContainer {{
                 width: 100%;
-                height: 550px;
+                height: 100%;
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
+            }}
+            .cesium-viewer {{
+                width: 100%;
+                height: 100%;
             }}
             #info {{
                 position: absolute;
@@ -165,16 +169,17 @@ if fires_data:
             const fireData = {json.dumps(fire_geojson)};
             
             try {{
-                const fireSource = await Cesium.GeoJsonDataSource.load(fireData, {{
+                Cesium.GeoJsonDataSource.load(fireData, {{
                     markerColor: Cesium.Color.RED,
                     markerSize: 8,
                     clampToGround: true,
                     stroke: Cesium.Color.ORANGE,
                     fill: Cesium.Color.RED.withAlpha(0.6),
                     strokeWidth: 2,
+                }}).then(function(dataSource) {{
+                    viewer.dataSources.add(dataSource);
+                    console.log('✅ Incendios cargados: ' + fireData.features.length);
                 }});
-                viewer.dataSources.add(fireSource);
-                console.log('✅ Incendios cargados: ' + fireData.features.length);
             }} catch (e) {{
                 console.warn('⚠️ Error cargando incendios:', e);
             }}
@@ -189,7 +194,8 @@ if fires_data:
     </html>
     """
     
-    st.iframe(html_code, width='stretch', height=570)
+    # --- USAR st.components.v1.html (más estable para Cesium) ---
+    st.components.v1.html(html_code, height=600, scrolling=False)
     
     # --- TABLA DE DATOS ---
     with st.expander("📊 Datos detallados (FRP > 10 MW, últimos 48h)"):
