@@ -22,13 +22,11 @@ st.markdown("**Terreno 3D fotorrealista de Google** | Datos actualizados diariam
 def cargar_datos():
     """Carga los datos desde GitHub"""
     try:
-        # Datos de incendios (FIRMS)
         url_fires = "https://raw.githubusercontent.com/jaspeado/firms-ukraine-tracker/main/fires.geojson"
         response_fires = requests.get(url_fires, timeout=30)
         response_fires.raise_for_status()
         fires_data = response_fires.json()
         
-        # Intentar cargar línea del frente (DeepState) - opcional
         try:
             url_front = "https://raw.githubusercontent.com/cyterat/deepstate-map-data/main/deepstate-map-data.geojson.gz"
             response_front = requests.get(url_front, timeout=60)
@@ -40,8 +38,6 @@ def cargar_datos():
             gdf['date'] = pd.to_datetime(gdf['date'])
             fecha_reciente = gdf['date'].max()
             front_data = gdf[gdf['date'] == fecha_reciente]
-            
-            # Convertir a GeoJSON para Cesium
             front_geojson = json.loads(front_data.to_json())
         except:
             front_geojson = None
@@ -51,7 +47,6 @@ def cargar_datos():
         st.error(f"❌ Error al cargar datos: {e}")
         return None, None
 
-# --- Mostrar estadísticas ---
 with st.spinner("Cargando datos y preparando terreno 3D..."):
     fires_data, front_geojson = cargar_datos()
 
@@ -67,18 +62,29 @@ if fires_data:
     cesium_token = st.secrets.get("CESIUM_TOKEN")
     google_api_key = st.secrets.get("GOOGLE_API_KEY")
     
+    # --- DEPURACIÓN: Mostrar estado de los tokens ---
+    with st.expander("🔧 Diagnóstico (solo para ti)", expanded=False):
+        if cesium_token:
+            st.success(f"✅ CESIUM_TOKEN: {cesium_token[:15]}... (longitud: {len(cesium_token)})")
+        else:
+            st.error("❌ CESIUM_TOKEN no encontrado en secrets")
+        
+        if google_api_key:
+            st.success(f"✅ GOOGLE_API_KEY: {google_api_key[:10]}... (longitud: {len(google_api_key)})")
+        else:
+            st.error("❌ GOOGLE_API_KEY no encontrado en secrets")
+    
     if not cesium_token or not google_api_key:
         st.error("❌ Faltan tokens en Secrets. Configura CESIUM_TOKEN y GOOGLE_API_KEY.")
         st.stop()
     
     # --- Preparar datos para Cesium ---
-    # Convertir incendios a formato para Cesium (GeoJSON)
     fire_geojson = {
         "type": "FeatureCollection",
         "features": fires_data.get('features', [])
     }
     
-    # --- Crear el HTML con CesiumJS ---
+    # --- Crear el HTML con CesiumJS (con depuración) ---
     html_code = f"""
     <!DOCTYPE html>
     <html>
@@ -88,10 +94,26 @@ if fires_data:
         <style>
             html, body, #cesiumContainer {{
                 width: 100%;
-                height: 600px;
+                height: 550px;
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
+            }}
+            #debug {{
+                position: absolute;
+                bottom: 10px;
+                left: 10px;
+                background: rgba(0,0,0,0.8);
+                color: #0f0;
+                padding: 10px;
+                font-family: monospace;
+                font-size: 12px;
+                z-index: 1000;
+                max-width: 80%;
+                max-height: 100px;
+                overflow: auto;
+                white-space: pre-wrap;
+                pointer-events: none;
             }}
             #info {{
                 position: absolute;
@@ -112,6 +134,7 @@ if fires_data:
         <div id="info">
             <strong>🌍 Visor 3D</strong> | {num_fires} incendios | Terreno Google
         </div>
+        <div id="debug">🔄 Iniciando Cesium...</div>
         <div id="cesiumContainer"></div>
 
         <script src="https://cesium.com/downloads/cesiumjs/releases/1.128/Build/Cesium/Cesium.js">
@@ -120,88 +143,87 @@ if fires_data:
               rel="stylesheet">
 
         <script>
+            const debugEl = document.getElementById('debug');
+            function logDebug(msg) {{
+                debugEl.textContent = msg + '\\n' + debugEl.textContent;
+                console.log(msg);
+            }}
+            
+            logDebug('🔧 Iniciando...');
+            logDebug('📡 Cesium token: {cesium_token[:20]}...');
+            
             // --- CONFIGURACIÓN ---
-            Cesium.Ion.defaultAccessToken = '{cesium_token}';
+            try {{
+                Cesium.Ion.defaultAccessToken = '{cesium_token}';
+                logDebug('✅ Token Cesium configurado');
+            }} catch (e) {{
+                logDebug('❌ Error configurando token: ' + e.message);
+            }}
             
             // --- CREAR VISOR CON TERRENO 3D ---
-            const viewer = new Cesium.Viewer('cesiumContainer', {{
-                terrainProvider: new Cesium.TerrainProvider({{
-                    url: `https://api.cesium.com/v1/terrain?access_token=${{Cesium.Ion.defaultAccessToken}}`
-                }}),
-                baseLayerPicker: false,
-                infoBox: false,
-                selectionIndicator: false,
-                navigationHelpButton: false,
-                timeline: false,
-                animation: false,
-            }});
-            
-            // --- AÑADIR TERRENO FOTORREALISTA DE GOOGLE (CON ELEVACIONES) ---
             try {{
-                const googleTileset = new Cesium.Cesium3DTileset({{
-                    url: `https://tile.googleapis.com/v1/3dtiles/root.json?key={google_api_key}`
+                const viewer = new Cesium.Viewer('cesiumContainer', {{
+                    terrainProvider: new Cesium.TerrainProvider({{
+                        url: `https://api.cesium.com/v1/terrain?access_token=${{Cesium.Ion.defaultAccessToken}}`
+                    }}),
+                    baseLayerPicker: false,
+                    infoBox: false,
+                    selectionIndicator: false,
+                    navigationHelpButton: false,
+                    timeline: false,
+                    animation: false,
                 }});
-                viewer.scene.primitives.add(googleTileset);
-                console.log('✅ Google 3D Tiles cargado correctamente');
-            }} catch (e) {{
-                console.warn('⚠️ No se pudo cargar Google 3D Tiles:', e);
-            }}
-            
-            // --- CARGAR INCENDIOS (desde datos incrustados) ---
-            const fireData = {json.dumps(fire_geojson)};
-            
-            try {{
-                const fireSource = await Cesium.GeoJsonDataSource.load(fireData, {{
-                    markerColor: Cesium.Color.RED,
-                    markerSize: 12,
-                    clampToGround: true,  // Se adhiere al terreno 3D
-                    stroke: Cesium.Color.ORANGE,
-                    fill: Cesium.Color.RED.withAlpha(0.6),
-                    strokeWidth: 3,
-                }});
-                viewer.dataSources.add(fireSource);
-                console.log('✅ Incendios cargados correctamente');
-            }} catch (e) {{
-                console.warn('⚠️ Error al cargar incendios:', e);
-            }}
-            
-            // --- CARGAR LÍNEA DEL FRENTE (si existe) ---
-            const frontData = {json.dumps(front_geojson) if front_geojson else 'null'};
-            
-            if (frontData) {{
+                logDebug('✅ Visor Cesium creado');
+                
+                // --- AÑADIR TERRENO FOTORREALISTA DE GOOGLE ---
                 try {{
-                    const frontSource = await Cesium.GeoJsonDataSource.load(frontData, {{
-                        stroke: Cesium.Color.RED,
-                        fill: Cesium.Color.RED.withAlpha(0.2),
-                        strokeWidth: 3,
-                        clampToGround: true,
+                    logDebug('🔧 Cargando Google 3D Tiles...');
+                    const googleTileset = new Cesium.Cesium3DTileset({{
+                        url: `https://tile.googleapis.com/v1/3dtiles/root.json?key={google_api_key}`
                     }});
-                    viewer.dataSources.add(frontSource);
-                    console.log('✅ Línea del frente cargada correctamente');
+                    viewer.scene.primitives.add(googleTileset);
+                    logDebug('✅ Google 3D Tiles cargado correctamente');
                 }} catch (e) {{
-                    console.warn('⚠️ Error al cargar frente:', e);
+                    logDebug('⚠️ Error cargando Google 3D Tiles: ' + e.message);
                 }}
+                
+                // --- CARGAR INCENDIOS ---
+                try {{
+                    logDebug('🔧 Cargando incendios...');
+                    const fireData = {json.dumps(fire_geojson)};
+                    const fireSource = await Cesium.GeoJsonDataSource.load(fireData, {{
+                        markerColor: Cesium.Color.RED,
+                        markerSize: 10,
+                        clampToGround: true,
+                        stroke: Cesium.Color.ORANGE,
+                        fill: Cesium.Color.RED.withAlpha(0.6),
+                        strokeWidth: 2,
+                    }});
+                    viewer.dataSources.add(fireSource);
+                    logDebug('✅ Incendios cargados: ' + fireData.features.length);
+                }} catch (e) {{
+                    logDebug('⚠️ Error cargando incendios: ' + e.message);
+                }}
+                
+                // --- VOLAR A UCRANIA ---
+                viewer.camera.flyTo({{
+                    destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 2000000),
+                    duration: 2
+                }});
+                logDebug('✅ Visor 3D listo');
+            }} catch (e) {{
+                logDebug('❌ Error creando visor: ' + e.message);
             }}
-            
-            // --- VOLAR A UCRANIA ---
-            viewer.camera.flyTo({{
-                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 2000000),
-                duration: 2
-            }});
-            
-            // --- BOTÓN DE RECARGA (opcional) ---
-            console.log('🌍 Visor 3D listo. Para recargar datos: location.reload()');
         </script>
     </body>
     </html>
     """
     
     # Mostrar el visor 3D
-    st.components.v1.html(html_code, height=620)
+    st.components.v1.html(html_code, height=570)
     
     # --- Tabla de datos ---
     with st.expander("📊 Datos detallados"):
-        # Convertir a DataFrame para mostrar
         fire_points = []
         for feature in fires_data.get('features', []):
             coords = feature['geometry']['coordinates']
@@ -216,7 +238,6 @@ if fires_data:
         df = pd.DataFrame(fire_points)
         st.dataframe(df, use_container_width=True)
         
-        # Descargar CSV
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button(
             "⬇️ Descargar CSV",
@@ -228,7 +249,6 @@ if fires_data:
 else:
     st.warning("⏳ No se pudieron cargar los datos. Verifica la conexión a internet.")
 
-# --- Footer ---
 st.markdown("---")
 st.markdown(
     """
