@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import pandas as pd
 import pydeck as pdk
-import os
 from datetime import datetime, timedelta
 
 # Configurar la página
@@ -12,15 +11,11 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🌍 Visor 3D - Alertas Térmicas en Ucrania")
-st.markdown("**Mapa 3D con columnas proporcionales al FRP** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
-
-# --- CONFIGURAR MAPBOX TOKEN (opcional) ---
-MAPBOX_TOKEN = st.secrets.get("MAPBOX_TOKEN", "")
-if MAPBOX_TOKEN:
-    os.environ["MAPBOX_API_KEY"] = MAPBOX_TOKEN
+st.title("🌍 Visor 3D con Terreno Real (Sin Mapbox)")
+st.markdown("**Terreno 3D** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
 
 # --- Cargar datos desde GitHub ---
+# (La función cargar_datos() es la misma que antes)
 @st.cache_data(ttl=3600)
 def cargar_datos():
     try:
@@ -40,6 +35,7 @@ if not fires_data:
     st.stop()
 
 # --- PROCESAR DATOS ---
+# (El procesamiento de datos es el mismo que antes)
 features = fires_data.get('features', [])
 fire_points = []
 for feature in features:
@@ -54,18 +50,15 @@ for feature in features:
     })
 
 df = pd.DataFrame(fire_points)
-
 if df.empty:
     st.warning("No hay datos disponibles")
     st.stop()
 
-# --- FILTROS ---
 df['date'] = pd.to_datetime(df['date'])
 fecha_limite = datetime.now() - timedelta(hours=48)
 df = df[df['date'] >= fecha_limite]
 df = df[df['frp'] > 10]
 
-# --- DEDUPLICACIÓN ---
 df['lat_r'] = df['lat'].round(3)
 df['lon_r'] = df['lon'].round(3)
 df = df.loc[df.groupby(['lat_r', 'lon_r'])['frp'].idxmax()].copy()
@@ -74,41 +67,63 @@ df = df.sort_values('frp', ascending=False).head(500)
 num_fires = len(df)
 st.info(f"🔥 Mostrando **{num_fires}** puntos únicos con FRP > 10 MW en últimas 48h")
 
-# --- ESTADÍSTICAS ---
 col1, col2, col3 = st.columns(3)
 col1.metric("🔥 Puntos únicos", f"{num_fires:,}")
 col2.metric("📅 Últimas 48h", "Filtro activo")
 col3.metric("⚡ FRP > 10 MW", "Filtro activo")
 
 # --- PREPARAR DATOS PARA PYDECK ---
-# Color por intensidad FRP (rojo más intenso = más FRP)
+# Tamaño de los puntos según FRP
 max_frp = df['frp'].max()
-df['r'] = 255
-df['g'] = (255 * (1 - (df['frp'] / max_frp))).astype(int).clip(0, 200)
-df['b'] = 0
-df['a'] = 200
-df['radius'] = (df['frp'] / max_frp * 8000 + 2000).astype(int)
-df['elevation'] = (df['frp'] * 50).astype(int)  # Altura proporcional al FRP
+if max_frp == 0:
+    max_frp = 1
 
-# --- CAPA DE COLUMNAS 3D ---
-layer = pdk.Layer(
-    "ColumnLayer",
+df['radius'] = (df['frp'] / max_frp * 5000 + 2000).astype(int)
+df['color_r'] = 255
+df['color_g'] = (255 * (1 - (df['frp'] / max_frp) * 0.8)).astype(int).clip(50, 255)
+df['color_b'] = 0
+df['color_a'] = 200
+
+# --- CAPA DE TERRENO 3D (CON DATOS PÚBLICOS) ---
+terrain_layer = pdk.Layer(
+    "TerrainLayer",
+    elevation_decoder={
+        "rScaler": 256,
+        "gScaler": 1,
+        "bScaler": 1 / 256,
+        "offset": -32768
+    },
+    # Usar una fuente pública de datos de elevación
+    elevation_data="https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+    # Opcional: una textura de satélite sin token (puede ser más lenta)
+    # texture="https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}@2x.png?access_token=NO_TOKEN",
+    elevation_bounds=[-11000, 11000],
+    bounds=[-180, -85, 180, 85],
+    opacity=1.0,
+)
+
+# --- CAPA DE PUNTOS ---
+point_layer = pdk.Layer(
+    "ScatterplotLayer",
     data=df,
     get_position=["lon", "lat"],
-    get_elevation="elevation",
-    elevation_scale=1,
-    radius="radius",
-    get_fill_color=["r", "g", "b", "a"],
+    get_radius="radius",
+    get_fill_color=["color_r", "color_g", "color_b", "color_a"],
     pickable=True,
     auto_highlight=True,
+    radius_min_pixels=3,
+    radius_max_pixels=20,
+    stroked=True,
+    get_line_color=[255, 255, 0, 200],
+    get_line_width=2,
 )
 
 # --- VISTA INICIAL ---
 view_state = pdk.ViewState(
     latitude=48.5,
     longitude=32.0,
-    zoom=5,
-    pitch=45,  # Inclinación para efecto 3D
+    zoom=5.5,
+    pitch=60,
     bearing=0,
 )
 
@@ -123,22 +138,18 @@ tooltip = {
         "background": "rgba(0,0,0,0.8)",
         "color": "white",
         "fontSize": "12px",
-        "padding": "8px"
+        "padding": "8px",
+        "borderRadius": "4px"
     }
 }
 
-# --- ELEGIR ESTILO DE MAPA ---
-if MAPBOX_TOKEN:
-    map_style = "mapbox://styles/mapbox/satellite-streets-v12"
-else:
-    map_style = "light"  # OpenStreetMap (sin token)
-
-# --- CREAR MAPA ---
+# --- CREAR MAPA CON TERRENO 3D ---
 deck = pdk.Deck(
-    layers=[layer],
+    layers=[terrain_layer, point_layer],
     initial_view_state=view_state,
     tooltip=tooltip,
-    map_style=map_style,
+    # Usar un mapa base sin token de Mapbox
+    map_style="satellite",
 )
 
 # --- MOSTRAR MAPA ---
@@ -163,7 +174,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #666; font-size: 12px;">
-    Datos: FIRMS (NASA) | Visualización: pydeck 3D | Columnas = intensidad FRP
+    Datos: FIRMS (NASA) | Terreno 3D: Terrarium (público) | Puntos: incendios con FRP > 10 MW
     </div>
     """,
     unsafe_allow_html=True
