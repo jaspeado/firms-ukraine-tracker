@@ -1,0 +1,65 @@
+name: Actualizar DeepState
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Todos los días a las 5:00 UTC
+  workflow_dispatch:      # Para ejecutarlo manualmente
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Descargar y procesar DeepState
+        run: |
+          python -c "
+          import requests
+          import gzip
+          import json
+          
+          # Descargar
+          print('📡 Descargando DeepState...')
+          r = requests.get('https://raw.githubusercontent.com/cyterat/deepstate-map-data/main/deepstate-map-data.geojson.gz')
+          r.raise_for_status()
+          
+          # Descomprimir
+          print('📦 Descomprimiendo...')
+          data = gzip.decompress(r.content)
+          geojson = json.loads(data)
+          
+          # Filtrar última fecha
+          features = geojson.get('features', [])
+          fechas = set()
+          for f in features:
+              d = f.get('properties', {}).get('date', '')
+              if d:
+                  fechas.add(d)
+          ultima_fecha = sorted(fechas)[-1] if fechas else ''
+          print(f'📅 Última fecha: {ultima_fecha}')
+          
+          filtered = [f for f in features if f.get('properties', {}).get('date', '') == ultima_fecha]
+          print(f'📊 Polígonos: {len(filtered)}')
+          
+          # Guardar
+          with open('deepstate_actual.geojson', 'w') as f:
+              json.dump({'type': 'FeatureCollection', 'features': filtered}, f)
+          print('✅ deepstate_actual.geojson guardado')
+          "
+
+      - name: Subir cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add deepstate_actual.geojson
+          git commit -m "Actualizar DeepState ($(date +'%Y-%m-%d'))" || echo "No hay cambios"
+          git push
