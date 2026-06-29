@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 st.title("🌍 Visor 3D Dinámico - Alertas Térmicas en Ucrania")
-st.markdown("**Terreno 3D de Cesium ion** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
+st.markdown("**Terreno 3D Mundial de Cesium** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
 
 # --- Cargar datos desde GitHub ---
 @st.cache_data(ttl=3600)
@@ -88,10 +88,9 @@ if fires_data:
         st.error("❌ Falta CESIUM_TOKEN en Secrets. Configúralo en Streamlit Cloud.")
         st.stop()
     
-    # --- Preparar datos para Cesium (lista de puntos) ---
+    # --- Preparar datos para Cesium ---
     puntos_cesium = []
     for _, row in df_deduplicado.iterrows():
-        # Escalar el FRP para el tamaño del punto (más FRP = más grande)
         size = max(5, min(20, row['frp'] / 10))
         puntos_cesium.append({
             'lon': row['lon'],
@@ -101,7 +100,7 @@ if fires_data:
             'date': row['date'].strftime('%Y-%m-%d')
         })
     
-    # --- HTML CON CESIUM (CARGA MANUAL DE PUNTOS) ---
+    # --- HTML CON CESIUM Y TERRENO 3D MUNDIAL ---
     html_code = f"""
     <!DOCTYPE html>
     <html>
@@ -133,7 +132,7 @@ if fires_data:
     </head>
     <body>
         <div id="info">
-            <strong>🌍 Visor 3D</strong> | {num_fires} incendios | FRP > 10 MW
+            <strong>🌍 Visor 3D</strong> | {num_fires} incendios | Terreno Mundial
         </div>
         <div id="cesiumContainer"></div>
 
@@ -146,10 +145,11 @@ if fires_data:
             // --- CONFIGURACIÓN ---
             Cesium.Ion.defaultAccessToken = '{cesium_token}';
             
-            // --- CREAR VISOR CON TERRENO ---
+            // --- CREAR VISOR CON TERRENO 3D MUNDIAL ---
             const viewer = new Cesium.Viewer('cesiumContainer', {{
                 terrainProvider: new Cesium.CesiumTerrainProvider({{
-                    url: 'https://assets.cesium.com/1/'
+                    url: 'https://api.cesium.com/v1/terrain',
+                    requestVertexNormals: true,
                 }}),
                 baseLayerPicker: false,
                 infoBox: false,
@@ -159,26 +159,25 @@ if fires_data:
                 animation: false,
             }});
             
-            // --- AÑADIR CAPA DE IMÁGENES ---
+            // --- AÑADIR CAPA DE IMAGEN DE SATÉLITE ---
             viewer.imageryLayers.addImageryProvider(
                 new Cesium.ArcGisMapServerImageryProvider({{
                     url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
                 }})
             );
             
-            // --- CARGAR PUNTOS MANUALMENTE (UNO POR UNO) ---
+            // --- CARGAR PUNTOS CON CLAMP AL TERRENO ---
             const puntos = {json.dumps(puntos_cesium)};
             
             console.log('📊 Cargando ' + puntos.length + ' puntos...');
             
             puntos.forEach(function(p) {{
-                // Crear cada punto como una entidad independiente
                 viewer.entities.add({{
                     position: Cesium.Cartesian3.fromDegrees(p.lon, p.lat, 0),
                     point: {{
                         pixelSize: p.size,
                         color: Cesium.Color.RED,
-                        outlineColor: Cesium.Color.ORANGE,
+                        outlineColor: Cesium.Color.YELLOW,
                         outlineWidth: 2,
                         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
                         distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 5000000)
@@ -192,9 +191,9 @@ if fires_data:
             
             console.log('✅ ' + puntos.length + ' puntos cargados correctamente');
             
-            // --- VOLAR A UCRANIA ---
+            // --- VOLAR A UCRANIA CON ALTURA BAJA PARA VER EL TERRENO ---
             viewer.camera.flyTo({{
-                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 500000),
+                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 300000),
                 duration: 2
             }});
             
@@ -206,8 +205,7 @@ if fires_data:
                     const props = pickedObject.id.properties;
                     const frp = props.frp.getValue() || 'N/A';
                     const date = props.date.getValue() || 'N/A';
-                    const msg = '🔥 FRP: ' + frp + ' MW\\n📅 Fecha: ' + date;
-                    alert(msg);
+                    alert('🔥 FRP: ' + frp + ' MW\\n📅 Fecha: ' + date);
                 }}
             }}, Cesium.ScreenSpaceEventType.LEFT_CLICK);
         </script>
@@ -239,7 +237,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #666; font-size: 12px;">
-    Datos: FIRMS (NASA) | Terreno 3D: Cesium ion | Filtros: 48h, FRP > 10 MW, deduplicado
+    Datos: FIRMS (NASA) | Terreno 3D: Cesium World Terrain | Imagen: ArcGIS Satellite
     </div>
     """,
     unsafe_allow_html=True
