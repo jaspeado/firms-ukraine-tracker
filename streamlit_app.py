@@ -97,7 +97,7 @@ if fires_data:
             'date': row['date'].strftime('%Y-%m-%d')
         })
     
-    # --- HTML CON CESIUM (CON AMBOS FIXES) ---
+    # --- HTML CON CESIUM (CON TODOS LOS FIXES) ---
     html_code = f"""
     <!DOCTYPE html>
     <html>
@@ -177,7 +177,7 @@ if fires_data:
                     try {{
                         Cesium.Ion.defaultAccessToken = TOKEN;
 
-                        // --- CREAR VISOR (SIN imageryProvider, se añade async) ---
+                        // --- CREAR VISOR ---
                         const viewer = new Cesium.Viewer('cesiumContainer', {{
                             baseLayerPicker: false,
                             infoBox: false,
@@ -190,39 +190,15 @@ if fires_data:
                             sceneModePicker: false,
                         }});
 
-                        // --- ✅ FIX 1: TERRENO ASYNC (Cesium >= 1.110) ---
+                        // --- ✅ FIX 1: TERRENO ASYNC ---
                         Cesium.createWorldTerrainAsync({{
                             requestVertexNormals: true,
                             requestWaterMask: false,
                         }}).then(function(terrain) {{
                             viewer.terrainProvider = terrain;
-                            document.getElementById('info').textContent = '✅ Terreno 3D cargado';
                             console.log('✅ Terreno cargado');
                         }}).catch(function(err) {{
-                            document.getElementById('info').textContent = '⚠️ Sin terreno — puntos visibles';
                             console.warn('Terrain error:', err);
-                        }});
-
-                        // --- ✅ FIX 2: IMAGERY ASYNC (fromUrl, no constructor) ---
-                        viewer.imageryLayers.removeAll();
-                        Cesium.ArcGisMapServerImageryProvider.fromUrl(
-                            'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-                        ).then(function(provider) {{
-                            viewer.imageryLayers.addImageryProvider(provider);
-                            console.log('✅ Imagery cargada');
-                        }}).catch(function(err) {{
-                            console.warn('Imagery error:', err);
-                            // Fallback: usar Bing Maps si está disponible
-                            try {{
-                                viewer.imageryLayers.addImageryProvider(
-                                    new Cesium.BingMapsImageryProvider({{
-                                        url: 'https://dev.virtualearth.net',
-                                        key: 'AgtA5c6eP4r8D5mPq6N9rS7tX2dF4gH8jK3lM5nQ6'
-                                    }})
-                                );
-                            }} catch(e) {{
-                                console.warn('Bing fallback error:', e);
-                            }}
                         }});
 
                         // --- AÑADIR PUNTOS ---
@@ -241,10 +217,53 @@ if fires_data:
                             }});
                         }});
 
-                        // --- VOLAR A UCRANIA ---
-                        viewer.camera.flyTo({{
-                            destination: Cesium.Cartesian3.fromDegrees(32.0, 48.5, 500000),
-                            duration: 2.5
+                        // --- ✅ FIX 2: IMAGERY ASYNC + VOLAR DESPUÉS ---
+                        viewer.imageryLayers.removeAll();
+                        Cesium.ArcGisMapServerImageryProvider.fromUrl(
+                            'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
+                        ).then(function(provider) {{
+                            viewer.imageryLayers.addImageryProvider(provider);
+                            console.log('✅ Imagery ArcGIS cargada');
+                            
+                            // ✅ VOLAR AQUÍ, DESPUÉS DE QUE LA IMAGERY CARGUE
+                            viewer.camera.flyTo({{
+                                destination: Cesium.Cartesian3.fromDegrees(32.0, 48.5, 800000),
+                                orientation: {{
+                                    heading: Cesium.Math.toRadians(0),
+                                    pitch: Cesium.Math.toRadians(-45),
+                                    roll: 0.0
+                                }},
+                                duration: 2.0
+                            }});
+                            
+                            setStatus('', true);
+                            document.getElementById('info').textContent =
+                                '🌍 {num_fires} incendios | FRP > 10 MW | Clic para detalles';
+                            
+                        }}).catch(function(err) {{
+                            console.warn('ArcGIS imagery error, usando fallback OSM:', err);
+                            
+                            // ✅ FALLBACK: OpenStreetMap
+                            viewer.imageryLayers.addImageryProvider(
+                                new Cesium.OpenStreetMapImageryProvider({{
+                                    url: 'https://tile.openstreetmap.org/'
+                                }})
+                            );
+                            
+                            // ✅ VOLAR IGUALMENTE AUNQUE FALLE ARCGIS
+                            viewer.camera.flyTo({{
+                                destination: Cesium.Cartesian3.fromDegrees(32.0, 48.5, 800000),
+                                orientation: {{
+                                    heading: Cesium.Math.toRadians(0),
+                                    pitch: Cesium.Math.toRadians(-45),
+                                    roll: 0.0
+                                }},
+                                duration: 2.0
+                            }});
+                            
+                            setStatus('', true);
+                            document.getElementById('info').textContent =
+                                '🌍 {num_fires} incendios | FRP > 10 MW | Clic para detalles';
                         }});
 
                         // --- CLIC PARA INFORMACIÓN ---
@@ -256,10 +275,6 @@ if fires_data:
                                 alert('🔥 FRP: ' + p.frp.getValue() + ' MW\\n📅 Fecha: ' + p.date.getValue());
                             }}
                         }}, Cesium.ScreenSpaceEventType.LEFT_CLICK);
-
-                        setStatus('', true);
-                        document.getElementById('info').textContent =
-                            '🌍 {num_fires} incendios | FRP > 10 MW | Clic para detalles';
 
                     }} catch(err) {{
                         setStatus('❌ Error: ' + err.message);
@@ -298,7 +313,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #666; font-size: 12px;">
-    Datos: FIRMS (NASA) | Terreno 3D: Cesium World Terrain (async) | Imagery: ArcGIS (async)
+    Datos: FIRMS (NASA) | Terreno 3D: Cesium World Terrain (async) | Imagery: ArcGIS + OSM fallback
     </div>
     """,
     unsafe_allow_html=True
