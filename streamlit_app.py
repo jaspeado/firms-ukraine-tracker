@@ -165,14 +165,14 @@ if fires_data:
                 animation: false,
             }});
             
-            // --- CARGAR INCENDIOS ---
+            // --- CARGAR INCENDIOS Y ADHERIRLOS AL TERRENO ---
             const fireData = {json.dumps(fire_geojson)};
             
             try {{
                 Cesium.GeoJsonDataSource.load(fireData, {{
                     markerColor: Cesium.Color.RED,
-                    markerSize: 8,
-                    clampToGround: true,
+                    markerSize: 10,
+                    clampToGround: true,  // Adhiere al terreno
                     stroke: Cesium.Color.ORANGE,
                     fill: Cesium.Color.RED.withAlpha(0.6),
                     strokeWidth: 2,
@@ -184,17 +184,24 @@ if fires_data:
                 console.warn('⚠️ Error cargando incendios:', e);
             }}
             
-            // --- VOLAR A UCRANIA ---
+            // --- VOLAR A UCRANIA CON UNA ALTURA ADECUADA ---
             viewer.camera.flyTo({{
-                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 2000000),
+                destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 500000),
                 duration: 2
             }});
+            
+            // --- AÑADIR UNA CAPA DE IMÁGENES PARA CONTEXTO ---
+            viewer.imageryLayers.addImageryProvider(
+                new Cesium.ArcGisMapServerImageryProvider({{
+                    url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
+                }})
+            );
         </script>
     </body>
     </html>
     """
     
-    # --- USAR st.components.v1.html (más estable para Cesium) ---
+    # --- USAR st.components.v1.html ---
     st.components.v1.html(html_code, height=600, scrolling=False)
     
     # --- TABLA DE DATOS ---
