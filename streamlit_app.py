@@ -100,7 +100,7 @@ if fires_data:
             'date': row['date'].strftime('%Y-%m-%d')
         })
     
-    # --- HTML CON CESIUM (IFRAME PERFECCIONADO) ---
+    # --- HTML CON CESIUM (CORRECCIÓN DEL TERRENO) ---
     html_code = f"""
     <!DOCTYPE html>
     <html>
@@ -149,7 +149,7 @@ if fires_data:
         <div id="cesiumContainer"></div>
 
         <script>
-            // --- CARGA DE CESIUM CON RECARGA AUTOMÁTICA ---
+            // --- CARGA DE CESIUM ---
             function loadCesium() {{
                 const script = document.createElement('script');
                 script.src = 'https://cesium.com/downloads/cesiumjs/releases/1.128/Build/Cesium/Cesium.js';
@@ -163,7 +163,6 @@ if fires_data:
                 }};
                 document.head.appendChild(script);
                 
-                // CSS
                 const link = document.createElement('link');
                 link.rel = 'stylesheet';
                 link.href = 'https://cesium.com/downloads/cesiumjs/releases/1.128/Build/Cesium/Widgets/widgets.css';
@@ -175,9 +174,12 @@ if fires_data:
                     // --- CONFIGURACIÓN ---
                     Cesium.Ion.defaultAccessToken = '{cesium_token}';
                     
-                    // --- CREAR VISOR ---
+                    // --- CREAR VISOR CON TERRENO CORRECTO ---
                     const viewer = new Cesium.Viewer('cesiumContainer', {{
-                        terrainProvider: Cesium.createWorldTerrain(),
+                        terrainProvider: new Cesium.CesiumTerrainProvider({{
+                            url: 'https://api.cesium.com/v1/terrain',
+                            requestVertexNormals: true,
+                        }}),
                         baseLayerPicker: false,
                         infoBox: false,
                         selectionIndicator: false,
@@ -245,7 +247,7 @@ if fires_data:
     </html>
     """
     
-    # --- MOSTRAR CON IFRAME Y ALTURA FIJA ---
+    # --- MOSTRAR CON IFRAME ---
     st.components.v1.html(html_code, height=620, scrolling=False)
     
     # --- TABLA DE DATOS ---
