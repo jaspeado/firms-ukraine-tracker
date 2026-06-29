@@ -4,6 +4,8 @@ import pandas as pd
 import pydeck as pdk
 from datetime import datetime, timedelta
 import json
+import gzip
+import io
 
 # --- CONFIGURACIÓN ---
 st.set_page_config(
@@ -13,11 +15,13 @@ st.set_page_config(
 )
 
 st.title("🔥 Visor 3D de Incendios en Ucrania")
-st.markdown("**Datos FIRMS + DeepState** | Filtra, colorea y ajusta transparencias")
+st.markdown("**Datos FIRMS + DeepState** | 100% en la nube")
 
-# --- CARGAR DATOS DESDE GITHUB ---
+# ============================================================
+# 1. CARGAR FIRMS (INCENDIOS)
+# ============================================================
 @st.cache_data(ttl=3600)
-def cargar_datos_firms():
+def cargar_firms():
     url = "https://raw.githubusercontent.com/jaspeado/firms-ukraine-tracker/main/fires.geojson"
     try:
         r = requests.get(url, timeout=30)
@@ -36,8 +40,6 @@ def cargar_datos_firms():
                 'acq_date': props.get('acq_date'),
                 'acq_time': props.get('acq_time'),
                 'satellite': props.get('satellite'),
-                'confidence': props.get('confidence'),
-                'brightness': props.get('brightness'),
                 'country': props.get('COUNTRY'),
                 'oblast': props.get('NAME_1'),
                 'locality': props.get('locality')
@@ -50,41 +52,79 @@ def cargar_datos_firms():
         st.error(f"❌ Error cargando FIRMS: {e}")
         return pd.DataFrame()
 
+# ============================================================
+# 2. CARGAR DEEPSTATE (DESDE GITHUB, COMPRIMIDO)
+# ============================================================
 @st.cache_data(ttl=3600)
 def cargar_deepstate():
+    """Descarga el archivo comprimido de DeepState y devuelve las fechas disponibles y los datos filtrados"""
     try:
-        url = "https://raw.githubusercontent.com/jaspeado/firms-ukraine-tracker/main/deepstate-fallback.geojson"
-        r = requests.get(url, timeout=30)
+        url = "https://raw.githubusercontent.com/cyterat/deepstate-map-data/main/deepstate-map-data.geojson.gz"
+        r = requests.get(url, timeout=60)
         r.raise_for_status()
-        data = r.json()
+        
+        # Descomprimir en memoria
+        with gzip.open(io.BytesIO(r.content), "rt", encoding="utf-8") as f:
+            data = json.load(f)
+        
         features = data.get('features', [])
         
-        # Tomar solo la fecha más reciente
-        fechas = [f.get('properties', {}).get('date', '') for f in features if f.get('properties')]
-        if fechas:
-            fecha_max = sorted(fechas)[-1]
-            features = [f for f in features if f.get('properties', {}).get('date', '') == fecha_max]
+        # Extraer fechas únicas
+        fechas = set()
+        for f in features:
+            date_str = f.get('properties', {}).get('date', '')
+            if date_str:
+                fechas.add(date_str)
+        
+        fechas_ordenadas = sorted(list(fechas))
         
         return {
-            "type": "FeatureCollection",
-            "features": features
+            'features': features,
+            'fechas': fechas_ordenadas
         }
     except Exception as e:
-        st.warning(f"⚠️ DeepState no cargado: {e}")
+        st.warning(f"⚠️ Error cargando DeepState: {e}")
         return None
 
+# ============================================================
+# 3. FILTRAR DEEPSTATE POR FECHA
+# ============================================================
+def filtrar_deepstate_por_fecha(deepstate_data, fecha_str):
+    """Filtra los features de DeepState por fecha"""
+    if not deepstate_data:
+        return None
+    
+    features = deepstate_data.get('features', [])
+    filtered = []
+    for f in features:
+        if f.get('properties', {}).get('date', '') == fecha_str:
+            filtered.append(f)
+    
+    if filtered:
+        return {
+            "type": "FeatureCollection",
+            "features": filtered
+        }
+    return None
+
+# ============================================================
+# 4. CARGAR DATOS
+# ============================================================
 with st.spinner("Cargando datos..."):
-    df_firms = cargar_datos_firms()
-    deepstate_geojson = cargar_deepstate()
+    df_firms = cargar_firms()
+    deepstate_data = cargar_deepstate()
 
 if df_firms.empty:
-    st.warning("No se pudieron cargar los datos de FIRMS. Verifica la conexión.")
+    st.warning("No se pudieron cargar los datos de FIRMS.")
     st.stop()
 
-# --- FILTROS INTERACTIVOS ---
+# ============================================================
+# 5. FILTROS EN LA BARRA LATERAL
+# ============================================================
 st.sidebar.header("🔍 Filtros")
 
-# Fecha
+# --- FIRMS ---
+st.sidebar.subheader("🔥 Incendios (FIRMS)")
 fecha_min = df_firms['acq_date'].min().date()
 fecha_max = df_firms['acq_date'].max().date()
 fecha_inicio, fecha_fin = st.sidebar.date_input(
@@ -94,7 +134,6 @@ fecha_inicio, fecha_fin = st.sidebar.date_input(
     max_value=fecha_max
 )
 
-# FRP
 frp_min = st.sidebar.slider(
     "⚡ FRP mínimo (MW)",
     min_value=float(df_firms['frp'].min()),
@@ -102,7 +141,6 @@ frp_min = st.sidebar.slider(
     value=float(df_firms['frp'].min())
 )
 
-# Satélite
 satelites = df_firms['satellite'].dropna().unique().tolist()
 sat_selected = st.sidebar.multiselect(
     "🛰️ Satélite",
@@ -110,7 +148,6 @@ sat_selected = st.sidebar.multiselect(
     default=satelites
 )
 
-# Oblast
 oblasts = df_firms['oblast'].dropna().unique().tolist()
 oblasts.sort()
 oblast_selected = st.sidebar.multiselect(
@@ -119,10 +156,24 @@ oblast_selected = st.sidebar.multiselect(
     default=[]
 )
 
-# Localidad
 buscar_localidad = st.sidebar.text_input("📍 Buscar localidad (contiene)")
 
-# --- CONTROL DE CAPAS Y ESTILOS ---
+# --- DEEPSTATE ---
+st.sidebar.subheader("🟥 Línea del frente (DeepState)")
+if deepstate_data and deepstate_data.get('fechas'):
+    fechas_disponibles = deepstate_data['fechas']
+    fecha_deepstate = st.sidebar.selectbox(
+        "📅 Fecha del frente",
+        options=fechas_disponibles,
+        index=len(fechas_disponibles) - 1
+    )
+else:
+    fecha_deepstate = None
+    st.sidebar.warning("No se pudieron cargar fechas de DeepState")
+
+# ============================================================
+# 6. CONTROL DE CAPAS Y ESTILOS
+# ============================================================
 st.sidebar.header("🎨 Estilo y capas")
 
 # Capa de incendios
@@ -149,7 +200,9 @@ inclinacion = st.sidebar.slider("Ángulo de inclinación", 0, 90, 45)
 st.sidebar.subheader("🛰️ Mapa base")
 mostrar_satelite = st.sidebar.checkbox("Mapa satélite", value=True)
 
-# --- APLICAR FILTROS A FIRMS ---
+# ============================================================
+# 7. APLICAR FILTROS A FIRMS
+# ============================================================
 df_filtrado = df_firms.copy()
 
 df_filtrado = df_filtrado[
@@ -169,19 +222,29 @@ if buscar_localidad:
 
 df_filtrado = df_filtrado.sort_values('frp', ascending=False)
 
-# --- ESTADÍSTICAS ---
+# ============================================================
+# 8. FILTRAR DEEPSTATE
+# ============================================================
+deepstate_geojson = None
+if mostrar_deepstate and deepstate_data and fecha_deepstate:
+    deepstate_geojson = filtrar_deepstate_por_fecha(deepstate_data, fecha_deepstate)
+
+# ============================================================
+# 9. ESTADÍSTICAS
+# ============================================================
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("🔥 Incendios", len(df_filtrado))
 col2.metric("⚡ FRP máximo", f"{df_filtrado['frp'].max():.1f} MW" if not df_filtrado.empty else "N/A")
 col3.metric("📅 Fecha más reciente", df_filtrado['acq_date'].max().strftime('%Y-%m-%d') if not df_filtrado.empty else "N/A")
 col4.metric("🛰️ Satélites", df_filtrado['satellite'].nunique() if not df_filtrado.empty else 0)
 
-# --- PREPARAR DATOS PARA PYDECK ---
+# ============================================================
+# 10. PREPARAR DATOS PARA PYDECK
+# ============================================================
 if not df_filtrado.empty:
     max_frp = df_filtrado['frp'].max() or 1
     df_filtrado['radius'] = (df_filtrado['frp'] / max_frp * tamano_puntos * 200 + 500).astype(int)
     
-    # Convertir color hex a RGB
     def hex_to_rgb(hex_color):
         hex_color = hex_color.lstrip('#')
         return [int(hex_color[i:i+2], 16) for i in (0, 2, 4)]
@@ -192,10 +255,12 @@ if not df_filtrado.empty:
     df_filtrado['color_b'] = color_rgb[2]
     df_filtrado['color_a'] = int(opacidad_puntos * 255)
 
-# --- CAPAS ---
+# ============================================================
+# 11. CAPAS
+# ============================================================
 layers = []
 
-# 1. Capa de puntos (VIIRS)
+# 1. Incendios
 if mostrar_puntos and not df_filtrado.empty:
     puntos_layer = pdk.Layer(
         "ScatterplotLayer",
@@ -213,12 +278,11 @@ if mostrar_puntos and not df_filtrado.empty:
     )
     layers.append(puntos_layer)
 
-# 2. Capa de DeepState (línea del frente)
+# 2. DeepState
 if mostrar_deepstate and deepstate_geojson and deepstate_geojson.get('features'):
     fill_rgb = hex_to_rgb(color_deepstate_fill)
     line_rgb = hex_to_rgb(color_deepstate_line)
     
-    # Aplicar transparencias
     fill_color = fill_rgb + [int(opacidad_deepstate_fill * 255)]
     line_color = line_rgb + [int(opacidad_deepstate_line * 255)]
     
@@ -233,7 +297,9 @@ if mostrar_deepstate and deepstate_geojson and deepstate_geojson.get('features')
     )
     layers.append(deepstate_layer)
 
-# --- VISTA INICIAL ---
+# ============================================================
+# 12. MAPA
+# ============================================================
 view_state = pdk.ViewState(
     latitude=48.5,
     longitude=32.0,
@@ -242,7 +308,6 @@ view_state = pdk.ViewState(
     bearing=0,
 )
 
-# --- TOOLTIP ---
 tooltip = {
     "html": """
     <b>🔥 FRP:</b> {frp} MW<br>
@@ -260,13 +325,11 @@ tooltip = {
     }
 }
 
-# --- ESTILO DEL MAPA ---
 if mostrar_satelite:
     map_style = "satellite"
 else:
     map_style = "light"
 
-# --- MOSTRAR MAPA ---
 if layers:
     st.pydeck_chart(pdk.Deck(
         layers=layers,
@@ -275,9 +338,11 @@ if layers:
         map_style=map_style,
     ), use_container_width=True)
 else:
-    st.info("No hay capas activas para mostrar. Activa alguna capa en el panel lateral.")
+    st.info("No hay capas activas para mostrar.")
 
-# --- TABLA DE DATOS ---
+# ============================================================
+# 13. TABLA DE DATOS
+# ============================================================
 with st.expander("📊 Datos detallados", expanded=False):
     if not df_filtrado.empty:
         st.dataframe(
@@ -294,7 +359,9 @@ with st.expander("📊 Datos detallados", expanded=False):
             key='download-csv'
         )
 
-# --- RESUMEN POR OBLAST ---
+# ============================================================
+# 14. RESUMEN POR OBLAST
+# ============================================================
 with st.expander("📈 Resumen por oblast", expanded=False):
     if not df_filtrado.empty:
         resumen = df_filtrado.groupby('oblast').agg(
@@ -304,6 +371,5 @@ with st.expander("📈 Resumen por oblast", expanded=False):
         ).sort_values('count', ascending=False)
         st.dataframe(resumen, use_container_width=True)
 
-# --- FOOTER ---
 st.markdown("---")
-st.markdown("Datos: FIRMS (NASA) | DeepStateMap | Visualización: pydeck 3D")
+st.markdown("Datos: FIRMS (NASA) | DeepStateMap | 100% en la nube")
