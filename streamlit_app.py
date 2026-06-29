@@ -1,10 +1,12 @@
 import streamlit as st
 import requests
-import pandas as pd
-import pydeck as pdk
-import numpy as np
-from datetime import datetime, timedelta
 import json
+import pandas as pd
+from datetime import datetime, timedelta
+import gzip
+from io import BytesIO
+import geopandas as gpd
+import math
 
 # Configurar la página
 st.set_page_config(
@@ -13,8 +15,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🌍 Visor 3D - Alertas Térmicas en Ucrania")
-st.markdown("**Mapa 3D con pydeck** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
+st.title("🌍 Visor 3D Dinámico - Alertas Térmicas en Ucrania")
+st.markdown("**Terreno 3D Mundial de Cesium** | Datos FIRMS (últimas 48h, FRP > 10 MW)")
 
 # --- Cargar datos desde GitHub ---
 @st.cache_data(ttl=3600)
@@ -79,69 +81,116 @@ if fires_data:
     col2.metric("📅 Últimas 48h", "Filtro activo")
     col3.metric("⚡ FRP > 10 MW", "Filtro activo")
     
-    # --- PREPARAR DATOS PARA PYDECK ---
-    # Normalizar FRP para el tamaño de los puntos
-    min_frp = df_deduplicado['frp'].min()
-    max_frp = df_deduplicado['frp'].max()
+    # --- OBTENER TOKEN DE CESIUM ---
+    cesium_token = st.secrets.get("CESIUM_TOKEN")
     
-    if max_frp > min_frp:
-        df_deduplicado['size'] = 5 + (df_deduplicado['frp'] - min_frp) / (max_frp - min_frp) * 45
-    else:
-        df_deduplicado['size'] = 10
+    if not cesium_token:
+        st.error("❌ Falta CESIUM_TOKEN en Secrets. Configúralo en Streamlit Cloud.")
+        st.stop()
     
-    # Crear columna de altura (opcional, para efecto 3D)
-    df_deduplicado['height'] = df_deduplicado['frp'] / 5
+    # --- Preparar datos para Cesium (lista de puntos) ---
+    puntos_cesium = []
+    for _, row in df_deduplicado.iterrows():
+        size = max(5, min(20, row['frp'] / 10))
+        puntos_cesium.append({
+            'lon': row['lon'],
+            'lat': row['lat'],
+            'frp': row['frp'],
+            'size': size,
+            'date': row['date'].strftime('%Y-%m-%d')
+        })
     
-    # --- CREAR MAPA 3D CON PYDECK ---
+    # --- HTML CON CESIUM (INYECTADO DIRECTAMENTE EN EL DOM) ---
+    cesium_html = f"""
+    <!-- Importar CSS y JS de Cesium -->
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.128/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.128/Build/Cesium/Cesium.js">
+    </script>
+
+    <div id="cesiumContainer" style="width: 100%; height: 600px; margin: 0; padding: 0; overflow: hidden; border-radius: 8px;"></div>
+
+    <script>
+        // --- ESPERAR A QUE CARGUE CESIUM ---
+        function initCesium() {{
+            if (typeof Cesium !== 'undefined') {{
+                // --- CONFIGURACIÓN ---
+                Cesium.Ion.defaultAccessToken = '{cesium_token}';
+                
+                // --- CREAR VISOR CON TERRENO 3D MUNDIAL ---
+                const viewer = new Cesium.Viewer('cesiumContainer', {{
+                    terrainProvider: Cesium.createWorldTerrain(),
+                    baseLayerPicker: false,
+                    infoBox: false,
+                    selectionIndicator: false,
+                    navigationHelpButton: false,
+                    timeline: false,
+                    animation: false,
+                }});
+                
+                // --- AÑADIR CAPA DE IMAGEN DE SATÉLITE ---
+                viewer.imageryLayers.addImageryProvider(
+                    new Cesium.ArcGisMapServerImageryProvider({{
+                        url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
+                    }})
+                );
+                
+                // --- CARGAR PUNTOS MANUALMENTE ---
+                const puntos = {json.dumps(puntos_cesium)};
+                
+                console.log('📊 Cargando ' + puntos.length + ' puntos...');
+                
+                puntos.forEach(function(p) {{
+                    viewer.entities.add({{
+                        position: Cesium.Cartesian3.fromDegrees(p.lon, p.lat, 0),
+                        point: {{
+                            pixelSize: p.size,
+                            color: Cesium.Color.RED,
+                            outlineColor: Cesium.Color.YELLOW,
+                            outlineWidth: 2,
+                            heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+                            distanceDisplayCondition: new Cesium.DistanceDisplayCondition(0, 5000000)
+                        }},
+                        properties: {{
+                            frp: p.frp,
+                            date: p.date
+                        }}
+                    }});
+                }});
+                
+                console.log('✅ ' + puntos.length + ' puntos cargados correctamente');
+                
+                // --- VOLAR A UCRANIA ---
+                viewer.camera.flyTo({{
+                    destination: Cesium.Cartesian3.fromDegrees(31.0, 48.5, 300000),
+                    duration: 2
+                }});
+                
+                // --- MOSTRAR INFORMACIÓN AL HACER CLIC ---
+                const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+                handler.setInputAction(function(movement) {{
+                    const pickedObject = viewer.scene.pick(movement.position);
+                    if (pickedObject && pickedObject.id && pickedObject.id.properties) {{
+                        const props = pickedObject.id.properties;
+                        const frp = props.frp.getValue() || 'N/A';
+                        const date = props.date.getValue() || 'N/A';
+                        alert('🔥 FRP: ' + frp + ' MW\\n📅 Fecha: ' + date);
+                    }}
+                }}, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+                
+                console.log('🌍 Visor 3D listo');
+                
+            }} else {{
+                setTimeout(initCesium, 200); // Reintentar si no ha cargado
+            }}
+        }}
+        
+        // --- INICIAR ---
+        initCesium();
+    </script>
+    """
     
-    # Capa de puntos (ScatterplotLayer)
-    scatter_layer = pdk.Layer(
-        "ScatterplotLayer",
-        data=df_deduplicado,
-        get_position='[lon, lat]',
-        get_color='[255, 50, 50, 200]',
-        get_radius='size * 100',  # Tamaño en metros
-        pickable=True,
-        auto_highlight=True,
-        radius_min_pixels=3,
-        radius_max_pixels=20,
-    )
-    
-    # Capa de columnas (ColumnLayer) para efecto 3D
-    column_layer = pdk.Layer(
-        "ColumnLayer",
-        data=df_deduplicado,
-        get_position='[lon, lat]',
-        get_elevation='height * 100',
-        get_color='[255, 100, 50, 200]',
-        pickable=True,
-        auto_highlight=True,
-        radius=50,
-        elevation_scale=1,
-    )
-    
-    # Vista inicial (centrada en Ucrania con inclinación 3D)
-    view_state = pdk.ViewState(
-        latitude=48.5,
-        longitude=31.0,
-        zoom=6,
-        pitch=45,  # Inclinación para ver en 3D
-        bearing=0,
-    )
-    
-    # Crear el mapa
-    deck = pdk.Deck(
-        layers=[scatter_layer, column_layer],
-        initial_view_state=view_state,
-        map_style="mapbox://styles/mapbox/satellite-v9",  # Mapa satelital
-        tooltip={
-            "html": "<b>🔥 FRP:</b> {frp} MW<br/><b>📅 Fecha:</b> {date}<br/><b>🛰️ Satélite:</b> {satellite}",
-            "style": {"color": "white", "font-family": "Arial", "font-size": "14px"}
-        },
-    )
-    
-    # --- MOSTRAR MAPA ---
-    st.pydeck_chart(deck, use_container_width=True)
+    # --- INYECTAR DIRECTAMENTE EN EL DOM (SIN IFRAME) ---
+    st.markdown(cesium_html, unsafe_allow_html=True)
     
     # --- TABLA DE DATOS ---
     with st.expander("📊 Datos detallados (FRP > 10 MW, últimos 48h)"):
@@ -164,7 +213,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style="text-align: center; color: #666; font-size: 12px;">
-    Datos: FIRMS (NASA) | Visualización: pydeck 3D | Filtros: 48h, FRP > 10 MW, deduplicado
+    Datos: FIRMS (NASA) | Terreno 3D: Cesium World Terrain | Renderizado: DOM directo
     </div>
     """,
     unsafe_allow_html=True
