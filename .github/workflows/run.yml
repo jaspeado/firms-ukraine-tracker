@@ -2,39 +2,14 @@ name: Actualizador automatico FIRMS
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Se ejecuta de forma automatica cada hora en la nube
-  workflow_dispatch: # Activa el boton para forzar la actualizacion manual
-
-permissions:
-  contents: write
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
 
 jobs:
-  run-tracker:
+  refresh:
     runs-on: ubuntu-latest
     steps:
-    - name: Clonar el proyecto
-      uses: actions/checkout@v4
-
-    - name: Instalar controladores de red de Linux
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libgdal-dev build-essential
-
-    - name: Configurar Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-
-    - name: Instalar librerias de procesamiento
-      run: |
-        pip install --upgrade pip
-        pip install pandas geopandas shapely fiona requests
-
-    - name: Procesar fuegos y DeepState sin depender de PC
-      run: python tracker.py
-
-    - name: Publicar el mapa actualizado de forma segura
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: "Sincronizacion automatica de mapas"
-        file_pattern: 'output/*.geojson'
+      - name: Trigger Hugging Face Space Rebuild
+        run: |
+          curl -X POST "https://huggingface.co/api/spaces/Paspis/tracker-nasa/rebuild" \
+            -H "Authorization: Bearer ${{ secrets.HF_TOKEN }}"
