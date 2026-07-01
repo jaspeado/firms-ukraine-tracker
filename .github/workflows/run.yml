@@ -2,7 +2,7 @@ name: Actualizador automatico FIRMS
 
 on:
   schedule:
-    - cron: '0 * * * *' # Se ejecuta de forma automatica cada hora en la nube
+    - cron: '0 */3 * * *' # Se ejecuta de forma automatica cada hora en la nube
   workflow_dispatch: # Activa el boton para forzar la actualizacion manual
 
 permissions:
