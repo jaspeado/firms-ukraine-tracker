@@ -1,0 +1,12 @@
+name: Keep Render Awake
+
+on:
+  schedule:
+    - cron: '*/14 * * * *'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping ikusia.com
+        run: curl -s https://ikusia.com > /dev/null
