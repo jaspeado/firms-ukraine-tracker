@@ -1,0 +1,15 @@
+name: Refresh FIRMS Data
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # cada 3 horas
+  workflow_dispatch:        # permite lanzarlo manualmente también
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Hugging Face Space Rebuild
+        run: |
+          curl -X POST "https://huggingface.co/api/spaces/Paspis/tracker-nasa/rebuild" \
+            -H "Authorization: Bearer ${{ secrets.HF_TOKEN }}"
