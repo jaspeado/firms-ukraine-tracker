@@ -41,7 +41,7 @@ jobs:
 
           MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
           BBOX = "22,44,41,53"
-          DAYS = 2
+          DAYS = 5
           SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
           OUT_GEOJSON = "fires.geojson"
           OUT_POLYGONS = "fires_polygons.geojson"
