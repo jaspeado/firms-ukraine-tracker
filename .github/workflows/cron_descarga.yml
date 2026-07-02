@@ -25,11 +25,11 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      - name: Descargar datos de la NASA con CURL (Evita error IPv6)
+      - name: Descargar datos de la NASA con CURL (Forzando IPv4 y Timeout)
         run: |
-          curl -s -A "Mozilla/5.0" "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA21_NRT/22,44,41,53/5" -o noaa21.csv
-          curl -s -A "Mozilla/5.0" "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA20_NRT/22,44,41,53/5" -o noaa20.csv
-          curl -s -A "Mozilla/5.0" "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_SNPP_NRT/22,44,41,53/5" -o snpp.csv
+          curl --ipv4 -L -s -A "Mozilla/5.0" --max-time 90 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA21_NRT/22,44,41,53/5" -o noaa21.csv
+          curl --ipv4 -L -s -A "Mozilla/5.0" --max-time 90 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA20_NRT/22,44,41,53/5" -o noaa20.csv
+          curl --ipv4 -L -s -A "Mozilla/5.0" --max-time 90 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_SNPP_NRT/22,44,41,53/5" -o snpp.csv
 
       - name: Crear script de Python para procesar los CSV
         run: |
