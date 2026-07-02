@@ -25,9 +25,9 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      - name: Crear script de Python con URL limpia
+      - name: Crear script de Python completo
         run: |
-          cat << 'EOF' > motor_tactico_limpio.py
+          cat << 'EOF' > motor_tactico.py
           import os
           import time
           import sys
@@ -35,38 +35,29 @@ jobs:
           import pandas as pd
           import geopandas as gpd
           import requests
+          from io import StringIO
+          from shapely.geometry import box
+          import json
 
           MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
           BBOX = "22,44,41,53"
-          DAYS = 5
+          DAYS = 2
           SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
-          OUT_GEOJSON = "./fires.geojson"
+          OUT_GEOJSON = "fires.geojson"
+          OUT_POLYGONS = "fires_polygons.geojson"
+          UBI_FILE = "ubicacionesproyecto.geojson"
 
           def download_source(source):
-              # Forzamos la concatenación limpia de caracteres para no arrastrar la caché corrupta
               host_nasa = "firms.modaps.eosdis.nasa.gov"
               url = f"https://{host_nasa}/api/area/csv/{MAP_KEY}/{source}/{BBOX}/{DAYS}"
-              
-              print(f"\n[INFO] Conectando a la NASA para: {source}...")
-              print(f"[Ruta Real] {url}")
+              print(f"[INFO] Conectando a la NASA para: {source}...")
               headers = {"User-Agent": "Mozilla/5.0"}
               try:
                   response = requests.get(url, headers=headers, timeout=45)
                   if response.status_code != 200:
                       print(f"[ERROR] HTTP {response.status_code}")
                       return pd.DataFrame()
-                  from io import StringIO
                   df = pd.read_csv(StringIO(response.text))
-                  if df.empty:
-                      return pd.DataFrame()
-                  
-                  now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-                  df["source_query"] = source
-                  df["download_time_utc"] = now_utc
-                  df["acq_time_str"] = df["acq_time"].astype(str).str.zfill(4)
-                  df["detection_time_utc"] = df["acq_date"].astype(str) + " " + df["acq_time_str"].str[:2] + ":" + df["acq_time_str"].str[2:] + ":00 UTC"
-                  df["frp_num"] = pd.to_numeric(df["frp"], errors="coerce").fillna(0)
-                  df["detection_id"] = df["satellite"].astype(str) + "|" + df["latitude"].astype(str) + "|" + df["longitude"].astype(str) + "|" + df["acq_date"].astype(str) + "|" + df["acq_time"].astype(str)
                   return df
               except Exception as e:
                   print(f"[ERROR] {e}", file=sys.stderr)
@@ -79,25 +70,105 @@ jobs:
                   if not df.empty:
                       frames.append(df)
                   time.sleep(2)
+                  
               if not frames:
                   print("\n[FIN] Cero detecciones en la consulta.")
-                  sys.exit(1)
-              df_all = pd.concat(frames, ignore_index=True).drop_duplicates(subset=["detection_id"])
-              gdf = gpd.GeoDataFrame(df_all, geometry=gpd.points_from_xy(df_all["longitude"], df_all["latitude"]), crs="EPSG:4326")
-              gdf.to_file(OUT_GEOJSON, driver="GeoJSON")
-              print(f"\n[OK] Archivo 'fires.geojson' generado. Total: {len(gdf)}")
+                  sys.exit(0)
+                  
+              df_all = pd.concat(frames, ignore_index=True)
+              df_all = df_all.drop_duplicates(subset=["latitude", "longitude", "acq_date", "acq_time", "satellite"])
+              
+              gdf_puntos = gpd.GeoDataFrame(
+                  df_all, 
+                  geometry=gpd.points_from_xy(df_all["longitude"], df_all["latitude"]), 
+                  crs="EPSG:4326"
+              )
+
+              # --- ENRIQUECIMIENTO CON REGIONES ---
+              if not os.path.exists(UBI_FILE):
+                  print(f"[ALERTA] No se encontró {UBI_FILE}. Los datos irán sin región.")
+                  gdf_puntos["NAME_1"] = ""
+                  gdf_puntos["locality"] = ""
+              else:
+                  print(f"[INFO] Cargando ubicaciones desde {UBI_FILE}...")
+                  gdf_ubi = gpd.read_file(UBI_FILE)
+                  
+                  # Asegurar CRS
+                  if gdf_ubi.crs is None:
+                      gdf_ubi.set_crs('EPSG:4326', inplace=True)
+                  else:
+                      gdf_ubi = gdf_ubi.to_crs('EPSG:4326')
+                      
+                  cols_to_keep = ['geometry', 'NAME_1', 'NAME_2']
+                  cols_present = [c for c in cols_to_keep if c in gdf_ubi.columns]
+                  gdf_ubi = gdf_ubi[cols_present]
+                  
+                  try:
+                      gdf_join = gpd.sjoin(gdf_puntos, gdf_ubi, how='left', predicate='within')
+                      if 'NAME_1' in gdf_join.columns:
+                          gdf_join['NAME_1'] = gdf_join['NAME_1'].fillna('')
+                      else:
+                          gdf_join['NAME_1'] = ''
+                          
+                      if 'NAME_2' in gdf_join.columns:
+                          gdf_join['locality'] = gdf_join['NAME_2'].fillna('')
+                      else:
+                          gdf_join['locality'] = ''
+                  except Exception as e:
+                      print(f"[ERROR] Falló el cruce espacial: {e}")
+                      gdf_join = gdf_puntos.copy()
+                      gdf_join['NAME_1'] = ''
+                      gdf_join['locality'] = ''
+
+              # --- GENERAR FIRES.GEOJSON ---
+              features = []
+              for _, row in gdf_join.iterrows():
+                  features.append({
+                      "type": "Feature",
+                      "geometry": {"type": "Point", "coordinates": [row.geometry.x, row.geometry.y]},
+                      "properties": {
+                          "frp": float(row.get("frp", 0)),
+                          "acq_date": str(row.get("acq_date", "")),
+                          "acq_time": str(row.get("acq_time", "")),
+                          "satellite": str(row.get("satellite", "")),
+                          "brightness": row.get("brightness", None),
+                          "NAME_1": row.get("NAME_1", ""),
+                          "locality": row.get("locality", "")
+                      }
+                  })
+              
+              with open(OUT_GEOJSON, "w") as f:
+                  json.dump({"type": "FeatureCollection", "features": features}, f, indent=2)
+              print(f"\n[OK] Archivo '{OUT_GEOJSON}' generado. Total: {len(features)}")
+
+              # --- GENERAR FIRES_POLYGONS.GEOJSON ---
+              poly_features = []
+              for feat in features:
+                  lon, lat = feat["geometry"]["coordinates"]
+                  size = 0.015
+                  half = size / 2
+                  poly = box(lon - half, lat - half, lon + half, lat + half)
+                  poly_features.append({
+                      "type": "Feature",
+                      "geometry": {"type": "Polygon", "coordinates": [list(poly.exterior.coords)]},
+                      "properties": feat["properties"]
+                  })
+              
+              with open(OUT_POLYGONS, "w") as f:
+                  json.dump({"type": "FeatureCollection", "features": poly_features}, f, indent=2)
+              print(f"[OK] Archivo '{OUT_POLYGONS}' generado.")
 
           if __name__ == "__main__":
               main()
           EOF
 
-      - name: Ejecutar script de la NASA limpio
-        run: python motor_tactico_limpio.py
+      - name: Ejecutar script
+        run: python motor_tactico.py
 
       - name: Auto-subir Datos a GitHub
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "github-actions[bot]"
-          git add fires.geojson
-          git commit -m "Sincronizacion automatica NASA" || exit 0
+          git add fires.geojson fires_polygons.geojson
+          git commit -m "Sincronizacion automatica NASA con regiones" || exit 0
           git push origin main
