@@ -25,6 +25,10 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
+      - name: Descargar archivo de regiones desde Releases
+        run: |
+          curl -L -o "ubicacionesproyecto.geojson" "https://github.com/jaspeado/firms-ukraine-tracker/releases/download/v1.0/ubicacionesproyecto.geojson"
+
       - name: Descargar datos de la NASA con CURL (Forzando IPv4 y Timeout)
         run: |
           curl --ipv4 -L -s -A "Mozilla/5.0" --max-time 90 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA21_NRT/22,44,41,53/5" -o noaa21.csv
@@ -73,8 +77,9 @@ jobs:
               # --- ENRIQUECIMIENTO CON REGIONES ---
               if not os.path.exists(UBI_FILE):
                   print(f"[ALERTA] No se encontró {UBI_FILE}. Los datos irán sin región.")
-                  gdf_puntos["NAME_1"] = ""
-                  gdf_puntos["locality"] = ""
+                  gdf_join = gdf_puntos.copy()
+                  gdf_join['NAME_1'] = ''
+                  gdf_join['locality'] = ''
               else:
                   print(f"[INFO] Cargando ubicaciones desde {UBI_FILE}...")
                   gdf_ubi = gpd.read_file(UBI_FILE)
