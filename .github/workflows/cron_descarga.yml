@@ -25,51 +25,37 @@ jobs:
       - name: Instalar librerias basicas
         run: pip install pandas geopandas shapely requests
 
-      - name: Crear script de Python completo
+      - name: Descargar datos de la NASA con CURL (Evita error IPv6)
+        run: |
+          curl -s -A "Mozilla/5.0" "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA21_NRT/22,44,41,53/5" -o noaa21.csv
+          curl -s -A "Mozilla/5.0" "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA20_NRT/22,44,41,53/5" -o noaa20.csv
+          curl -s -A "Mozilla/5.0" "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_SNPP_NRT/22,44,41,53/5" -o snpp.csv
+
+      - name: Crear script de Python para procesar los CSV
         run: |
           cat << 'EOF' > motor_tactico.py
           import os
-          import time
           import sys
-          from datetime import datetime, timezone
           import pandas as pd
           import geopandas as gpd
-          import requests
-          from io import StringIO
           from shapely.geometry import box
           import json
 
-          MAP_KEY = "c7b328641d071d4f5e429e28f3f1c07d"
-          BBOX = "22,44,41,53"
-          DAYS = 5
-          SOURCES = ["VIIRS_NOAA21_NRT", "VIIRS_NOAA20_NRT", "VIIRS_SNPP_NRT"]
+          FILES = ["noaa21.csv", "noaa20.csv", "snpp.csv"]
           OUT_GEOJSON = "fires.geojson"
           OUT_POLYGONS = "fires_polygons.geojson"
           UBI_FILE = "ubicacionesproyecto.geojson"
 
-          def download_source(source):
-              host_nasa = "firms.modaps.eosdis.nasa.gov"
-              url = f"https://{host_nasa}/api/area/csv/{MAP_KEY}/{source}/{BBOX}/{DAYS}"
-              print(f"[INFO] Conectando a la NASA para: {source}...")
-              headers = {"User-Agent": "Mozilla/5.0"}
-              try:
-                  response = requests.get(url, headers=headers, timeout=45)
-                  if response.status_code != 200:
-                      print(f"[ERROR] HTTP {response.status_code}")
-                      return pd.DataFrame()
-                  df = pd.read_csv(StringIO(response.text))
-                  return df
-              except Exception as e:
-                  print(f"[ERROR] {e}", file=sys.stderr)
-                  return pd.DataFrame()
-
           def main():
               frames = []
-              for source in SOURCES:
-                  df = download_source(source)
-                  if not df.empty:
-                      frames.append(df)
-                  time.sleep(2)
+              for f in FILES:
+                  if os.path.exists(f) and os.path.getsize(f) > 50:
+                      try:
+                          df = pd.read_csv(f)
+                          if not df.empty:
+                              frames.append(df)
+                      except Exception as e:
+                          print(f"[ERROR] leyendo {f}: {e}")
                   
               if not frames:
                   print("\n[FIN] Cero detecciones en la consulta.")
@@ -93,7 +79,6 @@ jobs:
                   print(f"[INFO] Cargando ubicaciones desde {UBI_FILE}...")
                   gdf_ubi = gpd.read_file(UBI_FILE)
                   
-                  # Asegurar CRS
                   if gdf_ubi.crs is None:
                       gdf_ubi.set_crs('EPSG:4326', inplace=True)
                   else:
