@@ -229824,6 +229824,253 @@
         "NAME_1": "Lipetsk",
         "locality": "Lipetskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.41634,
+          45.12441
+        ]
+      },
+      "properties": {
+        "frp": 1.7,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.2588,
+          50.54198
+        ]
+      },
+      "properties": {
+        "frp": 1.25,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25839,
+          50.5427
+        ]
+      },
+      "properties": {
+        "frp": 1.02,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.26296,
+          50.54723
+        ]
+      },
+      "properties": {
+        "frp": 0.91,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.33718,
+          51.88707
+        ]
+      },
+      "properties": {
+        "frp": 1.87,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3357,
+          51.88797
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.34214,
+          51.89252
+        ]
+      },
+      "properties": {
+        "frp": 2.65,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.34071,
+          51.8934
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.70949,
+          48.97541
+        ]
+      },
+      "properties": {
+        "frp": 1.53,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.06364,
+          49.91608
+        ]
+      },
+      "properties": {
+        "frp": 1.62,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0587,
+          49.91761
+        ]
+      },
+      "properties": {
+        "frp": 1.62,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.06742,
+          49.92103
+        ]
+      },
+      "properties": {
+        "frp": 1.84,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.06244,
+          49.92257
+        ]
+      },
+      "properties": {
+        "frp": 1.84,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
     }
   ]
 }

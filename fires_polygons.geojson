@@ -471744,6 +471744,513 @@
         "NAME_1": "Lipetsk",
         "locality": "Lipetskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.423840000000002,
+              45.11691
+            ],
+            [
+              25.423840000000002,
+              45.13191
+            ],
+            [
+              25.40884,
+              45.13191
+            ],
+            [
+              25.40884,
+              45.11691
+            ],
+            [
+              25.423840000000002,
+              45.11691
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.7,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.2663,
+              50.53448
+            ],
+            [
+              26.2663,
+              50.54948
+            ],
+            [
+              26.2513,
+              50.54948
+            ],
+            [
+              26.2513,
+              50.53448
+            ],
+            [
+              26.2663,
+              50.53448
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.25,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.26589,
+              50.5352
+            ],
+            [
+              26.26589,
+              50.550200000000004
+            ],
+            [
+              26.25089,
+              50.550200000000004
+            ],
+            [
+              26.25089,
+              50.5352
+            ],
+            [
+              26.26589,
+              50.5352
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.02,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.27046,
+              50.53973
+            ],
+            [
+              26.27046,
+              50.55473
+            ],
+            [
+              26.25546,
+              50.55473
+            ],
+            [
+              26.25546,
+              50.53973
+            ],
+            [
+              26.27046,
+              50.53973
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.91,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34468,
+              51.87957
+            ],
+            [
+              29.34468,
+              51.89457
+            ],
+            [
+              29.32968,
+              51.89457
+            ],
+            [
+              29.32968,
+              51.87957
+            ],
+            [
+              29.34468,
+              51.87957
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.87,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.3432,
+              51.88047
+            ],
+            [
+              29.3432,
+              51.89547
+            ],
+            [
+              29.3282,
+              51.89547
+            ],
+            [
+              29.3282,
+              51.88047
+            ],
+            [
+              29.3432,
+              51.88047
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34964,
+              51.88502
+            ],
+            [
+              29.34964,
+              51.90002
+            ],
+            [
+              29.33464,
+              51.90002
+            ],
+            [
+              29.33464,
+              51.88502
+            ],
+            [
+              29.34964,
+              51.88502
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.65,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34821,
+              51.8859
+            ],
+            [
+              29.34821,
+              51.9009
+            ],
+            [
+              29.33321,
+              51.9009
+            ],
+            [
+              29.33321,
+              51.8859
+            ],
+            [
+              29.34821,
+              51.8859
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-07-04",
+        "acq_time": "141",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.71699,
+              48.967909999999996
+            ],
+            [
+              24.71699,
+              48.98291
+            ],
+            [
+              24.70199,
+              48.98291
+            ],
+            [
+              24.70199,
+              48.967909999999996
+            ],
+            [
+              24.71699,
+              48.967909999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.53,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.07114,
+              49.90858
+            ],
+            [
+              24.07114,
+              49.92358
+            ],
+            [
+              24.05614,
+              49.92358
+            ],
+            [
+              24.05614,
+              49.90858
+            ],
+            [
+              24.07114,
+              49.90858
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.62,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.066200000000002,
+              49.91011
+            ],
+            [
+              24.066200000000002,
+              49.925110000000004
+            ],
+            [
+              24.0512,
+              49.925110000000004
+            ],
+            [
+              24.0512,
+              49.91011
+            ],
+            [
+              24.066200000000002,
+              49.91011
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.62,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.07492,
+              49.91353
+            ],
+            [
+              24.07492,
+              49.92853
+            ],
+            [
+              24.059919999999998,
+              49.92853
+            ],
+            [
+              24.059919999999998,
+              49.91353
+            ],
+            [
+              24.07492,
+              49.91353
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.84,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.06994,
+              49.91507
+            ],
+            [
+              24.06994,
+              49.93007
+            ],
+            [
+              24.05494,
+              49.93007
+            ],
+            [
+              24.05494,
+              49.91507
+            ],
+            [
+              24.06994,
+              49.91507
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.84,
+        "acq_date": "2026-07-04",
+        "acq_time": "143",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Zhovkivs'kyi"
+      }
     }
   ]
 }
