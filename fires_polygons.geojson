@@ -148754,6 +148754,45 @@
         "coordinates": [
           [
             [
+              37.93924,
+              51.1323
+            ],
+            [
+              37.93924,
+              51.1473
+            ],
+            [
+              37.92424,
+              51.1473
+            ],
+            [
+              37.92424,
+              51.1323
+            ],
+            [
+              37.93924,
+              51.1323
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.8,
+        "acq_date": "2026-07-05",
+        "acq_time": "854",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               35.10505,
               51.02968
             ],
@@ -275846,6 +275885,2853 @@
         "brightness": null,
         "NAME_1": "L'viv",
         "locality": "Zhovkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.53362,
+              44.92181
+            ],
+            [
+              38.53362,
+              44.93681
+            ],
+            [
+              38.51862,
+              44.93681
+            ],
+            [
+              38.51862,
+              44.92181
+            ],
+            [
+              38.53362,
+              44.92181
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.78,
+        "acq_date": "2026-07-05",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Severskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.68286,
+              45.246719999999996
+            ],
+            [
+              31.68286,
+              45.26172
+            ],
+            [
+              31.66786,
+              45.26172
+            ],
+            [
+              31.66786,
+              45.246719999999996
+            ],
+            [
+              31.68286,
+              45.246719999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.21,
+        "acq_date": "2026-07-05",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.02074,
+              44.41009
+            ],
+            [
+              27.02074,
+              44.42509
+            ],
+            [
+              27.00574,
+              44.42509
+            ],
+            [
+              27.00574,
+              44.41009
+            ],
+            [
+              27.02074,
+              44.41009
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.64,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.02934,
+              44.41317
+            ],
+            [
+              27.02934,
+              44.42817
+            ],
+            [
+              27.01434,
+              44.42817
+            ],
+            [
+              27.01434,
+              44.41317
+            ],
+            [
+              27.02934,
+              44.41317
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.2,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.0206,
+              44.41647
+            ],
+            [
+              27.0206,
+              44.43147
+            ],
+            [
+              27.0056,
+              44.43147
+            ],
+            [
+              27.0056,
+              44.41647
+            ],
+            [
+              27.0206,
+              44.41647
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.05,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.68973,
+              46.18449
+            ],
+            [
+              33.68973,
+              46.19949
+            ],
+            [
+              33.67473,
+              46.19949
+            ],
+            [
+              33.67473,
+              46.18449
+            ],
+            [
+              33.68973,
+              46.18449
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.67,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Chaplyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.60535,
+              46.19197
+            ],
+            [
+              33.60535,
+              46.20697
+            ],
+            [
+              33.59035,
+              46.20697
+            ],
+            [
+              33.59035,
+              46.19197
+            ],
+            [
+              33.60535,
+              46.19197
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 63.05,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Kalanchats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.60946,
+              46.19313
+            ],
+            [
+              33.60946,
+              46.20813
+            ],
+            [
+              33.59446,
+              46.20813
+            ],
+            [
+              33.59446,
+              46.19313
+            ],
+            [
+              33.60946,
+              46.19313
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 53.12,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Kalanchats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.58746,
+              46.19812
+            ],
+            [
+              33.58746,
+              46.21312
+            ],
+            [
+              33.57246,
+              46.21312
+            ],
+            [
+              33.57246,
+              46.19812
+            ],
+            [
+              33.58746,
+              46.19812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 14.88,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Kalanchats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.32127,
+              46.365809999999996
+            ],
+            [
+              32.32127,
+              46.38081
+            ],
+            [
+              32.30627,
+              46.38081
+            ],
+            [
+              32.30627,
+              46.365809999999996
+            ],
+            [
+              32.32127,
+              46.365809999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.95,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.47571,
+              46.43983
+            ],
+            [
+              32.47571,
+              46.45483
+            ],
+            [
+              32.46071,
+              46.45483
+            ],
+            [
+              32.46071,
+              46.43983
+            ],
+            [
+              32.47571,
+              46.43983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.14,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.47207,
+              46.443
+            ],
+            [
+              32.47207,
+              46.458
+            ],
+            [
+              32.45707,
+              46.458
+            ],
+            [
+              32.45707,
+              46.443
+            ],
+            [
+              32.47207,
+              46.443
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.77,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.4766,
+              46.44433
+            ],
+            [
+              32.4766,
+              46.45933
+            ],
+            [
+              32.4616,
+              46.45933
+            ],
+            [
+              32.4616,
+              46.44433
+            ],
+            [
+              32.4766,
+              46.44433
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.77,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.00654,
+              46.45701
+            ],
+            [
+              32.00654,
+              46.47201
+            ],
+            [
+              31.99154,
+              46.47201
+            ],
+            [
+              31.99154,
+              46.45701
+            ],
+            [
+              32.00654,
+              46.45701
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.55,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.00343,
+              46.46208
+            ],
+            [
+              32.00343,
+              46.47708
+            ],
+            [
+              31.98843,
+              46.47708
+            ],
+            [
+              31.98843,
+              46.46208
+            ],
+            [
+              32.00343,
+              46.46208
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.55,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.21254,
+              46.46434
+            ],
+            [
+              32.21254,
+              46.47934
+            ],
+            [
+              32.19754,
+              46.47934
+            ],
+            [
+              32.19754,
+              46.46434
+            ],
+            [
+              32.21254,
+              46.46434
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.49,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.473530000000004,
+              46.46689
+            ],
+            [
+              32.473530000000004,
+              46.48189
+            ],
+            [
+              32.45853,
+              46.48189
+            ],
+            [
+              32.45853,
+              46.46689
+            ],
+            [
+              32.473530000000004,
+              46.46689
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.15,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.20094,
+              46.47012
+            ],
+            [
+              32.20094,
+              46.48512
+            ],
+            [
+              32.18594,
+              46.48512
+            ],
+            [
+              32.18594,
+              46.47012
+            ],
+            [
+              32.20094,
+              46.47012
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.74,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.47955,
+              46.47451
+            ],
+            [
+              32.47955,
+              46.48951
+            ],
+            [
+              32.46455,
+              46.48951
+            ],
+            [
+              32.46455,
+              46.47451
+            ],
+            [
+              32.47955,
+              46.47451
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 18.69,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.48411,
+              46.47583
+            ],
+            [
+              32.48411,
+              46.49083
+            ],
+            [
+              32.46911,
+              46.49083
+            ],
+            [
+              32.46911,
+              46.47583
+            ],
+            [
+              32.48411,
+              46.47583
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.4,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.99872,
+              46.47866
+            ],
+            [
+              31.99872,
+              46.49366
+            ],
+            [
+              31.983719999999998,
+              46.49366
+            ],
+            [
+              31.983719999999998,
+              46.47866
+            ],
+            [
+              31.99872,
+              46.47866
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.67,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.4766,
+              46.4795
+            ],
+            [
+              32.4766,
+              46.4945
+            ],
+            [
+              32.4616,
+              46.4945
+            ],
+            [
+              32.4616,
+              46.4795
+            ],
+            [
+              32.4766,
+              46.4795
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 37.41,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.97295,
+              46.53556
+            ],
+            [
+              32.97295,
+              46.55056
+            ],
+            [
+              32.95795,
+              46.55056
+            ],
+            [
+              32.95795,
+              46.53556
+            ],
+            [
+              32.97295,
+              46.53556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.67,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.97724,
+              46.53678
+            ],
+            [
+              32.97724,
+              46.55178
+            ],
+            [
+              32.96224,
+              46.55178
+            ],
+            [
+              32.96224,
+              46.53678
+            ],
+            [
+              32.97724,
+              46.53678
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.67,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.72241,
+              46.53698
+            ],
+            [
+              31.72241,
+              46.55198
+            ],
+            [
+              31.70741,
+              46.55198
+            ],
+            [
+              31.70741,
+              46.53698
+            ],
+            [
+              31.72241,
+              46.53698
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.23,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.98153,
+              46.53799
+            ],
+            [
+              32.98153,
+              46.55299
+            ],
+            [
+              32.96653,
+              46.55299
+            ],
+            [
+              32.96653,
+              46.53799
+            ],
+            [
+              32.98153,
+              46.53799
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.79,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.97862,
+              46.54287
+            ],
+            [
+              32.97862,
+              46.55787
+            ],
+            [
+              32.96362,
+              46.55787
+            ],
+            [
+              32.96362,
+              46.54287
+            ],
+            [
+              32.97862,
+              46.54287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.22,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.31807,
+              46.61742
+            ],
+            [
+              32.31807,
+              46.63242
+            ],
+            [
+              32.30307,
+              46.63242
+            ],
+            [
+              32.30307,
+              46.61742
+            ],
+            [
+              32.31807,
+              46.61742
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.89,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Bilozers'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.2518,
+              46.71826
+            ],
+            [
+              33.2518,
+              46.73326
+            ],
+            [
+              33.2368,
+              46.73326
+            ],
+            [
+              33.2368,
+              46.71826
+            ],
+            [
+              33.2518,
+              46.71826
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.42,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Novokahovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.25595,
+              46.71942
+            ],
+            [
+              33.25595,
+              46.73442
+            ],
+            [
+              33.24095,
+              46.73442
+            ],
+            [
+              33.24095,
+              46.71942
+            ],
+            [
+              33.25595,
+              46.71942
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.42,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Novokahovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.24895,
+              46.72306
+            ],
+            [
+              33.24895,
+              46.73806
+            ],
+            [
+              33.23395,
+              46.73806
+            ],
+            [
+              33.23395,
+              46.72306
+            ],
+            [
+              33.24895,
+              46.72306
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.56,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Novokahovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.15635,
+              46.74762
+            ],
+            [
+              33.15635,
+              46.76262
+            ],
+            [
+              33.14135,
+              46.76262
+            ],
+            [
+              33.14135,
+              46.74762
+            ],
+            [
+              33.15635,
+              46.74762
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.66,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.16472,
+              46.74995
+            ],
+            [
+              33.16472,
+              46.76495
+            ],
+            [
+              33.14972,
+              46.76495
+            ],
+            [
+              33.14972,
+              46.74995
+            ],
+            [
+              33.16472,
+              46.74995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.3,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.16451,
+              46.75251
+            ],
+            [
+              33.16451,
+              46.76751
+            ],
+            [
+              33.14951,
+              46.76751
+            ],
+            [
+              33.14951,
+              46.75251
+            ],
+            [
+              33.16451,
+              46.75251
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.45,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.19079,
+              46.78244
+            ],
+            [
+              33.19079,
+              46.79744
+            ],
+            [
+              33.17579,
+              46.79744
+            ],
+            [
+              33.17579,
+              46.78244
+            ],
+            [
+              33.19079,
+              46.78244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.42,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.49372,
+              46.85106
+            ],
+            [
+              33.49372,
+              46.86606
+            ],
+            [
+              33.47872,
+              46.86606
+            ],
+            [
+              33.47872,
+              46.85106
+            ],
+            [
+              33.49372,
+              46.85106
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.92,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.45644,
+              46.85166
+            ],
+            [
+              33.45644,
+              46.86666
+            ],
+            [
+              33.44144,
+              46.86666
+            ],
+            [
+              33.44144,
+              46.85166
+            ],
+            [
+              33.45644,
+              46.85166
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.82,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.49765,
+              46.85216
+            ],
+            [
+              33.49765,
+              46.86716
+            ],
+            [
+              33.48265,
+              46.86716
+            ],
+            [
+              33.48265,
+              46.85216
+            ],
+            [
+              33.49765,
+              46.85216
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.04,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.46048,
+              46.85279
+            ],
+            [
+              33.46048,
+              46.86779
+            ],
+            [
+              33.445479999999996,
+              46.86779
+            ],
+            [
+              33.445479999999996,
+              46.85279
+            ],
+            [
+              33.46048,
+              46.85279
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.99,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.71413,
+              46.86862
+            ],
+            [
+              33.71413,
+              46.88362
+            ],
+            [
+              33.69913,
+              46.88362
+            ],
+            [
+              33.69913,
+              46.86862
+            ],
+            [
+              33.71413,
+              46.86862
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.63,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Hornosta\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.70349,
+              46.87115
+            ],
+            [
+              33.70349,
+              46.88615
+            ],
+            [
+              33.68849,
+              46.88615
+            ],
+            [
+              33.68849,
+              46.87115
+            ],
+            [
+              33.70349,
+              46.87115
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 21.54,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Hornosta\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.70746,
+              46.87224
+            ],
+            [
+              33.70746,
+              46.88724
+            ],
+            [
+              33.69246,
+              46.88724
+            ],
+            [
+              33.69246,
+              46.87224
+            ],
+            [
+              33.70746,
+              46.87224
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 15.43,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Hornosta\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.71145,
+              46.87333
+            ],
+            [
+              33.71145,
+              46.88833
+            ],
+            [
+              33.69645,
+              46.88833
+            ],
+            [
+              33.69645,
+              46.87333
+            ],
+            [
+              33.71145,
+              46.87333
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 15.43,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Hornosta\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.71542,
+              46.87442
+            ],
+            [
+              33.71542,
+              46.88942
+            ],
+            [
+              33.70042,
+              46.88942
+            ],
+            [
+              33.70042,
+              46.87442
+            ],
+            [
+              33.71542,
+              46.87442
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.91,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Hornosta\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.72009,
+              46.93054
+            ],
+            [
+              33.72009,
+              46.94554
+            ],
+            [
+              33.70509,
+              46.94554
+            ],
+            [
+              33.70509,
+              46.93054
+            ],
+            [
+              33.72009,
+              46.93054
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.52,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Hornosta\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.47891,
+              46.94057
+            ],
+            [
+              33.47891,
+              46.95557
+            ],
+            [
+              33.46391,
+              46.95557
+            ],
+            [
+              33.46391,
+              46.94057
+            ],
+            [
+              33.47891,
+              46.94057
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.12,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.47408,
+              46.94436
+            ],
+            [
+              33.47408,
+              46.959360000000004
+            ],
+            [
+              33.45908,
+              46.959360000000004
+            ],
+            [
+              33.45908,
+              46.94436
+            ],
+            [
+              33.47408,
+              46.94436
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.21,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.47808,
+              46.945479999999996
+            ],
+            [
+              33.47808,
+              46.96048
+            ],
+            [
+              33.46308,
+              46.96048
+            ],
+            [
+              33.46308,
+              46.945479999999996
+            ],
+            [
+              33.47808,
+              46.945479999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.21,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.48011,
+              46.9464
+            ],
+            [
+              33.48011,
+              46.9614
+            ],
+            [
+              33.46511,
+              46.9614
+            ],
+            [
+              33.46511,
+              46.9464
+            ],
+            [
+              33.48011,
+              46.9464
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.46,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.76038,
+              47.00804
+            ],
+            [
+              33.76038,
+              47.02304
+            ],
+            [
+              33.74538,
+              47.02304
+            ],
+            [
+              33.74538,
+              47.00804
+            ],
+            [
+              33.76038,
+              47.00804
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.87,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.7672,
+              47.0086
+            ],
+            [
+              33.7672,
+              47.0236
+            ],
+            [
+              33.7522,
+              47.0236
+            ],
+            [
+              33.7522,
+              47.0086
+            ],
+            [
+              33.7672,
+              47.0086
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.71,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.75659,
+              47.01112
+            ],
+            [
+              33.75659,
+              47.02612
+            ],
+            [
+              33.74159,
+              47.02612
+            ],
+            [
+              33.74159,
+              47.01112
+            ],
+            [
+              33.75659,
+              47.01112
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.4,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.75742,
+              47.01265
+            ],
+            [
+              33.75742,
+              47.02765
+            ],
+            [
+              33.74242,
+              47.02765
+            ],
+            [
+              33.74242,
+              47.01265
+            ],
+            [
+              33.75742,
+              47.01265
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.87,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.76434,
+              47.01323
+            ],
+            [
+              33.76434,
+              47.02823
+            ],
+            [
+              33.74934,
+              47.02823
+            ],
+            [
+              33.74934,
+              47.01323
+            ],
+            [
+              33.76434,
+              47.01323
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.4,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.76513,
+              47.01479
+            ],
+            [
+              33.76513,
+              47.02979
+            ],
+            [
+              33.75013,
+              47.02979
+            ],
+            [
+              33.75013,
+              47.01479
+            ],
+            [
+              33.76513,
+              47.01479
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 16.45,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.24436,
+              47.29384
+            ],
+            [
+              35.24436,
+              47.308840000000004
+            ],
+            [
+              35.22936,
+              47.308840000000004
+            ],
+            [
+              35.22936,
+              47.29384
+            ],
+            [
+              35.24436,
+              47.29384
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.36,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Mykhailivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.24458,
+              47.29473
+            ],
+            [
+              35.24458,
+              47.30973
+            ],
+            [
+              35.22958,
+              47.30973
+            ],
+            [
+              35.22958,
+              47.29473
+            ],
+            [
+              35.24458,
+              47.29473
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.9,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Mykhailivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.42322,
+              47.36438
+            ],
+            [
+              37.42322,
+              47.37938
+            ],
+            [
+              37.40822,
+              47.37938
+            ],
+            [
+              37.40822,
+              47.36438
+            ],
+            [
+              37.42322,
+              47.36438
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.34,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volodars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.42122,
+              47.36839
+            ],
+            [
+              37.42122,
+              47.38339
+            ],
+            [
+              37.40622,
+              47.38339
+            ],
+            [
+              37.40622,
+              47.36839
+            ],
+            [
+              37.42122,
+              47.36839
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.27,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volodars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.66731,
+              47.49543
+            ],
+            [
+              34.66731,
+              47.51043
+            ],
+            [
+              34.65231,
+              47.51043
+            ],
+            [
+              34.65231,
+              47.49543
+            ],
+            [
+              34.66731,
+              47.49543
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.2,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Kamians'ko-Dniprovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.68339,
+              47.49741
+            ],
+            [
+              34.68339,
+              47.51241
+            ],
+            [
+              34.66839,
+              47.51241
+            ],
+            [
+              34.66839,
+              47.49741
+            ],
+            [
+              34.68339,
+              47.49741
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.71,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Kamians'ko-Dniprovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.66694,
+              47.49823
+            ],
+            [
+              34.66694,
+              47.51323
+            ],
+            [
+              34.651939999999996,
+              47.51323
+            ],
+            [
+              34.651939999999996,
+              47.49823
+            ],
+            [
+              34.66694,
+              47.49823
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.61,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Kamians'ko-Dniprovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.68113,
+              47.49911
+            ],
+            [
+              34.68113,
+              47.51411
+            ],
+            [
+              34.66613,
+              47.51411
+            ],
+            [
+              34.66613,
+              47.49911
+            ],
+            [
+              34.68113,
+              47.49911
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.9,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Kamians'ko-Dniprovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.00018,
+              47.60349
+            ],
+            [
+              35.00018,
+              47.61849
+            ],
+            [
+              34.98518,
+              47.61849
+            ],
+            [
+              34.98518,
+              47.60349
+            ],
+            [
+              35.00018,
+              47.60349
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.87,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.00656,
+              47.60516
+            ],
+            [
+              35.00656,
+              47.62016
+            ],
+            [
+              34.99156,
+              47.62016
+            ],
+            [
+              34.99156,
+              47.60516
+            ],
+            [
+              35.00656,
+              47.60516
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.21,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.32878,
+              47.65318
+            ],
+            [
+              35.32878,
+              47.66818
+            ],
+            [
+              35.31378,
+              47.66818
+            ],
+            [
+              35.31378,
+              47.65318
+            ],
+            [
+              35.32878,
+              47.65318
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.15,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.72011,
+              47.69038
+            ],
+            [
+              36.72011,
+              47.70538
+            ],
+            [
+              36.70511,
+              47.70538
+            ],
+            [
+              36.70511,
+              47.69038
+            ],
+            [
+              36.72011,
+              47.69038
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.68,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Velykonovosilkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.72582,
+              47.69178
+            ],
+            [
+              36.72582,
+              47.70678
+            ],
+            [
+              36.71082,
+              47.70678
+            ],
+            [
+              36.71082,
+              47.69178
+            ],
+            [
+              36.72582,
+              47.69178
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.14,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Velykonovosilkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.36636,
+              48.36454
+            ],
+            [
+              38.36636,
+              48.37954
+            ],
+            [
+              38.35136,
+              48.37954
+            ],
+            [
+              38.35136,
+              48.36454
+            ],
+            [
+              38.36636,
+              48.36454
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.96,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.35713,
+              48.36669
+            ],
+            [
+              38.35713,
+              48.38169
+            ],
+            [
+              38.34213,
+              48.38169
+            ],
+            [
+              38.34213,
+              48.36669
+            ],
+            [
+              38.35713,
+              48.36669
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.65,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.36445,
+              48.3683
+            ],
+            [
+              38.36445,
+              48.3833
+            ],
+            [
+              38.34945,
+              48.3833
+            ],
+            [
+              38.34945,
+              48.3683
+            ],
+            [
+              38.36445,
+              48.3683
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.96,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.69752,
+              48.51037
+            ],
+            [
+              37.69752,
+              48.52537
+            ],
+            [
+              37.68252,
+              48.52537
+            ],
+            [
+              37.68252,
+              48.51037
+            ],
+            [
+              37.69752,
+              48.51037
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.18,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.93837,
+              51.13199
+            ],
+            [
+              37.93837,
+              51.14699
+            ],
+            [
+              37.92337,
+              51.14699
+            ],
+            [
+              37.92337,
+              51.13199
+            ],
+            [
+              37.93837,
+              51.13199
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.93,
+        "acq_date": "2026-07-05",
+        "acq_time": "947",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
       }
     },
     {
