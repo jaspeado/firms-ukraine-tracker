@@ -72434,6 +72434,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          38.69947,
+          48.91612
+        ]
+      },
+      "properties": {
+        "frp": 18.15,
+        "acq_date": "2026-07-05",
+        "acq_time": "854",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.6967,
+          48.91714
+        ]
+      },
+      "properties": {
+        "frp": 14.93,
+        "acq_date": "2026-07-05",
+        "acq_time": "854",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           35.09755,
           51.03718
         ]
