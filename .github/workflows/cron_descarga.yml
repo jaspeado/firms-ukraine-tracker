@@ -29,11 +29,11 @@ jobs:
         run: |
           curl -L -o "ubicacionesproyecto.geojson" "https://github.com/jaspeado/firms-ukraine-tracker/releases/download/v1.0/ubicacionesproyecto.geojson"
 
-      - name: Descargar datos de la NASA con CURL (Forzando IPv4 y Timeout)
+      - name: Descargar datos de la NASA con CURL (Con reintentos y más tiempo)
         run: |
-          curl --ipv4 -L -s -A "Mozilla/5.0" --max-time 90 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA21_NRT/22,44,41,53/5" -o noaa21.csv
-          curl --ipv4 -L -s -A "Mozilla/5.0" --max-time 90 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA20_NRT/22,44,41,53/5" -o noaa20.csv
-          curl --ipv4 -L -s -A "Mozilla/5.0" --max-time 90 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_SNPP_NRT/22,44,41,53/5" -o snpp.csv
+          curl --ipv4 -L -s -A "Mozilla/5.0" --retry 3 --retry-delay 5 --max-time 180 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA21_NRT/22,44,41,53/5" -o noaa21.csv
+          curl --ipv4 -L -s -A "Mozilla/5.0" --retry 3 --retry-delay 5 --max-time 180 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_NOAA20_NRT/22,44,41,53/5" -o noaa20.csv
+          curl --ipv4 -L -s -A "Mozilla/5.0" --retry 3 --retry-delay 5 --max-time 180 "https://firms.modaps.eosdis.nasa.gov/api/area/csv/c7b328641d071d4f5e429e28f3f1c07d/VIIRS_SNPP_NRT/22,44,41,53/5" -o snpp.csv
 
       - name: Crear script de Python para procesar los CSV
         run: |
