@@ -30045,6 +30045,4034 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          33.62921,
+          44.50615
+        ]
+      },
+      "properties": {
+        "frp": 5.01,
+        "acq_date": "2026-07-08",
+        "acq_time": "934",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Sevastopol'",
+        "locality": "Balaklavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.28911,
+          45.31703
+        ]
+      },
+      "properties": {
+        "frp": 18.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "934",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76406,
+          45.58255
+        ]
+      },
+      "properties": {
+        "frp": 7.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "934",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.77076,
+          45.5843
+        ]
+      },
+      "properties": {
+        "frp": 7.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "934",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76341,
+          45.58451
+        ]
+      },
+      "properties": {
+        "frp": 7.02,
+        "acq_date": "2026-07-08",
+        "acq_time": "934",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.77015,
+          45.58623
+        ]
+      },
+      "properties": {
+        "frp": 4.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "934",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.73197,
+          46.64494
+        ]
+      },
+      "properties": {
+        "frp": 13.87,
+        "acq_date": "2026-07-08",
+        "acq_time": "934",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Tselinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.54694,
+          46.52773
+        ]
+      },
+      "properties": {
+        "frp": 4.31,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.89672,
+          46.55944
+        ]
+      },
+      "properties": {
+        "frp": 7.19,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.69627,
+          46.62061
+        ]
+      },
+      "properties": {
+        "frp": 6.35,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Bilozers'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.62573,
+          46.80021
+        ]
+      },
+      "properties": {
+        "frp": 13.32,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Berdians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.99949,
+          46.88878
+        ]
+      },
+      "properties": {
+        "frp": 6.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Berdians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.92543,
+          46.9475
+        ]
+      },
+      "properties": {
+        "frp": 5.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Veselivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8635,
+          47.02864
+        ]
+      },
+      "properties": {
+        "frp": 5.56,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Veselivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.77723,
+          47.30338
+        ]
+      },
+      "properties": {
+        "frp": 9.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.82024,
+          47.30441
+        ]
+      },
+      "properties": {
+        "frp": 9.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.81758,
+          47.30899
+        ]
+      },
+      "properties": {
+        "frp": 32.8,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78205,
+          47.30999
+        ]
+      },
+      "properties": {
+        "frp": 10.99,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8251,
+          47.31103
+        ]
+      },
+      "properties": {
+        "frp": 32.8,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78957,
+          47.31202
+        ]
+      },
+      "properties": {
+        "frp": 10.99,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.92832,
+          47.53212
+        ]
+      },
+      "properties": {
+        "frp": 7.02,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Orikhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.23931,
+          47.53872
+        ]
+      },
+      "properties": {
+        "frp": 4.54,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.23742,
+          47.54254
+        ]
+      },
+      "properties": {
+        "frp": 15.58,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.38918,
+          47.55931
+        ]
+      },
+      "properties": {
+        "frp": 8.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Vasylivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.56769,
+          47.63245
+        ]
+      },
+      "properties": {
+        "frp": 13.03,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Orikhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5674,
+          47.63434
+        ]
+      },
+      "properties": {
+        "frp": 8.53,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Orikhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.13587,
+          47.67697
+        ]
+      },
+      "properties": {
+        "frp": 13.27,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.22461,
+          47.72851
+        ]
+      },
+      "properties": {
+        "frp": 4.0,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34243,
+          47.75951
+        ]
+      },
+      "properties": {
+        "frp": 6.06,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34372,
+          47.76207
+        ]
+      },
+      "properties": {
+        "frp": 16.04,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34017,
+          47.7638
+        ]
+      },
+      "properties": {
+        "frp": 31.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34144,
+          47.76636
+        ]
+      },
+      "properties": {
+        "frp": 46.23,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.84329,
+          47.76713
+        ]
+      },
+      "properties": {
+        "frp": 6.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Starobeshivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.84738,
+          47.76842
+        ]
+      },
+      "properties": {
+        "frp": 8.51,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Starobeshivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.84941,
+          47.76863
+        ]
+      },
+      "properties": {
+        "frp": 6.66,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Starobeshivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34426,
+          47.76971
+        ]
+      },
+      "properties": {
+        "frp": 31.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Mar\u2039ns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97538,
+          47.7698
+        ]
+      },
+      "properties": {
+        "frp": 10.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Novomykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.98265,
+          47.77176
+        ]
+      },
+      "properties": {
+        "frp": 10.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Novomykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97277,
+          47.7743
+        ]
+      },
+      "properties": {
+        "frp": 10.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Novomykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.00834,
+          47.87891
+        ]
+      },
+      "properties": {
+        "frp": 2.42,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Krasnyy Sulin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.77626,
+          47.89204
+        ]
+      },
+      "properties": {
+        "frp": 12.26,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Velykonovosilkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.44951,
+          47.91388
+        ]
+      },
+      "properties": {
+        "frp": 13.6,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.44749,
+          47.91798
+        ]
+      },
+      "properties": {
+        "frp": 13.6,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.45139,
+          47.91803
+        ]
+      },
+      "properties": {
+        "frp": 6.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59001,
+          47.93823
+        ]
+      },
+      "properties": {
+        "frp": 7.79,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59278,
+          47.95246
+        ]
+      },
+      "properties": {
+        "frp": 6.65,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59504,
+          47.95306
+        ]
+      },
+      "properties": {
+        "frp": 6.75,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.74998,
+          47.96481
+        ]
+      },
+      "properties": {
+        "frp": 8.14,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Velykonovosilkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7552,
+          47.96625
+        ]
+      },
+      "properties": {
+        "frp": 10.53,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Velykonovosilkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.75666,
+          47.96651
+        ]
+      },
+      "properties": {
+        "frp": 8.14,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Velykonovosilkivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0825,
+          47.99261
+        ]
+      },
+      "properties": {
+        "frp": 5.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.36561,
+          48.06675
+        ]
+      },
+      "properties": {
+        "frp": 9.02,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Selydovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.37185,
+          48.06831
+        ]
+      },
+      "properties": {
+        "frp": 7.82,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Selydovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.3757,
+          48.07409
+        ]
+      },
+      "properties": {
+        "frp": 7.82,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Mar\u2039ns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.37339,
+          48.07832
+        ]
+      },
+      "properties": {
+        "frp": 10.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Mar\u2039ns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.36491,
+          48.081
+        ]
+      },
+      "properties": {
+        "frp": 10.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Mar\u2039ns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.37112,
+          48.08255
+        ]
+      },
+      "properties": {
+        "frp": 10.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Mar\u2039ns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.41385,
+          48.1076
+        ]
+      },
+      "properties": {
+        "frp": 16.79,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Mar\u2039ns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.13164,
+          48.35075
+        ]
+      },
+      "properties": {
+        "frp": 5.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.12928,
+          48.35498
+        ]
+      },
+      "properties": {
+        "frp": 5.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.0379,
+          48.38363
+        ]
+      },
+      "properties": {
+        "frp": 8.28,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Lutuhyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.13391,
+          48.38508
+        ]
+      },
+      "properties": {
+        "frp": 13.84,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.13003,
+          48.38769
+        ]
+      },
+      "properties": {
+        "frp": 9.96,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.17814,
+          48.39613
+        ]
+      },
+      "properties": {
+        "frp": 5.68,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.10101,
+          48.4527
+        ]
+      },
+      "properties": {
+        "frp": 3.55,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.88036,
+          48.45273
+        ]
+      },
+      "properties": {
+        "frp": 4.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.81561,
+          48.46936
+        ]
+      },
+      "properties": {
+        "frp": 3.28,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.44633,
+          48.55331
+        ]
+      },
+      "properties": {
+        "frp": 6.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2285,
+          48.57039
+        ]
+      },
+      "properties": {
+        "frp": 2.72,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kirovohrad",
+        "locality": "Kirovohrads'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6611,
+          48.58752
+        ]
+      },
+      "properties": {
+        "frp": 5.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.42979,
+          48.59245
+        ]
+      },
+      "properties": {
+        "frp": 3.19,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kramators'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.15339,
+          48.60211
+        ]
+      },
+      "properties": {
+        "frp": 1.56,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.18668,
+          48.60593
+        ]
+      },
+      "properties": {
+        "frp": 6.55,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.37854,
+          48.60674
+        ]
+      },
+      "properties": {
+        "frp": 8.73,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.38402,
+          48.60805
+        ]
+      },
+      "properties": {
+        "frp": 8.73,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2554,
+          48.62244
+        ]
+      },
+      "properties": {
+        "frp": 14.03,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.26672,
+          48.62516
+        ]
+      },
+      "properties": {
+        "frp": 8.41,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.63038,
+          48.63141
+        ]
+      },
+      "properties": {
+        "frp": 7.34,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62745,
+          48.6325
+        ]
+      },
+      "properties": {
+        "frp": 8.38,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.95851,
+          48.65104
+        ]
+      },
+      "properties": {
+        "frp": 5.91,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9644,
+          48.65247
+        ]
+      },
+      "properties": {
+        "frp": 5.91,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.96824,
+          48.658
+        ]
+      },
+      "properties": {
+        "frp": 5.44,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75131,
+          48.70459
+        ]
+      },
+      "properties": {
+        "frp": 3.78,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.00281,
+          48.74364
+        ]
+      },
+      "properties": {
+        "frp": 2.81,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.23601,
+          48.75891
+        ]
+      },
+      "properties": {
+        "frp": 7.07,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.23931,
+          48.76423
+        ]
+      },
+      "properties": {
+        "frp": 40.28,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.90638,
+          48.76609
+        ]
+      },
+      "properties": {
+        "frp": 2.67,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25069,
+          48.76693
+        ]
+      },
+      "properties": {
+        "frp": 15.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25634,
+          48.76827
+        ]
+      },
+      "properties": {
+        "frp": 17.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.82993,
+          48.7752
+        ]
+      },
+      "properties": {
+        "frp": 2.96,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.82179,
+          48.79977
+        ]
+      },
+      "properties": {
+        "frp": 9.41,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.8222,
+          48.80099
+        ]
+      },
+      "properties": {
+        "frp": 8.23,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51384,
+          48.81124
+        ]
+      },
+      "properties": {
+        "frp": 6.19,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51927,
+          48.81252
+        ]
+      },
+      "properties": {
+        "frp": 7.94,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52251,
+          48.81775
+        ]
+      },
+      "properties": {
+        "frp": 7.94,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.50927,
+          48.81909
+        ]
+      },
+      "properties": {
+        "frp": 11.1,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51478,
+          48.82039
+        ]
+      },
+      "properties": {
+        "frp": 16.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5203,
+          48.82169
+        ]
+      },
+      "properties": {
+        "frp": 16.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.83785,
+          48.85443
+        ]
+      },
+      "properties": {
+        "frp": 5.01,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.77528,
+          48.85764
+        ]
+      },
+      "properties": {
+        "frp": 3.72,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.70351,
+          48.89873
+        ]
+      },
+      "properties": {
+        "frp": 9.57,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.70932,
+          48.90016
+        ]
+      },
+      "properties": {
+        "frp": 9.57,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.70714,
+          48.90426
+        ]
+      },
+      "properties": {
+        "frp": 12.0,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.15289,
+          48.92604
+        ]
+      },
+      "properties": {
+        "frp": 5.88,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.70169,
+          48.93354
+        ]
+      },
+      "properties": {
+        "frp": 39.59,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.69422,
+          48.93621
+        ]
+      },
+      "properties": {
+        "frp": 60.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.69957,
+          48.93746
+        ]
+      },
+      "properties": {
+        "frp": 39.59,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7049,
+          48.93871
+        ]
+      },
+      "properties": {
+        "frp": 39.59,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.79375,
+          48.93936
+        ]
+      },
+      "properties": {
+        "frp": 7.63,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.69208,
+          48.94012
+        ]
+      },
+      "properties": {
+        "frp": 33.46,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.77981,
+          48.94055
+        ]
+      },
+      "properties": {
+        "frp": 6.07,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.79958,
+          48.94078
+        ]
+      },
+      "properties": {
+        "frp": 11.32,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.85831,
+          48.94134
+        ]
+      },
+      "properties": {
+        "frp": 5.01,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.69741,
+          48.94137
+        ]
+      },
+      "properties": {
+        "frp": 20.81,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.70276,
+          48.94262
+        ]
+      },
+      "properties": {
+        "frp": 20.81,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17564,
+          48.95411
+        ]
+      },
+      "properties": {
+        "frp": 15.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59217,
+          48.95652
+        ]
+      },
+      "properties": {
+        "frp": 11.67,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.61593,
+          48.95764
+        ]
+      },
+      "properties": {
+        "frp": 6.81,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.62132,
+          48.9589
+        ]
+      },
+      "properties": {
+        "frp": 6.81,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17915,
+          48.95945
+        ]
+      },
+      "properties": {
+        "frp": 70.09,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.62458,
+          48.96408
+        ]
+      },
+      "properties": {
+        "frp": 8.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.61168,
+          48.96549
+        ]
+      },
+      "properties": {
+        "frp": 3.24,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.61707,
+          48.96675
+        ]
+      },
+      "properties": {
+        "frp": 3.24,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.90129,
+          48.97015
+        ]
+      },
+      "properties": {
+        "frp": 5.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.57826,
+          48.97099
+        ]
+      },
+      "properties": {
+        "frp": 110.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.58367,
+          48.97224
+        ]
+      },
+      "properties": {
+        "frp": 23.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.57537,
+          48.97331
+        ]
+      },
+      "properties": {
+        "frp": 2.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.40648,
+          49.01338
+        ]
+      },
+      "properties": {
+        "frp": 4.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Rubezhans'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.4043,
+          49.01733
+        ]
+      },
+      "properties": {
+        "frp": 4.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Rubezhans'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.49841,
+          49.02614
+        ]
+      },
+      "properties": {
+        "frp": 16.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9845,
+          49.20945
+        ]
+      },
+      "properties": {
+        "frp": 5.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1497,
+          49.60474
+        ]
+      },
+      "properties": {
+        "frp": 3.0,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Svativs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.13773,
+          49.61526
+        ]
+      },
+      "properties": {
+        "frp": 3.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Svativs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8518,
+          49.84663
+        ]
+      },
+      "properties": {
+        "frp": 11.44,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Chuhu\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.67731,
+          49.86117
+        ]
+      },
+      "properties": {
+        "frp": 2.33,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Dvorichans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.84316,
+          50.11597
+        ]
+      },
+      "properties": {
+        "frp": 30.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Vovchans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.67466,
+          50.18088
+        ]
+      },
+      "properties": {
+        "frp": 7.34,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Valuyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.05825,
+          50.23289
+        ]
+      },
+      "properties": {
+        "frp": 9.74,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Vovchans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.52867,
+          50.28708
+        ]
+      },
+      "properties": {
+        "frp": 2.29,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Velykoburluts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.40843,
+          50.33189
+        ]
+      },
+      "properties": {
+        "frp": 5.86,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Krasnogvardeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.26912,
+          50.40363
+        ]
+      },
+      "properties": {
+        "frp": 4.22,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Shebekinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.32519,
+          50.43509
+        ]
+      },
+      "properties": {
+        "frp": 9.71,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Krasnogvardeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33047,
+          50.43632
+        ]
+      },
+      "properties": {
+        "frp": 9.71,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Krasnogvardeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92762,
+          51.14135
+        ]
+      },
+      "properties": {
+        "frp": 6.27,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61945,
+          51.24378
+        ]
+      },
+      "properties": {
+        "frp": 6.88,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Liskinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6376,
+          51.2531
+        ]
+      },
+      "properties": {
+        "frp": 4.24,
+        "acq_date": "2026-07-08",
+        "acq_time": "937",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Gubkinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.98462,
+          45.11181
+        ]
+      },
+      "properties": {
+        "frp": 6.82,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Simferopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.98295,
+          45.1125
+        ]
+      },
+      "properties": {
+        "frp": 4.51,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Simferopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.76146,
+          45.25277
+        ]
+      },
+      "properties": {
+        "frp": 3.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Saks'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29082,
+          45.31651
+        ]
+      },
+      "properties": {
+        "frp": 6.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29052,
+          45.32247
+        ]
+      },
+      "properties": {
+        "frp": 5.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90573,
+          45.35483
+        ]
+      },
+      "properties": {
+        "frp": 4.71,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76487,
+          45.58303
+        ]
+      },
+      "properties": {
+        "frp": 7.44,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76359,
+          45.58349
+        ]
+      },
+      "properties": {
+        "frp": 10.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "1117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.71424,
+          46.49514
+        ]
+      },
+      "properties": {
+        "frp": 5.1,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.78842,
+          46.49622
+        ]
+      },
+      "properties": {
+        "frp": 5.34,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.78158,
+          46.50014
+        ]
+      },
+      "properties": {
+        "frp": 10.9,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.78772,
+          46.5006
+        ]
+      },
+      "properties": {
+        "frp": 10.9,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67024,
+          46.50066
+        ]
+      },
+      "properties": {
+        "frp": 12.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6763,
+          46.50112
+        ]
+      },
+      "properties": {
+        "frp": 12.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67559,
+          46.50547
+        ]
+      },
+      "properties": {
+        "frp": 12.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.54454,
+          46.51202
+        ]
+      },
+      "properties": {
+        "frp": 22.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.54318,
+          46.51266
+        ]
+      },
+      "properties": {
+        "frp": 27.89,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55531,
+          46.52264
+        ]
+      },
+      "properties": {
+        "frp": 7.21,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.54798,
+          46.52675
+        ]
+      },
+      "properties": {
+        "frp": 11.89,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.55464,
+          46.52719
+        ]
+      },
+      "properties": {
+        "frp": 7.94,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.78697,
+          46.52832
+        ]
+      },
+      "properties": {
+        "frp": 2.98,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.78111,
+          46.5285
+        ]
+      },
+      "properties": {
+        "frp": 7.25,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.76793,
+          46.6239
+        ]
+      },
+      "properties": {
+        "frp": 10.03,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.76664,
+          46.62453
+        ]
+      },
+      "properties": {
+        "frp": 3.75,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.67665,
+          46.67829
+        ]
+      },
+      "properties": {
+        "frp": 4.83,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Khersons'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4977,
+          46.68925
+        ]
+      },
+      "properties": {
+        "frp": 6.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Bilozers'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.24414,
+          46.73717
+        ]
+      },
+      "properties": {
+        "frp": 8.27,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Prymors'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.24326,
+          46.7481
+        ]
+      },
+      "properties": {
+        "frp": 6.74,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Prymors'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.24841,
+          46.74827
+        ]
+      },
+      "properties": {
+        "frp": 5.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Prymors'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.24278,
+          46.75355
+        ]
+      },
+      "properties": {
+        "frp": 6.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Prymors'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.89088,
+          46.83095
+        ]
+      },
+      "properties": {
+        "frp": 5.9,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Berdians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.82837,
+          46.83176
+        ]
+      },
+      "properties": {
+        "frp": 14.83,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8914,
+          46.83413
+        ]
+      },
+      "properties": {
+        "frp": 4.23,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Berdians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.83376,
+          46.84008
+        ]
+      },
+      "properties": {
+        "frp": 9.38,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.83402,
+          46.84147
+        ]
+      },
+      "properties": {
+        "frp": 5.23,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33292,
+          46.95997
+        ]
+      },
+      "properties": {
+        "frp": 7.32,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33701,
+          46.96541
+        ]
+      },
+      "properties": {
+        "frp": 10.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.34112,
+          46.97084
+        ]
+      },
+      "properties": {
+        "frp": 7.41,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.98247,
+          47.06031
+        ]
+      },
+      "properties": {
+        "frp": 5.71,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Novoodes'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.98883,
+          47.06077
+        ]
+      },
+      "properties": {
+        "frp": 5.96,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Novoodes'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.73256,
+          47.14965
+        ]
+      },
+      "properties": {
+        "frp": 17.66,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.73742,
+          47.14983
+        ]
+      },
+      "properties": {
+        "frp": 14.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.69061,
+          47.21561
+        ]
+      },
+      "properties": {
+        "frp": 5.68,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.69014,
+          47.22095
+        ]
+      },
+      "properties": {
+        "frp": 5.68,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.82258,
+          47.30386
+        ]
+      },
+      "properties": {
+        "frp": 7.84,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8201,
+          47.30644
+        ]
+      },
+      "properties": {
+        "frp": 6.03,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.45232,
+          47.32206
+        ]
+      },
+      "properties": {
+        "frp": 4.77,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Myasnikovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75333,
+          47.41686
+        ]
+      },
+      "properties": {
+        "frp": 16.07,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Bereznehuvats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.76056,
+          47.41732
+        ]
+      },
+      "properties": {
+        "frp": 64.55,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Bereznehuvats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.75991,
+          47.42196
+        ]
+      },
+      "properties": {
+        "frp": 64.55,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Bereznehuvats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.31942,
+          47.45402
+        ]
+      },
+      "properties": {
+        "frp": 6.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Vasylivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.31874,
+          47.45927
+        ]
+      },
+      "properties": {
+        "frp": 6.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Vasylivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.32348,
+          47.45947
+        ]
+      },
+      "properties": {
+        "frp": 17.39,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Vasylivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.96443,
+          47.56193
+        ]
+      },
+      "properties": {
+        "frp": 7.31,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Orikhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.67311,
+          47.64909
+        ]
+      },
+      "properties": {
+        "frp": 5.38,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Huliaipil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6748,
+          47.65122
+        ]
+      },
+      "properties": {
+        "frp": 12.89,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Huliaipil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.67281,
+          47.65469
+        ]
+      },
+      "properties": {
+        "frp": 5.27,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Huliaipil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59426,
+          47.93946
+        ]
+      },
+      "properties": {
+        "frp": 5.77,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.60109,
+          47.93953
+        ]
+      },
+      "properties": {
+        "frp": 5.77,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5872,
+          47.9455
+        ]
+      },
+      "properties": {
+        "frp": 11.15,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59395,
+          47.94557
+        ]
+      },
+      "properties": {
+        "frp": 22.0,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.60075,
+          47.94564
+        ]
+      },
+      "properties": {
+        "frp": 22.0,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.60774,
+          47.94572
+        ]
+      },
+      "properties": {
+        "frp": 36.44,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59376,
+          47.95169
+        ]
+      },
+      "properties": {
+        "frp": 22.0,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.60051,
+          47.95176
+        ]
+      },
+      "properties": {
+        "frp": 22.0,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.40689,
+          48.01021
+        ]
+      },
+      "properties": {
+        "frp": 3.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "1119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Shakhtars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           40.66307,
           51.09767
         ]
@@ -62205,6 +66233,4091 @@
         "brightness": null,
         "NAME_1": "Lipetsk",
         "locality": "Krasninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29055,
+          45.31488
+        ]
+      },
+      "properties": {
+        "frp": 17.71,
+        "acq_date": "2026-07-08",
+        "acq_time": "1030",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29487,
+          45.31895
+        ]
+      },
+      "properties": {
+        "frp": 8.95,
+        "acq_date": "2026-07-08",
+        "acq_time": "1030",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.64018,
+          45.4625
+        ]
+      },
+      "properties": {
+        "frp": 1.92,
+        "acq_date": "2026-07-08",
+        "acq_time": "1030",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76633,
+          45.58521
+        ]
+      },
+      "properties": {
+        "frp": 9.54,
+        "acq_date": "2026-07-08",
+        "acq_time": "1030",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67359,
+          45.25648
+        ]
+      },
+      "properties": {
+        "frp": 7.98,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90392,
+          45.35481
+        ]
+      },
+      "properties": {
+        "frp": 3.39,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.95461,
+          45.93633
+        ]
+      },
+      "properties": {
+        "frp": 6.24,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Bolhrads'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.71284,
+          46.4947
+        ]
+      },
+      "properties": {
+        "frp": 4.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.71828,
+          46.49572
+        ]
+      },
+      "properties": {
+        "frp": 4.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7874,
+          46.4977
+        ]
+      },
+      "properties": {
+        "frp": 14.75,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.79282,
+          46.49871
+        ]
+      },
+      "properties": {
+        "frp": 4.94,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67617,
+          46.49879
+        ]
+      },
+      "properties": {
+        "frp": 6.73,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.78608,
+          46.50109
+        ]
+      },
+      "properties": {
+        "frp": 5.57,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67484,
+          46.50218
+        ]
+      },
+      "properties": {
+        "frp": 62.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.79692,
+          46.50311
+        ]
+      },
+      "properties": {
+        "frp": 3.95,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Holoprystans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.78595,
+          46.52858
+        ]
+      },
+      "properties": {
+        "frp": 3.81,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.78331,
+          46.52883
+        ]
+      },
+      "properties": {
+        "frp": 3.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.76431,
+          46.62446
+        ]
+      },
+      "properties": {
+        "frp": 4.28,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.76949,
+          46.62537
+        ]
+      },
+      "properties": {
+        "frp": 6.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Tsiurupyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.84234,
+          46.77073
+        ]
+      },
+      "properties": {
+        "frp": 3.42,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Bilozers'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.82904,
+          46.82125
+        ]
+      },
+      "properties": {
+        "frp": 29.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.82782,
+          46.82456
+        ]
+      },
+      "properties": {
+        "frp": 29.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.833,
+          46.82547
+        ]
+      },
+      "properties": {
+        "frp": 12.16,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8266,
+          46.82787
+        ]
+      },
+      "properties": {
+        "frp": 14.1,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.83694,
+          46.82968
+        ]
+      },
+      "properties": {
+        "frp": 45.83,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.83054,
+          46.83208
+        ]
+      },
+      "properties": {
+        "frp": 45.83,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Snihurivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.14827,
+          46.91851
+        ]
+      },
+      "properties": {
+        "frp": 4.14,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33854,
+          46.94885
+        ]
+      },
+      "properties": {
+        "frp": 10.01,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33749,
+          46.95211
+        ]
+      },
+      "properties": {
+        "frp": 10.01,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33643,
+          46.95538
+        ]
+      },
+      "properties": {
+        "frp": 10.76,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33538,
+          46.95864
+        ]
+      },
+      "properties": {
+        "frp": 10.76,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33432,
+          46.96191
+        ]
+      },
+      "properties": {
+        "frp": 19.07,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33931,
+          46.96266
+        ]
+      },
+      "properties": {
+        "frp": 59.57,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.34324,
+          46.96668
+        ]
+      },
+      "properties": {
+        "frp": 59.57,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3372,
+          46.96919
+        ]
+      },
+      "properties": {
+        "frp": 14.84,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.34219,
+          46.96995
+        ]
+      },
+      "properties": {
+        "frp": 14.84,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33614,
+          46.97246
+        ]
+      },
+      "properties": {
+        "frp": 14.84,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.34113,
+          46.97321
+        ]
+      },
+      "properties": {
+        "frp": 14.84,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.34008,
+          46.97648
+        ]
+      },
+      "properties": {
+        "frp": 42.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Melitopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.86082,
+          47.02623
+        ]
+      },
+      "properties": {
+        "frp": 5.47,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Veselivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.85973,
+          47.02949
+        ]
+      },
+      "properties": {
+        "frp": 5.47,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Veselivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42208,
+          47.10516
+        ]
+      },
+      "properties": {
+        "frp": 12.46,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Mykhailivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.42103,
+          47.10843
+        ]
+      },
+      "properties": {
+        "frp": 12.46,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Mykhailivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.69133,
+          47.21721
+        ]
+      },
+      "properties": {
+        "frp": 3.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.95688,
+          47.28624
+        ]
+      },
+      "properties": {
+        "frp": 33.55,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.96092,
+          47.29026
+        ]
+      },
+      "properties": {
+        "frp": 33.55,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Chernihivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.95481,
+          47.29281
+        ]
+      },
+      "properties": {
+        "frp": 60.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Chernihivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.78029,
+          47.30859
+        ]
+      },
+      "properties": {
+        "frp": 6.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.79041,
+          47.31008
+        ]
+      },
+      "properties": {
+        "frp": 6.7,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Tokmats'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.6059,
+          47.36956
+        ]
+      },
+      "properties": {
+        "frp": 10.63,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Bashtans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.05483,
+          47.43193
+        ]
+      },
+      "properties": {
+        "frp": 4.18,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Novocherkassk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.23991,
+          47.54459
+        ]
+      },
+      "properties": {
+        "frp": 36.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2464,
+          47.54529
+        ]
+      },
+      "properties": {
+        "frp": 22.14,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.96318,
+          47.55696
+        ]
+      },
+      "properties": {
+        "frp": 4.91,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Orikhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.98019,
+          47.59222
+        ]
+      },
+      "properties": {
+        "frp": 4.05,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.99532,
+          47.59452
+        ]
+      },
+      "properties": {
+        "frp": 3.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.98919,
+          47.59701
+        ]
+      },
+      "properties": {
+        "frp": 3.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.99423,
+          47.59778
+        ]
+      },
+      "properties": {
+        "frp": 3.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.84441,
+          47.60228
+        ]
+      },
+      "properties": {
+        "frp": 2.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Tomakivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.84946,
+          47.60305
+        ]
+      },
+      "properties": {
+        "frp": 10.31,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Tomakivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.85449,
+          47.60382
+        ]
+      },
+      "properties": {
+        "frp": 10.31,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Tomakivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.85954,
+          47.6046
+        ]
+      },
+      "properties": {
+        "frp": 8.15,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Tomakivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.03746,
+          47.61121
+        ]
+      },
+      "properties": {
+        "frp": 1.69,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.14243,
+          47.68523
+        ]
+      },
+      "properties": {
+        "frp": 20.77,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.14748,
+          47.68598
+        ]
+      },
+      "properties": {
+        "frp": 20.77,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.92078,
+          47.69351
+        ]
+      },
+      "properties": {
+        "frp": 7.32,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Orikhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.91973,
+          47.6968
+        ]
+      },
+      "properties": {
+        "frp": 2.99,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Orikhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.23071,
+          47.7077
+        ]
+      },
+      "properties": {
+        "frp": 4.82,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.33873,
+          47.76046
+        ]
+      },
+      "properties": {
+        "frp": 7.22,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19179,
+          47.76118
+        ]
+      },
+      "properties": {
+        "frp": 2.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.33775,
+          47.76383
+        ]
+      },
+      "properties": {
+        "frp": 8.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.19072,
+          47.76445
+        ]
+      },
+      "properties": {
+        "frp": 2.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34315,
+          47.76455
+        ]
+      },
+      "properties": {
+        "frp": 14.46,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.33676,
+          47.7672
+        ]
+      },
+      "properties": {
+        "frp": 8.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.34218,
+          47.76792
+        ]
+      },
+      "properties": {
+        "frp": 14.46,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Volnovas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97204,
+          47.76962
+        ]
+      },
+      "properties": {
+        "frp": 5.34,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Novomykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.84788,
+          47.76968
+        ]
+      },
+      "properties": {
+        "frp": 10.35,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Starobeshivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97718,
+          47.77035
+        ]
+      },
+      "properties": {
+        "frp": 4.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Novomykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.98233,
+          47.77109
+        ]
+      },
+      "properties": {
+        "frp": 4.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Novomykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97101,
+          47.77291
+        ]
+      },
+      "properties": {
+        "frp": 10.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Novomykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.00985,
+          47.87857
+        ]
+      },
+      "properties": {
+        "frp": 3.04,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Krasnyy Sulin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.01006,
+          47.88051
+        ]
+      },
+      "properties": {
+        "frp": 4.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Krasnyy Sulin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59652,
+          47.94056
+        ]
+      },
+      "properties": {
+        "frp": 149.28,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.58973,
+          47.94337
+        ]
+      },
+      "properties": {
+        "frp": 6.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59558,
+          47.94406
+        ]
+      },
+      "properties": {
+        "frp": 6.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59465,
+          47.94757
+        ]
+      },
+      "properties": {
+        "frp": 6.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78434,
+          48.01342
+        ]
+      },
+      "properties": {
+        "frp": 2.52,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Snizhnens'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.31277,
+          48.01511
+        ]
+      },
+      "properties": {
+        "frp": 2.93,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Pokrovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.36751,
+          48.0691
+        ]
+      },
+      "properties": {
+        "frp": 6.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Selydovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.43856,
+          48.28848
+        ]
+      },
+      "properties": {
+        "frp": 5.98,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Petropavlivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1493,
+          48.47114
+        ]
+      },
+      "properties": {
+        "frp": 20.44,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.15509,
+          48.47184
+        ]
+      },
+      "properties": {
+        "frp": 6.41,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.57824,
+          48.47355
+        ]
+      },
+      "properties": {
+        "frp": 2.32,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76772,
+          48.47406
+        ]
+      },
+      "properties": {
+        "frp": 19.33,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.14832,
+          48.47461
+        ]
+      },
+      "properties": {
+        "frp": 5.43,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.76674,
+          48.47749
+        ]
+      },
+      "properties": {
+        "frp": 12.65,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.69628,
+          48.51314
+        ]
+      },
+      "properties": {
+        "frp": 5.88,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.66866,
+          48.54877
+        ]
+      },
+      "properties": {
+        "frp": 4.66,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.67993,
+          48.55018
+        ]
+      },
+      "properties": {
+        "frp": 3.84,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.67328,
+          48.5529
+        ]
+      },
+      "properties": {
+        "frp": 3.9,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.8093,
+          48.58208
+        ]
+      },
+      "properties": {
+        "frp": 7.18,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.66083,
+          48.58504
+        ]
+      },
+      "properties": {
+        "frp": 4.18,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.68911,
+          48.58855
+        ]
+      },
+      "properties": {
+        "frp": 5.39,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.60716,
+          48.58903
+        ]
+      },
+      "properties": {
+        "frp": 3.2,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.89783,
+          48.59524
+        ]
+      },
+      "properties": {
+        "frp": 4.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.90359,
+          48.59596
+        ]
+      },
+      "properties": {
+        "frp": 4.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.15511,
+          48.60319
+        ]
+      },
+      "properties": {
+        "frp": 1.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.38423,
+          48.60758
+        ]
+      },
+      "properties": {
+        "frp": 9.78,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.36851,
+          48.62018
+        ]
+      },
+      "properties": {
+        "frp": 4.33,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.26926,
+          48.62636
+        ]
+      },
+      "properties": {
+        "frp": 4.41,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62436,
+          48.63023
+        ]
+      },
+      "properties": {
+        "frp": 4.73,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62339,
+          48.63366
+        ]
+      },
+      "properties": {
+        "frp": 5.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62243,
+          48.63709
+        ]
+      },
+      "properties": {
+        "frp": 5.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.62812,
+          48.6378
+        ]
+      },
+      "properties": {
+        "frp": 6.42,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.66446,
+          48.65659
+        ]
+      },
+      "properties": {
+        "frp": 2.36,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.68044,
+          48.66215
+        ]
+      },
+      "properties": {
+        "frp": 3.83,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.79809,
+          48.67056
+        ]
+      },
+      "properties": {
+        "frp": 6.26,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75783,
+          48.70253
+        ]
+      },
+      "properties": {
+        "frp": 4.05,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75469,
+          48.70388
+        ]
+      },
+      "properties": {
+        "frp": 3.18,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73549,
+          48.70536
+        ]
+      },
+      "properties": {
+        "frp": 2.52,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73765,
+          48.70749
+        ]
+      },
+      "properties": {
+        "frp": 7.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.73449,
+          48.7089
+        ]
+      },
+      "properties": {
+        "frp": 7.99,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.00406,
+          48.7389
+        ]
+      },
+      "properties": {
+        "frp": 7.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77729,
+          48.73941
+        ]
+      },
+      "properties": {
+        "frp": 4.62,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.00313,
+          48.74238
+        ]
+      },
+      "properties": {
+        "frp": 7.12,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.77643,
+          48.74297
+        ]
+      },
+      "properties": {
+        "frp": 8.41,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Slovianoserbs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.91757,
+          48.74636
+        ]
+      },
+      "properties": {
+        "frp": 2.17,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.23513,
+          48.75924
+        ]
+      },
+      "properties": {
+        "frp": 6.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.23425,
+          48.76274
+        ]
+      },
+      "properties": {
+        "frp": 6.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.24017,
+          48.76344
+        ]
+      },
+      "properties": {
+        "frp": 6.45,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25198,
+          48.76483
+        ]
+      },
+      "properties": {
+        "frp": 8.9,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2579,
+          48.76553
+        ]
+      },
+      "properties": {
+        "frp": 13.57,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.23336,
+          48.76624
+        ]
+      },
+      "properties": {
+        "frp": 8.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.23925,
+          48.76694
+        ]
+      },
+      "properties": {
+        "frp": 8.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25105,
+          48.76833
+        ]
+      },
+      "properties": {
+        "frp": 33.53,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25697,
+          48.76903
+        ]
+      },
+      "properties": {
+        "frp": 25.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.91056,
+          48.77057
+        ]
+      },
+      "properties": {
+        "frp": 4.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.24421,
+          48.77114
+        ]
+      },
+      "properties": {
+        "frp": 33.53,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2501,
+          48.77183
+        ]
+      },
+      "properties": {
+        "frp": 33.53,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.25602,
+          48.77253
+        ]
+      },
+      "properties": {
+        "frp": 25.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.82534,
+          48.77441
+        ]
+      },
+      "properties": {
+        "frp": 3.96,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.06881,
+          48.78981
+        ]
+      },
+      "properties": {
+        "frp": 11.03,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.06785,
+          48.79329
+        ]
+      },
+      "properties": {
+        "frp": 11.03,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.06689,
+          48.79678
+        ]
+      },
+      "properties": {
+        "frp": 3.71,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.82443,
+          48.79931
+        ]
+      },
+      "properties": {
+        "frp": 5.31,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51843,
+          48.81046
+        ]
+      },
+      "properties": {
+        "frp": 5.91,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51149,
+          48.81329
+        ]
+      },
+      "properties": {
+        "frp": 3.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52362,
+          48.8147
+        ]
+      },
+      "properties": {
+        "frp": 9.39,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51062,
+          48.81683
+        ]
+      },
+      "properties": {
+        "frp": 3.08,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.50976,
+          48.82037
+        ]
+      },
+      "properties": {
+        "frp": 6.25,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5218,
+          48.82177
+        ]
+      },
+      "properties": {
+        "frp": 34.38,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52778,
+          48.82246
+        ]
+      },
+      "properties": {
+        "frp": 11.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52085,
+          48.8253
+        ]
+      },
+      "properties": {
+        "frp": 34.38,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52684,
+          48.826
+        ]
+      },
+      "properties": {
+        "frp": 11.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5199,
+          48.82883
+        ]
+      },
+      "properties": {
+        "frp": 156.99,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52591,
+          48.82953
+        ]
+      },
+      "properties": {
+        "frp": 82.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51899,
+          48.83237
+        ]
+      },
+      "properties": {
+        "frp": 156.99,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.52502,
+          48.83307
+        ]
+      },
+      "properties": {
+        "frp": 82.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.64135,
+          48.86848
+        ]
+      },
+      "properties": {
+        "frp": 68.9,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.6404,
+          48.87203
+        ]
+      },
+      "properties": {
+        "frp": 10.55,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.70491,
+          48.89989
+        ]
+      },
+      "properties": {
+        "frp": 26.52,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.70391,
+          48.90334
+        ]
+      },
+      "properties": {
+        "frp": 11.6,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.70789,
+          48.90526
+        ]
+      },
+      "properties": {
+        "frp": 4.19,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.69796,
+          48.93531
+        ]
+      },
+      "properties": {
+        "frp": 51.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.70414,
+          48.93601
+        ]
+      },
+      "properties": {
+        "frp": 22.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.69705,
+          48.93887
+        ]
+      },
+      "properties": {
+        "frp": 51.49,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.78217,
+          48.93931
+        ]
+      },
+      "properties": {
+        "frp": 7.9,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.70322,
+          48.93958
+        ]
+      },
+      "properties": {
+        "frp": 22.37,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Novoaidars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.79375,
+          48.94073
+        ]
+      },
+      "properties": {
+        "frp": 4.32,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.79956,
+          48.94143
+        ]
+      },
+      "properties": {
+        "frp": 4.32,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17554,
+          48.95051
+        ]
+      },
+      "properties": {
+        "frp": 7.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17456,
+          48.954
+        ]
+      },
+      "properties": {
+        "frp": 23.79,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.61676,
+          48.9553
+        ]
+      },
+      "properties": {
+        "frp": 8.36,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.59132,
+          48.95602
+        ]
+      },
+      "properties": {
+        "frp": 9.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17358,
+          48.9575
+        ]
+      },
+      "properties": {
+        "frp": 23.79,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17952,
+          48.95821
+        ]
+      },
+      "properties": {
+        "frp": 23.79,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.62198,
+          48.95956
+        ]
+      },
+      "properties": {
+        "frp": 6.22,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17736,
+          48.96147
+        ]
+      },
+      "properties": {
+        "frp": 12.85,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.17856,
+          48.96171
+        ]
+      },
+      "properties": {
+        "frp": 15.74,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.62105,
+          48.96312
+        ]
+      },
+      "properties": {
+        "frp": 25.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.81698,
+          48.96502
+        ]
+      },
+      "properties": {
+        "frp": 1.98,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.61398,
+          48.96595
+        ]
+      },
+      "properties": {
+        "frp": 6.18,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.62012,
+          48.96666
+        ]
+      },
+      "properties": {
+        "frp": 25.4,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.57534,
+          48.96878
+        ]
+      },
+      "properties": {
+        "frp": 42.06,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.58147,
+          48.9695
+        ]
+      },
+      "properties": {
+        "frp": 89.02,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.58054,
+          48.97305
+        ]
+      },
+      "properties": {
+        "frp": 2.35,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Popasnians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.99585,
+          48.97593
+        ]
+      },
+      "properties": {
+        "frp": 21.99,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.13581,
+          48.97823
+        ]
+      },
+      "properties": {
+        "frp": 5.14,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.81212,
+          48.98233
+        ]
+      },
+      "properties": {
+        "frp": 3.68,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.40435,
+          49.01698
+        ]
+      },
+      "properties": {
+        "frp": 5.62,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Rubezhans'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.5026,
+          49.02471
+        ]
+      },
+      "properties": {
+        "frp": 8.35,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92044,
+          49.10735
+        ]
+      },
+      "properties": {
+        "frp": 3.48,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9701,
+          49.12777
+        ]
+      },
+      "properties": {
+        "frp": 2.59,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.13457,
+          49.13313
+        ]
+      },
+      "properties": {
+        "frp": 3.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.14057,
+          49.13385
+        ]
+      },
+      "properties": {
+        "frp": 3.11,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.98792,
+          49.20945
+        ]
+      },
+      "properties": {
+        "frp": 5.7,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Kremins'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.00714,
+          49.27199
+        ]
+      },
+      "properties": {
+        "frp": 4.97,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Milovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.01216,
+          49.27618
+        ]
+      },
+      "properties": {
+        "frp": 5.5,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Milovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.01308,
+          49.27645
+        ]
+      },
+      "properties": {
+        "frp": 6.02,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Milovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.1671,
+          49.60242
+        ]
+      },
+      "properties": {
+        "frp": 5.68,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Svativs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.15385,
+          49.60448
+        ]
+      },
+      "properties": {
+        "frp": 5.64,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Svativs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.15199,
+          49.60711
+        ]
+      },
+      "properties": {
+        "frp": 8.34,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Svativs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.15285,
+          49.608
+        ]
+      },
+      "properties": {
+        "frp": 7.04,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Svativs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.66213,
+          49.78031
+        ]
+      },
+      "properties": {
+        "frp": 5.91,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Kupians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.65362,
+          50.01945
+        ]
+      },
+      "properties": {
+        "frp": 3.94,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Chuhu\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.84216,
+          50.11685
+        ]
+      },
+      "properties": {
+        "frp": 35.7,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Vovchans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.83535,
+          50.11953
+        ]
+      },
+      "properties": {
+        "frp": 5.78,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Vovchans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.67337,
+          50.17843
+        ]
+      },
+      "properties": {
+        "frp": 2.97,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Valuyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.97721,
+          50.20831
+        ]
+      },
+      "properties": {
+        "frp": 21.81,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Vovchans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.59533,
+          50.22337
+        ]
+      },
+      "properties": {
+        "frp": 2.25,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Velykoburluts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.53254,
+          50.28784
+        ]
+      },
+      "properties": {
+        "frp": 4.77,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Velykoburluts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92878,
+          51.13818
+        ]
+      },
+      "properties": {
+        "frp": 2.31,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92776,
+          51.14174
+        ]
+      },
+      "properties": {
+        "frp": 2.31,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.63575,
+          51.25277
+        ]
+      },
+      "properties": {
+        "frp": 3.82,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Gubkinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.02716,
+          51.49111
+        ]
+      },
+      "properties": {
+        "frp": 2.68,
+        "acq_date": "2026-07-08",
+        "acq_time": "1032",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kursk",
+        "locality": "Manturovskiy rayon"
       }
     },
     {
@@ -95398,6 +103511,44 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.11922,
+          44.88537
+        ]
+      },
+      "properties": {
+        "frp": 2.8,
+        "acq_date": "2026-07-08",
+        "acq_time": "1013",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29486,
+          45.31646
+        ]
+      },
+      "properties": {
+        "frp": 6.61,
+        "acq_date": "2026-07-08",
+        "acq_time": "1013",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
       }
     }
   ]
