@@ -45833,6 +45833,45 @@
         "coordinates": [
           [
             [
+              37.93812,
+              51.13321
+            ],
+            [
+              37.93812,
+              51.14821
+            ],
+            [
+              37.92312,
+              51.14821
+            ],
+            [
+              37.92312,
+              51.13321
+            ],
+            [
+              37.93812,
+              51.13321
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.62,
+        "acq_date": "2026-07-11",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               39.69171,
               50.13975
             ],

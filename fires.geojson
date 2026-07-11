@@ -22331,6 +22331,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          37.93062,
+          51.14071
+        ]
+      },
+      "properties": {
+        "frp": 8.62,
+        "acq_date": "2026-07-11",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.68421,
           50.14725
         ]
