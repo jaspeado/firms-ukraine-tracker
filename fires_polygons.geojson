@@ -206154,6 +206154,45 @@
         "NAME_1": "",
         "locality": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.26458,
+              50.53511
+            ],
+            [
+              26.26458,
+              50.550110000000004
+            ],
+            [
+              26.249579999999998,
+              50.550110000000004
+            ],
+            [
+              26.249579999999998,
+              50.53511
+            ],
+            [
+              26.26458,
+              50.53511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.63,
+        "acq_date": "2026-07-19",
+        "acq_time": "200",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
     }
   ]
 }
