@@ -188176,6 +188176,120 @@
         "NAME_1": "Belgorod",
         "locality": "Starooskol'skiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.64991,
+          48.18354
+        ]
+      },
+      "properties": {
+        "frp": 2.66,
+        "acq_date": "2026-07-22",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Berehivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.41753,
+          48.34485
+        ]
+      },
+      "properties": {
+        "frp": 2.13,
+        "acq_date": "2026-07-22",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Berehivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.52967,
+          48.53642
+        ]
+      },
+      "properties": {
+        "frp": 7.96,
+        "acq_date": "2026-07-22",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.52676,
+          48.54021
+        ]
+      },
+      "properties": {
+        "frp": 14.3,
+        "acq_date": "2026-07-22",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.52942,
+          48.54263
+        ]
+      },
+      "properties": {
+        "frp": 7.96,
+        "acq_date": "2026-07-22",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.39593,
+          48.6196
+        ]
+      },
+      "properties": {
+        "frp": 2.96,
+        "acq_date": "2026-07-22",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
     }
   ]
 }
