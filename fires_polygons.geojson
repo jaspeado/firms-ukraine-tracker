@@ -213884,6 +213884,552 @@
         "coordinates": [
           [
             [
+              39.34491,
+              44.92328
+            ],
+            [
+              39.34491,
+              44.93828
+            ],
+            [
+              39.32991,
+              44.93828
+            ],
+            [
+              39.32991,
+              44.92328
+            ],
+            [
+              39.34491,
+              44.92328
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.85,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Teuchezhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.34482,
+              44.92465
+            ],
+            [
+              39.34482,
+              44.93965
+            ],
+            [
+              39.32982,
+              44.93965
+            ],
+            [
+              39.32982,
+              44.92465
+            ],
+            [
+              39.34482,
+              44.92465
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.45,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Teuchezhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.074980000000004,
+              45.04718
+            ],
+            [
+              39.074980000000004,
+              45.06218
+            ],
+            [
+              39.05998,
+              45.06218
+            ],
+            [
+              39.05998,
+              45.04718
+            ],
+            [
+              39.074980000000004,
+              45.04718
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.77,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnodar gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.07437,
+              45.04927
+            ],
+            [
+              39.07437,
+              45.06427
+            ],
+            [
+              39.05937,
+              45.06427
+            ],
+            [
+              39.05937,
+              45.04927
+            ],
+            [
+              39.07437,
+              45.04927
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.06,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnodar gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.1842,
+              48.15615
+            ],
+            [
+              38.1842,
+              48.17115
+            ],
+            [
+              38.1692,
+              48.17115
+            ],
+            [
+              38.1692,
+              48.15615
+            ],
+            [
+              38.1842,
+              48.15615
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 14.26,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Shakhtars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.18316,
+              48.1572
+            ],
+            [
+              38.18316,
+              48.172200000000004
+            ],
+            [
+              38.16816,
+              48.172200000000004
+            ],
+            [
+              38.16816,
+              48.1572
+            ],
+            [
+              38.18316,
+              48.1572
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.26,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Shakhtars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.19018,
+              48.15811
+            ],
+            [
+              38.19018,
+              48.17311
+            ],
+            [
+              38.17518,
+              48.17311
+            ],
+            [
+              38.17518,
+              48.15811
+            ],
+            [
+              38.19018,
+              48.15811
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 15.27,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Shakhtars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.18919,
+              48.15915
+            ],
+            [
+              38.18919,
+              48.17415
+            ],
+            [
+              38.17419,
+              48.17415
+            ],
+            [
+              38.17419,
+              48.15915
+            ],
+            [
+              38.18919,
+              48.15915
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.26,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Shakhtars'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.06461,
+              48.24385
+            ],
+            [
+              36.06461,
+              48.25885
+            ],
+            [
+              36.04961,
+              48.25885
+            ],
+            [
+              36.04961,
+              48.24385
+            ],
+            [
+              36.06461,
+              48.24385
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.27,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Vasyl'kivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.718090000000004,
+              48.54336
+            ],
+            [
+              37.718090000000004,
+              48.55836
+            ],
+            [
+              37.70309,
+              48.55836
+            ],
+            [
+              37.70309,
+              48.54336
+            ],
+            [
+              37.718090000000004,
+              48.54336
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.25,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.94616,
+              48.59127
+            ],
+            [
+              37.94616,
+              48.60627
+            ],
+            [
+              37.93116,
+              48.60627
+            ],
+            [
+              37.93116,
+              48.59127
+            ],
+            [
+              37.94616,
+              48.59127
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.22,
+        "acq_date": "2026-07-23",
+        "acq_time": "909",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Artemivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63872,
+              52.52982
+            ],
+            [
+              39.63872,
+              52.54482
+            ],
+            [
+              39.62372,
+              52.54482
+            ],
+            [
+              39.62372,
+              52.52982
+            ],
+            [
+              39.63872,
+              52.52982
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.12,
+        "acq_date": "2026-07-23",
+        "acq_time": "911",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64338,
+              52.53658
+            ],
+            [
+              39.64338,
+              52.55158
+            ],
+            [
+              39.62838,
+              52.55158
+            ],
+            [
+              39.62838,
+              52.53658
+            ],
+            [
+              39.64338,
+              52.53658
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.45,
+        "acq_date": "2026-07-23",
+        "acq_time": "911",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.65141,
+              52.53888
+            ],
+            [
+              39.65141,
+              52.55388
+            ],
+            [
+              39.63641,
+              52.55388
+            ],
+            [
+              39.63641,
+              52.53888
+            ],
+            [
+              39.65141,
+              52.53888
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.78,
+        "acq_date": "2026-07-23",
+        "acq_time": "911",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               39.64635,
               52.52282
             ],
