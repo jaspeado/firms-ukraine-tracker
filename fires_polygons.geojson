@@ -152607,6 +152607,357 @@
         "NAME_1": "",
         "locality": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.35044,
+              51.88108
+            ],
+            [
+              29.35044,
+              51.89608
+            ],
+            [
+              29.33544,
+              51.89608
+            ],
+            [
+              29.33544,
+              51.88108
+            ],
+            [
+              29.35044,
+              51.88108
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.34,
+        "acq_date": "2026-07-25",
+        "acq_time": "145",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34675,
+              51.88276
+            ],
+            [
+              29.34675,
+              51.89776
+            ],
+            [
+              29.33175,
+              51.89776
+            ],
+            [
+              29.33175,
+              51.88276
+            ],
+            [
+              29.34675,
+              51.88276
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.85,
+        "acq_date": "2026-07-25",
+        "acq_time": "145",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34293,
+              51.88394
+            ],
+            [
+              29.34293,
+              51.89894
+            ],
+            [
+              29.32793,
+              51.89894
+            ],
+            [
+              29.32793,
+              51.88394
+            ],
+            [
+              29.34293,
+              51.88394
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.65,
+        "acq_date": "2026-07-25",
+        "acq_time": "145",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.355900000000002,
+              51.88672
+            ],
+            [
+              29.355900000000002,
+              51.90172
+            ],
+            [
+              29.3409,
+              51.90172
+            ],
+            [
+              29.3409,
+              51.88672
+            ],
+            [
+              29.355900000000002,
+              51.88672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.46,
+        "acq_date": "2026-07-25",
+        "acq_time": "145",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.35225,
+              51.88839
+            ],
+            [
+              29.35225,
+              51.90339
+            ],
+            [
+              29.33725,
+              51.90339
+            ],
+            [
+              29.33725,
+              51.88839
+            ],
+            [
+              29.35225,
+              51.88839
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.94,
+        "acq_date": "2026-07-25",
+        "acq_time": "145",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34842,
+              51.88957
+            ],
+            [
+              29.34842,
+              51.90457
+            ],
+            [
+              29.33342,
+              51.90457
+            ],
+            [
+              29.33342,
+              51.88957
+            ],
+            [
+              29.34842,
+              51.88957
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.02,
+        "acq_date": "2026-07-25",
+        "acq_time": "145",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.57698,
+              48.71008
+            ],
+            [
+              26.57698,
+              48.72508
+            ],
+            [
+              26.56198,
+              48.72508
+            ],
+            [
+              26.56198,
+              48.71008
+            ],
+            [
+              26.57698,
+              48.71008
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.98,
+        "acq_date": "2026-07-25",
+        "acq_time": "147",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Kamianets'-Podil's'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.26878,
+              50.53921
+            ],
+            [
+              26.26878,
+              50.55421
+            ],
+            [
+              26.25378,
+              50.55421
+            ],
+            [
+              26.25378,
+              50.53921
+            ],
+            [
+              26.26878,
+              50.53921
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.23,
+        "acq_date": "2026-07-25",
+        "acq_time": "147",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.87599,
+              45.94834
+            ],
+            [
+              22.87599,
+              45.96334
+            ],
+            [
+              22.86099,
+              45.96334
+            ],
+            [
+              22.86099,
+              45.94834
+            ],
+            [
+              22.87599,
+              45.94834
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.61,
+        "acq_date": "2026-07-25",
+        "acq_time": "149",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
