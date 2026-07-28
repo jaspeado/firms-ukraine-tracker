@@ -40568,6 +40568,45 @@
         "coordinates": [
           [
             [
+              24.71886,
+              48.96947
+            ],
+            [
+              24.71886,
+              48.98447
+            ],
+            [
+              24.70386,
+              48.98447
+            ],
+            [
+              24.70386,
+              48.96947
+            ],
+            [
+              24.71886,
+              48.96947
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.53,
+        "acq_date": "2026-07-28",
+        "acq_time": "156",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               35.11766,
               51.02384
             ],

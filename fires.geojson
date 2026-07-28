@@ -19766,6 +19766,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          24.71136,
+          48.97697
+        ]
+      },
+      "properties": {
+        "frp": 1.53,
+        "acq_date": "2026-07-28",
+        "acq_time": "156",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           35.11016,
           51.03134
         ]
