@@ -181623,6 +181623,513 @@
         "NAME_1": "Odessa",
         "locality": "Sarats'kyi"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.00073,
+              52.84173
+            ],
+            [
+              30.00073,
+              52.85673
+            ],
+            [
+              29.98573,
+              52.85673
+            ],
+            [
+              29.98573,
+              52.84173
+            ],
+            [
+              30.00073,
+              52.84173
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.15,
+        "acq_date": "2026-07-30",
+        "acq_time": "152",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.71802,
+              48.97015
+            ],
+            [
+              24.71802,
+              48.98515
+            ],
+            [
+              24.70302,
+              48.98515
+            ],
+            [
+              24.70302,
+              48.97015
+            ],
+            [
+              24.71802,
+              48.97015
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.59,
+        "acq_date": "2026-07-30",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.95832,
+              49.8138
+            ],
+            [
+              23.95832,
+              49.8288
+            ],
+            [
+              23.94332,
+              49.8288
+            ],
+            [
+              23.94332,
+              49.8138
+            ],
+            [
+              23.95832,
+              49.8138
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.51,
+        "acq_date": "2026-07-30",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Pustomytivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34377,
+              51.8756
+            ],
+            [
+              29.34377,
+              51.8906
+            ],
+            [
+              29.32877,
+              51.8906
+            ],
+            [
+              29.32877,
+              51.8756
+            ],
+            [
+              29.34377,
+              51.8756
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.8,
+        "acq_date": "2026-07-30",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.35235,
+              51.87812
+            ],
+            [
+              29.35235,
+              51.89312
+            ],
+            [
+              29.33735,
+              51.89312
+            ],
+            [
+              29.33735,
+              51.87812
+            ],
+            [
+              29.35235,
+              51.87812
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.73,
+        "acq_date": "2026-07-30",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34388,
+              51.881479999999996
+            ],
+            [
+              29.34388,
+              51.89648
+            ],
+            [
+              29.328879999999998,
+              51.89648
+            ],
+            [
+              29.328879999999998,
+              51.881479999999996
+            ],
+            [
+              29.34388,
+              51.881479999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.73,
+        "acq_date": "2026-07-30",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.3496,
+              51.88149
+            ],
+            [
+              29.3496,
+              51.89649
+            ],
+            [
+              29.3346,
+              51.89649
+            ],
+            [
+              29.3346,
+              51.88149
+            ],
+            [
+              29.3496,
+              51.88149
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.8,
+        "acq_date": "2026-07-30",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34984,
+              51.88731
+            ],
+            [
+              29.34984,
+              51.90231
+            ],
+            [
+              29.33484,
+              51.90231
+            ],
+            [
+              29.33484,
+              51.88731
+            ],
+            [
+              29.34984,
+              51.88731
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.73,
+        "acq_date": "2026-07-30",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.00353,
+              44.15523
+            ],
+            [
+              23.00353,
+              44.170230000000004
+            ],
+            [
+              22.98853,
+              44.170230000000004
+            ],
+            [
+              22.98853,
+              44.15523
+            ],
+            [
+              23.00353,
+              44.15523
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.24,
+        "acq_date": "2026-07-30",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.01341,
+              44.27534
+            ],
+            [
+              23.01341,
+              44.29034
+            ],
+            [
+              22.99841,
+              44.29034
+            ],
+            [
+              22.99841,
+              44.27534
+            ],
+            [
+              23.01341,
+              44.27534
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.99,
+        "acq_date": "2026-07-30",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.00542,
+              44.27823
+            ],
+            [
+              23.00542,
+              44.29323
+            ],
+            [
+              22.99042,
+              44.29323
+            ],
+            [
+              22.99042,
+              44.27823
+            ],
+            [
+              23.00542,
+              44.27823
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.94,
+        "acq_date": "2026-07-30",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.01008,
+              44.2784
+            ],
+            [
+              23.01008,
+              44.2934
+            ],
+            [
+              22.995079999999998,
+              44.2934
+            ],
+            [
+              22.995079999999998,
+              44.2784
+            ],
+            [
+              23.01008,
+              44.2784
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.49,
+        "acq_date": "2026-07-30",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.28691,
+              45.94165
+            ],
+            [
+              25.28691,
+              45.95665
+            ],
+            [
+              25.27191,
+              45.95665
+            ],
+            [
+              25.27191,
+              45.94165
+            ],
+            [
+              25.28691,
+              45.94165
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.92,
+        "acq_date": "2026-07-30",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
