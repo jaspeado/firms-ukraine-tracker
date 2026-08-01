@@ -51116,6 +51116,101 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.73175,
+          45.69288
+        ]
+      },
+      "properties": {
+        "frp": 16.42,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novopokrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.90589,
+          45.72419
+        ]
+      },
+      "properties": {
+        "frp": 9.32,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Beloglinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.83821,
+          46.25349
+        ]
+      },
+      "properties": {
+        "frp": 12.2,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Tselinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.43047,
+          46.49755
+        ]
+      },
+      "properties": {
+        "frp": 13.89,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Egorlykskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.67354,
+          48.61996
+        ]
+      },
+      "properties": {
+        "frp": 16.25,
+        "acq_date": "2026-08-01",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.63168,
           52.52934
         ]

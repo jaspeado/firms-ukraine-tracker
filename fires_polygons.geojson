@@ -104918,6 +104918,201 @@
         "coordinates": [
           [
             [
+              40.73925,
+              45.68538
+            ],
+            [
+              40.73925,
+              45.70038
+            ],
+            [
+              40.72425,
+              45.70038
+            ],
+            [
+              40.72425,
+              45.68538
+            ],
+            [
+              40.73925,
+              45.68538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 16.42,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novopokrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.91339,
+              45.71669
+            ],
+            [
+              40.91339,
+              45.73169
+            ],
+            [
+              40.89839,
+              45.73169
+            ],
+            [
+              40.89839,
+              45.71669
+            ],
+            [
+              40.91339,
+              45.71669
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.32,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Beloglinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.84571,
+              46.24599
+            ],
+            [
+              40.84571,
+              46.26099
+            ],
+            [
+              40.830709999999996,
+              46.26099
+            ],
+            [
+              40.830709999999996,
+              46.24599
+            ],
+            [
+              40.84571,
+              46.24599
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 12.2,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Tselinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.43797,
+              46.49005
+            ],
+            [
+              40.43797,
+              46.50505
+            ],
+            [
+              40.42297,
+              46.50505
+            ],
+            [
+              40.42297,
+              46.49005
+            ],
+            [
+              40.43797,
+              46.49005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.89,
+        "acq_date": "2026-08-01",
+        "acq_time": "845",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Egorlykskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.68104,
+              48.61246
+            ],
+            [
+              37.68104,
+              48.62746
+            ],
+            [
+              37.66604,
+              48.62746
+            ],
+            [
+              37.66604,
+              48.61246
+            ],
+            [
+              37.68104,
+              48.61246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 16.25,
+        "acq_date": "2026-08-01",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               39.63918,
               52.52184
             ],
