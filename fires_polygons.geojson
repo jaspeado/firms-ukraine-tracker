@@ -125510,6 +125510,201 @@
         "coordinates": [
           [
             [
+              39.63807,
+              52.52296
+            ],
+            [
+              39.63807,
+              52.53796
+            ],
+            [
+              39.62307,
+              52.53796
+            ],
+            [
+              39.62307,
+              52.52296
+            ],
+            [
+              39.63807,
+              52.52296
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.72,
+        "acq_date": "2026-08-02",
+        "acq_time": "830",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58248,
+              52.54174
+            ],
+            [
+              39.58248,
+              52.55674
+            ],
+            [
+              39.567479999999996,
+              52.55674
+            ],
+            [
+              39.567479999999996,
+              52.54174
+            ],
+            [
+              39.58248,
+              52.54174
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.26,
+        "acq_date": "2026-08-02",
+        "acq_time": "830",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57976,
+              52.54396
+            ],
+            [
+              39.57976,
+              52.55896
+            ],
+            [
+              39.56476,
+              52.55896
+            ],
+            [
+              39.56476,
+              52.54396
+            ],
+            [
+              39.57976,
+              52.54396
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 14.78,
+        "acq_date": "2026-08-02",
+        "acq_time": "830",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58468,
+              52.55079
+            ],
+            [
+              39.58468,
+              52.56579
+            ],
+            [
+              39.56968,
+              52.56579
+            ],
+            [
+              39.56968,
+              52.55079
+            ],
+            [
+              39.58468,
+              52.55079
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.36,
+        "acq_date": "2026-08-02",
+        "acq_time": "830",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58193,
+              52.55305
+            ],
+            [
+              39.58193,
+              52.56805
+            ],
+            [
+              39.56693,
+              52.56805
+            ],
+            [
+              39.56693,
+              52.55305
+            ],
+            [
+              39.58193,
+              52.55305
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.89,
+        "acq_date": "2026-08-02",
+        "acq_time": "830",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               34.00724,
               45.11962
             ],
