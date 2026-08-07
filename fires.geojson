@@ -379126,6 +379126,63 @@
         "NAME_1": "Orel",
         "locality": "Uritskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.42163,
+          45.70435
+        ]
+      },
+      "properties": {
+        "frp": 4.61,
+        "acq_date": "2026-08-07",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.40372,
+          48.49931
+        ]
+      },
+      "properties": {
+        "frp": 9.94,
+        "acq_date": "2026-08-07",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.41075,
+          48.49938
+        ]
+      },
+      "properties": {
+        "frp": 9.94,
+        "acq_date": "2026-08-07",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
     }
   ]
 }

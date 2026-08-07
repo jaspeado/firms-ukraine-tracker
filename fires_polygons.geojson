@@ -778206,6 +778206,123 @@
         "NAME_1": "Orel",
         "locality": "Uritskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.42913,
+              45.69685
+            ],
+            [
+              24.42913,
+              45.71185
+            ],
+            [
+              24.41413,
+              45.71185
+            ],
+            [
+              24.41413,
+              45.69685
+            ],
+            [
+              24.42913,
+              45.69685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.61,
+        "acq_date": "2026-08-07",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.41122,
+              48.49181
+            ],
+            [
+              22.41122,
+              48.50681
+            ],
+            [
+              22.39622,
+              48.50681
+            ],
+            [
+              22.39622,
+              48.49181
+            ],
+            [
+              22.41122,
+              48.49181
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.94,
+        "acq_date": "2026-08-07",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.41825,
+              48.49188
+            ],
+            [
+              22.41825,
+              48.50688
+            ],
+            [
+              22.40325,
+              48.50688
+            ],
+            [
+              22.40325,
+              48.49188
+            ],
+            [
+              22.41825,
+              48.49188
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.94,
+        "acq_date": "2026-08-07",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
     }
   ]
 }
