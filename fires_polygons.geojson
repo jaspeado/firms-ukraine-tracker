@@ -546476,6 +546476,240 @@
         "coordinates": [
           [
             [
+              39.95756,
+              46.13121
+            ],
+            [
+              39.95756,
+              46.14621
+            ],
+            [
+              39.94256,
+              46.14621
+            ],
+            [
+              39.94256,
+              46.13121
+            ],
+            [
+              39.95756,
+              46.13121
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.61,
+        "acq_date": "2026-08-09",
+        "acq_time": "852",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Pavlovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.80833,
+              46.85944
+            ],
+            [
+              38.80833,
+              46.87444
+            ],
+            [
+              38.79333,
+              46.87444
+            ],
+            [
+              38.79333,
+              46.85944
+            ],
+            [
+              38.80833,
+              46.85944
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.03,
+        "acq_date": "2026-08-09",
+        "acq_time": "852",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Azovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.75126,
+              48.16272
+            ],
+            [
+              39.75126,
+              48.17772
+            ],
+            [
+              39.73626,
+              48.17772
+            ],
+            [
+              39.73626,
+              48.16272
+            ],
+            [
+              39.75126,
+              48.16272
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.13,
+        "acq_date": "2026-08-09",
+        "acq_time": "852",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Krasnodons'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.51941,
+              48.42471
+            ],
+            [
+              38.51941,
+              48.43971
+            ],
+            [
+              38.50441,
+              48.43971
+            ],
+            [
+              38.50441,
+              48.42471
+            ],
+            [
+              38.51941,
+              48.42471
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 24.28,
+        "acq_date": "2026-08-09",
+        "acq_time": "852",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Pereval's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.75427,
+              48.55444
+            ],
+            [
+              37.75427,
+              48.56944
+            ],
+            [
+              37.73927,
+              48.56944
+            ],
+            [
+              37.73927,
+              48.55444
+            ],
+            [
+              37.75427,
+              48.55444
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.78,
+        "acq_date": "2026-08-09",
+        "acq_time": "852",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kostiantynivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.14346,
+              52.05129
+            ],
+            [
+              34.14346,
+              52.06629
+            ],
+            [
+              34.12846,
+              52.06629
+            ],
+            [
+              34.12846,
+              52.05129
+            ],
+            [
+              34.14346,
+              52.05129
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.79,
+        "acq_date": "2026-08-09",
+        "acq_time": "854",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Sevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               33.86904,
               44.76505
             ],
