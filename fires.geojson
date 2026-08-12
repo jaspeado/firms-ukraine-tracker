@@ -96526,6 +96526,139 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          39.82331,
+          47.69726
+        ]
+      },
+      "properties": {
+        "frp": 34.5,
+        "acq_date": "2026-08-12",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.81884,
+          47.70111
+        ]
+      },
+      "properties": {
+        "frp": 28.31,
+        "acq_date": "2026-08-12",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.54647,
+          50.12866
+        ]
+      },
+      "properties": {
+        "frp": 11.07,
+        "acq_date": "2026-08-12",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Velykoburluts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.54294,
+          50.13307
+        ]
+      },
+      "properties": {
+        "frp": 15.28,
+        "acq_date": "2026-08-12",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Velykoburluts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.62767,
+          52.53535
+        ]
+      },
+      "properties": {
+        "frp": 9.62,
+        "acq_date": "2026-08-12",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63094,
+          52.5378
+        ]
+      },
+      "properties": {
+        "frp": 7.54,
+        "acq_date": "2026-08-12",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63609,
+          52.54552
+        ]
+      },
+      "properties": {
+        "frp": 5.14,
+        "acq_date": "2026-08-12",
+        "acq_time": "841",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.62756,
           52.53568
         ]
