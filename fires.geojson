@@ -339625,6 +339625,158 @@
         "NAME_1": "",
         "locality": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71614,
+          48.97726
+        ]
+      },
+      "properties": {
+        "frp": 0.52,
+        "acq_date": "2026-08-15",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.55493,
+          51.13924
+        ]
+      },
+      "properties": {
+        "frp": 0.89,
+        "acq_date": "2026-08-15",
+        "acq_time": "154",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.44021,
+          44.89963
+        ]
+      },
+      "properties": {
+        "frp": 2.73,
+        "acq_date": "2026-08-15",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.43672,
+          44.90086
+        ]
+      },
+      "properties": {
+        "frp": 2.78,
+        "acq_date": "2026-08-15",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.17708,
+          45.01324
+        ]
+      },
+      "properties": {
+        "frp": 1.33,
+        "acq_date": "2026-08-15",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.16982,
+          45.02037
+        ]
+      },
+      "properties": {
+        "frp": 1.11,
+        "acq_date": "2026-08-15",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28371,
+          45.95041
+        ]
+      },
+      "properties": {
+        "frp": 1.68,
+        "acq_date": "2026-08-15",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8694,
+          45.95472
+        ]
+      },
+      "properties": {
+        "frp": 0.53,
+        "acq_date": "2026-08-15",
+        "acq_time": "156",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
