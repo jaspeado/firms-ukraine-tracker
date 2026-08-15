@@ -468749,6 +468749,318 @@
         "coordinates": [
           [
             [
+              37.14288,
+              52.31665
+            ],
+            [
+              37.14288,
+              52.33165
+            ],
+            [
+              37.12788,
+              52.33165
+            ],
+            [
+              37.12788,
+              52.31665
+            ],
+            [
+              37.14288,
+              52.31665
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 18.24,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Orel",
+        "locality": "Kolpnyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.14564,
+              52.31734
+            ],
+            [
+              37.14564,
+              52.33234
+            ],
+            [
+              37.13064,
+              52.33234
+            ],
+            [
+              37.13064,
+              52.31734
+            ],
+            [
+              37.14564,
+              52.31734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 22.96,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Orel",
+        "locality": "Kolpnyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.15168,
+              52.32024
+            ],
+            [
+              37.15168,
+              52.33524
+            ],
+            [
+              37.13668,
+              52.33524
+            ],
+            [
+              37.13668,
+              52.32024
+            ],
+            [
+              37.15168,
+              52.32024
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 15.13,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Orel",
+        "locality": "Kolpnyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64308,
+              52.52616
+            ],
+            [
+              39.64308,
+              52.54116
+            ],
+            [
+              39.62808,
+              52.54116
+            ],
+            [
+              39.62808,
+              52.52616
+            ],
+            [
+              39.64308,
+              52.52616
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.52,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57962,
+              52.54806
+            ],
+            [
+              39.57962,
+              52.56306
+            ],
+            [
+              39.56462,
+              52.56306
+            ],
+            [
+              39.56462,
+              52.54806
+            ],
+            [
+              39.57962,
+              52.54806
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.33,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57878,
+              52.54991
+            ],
+            [
+              39.57878,
+              52.56491
+            ],
+            [
+              39.56378,
+              52.56491
+            ],
+            [
+              39.56378,
+              52.54991
+            ],
+            [
+              39.57878,
+              52.54991
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.32,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58712,
+              52.55086
+            ],
+            [
+              39.58712,
+              52.56586
+            ],
+            [
+              39.57212,
+              52.56586
+            ],
+            [
+              39.57212,
+              52.55086
+            ],
+            [
+              39.58712,
+              52.55086
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.33,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62827,
+              52.55103
+            ],
+            [
+              39.62827,
+              52.56603
+            ],
+            [
+              39.61327,
+              52.56603
+            ],
+            [
+              39.61327,
+              52.55103
+            ],
+            [
+              39.62827,
+              52.55103
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.33,
+        "acq_date": "2026-08-15",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               35.83209,
               50.35842
             ],
