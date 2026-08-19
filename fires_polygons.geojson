@@ -1043796,6 +1043796,630 @@
         "NAME_1": "Orel",
         "locality": "Pokrovskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.31872,
+              44.27692
+            ],
+            [
+              26.31872,
+              44.29192
+            ],
+            [
+              26.30372,
+              44.29192
+            ],
+            [
+              26.30372,
+              44.27692
+            ],
+            [
+              26.31872,
+              44.27692
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.09,
+        "acq_date": "2026-08-19",
+        "acq_time": "1206",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.31937,
+              44.27892
+            ],
+            [
+              26.31937,
+              44.29392
+            ],
+            [
+              26.30437,
+              44.29392
+            ],
+            [
+              26.30437,
+              44.27892
+            ],
+            [
+              26.31937,
+              44.27892
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.71,
+        "acq_date": "2026-08-19",
+        "acq_time": "1206",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.53124,
+              44.55469
+            ],
+            [
+              22.53124,
+              44.56969
+            ],
+            [
+              22.51624,
+              44.56969
+            ],
+            [
+              22.51624,
+              44.55469
+            ],
+            [
+              22.53124,
+              44.55469
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 12.35,
+        "acq_date": "2026-08-19",
+        "acq_time": "1206",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.4442,
+              47.01644
+            ],
+            [
+              26.4442,
+              47.03144
+            ],
+            [
+              26.429199999999998,
+              47.03144
+            ],
+            [
+              26.429199999999998,
+              47.01644
+            ],
+            [
+              26.4442,
+              47.01644
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.63,
+        "acq_date": "2026-08-19",
+        "acq_time": "1206",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.04248,
+              47.8312
+            ],
+            [
+              30.04248,
+              47.8462
+            ],
+            [
+              30.02748,
+              47.8462
+            ],
+            [
+              30.02748,
+              47.8312
+            ],
+            [
+              30.04248,
+              47.8312
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.54,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Liubashivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.03408,
+              47.83767
+            ],
+            [
+              30.03408,
+              47.85267
+            ],
+            [
+              30.01908,
+              47.85267
+            ],
+            [
+              30.01908,
+              47.83767
+            ],
+            [
+              30.03408,
+              47.83767
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.54,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Liubashivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.08282,
+              47.94749
+            ],
+            [
+              29.08282,
+              47.96249
+            ],
+            [
+              29.06782,
+              47.96249
+            ],
+            [
+              29.06782,
+              47.94749
+            ],
+            [
+              29.08282,
+              47.94749
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 21.72,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Kodyms'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.082530000000002,
+              47.95372
+            ],
+            [
+              29.082530000000002,
+              47.96872
+            ],
+            [
+              29.06753,
+              47.96872
+            ],
+            [
+              29.06753,
+              47.95372
+            ],
+            [
+              29.082530000000002,
+              47.95372
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 46.4,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Kodyms'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.07574,
+              47.95988
+            ],
+            [
+              29.07574,
+              47.97488
+            ],
+            [
+              29.06074,
+              47.97488
+            ],
+            [
+              29.06074,
+              47.95988
+            ],
+            [
+              29.07574,
+              47.95988
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 46.4,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Kodyms'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.08246,
+              47.95995
+            ],
+            [
+              29.08246,
+              47.97495
+            ],
+            [
+              29.06746,
+              47.97495
+            ],
+            [
+              29.06746,
+              47.95995
+            ],
+            [
+              29.08246,
+              47.95995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 46.4,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Kodyms'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.34911,
+              48.57238
+            ],
+            [
+              31.34911,
+              48.58738
+            ],
+            [
+              31.33411,
+              48.58738
+            ],
+            [
+              31.33411,
+              48.57238
+            ],
+            [
+              31.34911,
+              48.57238
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.1,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kirovohrad",
+        "locality": "Malovyskivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.36691,
+              49.02867
+            ],
+            [
+              28.36691,
+              49.04367
+            ],
+            [
+              28.35191,
+              49.04367
+            ],
+            [
+              28.35191,
+              49.02867
+            ],
+            [
+              28.36691,
+              49.02867
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.83,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Vinnytsya",
+        "locality": "Tyvrivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.36239,
+              49.02923
+            ],
+            [
+              28.36239,
+              49.04423
+            ],
+            [
+              28.34739,
+              49.04423
+            ],
+            [
+              28.34739,
+              49.02923
+            ],
+            [
+              28.36239,
+              49.02923
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.37,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Vinnytsya",
+        "locality": "Tyvrivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.36933,
+              49.02931
+            ],
+            [
+              28.36933,
+              49.04431
+            ],
+            [
+              28.35433,
+              49.04431
+            ],
+            [
+              28.35433,
+              49.02931
+            ],
+            [
+              28.36933,
+              49.02931
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.48,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Vinnytsya",
+        "locality": "Tyvrivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.23839,
+              50.0247
+            ],
+            [
+              31.23839,
+              50.0397
+            ],
+            [
+              31.22339,
+              50.0397
+            ],
+            [
+              31.22339,
+              50.0247
+            ],
+            [
+              31.23839,
+              50.0247
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.91,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Pereiaslav-Khmel'nyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.23938,
+              50.02496
+            ],
+            [
+              31.23938,
+              50.03996
+            ],
+            [
+              31.22438,
+              50.03996
+            ],
+            [
+              31.22438,
+              50.02496
+            ],
+            [
+              31.23938,
+              50.02496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.6,
+        "acq_date": "2026-08-19",
+        "acq_time": "1208",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Pereiaslav-Khmel'nyts'kyi"
+      }
     }
   ]
 }
