@@ -269027,6 +269027,82 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.96098,
+          46.43921
+        ]
+      },
+      "properties": {
+        "frp": 11.26,
+        "acq_date": "2026-08-20",
+        "acq_time": "845",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Tselinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.13851,
+          50.41203
+        ]
+      },
+      "properties": {
+        "frp": 10.77,
+        "acq_date": "2026-08-20",
+        "acq_time": "848",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Shebekinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20352,
+          51.95202
+        ]
+      },
+      "properties": {
+        "frp": 7.12,
+        "acq_date": "2026-08-20",
+        "acq_time": "848",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kursk",
+        "locality": "Konyshevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.38903,
+          52.71257
+        ]
+      },
+      "properties": {
+        "frp": 9.19,
+        "acq_date": "2026-08-20",
+        "acq_time": "848",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Orel",
+        "locality": "Soskovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           30.01547,
           45.74957
         ]
