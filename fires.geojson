@@ -105608,6 +105608,158 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          39.7285,
+          44.49533
+        ]
+      },
+      "properties": {
+        "frp": 3.29,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Apsheronskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.89353,
+          44.85989
+        ]
+      },
+      "properties": {
+        "frp": 2.86,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Belorechenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.89332,
+          44.86235
+        ]
+      },
+      "properties": {
+        "frp": 6.52,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Belorechenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.89037,
+          44.86523
+        ]
+      },
+      "properties": {
+        "frp": 2.86,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Belorechenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.92321,
+          44.91552
+        ]
+      },
+      "properties": {
+        "frp": 3.47,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Belorechenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.65843,
+          45.02025
+        ]
+      },
+      "properties": {
+        "frp": 5.44,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Takhtamukaysk rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.63904,
+          45.53608
+        ]
+      },
+      "properties": {
+        "frp": 11.58,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Kavkazskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.64373,
+          45.53744
+        ]
+      },
+      "properties": {
+        "frp": 11.58,
+        "acq_date": "2026-08-21",
+        "acq_time": "911",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Kavkazskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           34.12992,
           52.09298
         ]
@@ -233338,6 +233490,101 @@
         "brightness": null,
         "NAME_1": "Rivne",
         "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63435,
+          52.53334
+        ]
+      },
+      "properties": {
+        "frp": 16.52,
+        "acq_date": "2026-08-21",
+        "acq_time": "828",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.64367,
+          52.53719
+        ]
+      },
+      "properties": {
+        "frp": 12.72,
+        "acq_date": "2026-08-21",
+        "acq_time": "828",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6344,
+          52.54037
+        ]
+      },
+      "properties": {
+        "frp": 22.14,
+        "acq_date": "2026-08-21",
+        "acq_time": "828",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57349,
+          52.55811
+        ]
+      },
+      "properties": {
+        "frp": 4.34,
+        "acq_date": "2026-08-21",
+        "acq_time": "828",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57567,
+          52.56078
+        ]
+      },
+      "properties": {
+        "frp": 8.99,
+        "acq_date": "2026-08-21",
+        "acq_time": "828",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
       }
     },
     {
