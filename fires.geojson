@@ -379645,6 +379645,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.55418,
+          51.53069
+        ]
+      },
+      "properties": {
+        "frp": 11.2,
+        "acq_date": "2026-08-26",
+        "acq_time": "835",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Anninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.54868,
+          51.53341
+        ]
+      },
+      "properties": {
+        "frp": 8.6,
+        "acq_date": "2026-08-26",
+        "acq_time": "835",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Anninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.55708,
+          51.53667
+        ]
+      },
+      "properties": {
+        "frp": 8.6,
+        "acq_date": "2026-08-26",
+        "acq_time": "835",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Anninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           34.63081,
           48.51801
         ]
