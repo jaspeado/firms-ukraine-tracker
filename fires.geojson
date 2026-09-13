@@ -234365,6 +234365,82 @@
         "NAME_1": "Bryansk",
         "locality": "Sevskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.10295,
+          44.17149
+        ]
+      },
+      "properties": {
+        "frp": 7.23,
+        "acq_date": "2026-09-13",
+        "acq_time": "1238",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.10229,
+          44.17494
+        ]
+      },
+      "properties": {
+        "frp": 4.47,
+        "acq_date": "2026-09-13",
+        "acq_time": "1238",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.22802,
+          44.18669
+        ]
+      },
+      "properties": {
+        "frp": 5.27,
+        "acq_date": "2026-09-13",
+        "acq_time": "1238",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.89658,
+          44.45958
+        ]
+      },
+      "properties": {
+        "frp": 3.78,
+        "acq_date": "2026-09-13",
+        "acq_time": "1238",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
