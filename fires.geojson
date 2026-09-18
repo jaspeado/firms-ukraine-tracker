@@ -20887,6 +20887,253 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          24.26981,
+          44.0465
+        ]
+      },
+      "properties": {
+        "frp": 2.87,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.56901,
+          44.09085
+        ]
+      },
+      "properties": {
+        "frp": 2.52,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.00084,
+          44.16048
+        ]
+      },
+      "properties": {
+        "frp": 6.68,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.00038,
+          44.16576
+        ]
+      },
+      "properties": {
+        "frp": 2.25,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95405,
+          44.18477
+        ]
+      },
+      "properties": {
+        "frp": 9.46,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.55474,
+          44.23216
+        ]
+      },
+      "properties": {
+        "frp": 1.96,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.72151,
+          44.28351
+        ]
+      },
+      "properties": {
+        "frp": 8.1,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71606,
+          44.2845
+        ]
+      },
+      "properties": {
+        "frp": 5.04,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.72161,
+          44.28466
+        ]
+      },
+      "properties": {
+        "frp": 5.04,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.15877,
+          44.29428
+        ]
+      },
+      "properties": {
+        "frp": 3.18,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.69185,
+          44.3307
+        ]
+      },
+      "properties": {
+        "frp": 3.88,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.85134,
+          44.76442
+        ]
+      },
+      "properties": {
+        "frp": 2.7,
+        "acq_date": "2026-09-18",
+        "acq_time": "1208",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3423,
+          51.89057
+        ]
+      },
+      "properties": {
+        "frp": 7.1,
+        "acq_date": "2026-09-18",
+        "acq_time": "1210",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           32.34615,
           52.32788
         ]
@@ -66062,6 +66309,63 @@
         "brightness": null,
         "NAME_1": "Sumy",
         "locality": "Hlukhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.4646,
+          44.07945
+        ]
+      },
+      "properties": {
+        "frp": 8.17,
+        "acq_date": "2026-09-18",
+        "acq_time": "1244",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.68726,
+          44.32993
+        ]
+      },
+      "properties": {
+        "frp": 6.01,
+        "acq_date": "2026-09-18",
+        "acq_time": "1244",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.69121,
+          44.33198
+        ]
+      },
+      "properties": {
+        "frp": 9.32,
+        "acq_date": "2026-09-18",
+        "acq_time": "1244",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
       }
     }
   ]
