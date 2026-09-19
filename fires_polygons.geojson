@@ -195585,6 +195585,240 @@
         "NAME_1": "Gomel",
         "locality": "\u017dlobin"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.15672,
+              44.32153
+            ],
+            [
+              23.15672,
+              44.33653
+            ],
+            [
+              23.14172,
+              44.33653
+            ],
+            [
+              23.14172,
+              44.32153
+            ],
+            [
+              23.15672,
+              44.32153
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.85,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.185,
+              44.73334
+            ],
+            [
+              23.185,
+              44.74834
+            ],
+            [
+              23.169999999999998,
+              44.74834
+            ],
+            [
+              23.169999999999998,
+              44.73334
+            ],
+            [
+              23.185,
+              44.73334
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.46,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.18506,
+              44.73914
+            ],
+            [
+              23.18506,
+              44.75414
+            ],
+            [
+              23.17006,
+              44.75414
+            ],
+            [
+              23.17006,
+              44.73914
+            ],
+            [
+              23.18506,
+              44.73914
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.46,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.45098,
+              44.90013
+            ],
+            [
+              22.45098,
+              44.91513
+            ],
+            [
+              22.43598,
+              44.91513
+            ],
+            [
+              22.43598,
+              44.90013
+            ],
+            [
+              22.45098,
+              44.90013
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.47,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.45407,
+              44.90025
+            ],
+            [
+              22.45407,
+              44.91525
+            ],
+            [
+              22.43907,
+              44.91525
+            ],
+            [
+              22.43907,
+              44.90025
+            ],
+            [
+              22.45407,
+              44.90025
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.49,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.38614,
+              49.11626
+            ],
+            [
+              25.38614,
+              49.13126
+            ],
+            [
+              25.37114,
+              49.13126
+            ],
+            [
+              25.37114,
+              49.11626
+            ],
+            [
+              25.38614,
+              49.11626
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.12,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Ternopil'",
+        "locality": "Buchats'kyi"
+      }
     }
   ]
 }

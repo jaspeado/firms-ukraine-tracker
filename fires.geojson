@@ -95285,6 +95285,120 @@
         "NAME_1": "Gomel",
         "locality": "\u017dlobin"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.14922,
+          44.32903
+        ]
+      },
+      "properties": {
+        "frp": 2.85,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1775,
+          44.74084
+        ]
+      },
+      "properties": {
+        "frp": 5.46,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.17756,
+          44.74664
+        ]
+      },
+      "properties": {
+        "frp": 5.46,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.44348,
+          44.90763
+        ]
+      },
+      "properties": {
+        "frp": 5.47,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.44657,
+          44.90775
+        ]
+      },
+      "properties": {
+        "frp": 4.49,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.37864,
+          49.12376
+        ]
+      },
+      "properties": {
+        "frp": 5.12,
+        "acq_date": "2026-09-19",
+        "acq_time": "1225",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Ternopil'",
+        "locality": "Buchats'kyi"
+      }
     }
   ]
 }
