@@ -146601,6 +146601,123 @@
         "NAME_1": "L'viv",
         "locality": "Kamianka-Buz'kyi"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.312450000000002,
+              44.58196
+            ],
+            [
+              23.312450000000002,
+              44.59696
+            ],
+            [
+              23.29745,
+              44.59696
+            ],
+            [
+              23.29745,
+              44.58196
+            ],
+            [
+              23.312450000000002,
+              44.58196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.64,
+        "acq_date": "2026-09-24",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.08928,
+              44.5909
+            ],
+            [
+              23.08928,
+              44.6059
+            ],
+            [
+              23.074279999999998,
+              44.6059
+            ],
+            [
+              23.074279999999998,
+              44.5909
+            ],
+            [
+              23.08928,
+              44.5909
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.6,
+        "acq_date": "2026-09-24",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.09185,
+              44.59296
+            ],
+            [
+              23.09185,
+              44.60796
+            ],
+            [
+              23.07685,
+              44.60796
+            ],
+            [
+              23.07685,
+              44.59296
+            ],
+            [
+              23.09185,
+              44.59296
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.48,
+        "acq_date": "2026-09-24",
+        "acq_time": "1232",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
