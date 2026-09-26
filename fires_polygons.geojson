@@ -55146,6 +55146,435 @@
         "NAME_1": "Bryansk",
         "locality": "Brasovskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.10801,
+              44.4387
+            ],
+            [
+              27.10801,
+              44.4537
+            ],
+            [
+              27.09301,
+              44.4537
+            ],
+            [
+              27.09301,
+              44.4387
+            ],
+            [
+              27.10801,
+              44.4387
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.44,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.74226,
+              44.49252
+            ],
+            [
+              22.74226,
+              44.50752
+            ],
+            [
+              22.72726,
+              44.50752
+            ],
+            [
+              22.72726,
+              44.49252
+            ],
+            [
+              22.74226,
+              44.49252
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.7,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.74152,
+              44.49633
+            ],
+            [
+              22.74152,
+              44.51133
+            ],
+            [
+              22.72652,
+              44.51133
+            ],
+            [
+              22.72652,
+              44.49633
+            ],
+            [
+              22.74152,
+              44.49633
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.7,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.68245,
+              45.24821
+            ],
+            [
+              31.68245,
+              45.26321
+            ],
+            [
+              31.66745,
+              45.26321
+            ],
+            [
+              31.66745,
+              45.24821
+            ],
+            [
+              31.68245,
+              45.24821
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.87,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.30775,
+              46.44966
+            ],
+            [
+              34.30775,
+              46.46466
+            ],
+            [
+              34.29275,
+              46.46466
+            ],
+            [
+              34.29275,
+              46.44966
+            ],
+            [
+              34.30775,
+              46.44966
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.56,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Novotro\u2039ts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.30647,
+              46.4514
+            ],
+            [
+              34.30647,
+              46.4664
+            ],
+            [
+              34.29147,
+              46.4664
+            ],
+            [
+              34.29147,
+              46.4514
+            ],
+            [
+              34.30647,
+              46.4514
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.04,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Novotro\u2039ts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.30782,
+              46.45639
+            ],
+            [
+              34.30782,
+              46.47139
+            ],
+            [
+              34.29282,
+              46.47139
+            ],
+            [
+              34.29282,
+              46.45639
+            ],
+            [
+              34.30782,
+              46.45639
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.57,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Novotro\u2039ts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.306490000000004,
+              46.45813
+            ],
+            [
+              34.306490000000004,
+              46.47313
+            ],
+            [
+              34.29149,
+              46.47313
+            ],
+            [
+              34.29149,
+              46.45813
+            ],
+            [
+              34.306490000000004,
+              46.45813
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.04,
+        "acq_date": "2026-09-26",
+        "acq_time": "1153",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Novotro\u2039ts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.25273,
+              47.448389999999996
+            ],
+            [
+              23.25273,
+              47.46339
+            ],
+            [
+              23.23773,
+              47.46339
+            ],
+            [
+              23.23773,
+              47.448389999999996
+            ],
+            [
+              23.25273,
+              47.448389999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.9,
+        "acq_date": "2026-09-26",
+        "acq_time": "1155",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.99476,
+              52.14929
+            ],
+            [
+              31.99476,
+              52.16429
+            ],
+            [
+              31.97976,
+              52.16429
+            ],
+            [
+              31.97976,
+              52.14929
+            ],
+            [
+              31.99476,
+              52.14929
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.4,
+        "acq_date": "2026-09-26",
+        "acq_time": "1155",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Klimovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.99857,
+              52.15151
+            ],
+            [
+              31.99857,
+              52.16651
+            ],
+            [
+              31.98357,
+              52.16651
+            ],
+            [
+              31.98357,
+              52.15151
+            ],
+            [
+              31.99857,
+              52.15151
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.52,
+        "acq_date": "2026-09-26",
+        "acq_time": "1155",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Klimovskiy rayon"
+      }
     }
   ]
 }
