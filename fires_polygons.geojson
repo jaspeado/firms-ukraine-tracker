@@ -48329,6 +48329,45 @@
         "coordinates": [
           [
             [
+              39.42608,
+              47.59888
+            ],
+            [
+              39.42608,
+              47.61388
+            ],
+            [
+              39.41108,
+              47.61388
+            ],
+            [
+              39.41108,
+              47.59888
+            ],
+            [
+              39.42608,
+              47.59888
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 51.72,
+        "acq_date": "2026-10-04",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Rodionovo-Nesvetayskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               39.63842,
               52.53037
             ],
