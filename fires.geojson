@@ -65461,6 +65461,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.73783,
+          50.20338
+        ]
+      },
+      "properties": {
+        "frp": 11.02,
+        "acq_date": "2026-10-13",
+        "acq_time": "837",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Petropavlovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.73774,
+          50.21025
+        ]
+      },
+      "properties": {
+        "frp": 9.3,
+        "acq_date": "2026-10-13",
+        "acq_time": "837",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Petropavlovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           37.75934,
           51.25841
         ]

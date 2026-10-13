@@ -134363,6 +134363,84 @@
         "coordinates": [
           [
             [
+              40.74533,
+              50.19588
+            ],
+            [
+              40.74533,
+              50.21088
+            ],
+            [
+              40.73033,
+              50.21088
+            ],
+            [
+              40.73033,
+              50.19588
+            ],
+            [
+              40.74533,
+              50.19588
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.02,
+        "acq_date": "2026-10-13",
+        "acq_time": "837",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Petropavlovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.74524,
+              50.20275
+            ],
+            [
+              40.74524,
+              50.21775
+            ],
+            [
+              40.73024,
+              50.21775
+            ],
+            [
+              40.73024,
+              50.20275
+            ],
+            [
+              40.74524,
+              50.20275
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.3,
+        "acq_date": "2026-10-13",
+        "acq_time": "837",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Petropavlovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               37.76684,
               51.25091
             ],
