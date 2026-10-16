@@ -74529,6 +74529,45 @@
         "NAME_1": "Volyn",
         "locality": "Kamin'-Kashyrs'kyi"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.105240000000002,
+              44.21608
+            ],
+            [
+              23.105240000000002,
+              44.23108
+            ],
+            [
+              23.09024,
+              44.23108
+            ],
+            [
+              23.09024,
+              44.21608
+            ],
+            [
+              23.105240000000002,
+              44.21608
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.12,
+        "acq_date": "2026-10-16",
+        "acq_time": "1219",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
