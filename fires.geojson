@@ -9658,6 +9658,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          31.67354,
+          45.25835
+        ]
+      },
+      "properties": {
+        "frp": 5.43,
+        "acq_date": "2026-10-17",
+        "acq_time": "54",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.66898,
+          45.25969
+        ]
+      },
+      "properties": {
+        "frp": 5.43,
+        "acq_date": "2026-10-17",
+        "acq_time": "54",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.35839,
+          46.36198
+        ]
+      },
+      "properties": {
+        "frp": 12.15,
+        "acq_date": "2026-10-17",
+        "acq_time": "54",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Iakymivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           38.54287,
           48.38185
         ]

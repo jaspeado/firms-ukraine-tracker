@@ -19820,6 +19820,123 @@
         "coordinates": [
           [
             [
+              31.68104,
+              45.25085
+            ],
+            [
+              31.68104,
+              45.26585
+            ],
+            [
+              31.66604,
+              45.26585
+            ],
+            [
+              31.66604,
+              45.25085
+            ],
+            [
+              31.68104,
+              45.25085
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.43,
+        "acq_date": "2026-10-17",
+        "acq_time": "54",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.67648,
+              45.25219
+            ],
+            [
+              31.67648,
+              45.26719
+            ],
+            [
+              31.66148,
+              45.26719
+            ],
+            [
+              31.66148,
+              45.25219
+            ],
+            [
+              31.67648,
+              45.25219
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.43,
+        "acq_date": "2026-10-17",
+        "acq_time": "54",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.36589,
+              46.35448
+            ],
+            [
+              35.36589,
+              46.36948
+            ],
+            [
+              35.35089,
+              46.36948
+            ],
+            [
+              35.35089,
+              46.35448
+            ],
+            [
+              35.36589,
+              46.35448
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 12.15,
+        "acq_date": "2026-10-17",
+        "acq_time": "54",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Iakymivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               38.55037,
               48.37435
             ],
