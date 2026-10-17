@@ -9953,6 +9953,84 @@
         "coordinates": [
           [
             [
+              40.11823,
+              51.53139
+            ],
+            [
+              40.11823,
+              51.54639
+            ],
+            [
+              40.103229999999996,
+              51.54639
+            ],
+            [
+              40.103229999999996,
+              51.53139
+            ],
+            [
+              40.11823,
+              51.53139
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.64,
+        "acq_date": "2026-10-17",
+        "acq_time": "1125",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.50301,
+              52.617779999999996
+            ],
+            [
+              34.50301,
+              52.63278
+            ],
+            [
+              34.48801,
+              52.63278
+            ],
+            [
+              34.48801,
+              52.617779999999996
+            ],
+            [
+              34.50301,
+              52.617779999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.02,
+        "acq_date": "2026-10-17",
+        "acq_time": "1125",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               39.58612,
               52.54755
             ],
@@ -22589,6 +22667,279 @@
         "coordinates": [
           [
             [
+              23.1583,
+              43.99793
+            ],
+            [
+              23.1583,
+              44.01293
+            ],
+            [
+              23.1433,
+              44.01293
+            ],
+            [
+              23.1433,
+              43.99793
+            ],
+            [
+              23.1583,
+              43.99793
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.59,
+        "acq_date": "2026-10-17",
+        "acq_time": "1219",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.20632,
+              44.06369
+            ],
+            [
+              23.20632,
+              44.07869
+            ],
+            [
+              23.19132,
+              44.07869
+            ],
+            [
+              23.19132,
+              44.06369
+            ],
+            [
+              23.20632,
+              44.06369
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.29,
+        "acq_date": "2026-10-17",
+        "acq_time": "1219",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.97889,
+              44.21814
+            ],
+            [
+              22.97889,
+              44.23314
+            ],
+            [
+              22.96389,
+              44.23314
+            ],
+            [
+              22.96389,
+              44.21814
+            ],
+            [
+              22.97889,
+              44.21814
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.34,
+        "acq_date": "2026-10-17",
+        "acq_time": "1219",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.97759,
+              44.2196
+            ],
+            [
+              22.97759,
+              44.2346
+            ],
+            [
+              22.96259,
+              44.2346
+            ],
+            [
+              22.96259,
+              44.2196
+            ],
+            [
+              22.97759,
+              44.2196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.06,
+        "acq_date": "2026-10-17",
+        "acq_time": "1219",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.7693,
+              44.32893
+            ],
+            [
+              22.7693,
+              44.34393
+            ],
+            [
+              22.7543,
+              44.34393
+            ],
+            [
+              22.7543,
+              44.32893
+            ],
+            [
+              22.7693,
+              44.32893
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.46,
+        "acq_date": "2026-10-17",
+        "acq_time": "1219",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.76694,
+              44.33222
+            ],
+            [
+              22.76694,
+              44.34722
+            ],
+            [
+              22.75194,
+              44.34722
+            ],
+            [
+              22.75194,
+              44.33222
+            ],
+            [
+              22.76694,
+              44.33222
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 10.57,
+        "acq_date": "2026-10-17",
+        "acq_time": "1219",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.77102,
+              44.38581
+            ],
+            [
+              22.77102,
+              44.40081
+            ],
+            [
+              22.75602,
+              44.40081
+            ],
+            [
+              22.75602,
+              44.38581
+            ],
+            [
+              22.77102,
+              44.38581
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.36,
+        "acq_date": "2026-10-17",
+        "acq_time": "1219",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               38.55037,
               48.37435
             ],
@@ -33301,6 +33652,240 @@
         "frp": 4.92,
         "acq_date": "2026-10-17",
         "acq_time": "1021",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.53005,
+              44.04929
+            ],
+            [
+              23.53005,
+              44.06429
+            ],
+            [
+              23.51505,
+              44.06429
+            ],
+            [
+              23.51505,
+              44.04929
+            ],
+            [
+              23.53005,
+              44.04929
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.98,
+        "acq_date": "2026-10-17",
+        "acq_time": "1200",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.43795,
+              44.13441
+            ],
+            [
+              23.43795,
+              44.14941
+            ],
+            [
+              23.42295,
+              44.14941
+            ],
+            [
+              23.42295,
+              44.13441
+            ],
+            [
+              23.43795,
+              44.13441
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.61,
+        "acq_date": "2026-10-17",
+        "acq_time": "1200",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.44328,
+              44.13488
+            ],
+            [
+              23.44328,
+              44.14988
+            ],
+            [
+              23.42828,
+              44.14988
+            ],
+            [
+              23.42828,
+              44.13488
+            ],
+            [
+              23.44328,
+              44.13488
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.92,
+        "acq_date": "2026-10-17",
+        "acq_time": "1200",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.294430000000002,
+              46.625189999999996
+            ],
+            [
+              24.294430000000002,
+              46.64019
+            ],
+            [
+              24.27943,
+              46.64019
+            ],
+            [
+              24.27943,
+              46.625189999999996
+            ],
+            [
+              24.294430000000002,
+              46.625189999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.2,
+        "acq_date": "2026-10-17",
+        "acq_time": "1202",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.20508,
+              52.86039
+            ],
+            [
+              34.20508,
+              52.87539
+            ],
+            [
+              34.19008,
+              52.87539
+            ],
+            [
+              34.19008,
+              52.86039
+            ],
+            [
+              34.20508,
+              52.86039
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.76,
+        "acq_date": "2026-10-17",
+        "acq_time": "1202",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.20519,
+              52.86555
+            ],
+            [
+              34.20519,
+              52.88055
+            ],
+            [
+              34.19019,
+              52.88055
+            ],
+            [
+              34.19019,
+              52.86555
+            ],
+            [
+              34.20519,
+              52.86555
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.14,
+        "acq_date": "2026-10-17",
+        "acq_time": "1202",
         "satellite": "N",
         "brightness": null,
         "NAME_1": "Bryansk",
