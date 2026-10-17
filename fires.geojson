@@ -9715,6 +9715,253 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.66772,
+          49.83634
+        ]
+      },
+      "properties": {
+        "frp": 5.06,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bogucharskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.66665,
+          49.83792
+        ]
+      },
+      "properties": {
+        "frp": 3.12,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bogucharskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.91413,
+          50.8903
+        ]
+      },
+      "properties": {
+        "frp": 5.76,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ostrogozhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.92035,
+          50.8924
+        ]
+      },
+      "properties": {
+        "frp": 5.76,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Krasnenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.52316,
+          51.04075
+        ]
+      },
+      "properties": {
+        "frp": 2.62,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Talovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.51375,
+          51.04404
+        ]
+      },
+      "properties": {
+        "frp": 6.77,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Talovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.71281,
+          51.13232
+        ]
+      },
+      "properties": {
+        "frp": 3.0,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Talovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.60292,
+          51.22268
+        ]
+      },
+      "properties": {
+        "frp": 6.44,
+        "acq_date": "2026-10-17",
+        "acq_time": "900",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Talovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93534,
+          51.13741
+        ]
+      },
+      "properties": {
+        "frp": 3.71,
+        "acq_date": "2026-10-17",
+        "acq_time": "902",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.1115,
+          51.5372
+        ]
+      },
+      "properties": {
+        "frp": 16.51,
+        "acq_date": "2026-10-17",
+        "acq_time": "902",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.11678,
+          51.53888
+        ]
+      },
+      "properties": {
+        "frp": 16.51,
+        "acq_date": "2026-10-17",
+        "acq_time": "902",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.19949,
+          52.87127
+        ]
+      },
+      "properties": {
+        "frp": 10.23,
+        "acq_date": "2026-10-17",
+        "acq_time": "902",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.20719,
+          52.87421
+        ]
+      },
+      "properties": {
+        "frp": 8.95,
+        "acq_date": "2026-10-17",
+        "acq_time": "902",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           38.54287,
           48.38185
         ]
