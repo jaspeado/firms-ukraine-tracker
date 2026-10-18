@@ -10684,6 +10684,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          39.95078,
+          51.62267
+        ]
+      },
+      "properties": {
+        "frp": 4.86,
+        "acq_date": "2026-10-18",
+        "acq_time": "841",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           28.11452,
           49.03458
         ]
