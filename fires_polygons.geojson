@@ -23837,6 +23837,45 @@
         "coordinates": [
           [
             [
+              34.15157,
+              52.04295
+            ],
+            [
+              34.15157,
+              52.05795
+            ],
+            [
+              34.13657,
+              52.05795
+            ],
+            [
+              34.13657,
+              52.04295
+            ],
+            [
+              34.15157,
+              52.04295
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.52,
+        "acq_date": "2026-10-20",
+        "acq_time": "137",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Sevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               27.10098,
               50.16793
             ],
@@ -35450,6 +35489,201 @@
         "brightness": null,
         "NAME_1": "Belgorod",
         "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.15515,
+              52.04314
+            ],
+            [
+              34.15515,
+              52.05814
+            ],
+            [
+              34.14015,
+              52.05814
+            ],
+            [
+              34.14015,
+              52.04314
+            ],
+            [
+              34.15515,
+              52.04314
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.21,
+        "acq_date": "2026-10-20",
+        "acq_time": "115",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Sevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.23106,
+              52.79663
+            ],
+            [
+              32.23106,
+              52.81163
+            ],
+            [
+              32.21606,
+              52.81163
+            ],
+            [
+              32.21606,
+              52.79663
+            ],
+            [
+              32.23106,
+              52.79663
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.68,
+        "acq_date": "2026-10-20",
+        "acq_time": "115",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Klintsovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.29615,
+              49.17777
+            ],
+            [
+              37.29615,
+              49.19277
+            ],
+            [
+              37.28115,
+              49.19277
+            ],
+            [
+              37.28115,
+              49.17777
+            ],
+            [
+              37.29615,
+              49.17777
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-10-20",
+        "acq_time": "117",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Iziums'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.29025,
+              49.17876
+            ],
+            [
+              37.29025,
+              49.19376
+            ],
+            [
+              37.27525,
+              49.19376
+            ],
+            [
+              37.27525,
+              49.17876
+            ],
+            [
+              37.29025,
+              49.17876
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "117",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Iziums'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.28448,
+              49.19757
+            ],
+            [
+              37.28448,
+              49.21257
+            ],
+            [
+              37.26948,
+              49.21257
+            ],
+            [
+              37.26948,
+              49.19757
+            ],
+            [
+              37.28448,
+              49.19757
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.69,
+        "acq_date": "2026-10-20",
+        "acq_time": "117",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Iziums'ka"
       }
     }
   ]

@@ -11615,6 +11615,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          34.14407,
+          52.05045
+        ]
+      },
+      "properties": {
+        "frp": 1.52,
+        "acq_date": "2026-10-20",
+        "acq_time": "137",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Sevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           27.09348,
           50.17543
         ]
@@ -17270,6 +17289,101 @@
         "brightness": null,
         "NAME_1": "Belgorod",
         "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.14765,
+          52.05064
+        ]
+      },
+      "properties": {
+        "frp": 1.21,
+        "acq_date": "2026-10-20",
+        "acq_time": "115",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Sevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.22356,
+          52.80413
+        ]
+      },
+      "properties": {
+        "frp": 0.68,
+        "acq_date": "2026-10-20",
+        "acq_time": "115",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Klintsovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.28865,
+          49.18527
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-10-20",
+        "acq_time": "117",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Iziums'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.28275,
+          49.18626
+        ]
+      },
+      "properties": {
+        "frp": 1.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "117",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Iziums'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.27698,
+          49.20507
+        ]
+      },
+      "properties": {
+        "frp": 1.69,
+        "acq_date": "2026-10-20",
+        "acq_time": "117",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Iziums'ka"
       }
     }
   ]
