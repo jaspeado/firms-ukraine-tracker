@@ -5459,6 +5459,2343 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          38.47845,
+          47.83317
+        ]
+      },
+      "properties": {
+        "frp": 1.92,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Amvrosi\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.75249,
+          48.46109
+        ]
+      },
+      "properties": {
+        "frp": 0.96,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Alchevs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.63039,
+          48.47166
+        ]
+      },
+      "properties": {
+        "frp": 0.69,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dniprodzerzhyns'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.28584,
+          49.18437
+        ]
+      },
+      "properties": {
+        "frp": 2.16,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Iziums'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.68208,
+          50.14571
+        ]
+      },
+      "properties": {
+        "frp": 0.87,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Rossoshanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.06169,
+          50.25498
+        ]
+      },
+      "properties": {
+        "frp": 1.16,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Valuyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.19653,
+          50.32823
+        ]
+      },
+      "properties": {
+        "frp": 0.68,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Derhachivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63207,
+          52.53569
+        ]
+      },
+      "properties": {
+        "frp": 2.92,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63051,
+          52.53618
+        ]
+      },
+      "properties": {
+        "frp": 1.87,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61588,
+          52.54091
+        ]
+      },
+      "properties": {
+        "frp": 2.27,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6144,
+          52.54146
+        ]
+      },
+      "properties": {
+        "frp": 1.05,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63107,
+          52.54237
+        ]
+      },
+      "properties": {
+        "frp": 2.13,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.62949,
+          52.54288
+        ]
+      },
+      "properties": {
+        "frp": 3.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61875,
+          52.54641
+        ]
+      },
+      "properties": {
+        "frp": 1.05,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61486,
+          52.54758
+        ]
+      },
+      "properties": {
+        "frp": 1.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61338,
+          52.54816
+        ]
+      },
+      "properties": {
+        "frp": 1.05,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6138,
+          52.55426
+        ]
+      },
+      "properties": {
+        "frp": 1.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57265,
+          52.55483
+        ]
+      },
+      "properties": {
+        "frp": 3.43,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.59173,
+          52.55526
+        ]
+      },
+      "properties": {
+        "frp": 1.45,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57144,
+          52.55554
+        ]
+      },
+      "properties": {
+        "frp": 3.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.56741,
+          52.55651
+        ]
+      },
+      "properties": {
+        "frp": 2.67,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.60152,
+          52.55841
+        ]
+      },
+      "properties": {
+        "frp": 1.61,
+        "acq_date": "2026-10-20",
+        "acq_time": "39",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.21088,
+          44.32235
+        ]
+      },
+      "properties": {
+        "frp": 0.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80856,
+          44.73225
+        ]
+      },
+      "properties": {
+        "frp": 2.02,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.48881,
+          44.87778
+        ]
+      },
+      "properties": {
+        "frp": 5.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90562,
+          45.35202
+        ]
+      },
+      "properties": {
+        "frp": 3.22,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.89835,
+          45.35395
+        ]
+      },
+      "properties": {
+        "frp": 2.6,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.86708,
+          45.95275
+        ]
+      },
+      "properties": {
+        "frp": 0.68,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.33364,
+          47.03608
+        ]
+      },
+      "properties": {
+        "frp": 0.29,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.15338,
+          47.39005
+        ]
+      },
+      "properties": {
+        "frp": 0.71,
+        "acq_date": "2026-10-20",
+        "acq_time": "41",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Polohivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.10407,
+          44.08083
+        ]
+      },
+      "properties": {
+        "frp": 0.82,
+        "acq_date": "2026-10-20",
+        "acq_time": "43",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.56202,
+          44.23524
+        ]
+      },
+      "properties": {
+        "frp": 1.9,
+        "acq_date": "2026-10-20",
+        "acq_time": "43",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.55671,
+          44.23623
+        ]
+      },
+      "properties": {
+        "frp": 1.9,
+        "acq_date": "2026-10-20",
+        "acq_time": "43",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.21262,
+          47.6559
+        ]
+      },
+      "properties": {
+        "frp": 5.44,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Shakhty"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.42872,
+          50.77056
+        ]
+      },
+      "properties": {
+        "frp": 5.12,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Kamenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.05183,
+          50.88737
+        ]
+      },
+      "properties": {
+        "frp": 3.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ostrogozhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93237,
+          51.13839
+        ]
+      },
+      "properties": {
+        "frp": 4.73,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.59861,
+          51.2204
+        ]
+      },
+      "properties": {
+        "frp": 7.5,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Talovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.17513,
+          51.47644
+        ]
+      },
+      "properties": {
+        "frp": 7.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Novousmanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.92755,
+          51.64703
+        ]
+      },
+      "properties": {
+        "frp": 5.28,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kursk",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28693,
+          51.73269
+        ]
+      },
+      "properties": {
+        "frp": 7.3,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.2897,
+          51.73429
+        ]
+      },
+      "properties": {
+        "frp": 8.82,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.29286,
+          51.73466
+        ]
+      },
+      "properties": {
+        "frp": 7.3,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.29559,
+          51.73628
+        ]
+      },
+      "properties": {
+        "frp": 8.82,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.27927,
+          51.73743
+        ]
+      },
+      "properties": {
+        "frp": 12.42,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28239,
+          51.73783
+        ]
+      },
+      "properties": {
+        "frp": 7.3,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.61566,
+          52.27218
+        ]
+      },
+      "properties": {
+        "frp": 5.81,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Dobrinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61692,
+          52.55795
+        ]
+      },
+      "properties": {
+        "frp": 11.06,
+        "acq_date": "2026-10-20",
+        "acq_time": "848",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.49062,
+          52.62744
+        ]
+      },
+      "properties": {
+        "frp": 12.8,
+        "acq_date": "2026-10-20",
+        "acq_time": "850",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1348,
+          52.84518
+        ]
+      },
+      "properties": {
+        "frp": 10.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "850",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.24513,
+          44.00577
+        ]
+      },
+      "properties": {
+        "frp": 2.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.09943,
+          44.08156
+        ]
+      },
+      "properties": {
+        "frp": 2.5,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.26597,
+          44.18363
+        ]
+      },
+      "properties": {
+        "frp": 2.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.07639,
+          44.26783
+        ]
+      },
+      "properties": {
+        "frp": 4.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.64191,
+          44.27694
+        ]
+      },
+      "properties": {
+        "frp": 4.78,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.20904,
+          44.32192
+        ]
+      },
+      "properties": {
+        "frp": 4.76,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.21312,
+          44.32305
+        ]
+      },
+      "properties": {
+        "frp": 5.53,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.72098,
+          44.41423
+        ]
+      },
+      "properties": {
+        "frp": 2.85,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9468,
+          44.82136
+        ]
+      },
+      "properties": {
+        "frp": 5.14,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.16655,
+          47.41132
+        ]
+      },
+      "properties": {
+        "frp": 5.86,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.17257,
+          47.41202
+        ]
+      },
+      "properties": {
+        "frp": 13.42,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.17162,
+          47.41557
+        ]
+      },
+      "properties": {
+        "frp": 11.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.86514,
+          47.66697
+        ]
+      },
+      "properties": {
+        "frp": 15.09,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.87212,
+          47.66766
+        ]
+      },
+      "properties": {
+        "frp": 9.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.8643,
+          47.67079
+        ]
+      },
+      "properties": {
+        "frp": 15.09,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.00639,
+          48.15347
+        ]
+      },
+      "properties": {
+        "frp": 3.45,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Antratsytivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.99314,
+          49.41735
+        ]
+      },
+      "properties": {
+        "frp": 2.54,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kharkiv",
+        "locality": "Balakliis'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.82172,
+          49.43682
+        ]
+      },
+      "properties": {
+        "frp": 2.34,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Cherkasy",
+        "locality": "Cherkas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.99121,
+          49.97889
+        ]
+      },
+      "properties": {
+        "frp": 3.11,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Poltava",
+        "locality": "Myrhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.512,
+          50.52397
+        ]
+      },
+      "properties": {
+        "frp": 2.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Makarivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.53122,
+          50.52397
+        ]
+      },
+      "properties": {
+        "frp": 3.74,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Makarivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.51041,
+          50.52734
+        ]
+      },
+      "properties": {
+        "frp": 4.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Makarivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.77329,
+          50.77518
+        ]
+      },
+      "properties": {
+        "frp": 3.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Borodians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.16708,
+          51.11523
+        ]
+      },
+      "properties": {
+        "frp": 3.4,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Luhyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.93236,
+          51.19577
+        ]
+      },
+      "properties": {
+        "frp": 8.28,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Chernihiv",
+        "locality": "Nizhyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.00238,
+          51.41152
+        ]
+      },
+      "properties": {
+        "frp": 3.45,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Ovruts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.21672,
+          51.45546
+        ]
+      },
+      "properties": {
+        "frp": 3.9,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.21579,
+          51.45934
+        ]
+      },
+      "properties": {
+        "frp": 3.9,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.18218,
+          51.47218
+        ]
+      },
+      "properties": {
+        "frp": 4.67,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Rokytnivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.95176,
+          51.64157
+        ]
+      },
+      "properties": {
+        "frp": 2.41,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Chernihiv",
+        "locality": "Mens'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28146,
+          51.73561
+        ]
+      },
+      "properties": {
+        "frp": 20.63,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28942,
+          51.73634
+        ]
+      },
+      "properties": {
+        "frp": 22.36,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.32,
+          51.78249
+        ]
+      },
+      "properties": {
+        "frp": 4.63,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Verkhnekhavskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.42505,
+          51.98004
+        ]
+      },
+      "properties": {
+        "frp": 13.14,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Chernihiv",
+        "locality": "Semenivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.96964,
+          52.14042
+        ]
+      },
+      "properties": {
+        "frp": 2.0,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Seredyno-Buds'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.03749,
+          52.19495
+        ]
+      },
+      "properties": {
+        "frp": 4.4,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.03063,
+          52.19742
+        ]
+      },
+      "properties": {
+        "frp": 4.4,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.03624,
+          52.19822
+        ]
+      },
+      "properties": {
+        "frp": 4.4,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.89263,
+          52.33153
+        ]
+      },
+      "properties": {
+        "frp": 3.69,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.67774,
+          52.33312
+        ]
+      },
+      "properties": {
+        "frp": 2.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Starodubskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.24595,
+          52.38835
+        ]
+      },
+      "properties": {
+        "frp": 2.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.08025,
+          52.4608
+        ]
+      },
+      "properties": {
+        "frp": 11.58,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.08592,
+          52.4616
+        ]
+      },
+      "properties": {
+        "frp": 9.35,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63074,
+          52.53431
+        ]
+      },
+      "properties": {
+        "frp": 4.85,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.81711,
+          52.5505
+        ]
+      },
+      "properties": {
+        "frp": 13.17,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.82276,
+          52.55131
+        ]
+      },
+      "properties": {
+        "frp": 13.17,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.41189,
+          52.55195
+        ]
+      },
+      "properties": {
+        "frp": 3.15,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.56995,
+          52.55215
+        ]
+      },
+      "properties": {
+        "frp": 4.09,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.41763,
+          52.55274
+        ]
+      },
+      "properties": {
+        "frp": 3.15,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5697,
+          52.55353
+        ]
+      },
+      "properties": {
+        "frp": 14.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57682,
+          52.55674
+        ]
+      },
+      "properties": {
+        "frp": 12.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61681,
+          52.55782
+        ]
+      },
+      "properties": {
+        "frp": 4.89,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57657,
+          52.55808
+        ]
+      },
+      "properties": {
+        "frp": 14.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.56811,
+          52.55983
+        ]
+      },
+      "properties": {
+        "frp": 13.13,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.01338,
+          52.56799
+        ]
+      },
+      "properties": {
+        "frp": 5.06,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.03042,
+          52.57038
+        ]
+      },
+      "properties": {
+        "frp": 8.33,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.02917,
+          52.57366
+        ]
+      },
+      "properties": {
+        "frp": 8.33,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.49073,
+          52.62718
+        ]
+      },
+      "properties": {
+        "frp": 4.56,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.49648,
+          52.62797
+        ]
+      },
+      "properties": {
+        "frp": 6.94,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.44345,
+          52.73356
+        ]
+      },
+      "properties": {
+        "frp": 3.7,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.51171,
+          52.73422
+        ]
+      },
+      "properties": {
+        "frp": 5.03,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13341,
+          52.84549
+        ]
+      },
+      "properties": {
+        "frp": 4.48,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13217,
+          52.84878
+        ]
+      },
+      "properties": {
+        "frp": 4.48,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.04548,
+          52.85397
+        ]
+      },
+      "properties": {
+        "frp": 2.59,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.19498,
+          52.87483
+        ]
+      },
+      "properties": {
+        "frp": 5.35,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.19374,
+          52.87812
+        ]
+      },
+      "properties": {
+        "frp": 5.35,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.17591,
+          52.89297
+        ]
+      },
+      "properties": {
+        "frp": 20.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.27361,
+          52.92388
+        ]
+      },
+      "properties": {
+        "frp": 7.83,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.27941,
+          52.92468
+        ]
+      },
+      "properties": {
+        "frp": 7.83,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.27705,
+          52.92622
+        ]
+      },
+      "properties": {
+        "frp": 18.74,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13684,
+          52.9589
+        ]
+      },
+      "properties": {
+        "frp": 4.99,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.14262,
+          52.9597
+        ]
+      },
+      "properties": {
+        "frp": 6.22,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.14137,
+          52.96299
+        ]
+      },
+      "properties": {
+        "frp": 2.06,
+        "acq_date": "2026-10-20",
+        "acq_time": "1028",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           27.0877,
           50.17483
         ]
@@ -11634,6 +13971,2248 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.17554,
+          46.68167
+        ]
+      },
+      "properties": {
+        "frp": 4.56,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Zernogradskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.18048,
+          46.6828
+        ]
+      },
+      "properties": {
+        "frp": 4.63,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Zernogradskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1744,
+          47.411
+        ]
+      },
+      "properties": {
+        "frp": 7.87,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.17968,
+          47.41223
+        ]
+      },
+      "properties": {
+        "frp": 7.87,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Myasnikovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.86926,
+          47.66822
+        ]
+      },
+      "properties": {
+        "frp": 19.96,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.92795,
+          47.67065
+        ]
+      },
+      "properties": {
+        "frp": 2.74,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Matveevo-Kurganskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.92041,
+          47.67334
+        ]
+      },
+      "properties": {
+        "frp": 6.75,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Matveevo-Kurganskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.92583,
+          47.67461
+        ]
+      },
+      "properties": {
+        "frp": 6.75,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Matveevo-Kurganskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.40231,
+          48.0506
+        ]
+      },
+      "properties": {
+        "frp": 22.89,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Krasnosulinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.39354,
+          48.05279
+        ]
+      },
+      "properties": {
+        "frp": 7.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Krasnosulinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.40122,
+          48.05347
+        ]
+      },
+      "properties": {
+        "frp": 20.14,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Krasnosulinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.40045,
+          48.05431
+        ]
+      },
+      "properties": {
+        "frp": 7.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Krasnosulinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.00741,
+          48.15046
+        ]
+      },
+      "properties": {
+        "frp": 1.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Antratsytivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.607,
+          48.75726
+        ]
+      },
+      "properties": {
+        "frp": 2.42,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kramators'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.70546,
+          49.02776
+        ]
+      },
+      "properties": {
+        "frp": 1.9,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnolymans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.42913,
+          50.7714
+        ]
+      },
+      "properties": {
+        "frp": 3.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Kamenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.42913,
+          50.77185
+        ]
+      },
+      "properties": {
+        "frp": 2.5,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Kamenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.04943,
+          50.8872
+        ]
+      },
+      "properties": {
+        "frp": 6.03,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ostrogozhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93702,
+          51.13778
+        ]
+      },
+      "properties": {
+        "frp": 4.58,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.60568,
+          51.22203
+        ]
+      },
+      "properties": {
+        "frp": 2.23,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Talovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.22199,
+          51.45798
+        ]
+      },
+      "properties": {
+        "frp": 12.75,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.70119,
+          51.53591
+        ]
+      },
+      "properties": {
+        "frp": 2.86,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Novousmanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28336,
+          51.73402
+        ]
+      },
+      "properties": {
+        "frp": 3.03,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28248,
+          51.73502
+        ]
+      },
+      "properties": {
+        "frp": 3.36,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28984,
+          51.73532
+        ]
+      },
+      "properties": {
+        "frp": 3.03,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28895,
+          51.73636
+        ]
+      },
+      "properties": {
+        "frp": 7.33,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.32209,
+          51.78156
+        ]
+      },
+      "properties": {
+        "frp": 4.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Verkhnekhavskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.60817,
+          52.20556
+        ]
+      },
+      "properties": {
+        "frp": 4.39,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Usmanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.04216,
+          52.4385
+        ]
+      },
+      "properties": {
+        "frp": 5.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Gryazinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63171,
+          52.53379
+        ]
+      },
+      "properties": {
+        "frp": 7.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61928,
+          52.54284
+        ]
+      },
+      "properties": {
+        "frp": 3.54,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57449,
+          52.55684
+        ]
+      },
+      "properties": {
+        "frp": 22.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61821,
+          52.55811
+        ]
+      },
+      "properties": {
+        "frp": 3.96,
+        "acq_date": "2026-10-20",
+        "acq_time": "943",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.51043,
+          50.52455
+        ]
+      },
+      "properties": {
+        "frp": 2.93,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Makarivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.77395,
+          50.77689
+        ]
+      },
+      "properties": {
+        "frp": 2.37,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Borodians'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.93493,
+          51.1943
+        ]
+      },
+      "properties": {
+        "frp": 4.85,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Chernihiv",
+        "locality": "Nizhyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.42255,
+          51.98088
+        ]
+      },
+      "properties": {
+        "frp": 6.42,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Chernihiv",
+        "locality": "Koriukivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.04027,
+          52.19619
+        ]
+      },
+      "properties": {
+        "frp": 11.81,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.89717,
+          52.33162
+        ]
+      },
+      "properties": {
+        "frp": 3.37,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.24849,
+          52.38522
+        ]
+      },
+      "properties": {
+        "frp": 3.63,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.24785,
+          52.38548
+        ]
+      },
+      "properties": {
+        "frp": 4.58,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.08697,
+          52.45877
+        ]
+      },
+      "properties": {
+        "frp": 5.09,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0867,
+          52.45988
+        ]
+      },
+      "properties": {
+        "frp": 2.79,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.83257,
+          52.53738
+        ]
+      },
+      "properties": {
+        "frp": 3.75,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.82376,
+          52.54984
+        ]
+      },
+      "properties": {
+        "frp": 12.55,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.41883,
+          52.55071
+        ]
+      },
+      "properties": {
+        "frp": 3.02,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.83053,
+          52.55163
+        ]
+      },
+      "properties": {
+        "frp": 12.07,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.28188,
+          52.62592
+        ]
+      },
+      "properties": {
+        "frp": 3.18,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.28191,
+          52.62648
+        ]
+      },
+      "properties": {
+        "frp": 4.01,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.49426,
+          52.62765
+        ]
+      },
+      "properties": {
+        "frp": 9.63,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5076,
+          52.67393
+        ]
+      },
+      "properties": {
+        "frp": 4.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.51114,
+          52.73373
+        ]
+      },
+      "properties": {
+        "frp": 3.49,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13422,
+          52.84458
+        ]
+      },
+      "properties": {
+        "frp": 3.62,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.99337,
+          52.84679
+        ]
+      },
+      "properties": {
+        "frp": 3.21,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13129,
+          52.84864
+        ]
+      },
+      "properties": {
+        "frp": 8.45,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.99295,
+          52.84908
+        ]
+      },
+      "properties": {
+        "frp": 3.93,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.19712,
+          52.87537
+        ]
+      },
+      "properties": {
+        "frp": 4.01,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.17931,
+          52.88996
+        ]
+      },
+      "properties": {
+        "frp": 9.51,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.17651,
+          52.89404
+        ]
+      },
+      "properties": {
+        "frp": 9.51,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.27713,
+          52.92474
+        ]
+      },
+      "properties": {
+        "frp": 12.67,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1452,
+          52.95877
+        ]
+      },
+      "properties": {
+        "frp": 3.12,
+        "acq_date": "2026-10-20",
+        "acq_time": "945",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.91438,
+          44.02877
+        ]
+      },
+      "properties": {
+        "frp": 3.75,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.83937,
+          44.04823
+        ]
+      },
+      "properties": {
+        "frp": 1.56,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.09901,
+          44.07679
+        ]
+      },
+      "properties": {
+        "frp": 1.85,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.59397,
+          44.11709
+        ]
+      },
+      "properties": {
+        "frp": 3.67,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9192,
+          44.16227
+        ]
+      },
+      "properties": {
+        "frp": 1.82,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.82008,
+          44.18172
+        ]
+      },
+      "properties": {
+        "frp": 2.15,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.82484,
+          44.18244
+        ]
+      },
+      "properties": {
+        "frp": 2.15,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.35586,
+          44.23053
+        ]
+      },
+      "properties": {
+        "frp": 19.76,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.98777,
+          44.23129
+        ]
+      },
+      "properties": {
+        "frp": 2.67,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.64705,
+          44.27306
+        ]
+      },
+      "properties": {
+        "frp": 4.99,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.64126,
+          44.27556
+        ]
+      },
+      "properties": {
+        "frp": 4.99,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.64603,
+          44.27633
+        ]
+      },
+      "properties": {
+        "frp": 4.99,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.21197,
+          44.31771
+        ]
+      },
+      "properties": {
+        "frp": 2.54,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.28443,
+          44.31878
+        ]
+      },
+      "properties": {
+        "frp": 2.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.21574,
+          44.32172
+        ]
+      },
+      "properties": {
+        "frp": 2.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.89947,
+          44.45288
+        ]
+      },
+      "properties": {
+        "frp": 1.18,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3124,
+          44.57927
+        ]
+      },
+      "properties": {
+        "frp": 1.85,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.94372,
+          44.6237
+        ]
+      },
+      "properties": {
+        "frp": 2.37,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.94931,
+          44.82042
+        ]
+      },
+      "properties": {
+        "frp": 2.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67466,
+          45.25702
+        ]
+      },
+      "properties": {
+        "frp": 13.96,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.98201,
+          45.67336
+        ]
+      },
+      "properties": {
+        "frp": 2.35,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.06052,
+          45.77822
+        ]
+      },
+      "properties": {
+        "frp": 4.53,
+        "acq_date": "2026-10-20",
+        "acq_time": "1123",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.51856,
+          50.80619
+        ]
+      },
+      "properties": {
+        "frp": 1.88,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Korostens'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.12676,
+          50.85304
+        ]
+      },
+      "properties": {
+        "frp": 1.74,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kiev",
+        "locality": "Vyshhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93473,
+          51.13395
+        ]
+      },
+      "properties": {
+        "frp": 2.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93466,
+          51.14006
+        ]
+      },
+      "properties": {
+        "frp": 3.21,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.22222,
+          51.45371
+        ]
+      },
+      "properties": {
+        "frp": 7.06,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.29307,
+          51.73504
+        ]
+      },
+      "properties": {
+        "frp": 9.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.30276,
+          51.75555
+        ]
+      },
+      "properties": {
+        "frp": 1.56,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Hlukhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1358,
+          51.84431
+        ]
+      },
+      "properties": {
+        "frp": 1.86,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Hlukhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13773,
+          51.84434
+        ]
+      },
+      "properties": {
+        "frp": 2.52,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Hlukhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.34091,
+          51.89267
+        ]
+      },
+      "properties": {
+        "frp": 3.19,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.04193,
+          52.1977
+        ]
+      },
+      "properties": {
+        "frp": 4.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.47311,
+          52.4122
+        ]
+      },
+      "properties": {
+        "frp": 1.76,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.08203,
+          52.46136
+        ]
+      },
+      "properties": {
+        "frp": 3.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.08725,
+          52.46155
+        ]
+      },
+      "properties": {
+        "frp": 3.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63393,
+          52.53099
+        ]
+      },
+      "properties": {
+        "frp": 4.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63401,
+          52.53278
+        ]
+      },
+      "properties": {
+        "frp": 3.44,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.83065,
+          52.54647
+        ]
+      },
+      "properties": {
+        "frp": 4.32,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.82004,
+          52.55127
+        ]
+      },
+      "properties": {
+        "frp": 6.52,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4946,
+          52.62622
+        ]
+      },
+      "properties": {
+        "frp": 3.59,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.804,
+          52.65911
+        ]
+      },
+      "properties": {
+        "frp": 34.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Tambov",
+        "locality": "Nikiforovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.79387,
+          52.65934
+        ]
+      },
+      "properties": {
+        "frp": 38.21,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Tambov",
+        "locality": "Nikiforovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.78375,
+          52.65957
+        ]
+      },
+      "properties": {
+        "frp": 38.21,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Tambov",
+        "locality": "Nikiforovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.78427,
+          52.66641
+        ]
+      },
+      "properties": {
+        "frp": 40.09,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Tambov",
+        "locality": "Nikiforovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.48545,
+          52.67407
+        ]
+      },
+      "properties": {
+        "frp": 1.65,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.19902,
+          52.7588
+        ]
+      },
+      "properties": {
+        "frp": 2.8,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.16668,
+          52.76829
+        ]
+      },
+      "properties": {
+        "frp": 5.18,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3657,
+          52.80521
+        ]
+      },
+      "properties": {
+        "frp": 1.73,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.72261,
+          52.83123
+        ]
+      },
+      "properties": {
+        "frp": 2.17,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.99069,
+          52.84467
+        ]
+      },
+      "properties": {
+        "frp": 3.4,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.13268,
+          52.8457
+        ]
+      },
+      "properties": {
+        "frp": 3.59,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.5671,
+          52.85679
+        ]
+      },
+      "properties": {
+        "frp": 4.22,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Tambov",
+        "locality": "Michurinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.17682,
+          52.88945
+        ]
+      },
+      "properties": {
+        "frp": 4.91,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.18223,
+          52.88963
+        ]
+      },
+      "properties": {
+        "frp": 4.46,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.17858,
+          52.89373
+        ]
+      },
+      "properties": {
+        "frp": 4.59,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.26231,
+          52.91743
+        ]
+      },
+      "properties": {
+        "frp": 3.97,
+        "acq_date": "2026-10-20",
+        "acq_time": "1125",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           27.09348,
           50.17543
         ]
@@ -17384,6 +21963,690 @@
         "brightness": null,
         "NAME_1": "Kharkiv",
         "locality": "Iziums'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.17464,
+          47.41177
+        ]
+      },
+      "properties": {
+        "frp": 3.06,
+        "acq_date": "2026-10-20",
+        "acq_time": "924",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.17962,
+          47.41327
+        ]
+      },
+      "properties": {
+        "frp": 3.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "924",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Myasnikovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.86715,
+          47.67043
+        ]
+      },
+      "properties": {
+        "frp": 12.66,
+        "acq_date": "2026-10-20",
+        "acq_time": "924",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.92479,
+          47.67144
+        ]
+      },
+      "properties": {
+        "frp": 3.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "924",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Matveevo-Kurganskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.87131,
+          47.67161
+        ]
+      },
+      "properties": {
+        "frp": 9.23,
+        "acq_date": "2026-10-20",
+        "acq_time": "924",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.91606,
+          47.67496
+        ]
+      },
+      "properties": {
+        "frp": 3.19,
+        "acq_date": "2026-10-20",
+        "acq_time": "924",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Matveevo-Kurganskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.92115,
+          47.67651
+        ]
+      },
+      "properties": {
+        "frp": 4.13,
+        "acq_date": "2026-10-20",
+        "acq_time": "924",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Matveevo-Kurganskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.42853,
+          50.77139
+        ]
+      },
+      "properties": {
+        "frp": 2.31,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Kamenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.42836,
+          50.77215
+        ]
+      },
+      "properties": {
+        "frp": 4.33,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Kamenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.05148,
+          50.88555
+        ]
+      },
+      "properties": {
+        "frp": 5.45,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ostrogozhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.05072,
+          50.88568
+        ]
+      },
+      "properties": {
+        "frp": 3.7,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ostrogozhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4412,
+          51.0456
+        ]
+      },
+      "properties": {
+        "frp": 3.78,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.92995,
+          51.13771
+        ]
+      },
+      "properties": {
+        "frp": 2.56,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.22047,
+          51.45566
+        ]
+      },
+      "properties": {
+        "frp": 7.27,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.21892,
+          51.45865
+        ]
+      },
+      "properties": {
+        "frp": 16.27,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.21747,
+          51.46001
+        ]
+      },
+      "properties": {
+        "frp": 6.71,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.92807,
+          51.64923
+        ]
+      },
+      "properties": {
+        "frp": 2.6,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kursk",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.28328,
+          51.73609
+        ]
+      },
+      "properties": {
+        "frp": 12.41,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Paninskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.41893,
+          51.9812
+        ]
+      },
+      "properties": {
+        "frp": 2.48,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Chernihiv",
+        "locality": "Koriukivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.42342,
+          51.98249
+        ]
+      },
+      "properties": {
+        "frp": 4.15,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Chernihiv",
+        "locality": "Koriukivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.03744,
+          52.195
+        ]
+      },
+      "properties": {
+        "frp": 4.5,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.03958,
+          52.19542
+        ]
+      },
+      "properties": {
+        "frp": 5.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.24545,
+          52.38615
+        ]
+      },
+      "properties": {
+        "frp": 2.58,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.62872,
+          52.53408
+        ]
+      },
+      "properties": {
+        "frp": 8.83,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.83163,
+          52.54825
+        ]
+      },
+      "properties": {
+        "frp": 3.33,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57341,
+          52.5499
+        ]
+      },
+      "properties": {
+        "frp": 7.11,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.41704,
+          52.55043
+        ]
+      },
+      "properties": {
+        "frp": 2.84,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57112,
+          52.5528
+        ]
+      },
+      "properties": {
+        "frp": 14.0,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.82707,
+          52.55336
+        ]
+      },
+      "properties": {
+        "frp": 11.31,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.61308,
+          52.55552
+        ]
+      },
+      "properties": {
+        "frp": 8.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4914,
+          52.62672
+        ]
+      },
+      "properties": {
+        "frp": 7.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.50473,
+          52.67608
+        ]
+      },
+      "properties": {
+        "frp": 3.89,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Brasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.17431,
+          52.89058
+        ]
+      },
+      "properties": {
+        "frp": 5.81,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.17977,
+          52.89239
+        ]
+      },
+      "properties": {
+        "frp": 5.81,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.14227,
+          52.95758
+        ]
+      },
+      "properties": {
+        "frp": 1.68,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1374,
+          52.95989
+        ]
+      },
+      "properties": {
+        "frp": 2.74,
+        "acq_date": "2026-10-20",
+        "acq_time": "926",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
       }
     }
   ]
