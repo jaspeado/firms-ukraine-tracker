@@ -14282,6 +14282,591 @@
         "coordinates": [
           [
             [
+              37.77114,
+              51.24953
+            ],
+            [
+              37.77114,
+              51.26453
+            ],
+            [
+              37.75614,
+              51.26453
+            ],
+            [
+              37.75614,
+              51.24953
+            ],
+            [
+              37.77114,
+              51.24953
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.37,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.33199,
+              51.76941
+            ],
+            [
+              40.33199,
+              51.78441
+            ],
+            [
+              40.31699,
+              51.78441
+            ],
+            [
+              40.31699,
+              51.76941
+            ],
+            [
+              40.33199,
+              51.76941
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.42,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Verkhnekhavskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64879,
+              52.52143
+            ],
+            [
+              39.64879,
+              52.53643
+            ],
+            [
+              39.63379,
+              52.53643
+            ],
+            [
+              39.63379,
+              52.52143
+            ],
+            [
+              39.64879,
+              52.52143
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.89,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.6334,
+              52.52592
+            ],
+            [
+              39.6334,
+              52.54092
+            ],
+            [
+              39.6184,
+              52.54092
+            ],
+            [
+              39.6184,
+              52.52592
+            ],
+            [
+              39.6334,
+              52.52592
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.13,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64013,
+              52.52677
+            ],
+            [
+              39.64013,
+              52.54177
+            ],
+            [
+              39.62513,
+              52.54177
+            ],
+            [
+              39.62513,
+              52.52677
+            ],
+            [
+              39.64013,
+              52.52677
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.42,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62476,
+              52.5313
+            ],
+            [
+              39.62476,
+              52.5463
+            ],
+            [
+              39.60976,
+              52.5463
+            ],
+            [
+              39.60976,
+              52.5313
+            ],
+            [
+              39.62476,
+              52.5313
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.62,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62236,
+              52.5325
+            ],
+            [
+              39.62236,
+              52.5475
+            ],
+            [
+              39.60736,
+              52.5475
+            ],
+            [
+              39.60736,
+              52.5325
+            ],
+            [
+              39.62236,
+              52.5325
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.14,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62532,
+              52.53625
+            ],
+            [
+              39.62532,
+              52.55125
+            ],
+            [
+              39.61032,
+              52.55125
+            ],
+            [
+              39.61032,
+              52.53625
+            ],
+            [
+              39.62532,
+              52.53625
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.62,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64129,
+              52.53666
+            ],
+            [
+              39.64129,
+              52.55166
+            ],
+            [
+              39.62629,
+              52.55166
+            ],
+            [
+              39.62629,
+              52.53666
+            ],
+            [
+              39.64129,
+              52.53666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.34,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62295,
+              52.53745
+            ],
+            [
+              39.62295,
+              52.55245
+            ],
+            [
+              39.60795,
+              52.55245
+            ],
+            [
+              39.60795,
+              52.53745
+            ],
+            [
+              39.62295,
+              52.53745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.06,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.65099,
+              52.541199999999996
+            ],
+            [
+              39.65099,
+              52.5562
+            ],
+            [
+              39.63599,
+              52.5562
+            ],
+            [
+              39.63599,
+              52.541199999999996
+            ],
+            [
+              39.65099,
+              52.541199999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.34,
+        "acq_date": "2026-10-20",
+        "acq_time": "2240",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81845,
+              44.72886
+            ],
+            [
+              37.81845,
+              44.74386
+            ],
+            [
+              37.80345,
+              44.74386
+            ],
+            [
+              37.80345,
+              44.72886
+            ],
+            [
+              37.81845,
+              44.72886
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.28,
+        "acq_date": "2026-10-20",
+        "acq_time": "2242",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81411,
+              44.72909
+            ],
+            [
+              37.81411,
+              44.74409
+            ],
+            [
+              37.79911,
+              44.74409
+            ],
+            [
+              37.79911,
+              44.72909
+            ],
+            [
+              37.81411,
+              44.72909
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "2242",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.432520000000004,
+              44.81834
+            ],
+            [
+              37.432520000000004,
+              44.83334
+            ],
+            [
+              37.41752,
+              44.83334
+            ],
+            [
+              37.41752,
+              44.81834
+            ],
+            [
+              37.432520000000004,
+              44.81834
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.78,
+        "acq_date": "2026-10-20",
+        "acq_time": "2242",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.68528,
+              44.83141
+            ],
+            [
+              37.68528,
+              44.84641
+            ],
+            [
+              37.67028,
+              44.84641
+            ],
+            [
+              37.67028,
+              44.83141
+            ],
+            [
+              37.68528,
+              44.83141
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.98,
+        "acq_date": "2026-10-20",
+        "acq_time": "2242",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               31.68104,
               45.25085
             ],
@@ -29921,6 +30506,2775 @@
         "coordinates": [
           [
             [
+              33.44004,
+              47.85797
+            ],
+            [
+              33.44004,
+              47.87297
+            ],
+            [
+              33.42504,
+              47.87297
+            ],
+            [
+              33.42504,
+              47.85797
+            ],
+            [
+              33.44004,
+              47.85797
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.37086,
+              47.85867
+            ],
+            [
+              33.37086,
+              47.87367
+            ],
+            [
+              33.35586,
+              47.87367
+            ],
+            [
+              33.35586,
+              47.85867
+            ],
+            [
+              33.37086,
+              47.85867
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.52,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.44098,
+              47.86154
+            ],
+            [
+              33.44098,
+              47.87654
+            ],
+            [
+              33.42598,
+              47.87654
+            ],
+            [
+              33.42598,
+              47.86154
+            ],
+            [
+              33.44098,
+              47.86154
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.44191,
+              47.86512
+            ],
+            [
+              33.44191,
+              47.88012
+            ],
+            [
+              33.42691,
+              47.88012
+            ],
+            [
+              33.42691,
+              47.86512
+            ],
+            [
+              33.44191,
+              47.86512
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.40617,
+              47.873
+            ],
+            [
+              33.40617,
+              47.888
+            ],
+            [
+              33.39117,
+              47.888
+            ],
+            [
+              33.39117,
+              47.873
+            ],
+            [
+              33.40617,
+              47.873
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.89,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.68966,
+              50.14092
+            ],
+            [
+              39.68966,
+              50.15592
+            ],
+            [
+              39.67466,
+              50.15592
+            ],
+            [
+              39.67466,
+              50.14092
+            ],
+            [
+              39.68966,
+              50.14092
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.39,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Rossoshanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64355,
+              50.37258
+            ],
+            [
+              39.64355,
+              50.38758
+            ],
+            [
+              39.62855,
+              50.38758
+            ],
+            [
+              39.62855,
+              50.37258
+            ],
+            [
+              39.64355,
+              50.37258
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Podgorenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.93547,
+              51.13183
+            ],
+            [
+              37.93547,
+              51.14683
+            ],
+            [
+              37.92047,
+              51.14683
+            ],
+            [
+              37.92047,
+              51.13183
+            ],
+            [
+              37.93547,
+              51.13183
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.91,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.329950000000004,
+              51.76745
+            ],
+            [
+              40.329950000000004,
+              51.78245
+            ],
+            [
+              40.31495,
+              51.78245
+            ],
+            [
+              40.31495,
+              51.76745
+            ],
+            [
+              40.329950000000004,
+              51.76745
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.75,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Verkhnekhavskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.71743,
+              51.84829
+            ],
+            [
+              40.71743,
+              51.86329
+            ],
+            [
+              40.70243,
+              51.86329
+            ],
+            [
+              40.70243,
+              51.84829
+            ],
+            [
+              40.71743,
+              51.84829
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.49,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.71195,
+              51.84921
+            ],
+            [
+              40.71195,
+              51.86421
+            ],
+            [
+              40.69695,
+              51.86421
+            ],
+            [
+              40.69695,
+              51.84921
+            ],
+            [
+              40.71195,
+              51.84921
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.63,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.71885,
+              51.85153
+            ],
+            [
+              40.71885,
+              51.86653
+            ],
+            [
+              40.70385,
+              51.86653
+            ],
+            [
+              40.70385,
+              51.85153
+            ],
+            [
+              40.71885,
+              51.85153
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.3,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.71337,
+              51.85245
+            ],
+            [
+              40.71337,
+              51.86745
+            ],
+            [
+              40.69837,
+              51.86745
+            ],
+            [
+              40.69837,
+              51.85245
+            ],
+            [
+              40.71337,
+              51.85245
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.83,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34036,
+              51.88338
+            ],
+            [
+              29.34036,
+              51.89838
+            ],
+            [
+              29.32536,
+              51.89838
+            ],
+            [
+              29.32536,
+              51.88338
+            ],
+            [
+              29.34036,
+              51.88338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.62,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34836,
+              51.88735
+            ],
+            [
+              29.34836,
+              51.90235
+            ],
+            [
+              29.33336,
+              51.90235
+            ],
+            [
+              29.33336,
+              51.88735
+            ],
+            [
+              29.34836,
+              51.88735
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.25,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64208,
+              52.51864
+            ],
+            [
+              39.64208,
+              52.53364
+            ],
+            [
+              39.62708,
+              52.53364
+            ],
+            [
+              39.62708,
+              52.51864
+            ],
+            [
+              39.64208,
+              52.51864
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.79,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63787,
+              52.52275
+            ],
+            [
+              39.63787,
+              52.53775
+            ],
+            [
+              39.62287,
+              52.53775
+            ],
+            [
+              39.62287,
+              52.52275
+            ],
+            [
+              39.63787,
+              52.52275
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.46,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63231,
+              52.52361
+            ],
+            [
+              39.63231,
+              52.53861
+            ],
+            [
+              39.617309999999996,
+              52.53861
+            ],
+            [
+              39.617309999999996,
+              52.52361
+            ],
+            [
+              39.63231,
+              52.52361
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.46,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63922,
+              52.52599
+            ],
+            [
+              39.63922,
+              52.54099
+            ],
+            [
+              39.62422,
+              52.54099
+            ],
+            [
+              39.62422,
+              52.52599
+            ],
+            [
+              39.63922,
+              52.52599
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.46,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63366,
+              52.52685
+            ],
+            [
+              39.63366,
+              52.541850000000004
+            ],
+            [
+              39.61866,
+              52.541850000000004
+            ],
+            [
+              39.61866,
+              52.52685
+            ],
+            [
+              39.63366,
+              52.52685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.46,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63628,
+              52.52963
+            ],
+            [
+              39.63628,
+              52.54463
+            ],
+            [
+              39.62128,
+              52.54463
+            ],
+            [
+              39.62128,
+              52.52963
+            ],
+            [
+              39.63628,
+              52.52963
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.6,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62094,
+              52.53546
+            ],
+            [
+              39.62094,
+              52.55046
+            ],
+            [
+              39.60594,
+              52.55046
+            ],
+            [
+              39.60594,
+              52.53546
+            ],
+            [
+              39.62094,
+              52.53546
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.3,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64589,
+              52.53851
+            ],
+            [
+              39.64589,
+              52.55351
+            ],
+            [
+              39.63089,
+              52.55351
+            ],
+            [
+              39.63089,
+              52.53851
+            ],
+            [
+              39.64589,
+              52.53851
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.22,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62229,
+              52.5387
+            ],
+            [
+              39.62229,
+              52.5537
+            ],
+            [
+              39.60729,
+              52.5537
+            ],
+            [
+              39.60729,
+              52.5387
+            ],
+            [
+              39.62229,
+              52.5387
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.44,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64033,
+              52.53936
+            ],
+            [
+              39.64033,
+              52.55436
+            ],
+            [
+              39.62533,
+              52.55436
+            ],
+            [
+              39.62533,
+              52.53936
+            ],
+            [
+              39.64033,
+              52.53936
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63477,
+              52.54023
+            ],
+            [
+              39.63477,
+              52.55523
+            ],
+            [
+              39.61977,
+              52.55523
+            ],
+            [
+              39.61977,
+              52.54023
+            ],
+            [
+              39.63477,
+              52.54023
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64725,
+              52.54175
+            ],
+            [
+              39.64725,
+              52.55675
+            ],
+            [
+              39.63225,
+              52.55675
+            ],
+            [
+              39.63225,
+              52.54175
+            ],
+            [
+              39.64725,
+              52.54175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.54,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57774,
+              52.54558
+            ],
+            [
+              39.57774,
+              52.56058
+            ],
+            [
+              39.56274,
+              52.56058
+            ],
+            [
+              39.56274,
+              52.54558
+            ],
+            [
+              39.57774,
+              52.54558
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.75,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.61943,
+              52.54605
+            ],
+            [
+              39.61943,
+              52.56105
+            ],
+            [
+              39.60443,
+              52.56105
+            ],
+            [
+              39.60443,
+              52.54605
+            ],
+            [
+              39.61943,
+              52.54605
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62078,
+              52.54929
+            ],
+            [
+              39.62078,
+              52.56429
+            ],
+            [
+              39.60578,
+              52.56429
+            ],
+            [
+              39.60578,
+              52.54929
+            ],
+            [
+              39.62078,
+              52.54929
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.59715,
+              52.54948
+            ],
+            [
+              39.59715,
+              52.56448
+            ],
+            [
+              39.58215,
+              52.56448
+            ],
+            [
+              39.58215,
+              52.54948
+            ],
+            [
+              39.59715,
+              52.54948
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.64,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.60964,
+              52.55101
+            ],
+            [
+              39.60964,
+              52.56601
+            ],
+            [
+              39.59464,
+              52.56601
+            ],
+            [
+              39.59464,
+              52.55101
+            ],
+            [
+              39.60964,
+              52.55101
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.56,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58601,
+              52.5512
+            ],
+            [
+              39.58601,
+              52.5662
+            ],
+            [
+              39.57101,
+              52.5662
+            ],
+            [
+              39.57101,
+              52.5512
+            ],
+            [
+              39.58601,
+              52.5512
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58043,
+              52.55206
+            ],
+            [
+              39.58043,
+              52.56706
+            ],
+            [
+              39.56543,
+              52.56706
+            ],
+            [
+              39.56543,
+              52.55206
+            ],
+            [
+              39.58043,
+              52.55206
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.59851,
+              52.55273
+            ],
+            [
+              39.59851,
+              52.56773
+            ],
+            [
+              39.58351,
+              52.56773
+            ],
+            [
+              39.58351,
+              52.55273
+            ],
+            [
+              39.59851,
+              52.55273
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.64,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.61656,
+              52.55339
+            ],
+            [
+              39.61656,
+              52.56839
+            ],
+            [
+              39.60156,
+              52.56839
+            ],
+            [
+              39.60156,
+              52.55339
+            ],
+            [
+              39.61656,
+              52.55339
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.86,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62905,
+              52.55492
+            ],
+            [
+              39.62905,
+              52.56992
+            ],
+            [
+              39.61405,
+              52.56992
+            ],
+            [
+              39.61405,
+              52.55492
+            ],
+            [
+              39.62905,
+              52.55492
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.48,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.60542,
+              52.55511
+            ],
+            [
+              39.60542,
+              52.57011
+            ],
+            [
+              39.59042,
+              52.57011
+            ],
+            [
+              39.59042,
+              52.55511
+            ],
+            [
+              39.60542,
+              52.55511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.98,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.7123,
+              52.55582
+            ],
+            [
+              39.7123,
+              52.57082
+            ],
+            [
+              39.6973,
+              52.57082
+            ],
+            [
+              39.6973,
+              52.55582
+            ],
+            [
+              39.7123,
+              52.55582
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.36,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.70673,
+              52.55669
+            ],
+            [
+              39.70673,
+              52.571690000000004
+            ],
+            [
+              39.69173,
+              52.571690000000004
+            ],
+            [
+              39.69173,
+              52.55669
+            ],
+            [
+              39.70673,
+              52.55669
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.44,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.70809,
+              52.55993
+            ],
+            [
+              39.70809,
+              52.57493
+            ],
+            [
+              39.69309,
+              52.57493
+            ],
+            [
+              39.69309,
+              52.55993
+            ],
+            [
+              39.70809,
+              52.55993
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.06,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.23324,
+              52.79685
+            ],
+            [
+              32.23324,
+              52.81185
+            ],
+            [
+              32.21824,
+              52.81185
+            ],
+            [
+              32.21824,
+              52.79685
+            ],
+            [
+              32.23324,
+              52.79685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Klintsovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.9928,
+              52.8386
+            ],
+            [
+              29.9928,
+              52.8536
+            ],
+            [
+              29.9778,
+              52.8536
+            ],
+            [
+              29.9778,
+              52.8386
+            ],
+            [
+              29.9928,
+              52.8386
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.26,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.4517,
+              52.86983
+            ],
+            [
+              40.4517,
+              52.88483
+            ],
+            [
+              40.4367,
+              52.88483
+            ],
+            [
+              40.4367,
+              52.86983
+            ],
+            [
+              40.4517,
+              52.86983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.78,
+        "acq_date": "2026-10-20",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Tambov",
+        "locality": "Michurinsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.8156,
+              44.72746
+            ],
+            [
+              37.8156,
+              44.74246
+            ],
+            [
+              37.8006,
+              44.74246
+            ],
+            [
+              37.8006,
+              44.72746
+            ],
+            [
+              37.8156,
+              44.72746
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.5,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.86676,
+              44.76646
+            ],
+            [
+              33.86676,
+              44.78146
+            ],
+            [
+              33.85176,
+              44.78146
+            ],
+            [
+              33.85176,
+              44.76646
+            ],
+            [
+              33.86676,
+              44.76646
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.96,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Bakhchysarais'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.43448,
+              44.81834
+            ],
+            [
+              37.43448,
+              44.83334
+            ],
+            [
+              37.41948,
+              44.83334
+            ],
+            [
+              37.41948,
+              44.81834
+            ],
+            [
+              37.43448,
+              44.81834
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.67,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.68399,
+              44.83175
+            ],
+            [
+              37.68399,
+              44.84675
+            ],
+            [
+              37.66899,
+              44.84675
+            ],
+            [
+              37.66899,
+              44.83175
+            ],
+            [
+              37.68399,
+              44.83175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.44,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.67544,
+              44.836619999999996
+            ],
+            [
+              37.67544,
+              44.85162
+            ],
+            [
+              37.66044,
+              44.85162
+            ],
+            [
+              37.66044,
+              44.836619999999996
+            ],
+            [
+              37.67544,
+              44.836619999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.98,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.12571,
+              44.87757
+            ],
+            [
+              38.12571,
+              44.89257
+            ],
+            [
+              38.11071,
+              44.89257
+            ],
+            [
+              38.11071,
+              44.87757
+            ],
+            [
+              38.12571,
+              44.87757
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.69,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.07495,
+              44.87931
+            ],
+            [
+              38.07495,
+              44.89431
+            ],
+            [
+              38.05995,
+              44.89431
+            ],
+            [
+              38.05995,
+              44.87931
+            ],
+            [
+              38.07495,
+              44.87931
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.46,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.28431,
+              45.94427
+            ],
+            [
+              25.28431,
+              45.959270000000004
+            ],
+            [
+              25.26931,
+              45.959270000000004
+            ],
+            [
+              25.26931,
+              45.94427
+            ],
+            [
+              25.28431,
+              45.94427
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.18,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.28406,
+              45.94701
+            ],
+            [
+              25.28406,
+              45.96201
+            ],
+            [
+              25.26906,
+              45.96201
+            ],
+            [
+              25.26906,
+              45.94701
+            ],
+            [
+              25.28406,
+              45.94701
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.41,
+        "acq_date": "2026-10-20",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63759,
+              52.52567
+            ],
+            [
+              39.63759,
+              52.54067
+            ],
+            [
+              39.62259,
+              52.54067
+            ],
+            [
+              39.62259,
+              52.52567
+            ],
+            [
+              39.63759,
+              52.52567
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.68,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62815,
+              52.52969
+            ],
+            [
+              39.62815,
+              52.54469
+            ],
+            [
+              39.61315,
+              52.54469
+            ],
+            [
+              39.61315,
+              52.52969
+            ],
+            [
+              39.62815,
+              52.52969
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.68,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63518,
+              52.53023
+            ],
+            [
+              39.63518,
+              52.545230000000004
+            ],
+            [
+              39.62018,
+              52.545230000000004
+            ],
+            [
+              39.62018,
+              52.53023
+            ],
+            [
+              39.63518,
+              52.53023
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.28,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57414,
+              52.54395
+            ],
+            [
+              39.57414,
+              52.55895
+            ],
+            [
+              39.55914,
+              52.55895
+            ],
+            [
+              39.55914,
+              52.54395
+            ],
+            [
+              39.57414,
+              52.54395
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.17,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58069,
+              52.54441
+            ],
+            [
+              39.58069,
+              52.55941
+            ],
+            [
+              39.56569,
+              52.55941
+            ],
+            [
+              39.56569,
+              52.54441
+            ],
+            [
+              39.58069,
+              52.54441
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.25,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62252,
+              52.54965
+            ],
+            [
+              39.62252,
+              52.56465
+            ],
+            [
+              39.60752,
+              52.56465
+            ],
+            [
+              39.60752,
+              52.54965
+            ],
+            [
+              39.62252,
+              52.54965
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.74,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.580890000000004,
+              52.54983
+            ],
+            [
+              39.580890000000004,
+              52.56483
+            ],
+            [
+              39.56589,
+              52.56483
+            ],
+            [
+              39.56589,
+              52.54983
+            ],
+            [
+              39.580890000000004,
+              52.54983
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.32,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57179,
+              52.55371
+            ],
+            [
+              39.57179,
+              52.56871
+            ],
+            [
+              39.55679,
+              52.56871
+            ],
+            [
+              39.55679,
+              52.55371
+            ],
+            [
+              39.57179,
+              52.55371
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.32,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57842,
+              52.55409
+            ],
+            [
+              39.57842,
+              52.56909
+            ],
+            [
+              39.56342,
+              52.56909
+            ],
+            [
+              39.56342,
+              52.55409
+            ],
+            [
+              39.57842,
+              52.55409
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 20.3,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.61997,
+              52.5541
+            ],
+            [
+              39.61997,
+              52.5691
+            ],
+            [
+              39.60497,
+              52.5691
+            ],
+            [
+              39.60497,
+              52.5541
+            ],
+            [
+              39.61997,
+              52.5541
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.5,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62923,
+              52.55556
+            ],
+            [
+              39.62923,
+              52.57056
+            ],
+            [
+              39.61423,
+              52.57056
+            ],
+            [
+              39.61423,
+              52.55556
+            ],
+            [
+              39.62923,
+              52.55556
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.74,
+        "acq_date": "2026-10-21",
+        "acq_time": "115",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34876,
+              51.88326
+            ],
+            [
+              29.34876,
+              51.89826
+            ],
+            [
+              29.333759999999998,
+              51.89826
+            ],
+            [
+              29.333759999999998,
+              51.88326
+            ],
+            [
+              29.34876,
+              51.88326
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.05,
+        "acq_date": "2026-10-21",
+        "acq_time": "117",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34421,
+              51.88464
+            ],
+            [
+              29.34421,
+              51.89964
+            ],
+            [
+              29.32921,
+              51.89964
+            ],
+            [
+              29.32921,
+              51.88464
+            ],
+            [
+              29.34421,
+              51.88464
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.05,
+        "acq_date": "2026-10-21",
+        "acq_time": "117",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.42519,
+              45.11366
+            ],
+            [
+              25.42519,
+              45.12866
+            ],
+            [
+              25.41019,
+              45.12866
+            ],
+            [
+              25.41019,
+              45.11366
+            ],
+            [
+              25.42519,
+              45.11366
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.08,
+        "acq_date": "2026-10-21",
+        "acq_time": "120",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.42023,
+              45.11511
+            ],
+            [
+              25.42023,
+              45.13011
+            ],
+            [
+              25.40523,
+              45.13011
+            ],
+            [
+              25.40523,
+              45.11511
+            ],
+            [
+              25.42023,
+              45.11511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.13,
+        "acq_date": "2026-10-21",
+        "acq_time": "120",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.67915,
+              45.24922
+            ],
+            [
+              31.67915,
+              45.26422
+            ],
+            [
+              31.66415,
+              45.26422
+            ],
+            [
+              31.66415,
+              45.24922
+            ],
+            [
+              31.67915,
+              45.24922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.3,
+        "acq_date": "2026-10-21",
+        "acq_time": "120",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.67887,
+              45.24943
+            ],
+            [
+              31.67887,
+              45.26443
+            ],
+            [
+              31.66387,
+              45.26443
+            ],
+            [
+              31.66387,
+              45.24943
+            ],
+            [
+              31.67887,
+              45.24943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.7,
+        "acq_date": "2026-10-21",
+        "acq_time": "120",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.28596,
+              45.94337
+            ],
+            [
+              25.28596,
+              45.95837
+            ],
+            [
+              25.27096,
+              45.95837
+            ],
+            [
+              25.27096,
+              45.94337
+            ],
+            [
+              25.28596,
+              45.94337
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.12,
+        "acq_date": "2026-10-21",
+        "acq_time": "120",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               35.37125,
               46.35358
             ],
@@ -45044,6 +48398,3009 @@
         "brightness": null,
         "NAME_1": "Bryansk",
         "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64402,
+              50.37169
+            ],
+            [
+              39.64402,
+              50.38669
+            ],
+            [
+              39.62902,
+              50.38669
+            ],
+            [
+              39.62902,
+              50.37169
+            ],
+            [
+              39.64402,
+              50.37169
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.76,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Podgorenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.9398,
+              51.12893
+            ],
+            [
+              37.9398,
+              51.14393
+            ],
+            [
+              37.9248,
+              51.14393
+            ],
+            [
+              37.9248,
+              51.12893
+            ],
+            [
+              37.9398,
+              51.12893
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.08,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.94073,
+              51.13301
+            ],
+            [
+              37.94073,
+              51.14801
+            ],
+            [
+              37.92573,
+              51.14801
+            ],
+            [
+              37.92573,
+              51.13301
+            ],
+            [
+              37.94073,
+              51.13301
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.49,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.93493,
+              51.13352
+            ],
+            [
+              37.93493,
+              51.14852
+            ],
+            [
+              37.91993,
+              51.14852
+            ],
+            [
+              37.91993,
+              51.13352
+            ],
+            [
+              37.93493,
+              51.13352
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.49,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.95008,
+              51.14886
+            ],
+            [
+              37.95008,
+              51.16386
+            ],
+            [
+              37.93508,
+              51.16386
+            ],
+            [
+              37.93508,
+              51.14886
+            ],
+            [
+              37.95008,
+              51.14886
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.94,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.33031,
+              51.76128
+            ],
+            [
+              40.33031,
+              51.77628
+            ],
+            [
+              40.31531,
+              51.77628
+            ],
+            [
+              40.31531,
+              51.76128
+            ],
+            [
+              40.33031,
+              51.76128
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.52,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Verkhnekhavskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.71273,
+              51.83915
+            ],
+            [
+              40.71273,
+              51.85415
+            ],
+            [
+              40.69773,
+              51.85415
+            ],
+            [
+              40.69773,
+              51.83915
+            ],
+            [
+              40.71273,
+              51.83915
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.22,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.72077,
+              51.84207
+            ],
+            [
+              40.72077,
+              51.85707
+            ],
+            [
+              40.70577,
+              51.85707
+            ],
+            [
+              40.70577,
+              51.84207
+            ],
+            [
+              40.72077,
+              51.84207
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.22,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.71373,
+              51.84284
+            ],
+            [
+              40.71373,
+              51.85784
+            ],
+            [
+              40.69873,
+              51.85784
+            ],
+            [
+              40.69873,
+              51.84284
+            ],
+            [
+              40.71373,
+              51.84284
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.22,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.70666,
+              51.84362
+            ],
+            [
+              40.70666,
+              51.85862
+            ],
+            [
+              40.69166,
+              51.85862
+            ],
+            [
+              40.69166,
+              51.84362
+            ],
+            [
+              40.70666,
+              51.84362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.98,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ertil'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34683,
+              51.8847
+            ],
+            [
+              29.34683,
+              51.8997
+            ],
+            [
+              29.33183,
+              51.8997
+            ],
+            [
+              29.33183,
+              51.8847
+            ],
+            [
+              29.34683,
+              51.8847
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.62,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64064,
+              52.5173
+            ],
+            [
+              39.64064,
+              52.5323
+            ],
+            [
+              39.62564,
+              52.5323
+            ],
+            [
+              39.62564,
+              52.5173
+            ],
+            [
+              39.64064,
+              52.5173
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 21.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63268,
+              52.51805
+            ],
+            [
+              39.63268,
+              52.53305
+            ],
+            [
+              39.61768,
+              52.53305
+            ],
+            [
+              39.61768,
+              52.51805
+            ],
+            [
+              39.63268,
+              52.51805
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 21.04,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.6343,
+              52.51809
+            ],
+            [
+              39.6343,
+              52.53309
+            ],
+            [
+              39.6193,
+              52.53309
+            ],
+            [
+              39.6193,
+              52.51809
+            ],
+            [
+              39.6343,
+              52.51809
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 19.91,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63367,
+              52.52193
+            ],
+            [
+              39.63367,
+              52.53693
+            ],
+            [
+              39.61867,
+              52.53693
+            ],
+            [
+              39.61867,
+              52.52193
+            ],
+            [
+              39.63367,
+              52.52193
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.73,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62574,
+              52.52268
+            ],
+            [
+              39.62574,
+              52.53768
+            ],
+            [
+              39.61074,
+              52.53768
+            ],
+            [
+              39.61074,
+              52.52268
+            ],
+            [
+              39.62574,
+              52.52268
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.05,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62736,
+              52.52276
+            ],
+            [
+              39.62736,
+              52.53776
+            ],
+            [
+              39.61236,
+              52.53776
+            ],
+            [
+              39.61236,
+              52.52276
+            ],
+            [
+              39.62736,
+              52.52276
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 19.91,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.6194,
+              52.52354
+            ],
+            [
+              39.6194,
+              52.53854
+            ],
+            [
+              39.6044,
+              52.53854
+            ],
+            [
+              39.6044,
+              52.52354
+            ],
+            [
+              39.6194,
+              52.52354
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.1,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.61873,
+              52.52732
+            ],
+            [
+              39.61873,
+              52.542320000000004
+            ],
+            [
+              39.60373,
+              52.542320000000004
+            ],
+            [
+              39.60373,
+              52.52732
+            ],
+            [
+              39.61873,
+              52.52732
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.05,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64362,
+              52.52893
+            ],
+            [
+              39.64362,
+              52.54393
+            ],
+            [
+              39.62862,
+              52.54393
+            ],
+            [
+              39.62862,
+              52.52893
+            ],
+            [
+              39.64362,
+              52.52893
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.09,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64463,
+              52.53281
+            ],
+            [
+              39.64463,
+              52.54781
+            ],
+            [
+              39.62963,
+              52.54781
+            ],
+            [
+              39.62963,
+              52.53281
+            ],
+            [
+              39.64463,
+              52.53281
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.09,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57997,
+              52.53496
+            ],
+            [
+              39.57997,
+              52.54996
+            ],
+            [
+              39.56497,
+              52.54996
+            ],
+            [
+              39.56497,
+              52.53496
+            ],
+            [
+              39.57997,
+              52.53496
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.59692,
+              52.53734
+            ],
+            [
+              39.59692,
+              52.55234
+            ],
+            [
+              39.58192,
+              52.55234
+            ],
+            [
+              39.58192,
+              52.53734
+            ],
+            [
+              39.59692,
+              52.53734
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.63,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.580980000000004,
+              52.53884
+            ],
+            [
+              39.580980000000004,
+              52.55384
+            ],
+            [
+              39.56598,
+              52.55384
+            ],
+            [
+              39.56598,
+              52.53884
+            ],
+            [
+              39.580980000000004,
+              52.53884
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.95,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62177,
+              52.53896
+            ],
+            [
+              39.62177,
+              52.553960000000004
+            ],
+            [
+              39.60677,
+              52.553960000000004
+            ],
+            [
+              39.60677,
+              52.53896
+            ],
+            [
+              39.62177,
+              52.53896
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.41,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.59794,
+              52.54122
+            ],
+            [
+              39.59794,
+              52.55622
+            ],
+            [
+              39.58294,
+              52.55622
+            ],
+            [
+              39.58294,
+              52.54122
+            ],
+            [
+              39.59794,
+              52.54122
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.89,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58196,
+              52.54274
+            ],
+            [
+              39.58196,
+              52.55774
+            ],
+            [
+              39.56696,
+              52.55774
+            ],
+            [
+              39.56696,
+              52.54274
+            ],
+            [
+              39.58196,
+              52.54274
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.11,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62281,
+              52.54283
+            ],
+            [
+              39.62281,
+              52.55783
+            ],
+            [
+              39.60781,
+              52.55783
+            ],
+            [
+              39.60781,
+              52.54283
+            ],
+            [
+              39.62281,
+              52.54283
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.41,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57389,
+              52.5435
+            ],
+            [
+              39.57389,
+              52.5585
+            ],
+            [
+              39.55889,
+              52.5585
+            ],
+            [
+              39.55889,
+              52.5435
+            ],
+            [
+              39.57389,
+              52.5435
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.11,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.61486,
+              52.54359
+            ],
+            [
+              39.61486,
+              52.55859
+            ],
+            [
+              39.59986,
+              52.55859
+            ],
+            [
+              39.59986,
+              52.54359
+            ],
+            [
+              39.61486,
+              52.54359
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.60691,
+              52.54435
+            ],
+            [
+              39.60691,
+              52.55935
+            ],
+            [
+              39.59191,
+              52.55935
+            ],
+            [
+              39.59191,
+              52.54435
+            ],
+            [
+              39.60691,
+              52.54435
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.47,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63181,
+              52.54595
+            ],
+            [
+              39.63181,
+              52.56095
+            ],
+            [
+              39.61681,
+              52.56095
+            ],
+            [
+              39.61681,
+              52.54595
+            ],
+            [
+              39.63181,
+              52.54595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.74,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.71425,
+              52.54994
+            ],
+            [
+              39.71425,
+              52.56494
+            ],
+            [
+              39.69925,
+              52.56494
+            ],
+            [
+              39.69925,
+              52.54994
+            ],
+            [
+              39.71425,
+              52.54994
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.19,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.70634,
+              52.5507
+            ],
+            [
+              39.70634,
+              52.5657
+            ],
+            [
+              39.69134,
+              52.5657
+            ],
+            [
+              39.69134,
+              52.5507
+            ],
+            [
+              39.70634,
+              52.5507
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.19,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              32.23372,
+              52.78854
+            ],
+            [
+              32.23372,
+              52.80354
+            ],
+            [
+              32.21872,
+              52.80354
+            ],
+            [
+              32.21872,
+              52.78854
+            ],
+            [
+              32.23372,
+              52.78854
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.68,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Klintsovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.57408,
+              52.99154
+            ],
+            [
+              40.57408,
+              53.00654
+            ],
+            [
+              40.55908,
+              53.00654
+            ],
+            [
+              40.55908,
+              52.99154
+            ],
+            [
+              40.57408,
+              52.99154
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.77,
+        "acq_date": "2026-10-20",
+        "acq_time": "2318",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Tambov",
+        "locality": "Michurinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81649,
+              44.7284
+            ],
+            [
+              37.81649,
+              44.7434
+            ],
+            [
+              37.80149,
+              44.7434
+            ],
+            [
+              37.80149,
+              44.7284
+            ],
+            [
+              37.81649,
+              44.7284
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.51,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.68561,
+              44.83013
+            ],
+            [
+              37.68561,
+              44.84513
+            ],
+            [
+              37.670609999999996,
+              44.84513
+            ],
+            [
+              37.670609999999996,
+              44.83013
+            ],
+            [
+              37.68561,
+              44.83013
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.83,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.67395,
+              44.83918
+            ],
+            [
+              37.67395,
+              44.85418
+            ],
+            [
+              37.65895,
+              44.85418
+            ],
+            [
+              37.65895,
+              44.83918
+            ],
+            [
+              37.67395,
+              44.83918
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.72,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.12509,
+              44.8784
+            ],
+            [
+              38.12509,
+              44.8934
+            ],
+            [
+              38.11009,
+              44.8934
+            ],
+            [
+              38.11009,
+              44.8784
+            ],
+            [
+              38.12509,
+              44.8784
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.65,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.68123,
+              45.25148
+            ],
+            [
+              31.68123,
+              45.26648
+            ],
+            [
+              31.66623,
+              45.26648
+            ],
+            [
+              31.66623,
+              45.25148
+            ],
+            [
+              31.68123,
+              45.25148
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.38,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.67691,
+              45.25171
+            ],
+            [
+              31.67691,
+              45.26671
+            ],
+            [
+              31.66191,
+              45.26671
+            ],
+            [
+              31.66191,
+              45.25171
+            ],
+            [
+              31.67691,
+              45.25171
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.83,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.28703,
+              45.94598
+            ],
+            [
+              25.28703,
+              45.96098
+            ],
+            [
+              25.27203,
+              45.96098
+            ],
+            [
+              25.27203,
+              45.94598
+            ],
+            [
+              25.28703,
+              45.94598
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.64,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.93784,
+              47.2315
+            ],
+            [
+              38.93784,
+              47.2465
+            ],
+            [
+              38.92284,
+              47.2465
+            ],
+            [
+              38.92284,
+              47.2315
+            ],
+            [
+              38.93784,
+              47.2315
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.96,
+        "acq_date": "2026-10-20",
+        "acq_time": "2320",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.93658,
+              51.13193
+            ],
+            [
+              37.93658,
+              51.14693
+            ],
+            [
+              37.92158,
+              51.14693
+            ],
+            [
+              37.92158,
+              51.13193
+            ],
+            [
+              37.93658,
+              51.13193
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.9,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.77285,
+              51.25064
+            ],
+            [
+              37.77285,
+              51.26564
+            ],
+            [
+              37.75785,
+              51.26564
+            ],
+            [
+              37.75785,
+              51.25064
+            ],
+            [
+              37.77285,
+              51.25064
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.4,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34762,
+              51.88228
+            ],
+            [
+              29.34762,
+              51.89728
+            ],
+            [
+              29.33262,
+              51.89728
+            ],
+            [
+              29.33262,
+              51.88228
+            ],
+            [
+              29.34762,
+              51.88228
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.88,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34903,
+              51.88332
+            ],
+            [
+              29.34903,
+              51.89832
+            ],
+            [
+              29.33403,
+              51.89832
+            ],
+            [
+              29.33403,
+              51.88332
+            ],
+            [
+              29.34903,
+              51.88332
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.6,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.34993,
+              51.88608
+            ],
+            [
+              29.34993,
+              51.90108
+            ],
+            [
+              29.33493,
+              51.90108
+            ],
+            [
+              29.33493,
+              51.88608
+            ],
+            [
+              29.34993,
+              51.88608
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.88,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.35135,
+              51.88712
+            ],
+            [
+              29.35135,
+              51.902120000000004
+            ],
+            [
+              29.33635,
+              51.902120000000004
+            ],
+            [
+              29.33635,
+              51.88712
+            ],
+            [
+              29.35135,
+              51.88712
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.6,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.642450000000004,
+              52.52415
+            ],
+            [
+              39.642450000000004,
+              52.53915
+            ],
+            [
+              39.62745,
+              52.53915
+            ],
+            [
+              39.62745,
+              52.52415
+            ],
+            [
+              39.642450000000004,
+              52.52415
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 14.99,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63662,
+              52.52613
+            ],
+            [
+              39.63662,
+              52.54113
+            ],
+            [
+              39.62162,
+              52.54113
+            ],
+            [
+              39.62162,
+              52.52613
+            ],
+            [
+              39.63662,
+              52.52613
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 22.14,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63075,
+              52.52813
+            ],
+            [
+              39.63075,
+              52.54313
+            ],
+            [
+              39.61575,
+              52.54313
+            ],
+            [
+              39.61575,
+              52.52813
+            ],
+            [
+              39.63075,
+              52.52813
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 22.14,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.6191,
+              52.53209
+            ],
+            [
+              39.6191,
+              52.54709
+            ],
+            [
+              39.6041,
+              52.54709
+            ],
+            [
+              39.6041,
+              52.53209
+            ],
+            [
+              39.6191,
+              52.53209
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.07,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58374,
+              52.5441
+            ],
+            [
+              39.58374,
+              52.5591
+            ],
+            [
+              39.56874,
+              52.5591
+            ],
+            [
+              39.56874,
+              52.5441
+            ],
+            [
+              39.58374,
+              52.5441
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.55,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.57805,
+              52.54604
+            ],
+            [
+              39.57805,
+              52.56104
+            ],
+            [
+              39.56305,
+              52.56104
+            ],
+            [
+              39.56305,
+              52.54604
+            ],
+            [
+              39.57805,
+              52.54604
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.52,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.627250000000004,
+              52.54944
+            ],
+            [
+              39.627250000000004,
+              52.56444
+            ],
+            [
+              39.61225,
+              52.56444
+            ],
+            [
+              39.61225,
+              52.54944
+            ],
+            [
+              39.627250000000004,
+              52.54944
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.2,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.58283,
+              52.55111
+            ],
+            [
+              39.58283,
+              52.56611
+            ],
+            [
+              39.56783,
+              52.56611
+            ],
+            [
+              39.56783,
+              52.55111
+            ],
+            [
+              39.58283,
+              52.55111
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.27,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.62136,
+              52.55144
+            ],
+            [
+              39.62136,
+              52.56644
+            ],
+            [
+              39.60636,
+              52.56644
+            ],
+            [
+              39.60636,
+              52.55144
+            ],
+            [
+              39.62136,
+              52.55144
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.2,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63194,
+              52.55455
+            ],
+            [
+              39.63194,
+              52.56955
+            ],
+            [
+              39.61694,
+              52.56955
+            ],
+            [
+              39.61694,
+              52.55455
+            ],
+            [
+              39.63194,
+              52.55455
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.2,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.99576,
+              52.83973
+            ],
+            [
+              29.99576,
+              52.85473
+            ],
+            [
+              29.98076,
+              52.85473
+            ],
+            [
+              29.98076,
+              52.83973
+            ],
+            [
+              29.99576,
+              52.83973
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.85,
+        "acq_date": "2026-10-21",
+        "acq_time": "58",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81921,
+              44.72412
+            ],
+            [
+              37.81921,
+              44.73912
+            ],
+            [
+              37.80421,
+              44.73912
+            ],
+            [
+              37.80421,
+              44.72412
+            ],
+            [
+              37.81921,
+              44.72412
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.81,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81628,
+              44.72508
+            ],
+            [
+              37.81628,
+              44.74008
+            ],
+            [
+              37.80128,
+              44.74008
+            ],
+            [
+              37.80128,
+              44.72508
+            ],
+            [
+              37.81628,
+              44.72508
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.78,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.86958,
+              44.76331
+            ],
+            [
+              33.86958,
+              44.77831
+            ],
+            [
+              33.85458,
+              44.77831
+            ],
+            [
+              33.85458,
+              44.76331
+            ],
+            [
+              33.86958,
+              44.76331
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.03,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Bakhchysarais'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.87071,
+              44.76623
+            ],
+            [
+              33.87071,
+              44.78123
+            ],
+            [
+              33.85571,
+              44.78123
+            ],
+            [
+              33.85571,
+              44.76623
+            ],
+            [
+              33.87071,
+              44.76623
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.57,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Bakhchysarais'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.43515,
+              44.85785
+            ],
+            [
+              22.43515,
+              44.87285
+            ],
+            [
+              22.42015,
+              44.87285
+            ],
+            [
+              22.42015,
+              44.85785
+            ],
+            [
+              22.43515,
+              44.85785
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.64,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.43625,
+              44.861399999999996
+            ],
+            [
+              22.43625,
+              44.8764
+            ],
+            [
+              22.42125,
+              44.8764
+            ],
+            [
+              22.42125,
+              44.861399999999996
+            ],
+            [
+              22.43625,
+              44.861399999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.64,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.55321,
+              45.00526
+            ],
+            [
+              24.55321,
+              45.02026
+            ],
+            [
+              24.53821,
+              45.02026
+            ],
+            [
+              24.53821,
+              45.00526
+            ],
+            [
+              24.55321,
+              45.00526
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.65,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.42673,
+              45.11468
+            ],
+            [
+              25.42673,
+              45.12968
+            ],
+            [
+              25.41173,
+              45.12968
+            ],
+            [
+              25.41173,
+              45.11468
+            ],
+            [
+              25.42673,
+              45.11468
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.88,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.684450000000002,
+              45.2492
+            ],
+            [
+              31.684450000000002,
+              45.2642
+            ],
+            [
+              31.66945,
+              45.2642
+            ],
+            [
+              31.66945,
+              45.2492
+            ],
+            [
+              31.684450000000002,
+              45.2492
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.59,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.68004,
+              45.25048
+            ],
+            [
+              31.68004,
+              45.265480000000004
+            ],
+            [
+              31.66504,
+              45.265480000000004
+            ],
+            [
+              31.66504,
+              45.25048
+            ],
+            [
+              31.68004,
+              45.25048
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 8.64,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.90977,
+              45.344879999999996
+            ],
+            [
+              30.90977,
+              45.35988
+            ],
+            [
+              30.89477,
+              45.35988
+            ],
+            [
+              30.89477,
+              45.344879999999996
+            ],
+            [
+              30.90977,
+              45.344879999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.24,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.91251,
+              45.34972
+            ],
+            [
+              30.91251,
+              45.36472
+            ],
+            [
+              30.89751,
+              45.36472
+            ],
+            [
+              30.89751,
+              45.34972
+            ],
+            [
+              30.91251,
+              45.34972
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.24,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.28785,
+              45.94309
+            ],
+            [
+              25.28785,
+              45.95809
+            ],
+            [
+              25.27285,
+              45.95809
+            ],
+            [
+              25.27285,
+              45.94309
+            ],
+            [
+              25.28785,
+              45.94309
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.59,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.289080000000002,
+              45.94403
+            ],
+            [
+              25.289080000000002,
+              45.95903
+            ],
+            [
+              25.27408,
+              45.95903
+            ],
+            [
+              25.27408,
+              45.94403
+            ],
+            [
+              25.289080000000002,
+              45.94403
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.5,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.33833,
+              47.02933
+            ],
+            [
+              22.33833,
+              47.04433
+            ],
+            [
+              22.32333,
+              47.04433
+            ],
+            [
+              22.32333,
+              47.02933
+            ],
+            [
+              22.33833,
+              47.02933
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.73,
+        "acq_date": "2026-10-21",
+        "acq_time": "100",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.11328,
+              44.07214
+            ],
+            [
+              22.11328,
+              44.08714
+            ],
+            [
+              22.09828,
+              44.08714
+            ],
+            [
+              22.09828,
+              44.07214
+            ],
+            [
+              22.11328,
+              44.07214
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.66,
+        "acq_date": "2026-10-21",
+        "acq_time": "102",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
       }
     }
   ]
