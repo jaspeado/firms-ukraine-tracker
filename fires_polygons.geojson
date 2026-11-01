@@ -51683,6 +51683,84 @@
         "coordinates": [
           [
             [
+              28.36968,
+              44.3993
+            ],
+            [
+              28.36968,
+              44.4143
+            ],
+            [
+              28.35468,
+              44.4143
+            ],
+            [
+              28.35468,
+              44.3993
+            ],
+            [
+              28.36968,
+              44.3993
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.01,
+        "acq_date": "2026-11-01",
+        "acq_time": "1142",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.36914,
+              44.40434
+            ],
+            [
+              28.36914,
+              44.41934
+            ],
+            [
+              28.35414,
+              44.41934
+            ],
+            [
+              28.35414,
+              44.40434
+            ],
+            [
+              28.36914,
+              44.40434
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.01,
+        "acq_date": "2026-11-01",
+        "acq_time": "1142",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               38.0137,
               49.32845
             ],
