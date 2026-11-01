@@ -25048,6 +25048,139 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          39.73153,
+          45.11409
+        ]
+      },
+      "properties": {
+        "frp": 6.22,
+        "acq_date": "2026-11-01",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Krasnogvardeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.27605,
+          45.15376
+        ]
+      },
+      "properties": {
+        "frp": 5.9,
+        "acq_date": "2026-11-01",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.27477,
+          45.15718
+        ]
+      },
+      "properties": {
+        "frp": 5.9,
+        "acq_date": "2026-11-01",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.28021,
+          45.15821
+        ]
+      },
+      "properties": {
+        "frp": 9.16,
+        "acq_date": "2026-11-01",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67418,
+          45.26056
+        ]
+      },
+      "properties": {
+        "frp": 8.19,
+        "acq_date": "2026-11-01",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29317,
+          45.2716
+        ]
+      },
+      "properties": {
+        "frp": 3.66,
+        "acq_date": "2026-11-01",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29188,
+          45.27502
+        ]
+      },
+      "properties": {
+        "frp": 8.89,
+        "acq_date": "2026-11-01",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           38.0062,
           49.33595
         ]
@@ -50729,6 +50862,120 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.09843,
+          44.9679
+        ]
+      },
+      "properties": {
+        "frp": 3.05,
+        "acq_date": "2026-11-01",
+        "acq_time": "1057",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Teuchezhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.32302,
+          45.23537
+        ]
+      },
+      "properties": {
+        "frp": 7.7,
+        "acq_date": "2026-11-01",
+        "acq_time": "1057",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.32915,
+          45.23583
+        ]
+      },
+      "properties": {
+        "frp": 10.45,
+        "acq_date": "2026-11-01",
+        "acq_time": "1057",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33528,
+          45.23629
+        ]
+      },
+      "properties": {
+        "frp": 10.45,
+        "acq_date": "2026-11-01",
+        "acq_time": "1057",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.28659,
+          45.27287
+        ]
+      },
+      "properties": {
+        "frp": 10.53,
+        "acq_date": "2026-11-01",
+        "acq_time": "1057",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.37249,
+          45.27943
+        ]
+      },
+      "properties": {
+        "frp": 9.48,
+        "acq_date": "2026-11-01",
+        "acq_time": "1057",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
       }
     },
     {
@@ -77101,6 +77348,614 @@
         "brightness": null,
         "NAME_1": "Rivne",
         "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25897,
+          50.5455
+        ]
+      },
+      "properties": {
+        "frp": 1.29,
+        "acq_date": "2026-11-01",
+        "acq_time": "52",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90049,
+          45.35331
+        ]
+      },
+      "properties": {
+        "frp": 0.43,
+        "acq_date": "2026-11-01",
+        "acq_time": "54",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90289,
+          45.35783
+        ]
+      },
+      "properties": {
+        "frp": 0.43,
+        "acq_date": "2026-11-01",
+        "acq_time": "54",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.35101,
+          46.7585
+        ]
+      },
+      "properties": {
+        "frp": 1.0,
+        "acq_date": "2026-11-01",
+        "acq_time": "54",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Beryslavs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.01534,
+          47.78419
+        ]
+      },
+      "properties": {
+        "frp": 0.6,
+        "acq_date": "2026-11-01",
+        "acq_time": "54",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.95421,
+          47.78971
+        ]
+      },
+      "properties": {
+        "frp": 1.16,
+        "acq_date": "2026-11-01",
+        "acq_time": "54",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71202,
+          48.97356
+        ]
+      },
+      "properties": {
+        "frp": 1.03,
+        "acq_date": "2026-11-01",
+        "acq_time": "54",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.09273,
+          44.97065
+        ]
+      },
+      "properties": {
+        "frp": 1.86,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Teuchezhskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.27731,
+          45.14946
+        ]
+      },
+      "properties": {
+        "frp": 7.9,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.27387,
+          45.15255
+        ]
+      },
+      "properties": {
+        "frp": 8.83,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2764,
+          45.15283
+        ]
+      },
+      "properties": {
+        "frp": 7.9,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.27296,
+          45.15592
+        ]
+      },
+      "properties": {
+        "frp": 8.83,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.27807,
+          45.1566
+        ]
+      },
+      "properties": {
+        "frp": 8.83,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Abinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.26686,
+          45.21802
+        ]
+      },
+      "properties": {
+        "frp": 1.7,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33773,
+          45.23109
+        ]
+      },
+      "properties": {
+        "frp": 12.2,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.34287,
+          45.23178
+        ]
+      },
+      "properties": {
+        "frp": 12.2,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33169,
+          45.23378
+        ]
+      },
+      "properties": {
+        "frp": 15.38,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33683,
+          45.23447
+        ]
+      },
+      "properties": {
+        "frp": 12.2,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.34196,
+          45.23516
+        ]
+      },
+      "properties": {
+        "frp": 12.2,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33078,
+          45.23715
+        ]
+      },
+      "properties": {
+        "frp": 3.26,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.33592,
+          45.23785
+        ]
+      },
+      "properties": {
+        "frp": 5.21,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67228,
+          45.2594
+        ]
+      },
+      "properties": {
+        "frp": 10.03,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2873,
+          45.2728
+        ]
+      },
+      "properties": {
+        "frp": 4.05,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.29244,
+          45.27349
+        ]
+      },
+      "properties": {
+        "frp": 4.05,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.37143,
+          45.27701
+        ]
+      },
+      "properties": {
+        "frp": 5.42,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.37658,
+          45.27769
+        ]
+      },
+      "properties": {
+        "frp": 5.42,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.38174,
+          45.27838
+        ]
+      },
+      "properties": {
+        "frp": 7.83,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.37052,
+          45.2804
+        ]
+      },
+      "properties": {
+        "frp": 6.81,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.37568,
+          45.28108
+        ]
+      },
+      "properties": {
+        "frp": 6.81,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.38083,
+          45.28176
+        ]
+      },
+      "properties": {
+        "frp": 6.22,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.38599,
+          45.28245
+        ]
+      },
+      "properties": {
+        "frp": 6.22,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.37992,
+          45.28515
+        ]
+      },
+      "properties": {
+        "frp": 6.22,
+        "acq_date": "2026-11-01",
+        "acq_time": "1038",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
       }
     }
   ]
