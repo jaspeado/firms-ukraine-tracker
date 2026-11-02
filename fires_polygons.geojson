@@ -38384,6 +38384,162 @@
         "coordinates": [
           [
             [
+              33.86985,
+              44.76569
+            ],
+            [
+              33.86985,
+              44.78069
+            ],
+            [
+              33.85485,
+              44.78069
+            ],
+            [
+              33.85485,
+              44.76569
+            ],
+            [
+              33.86985,
+              44.76569
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.72,
+        "acq_date": "2026-11-01",
+        "acq_time": "2358",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Bakhchysarais'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.76333,
+              47.16397
+            ],
+            [
+              31.76333,
+              47.17897
+            ],
+            [
+              31.74833,
+              47.17897
+            ],
+            [
+              31.74833,
+              47.16397
+            ],
+            [
+              31.76333,
+              47.16397
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.42,
+        "acq_date": "2026-11-01",
+        "acq_time": "2358",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Mykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.24368,
+              47.51809
+            ],
+            [
+              31.24368,
+              47.53309
+            ],
+            [
+              31.22868,
+              47.53309
+            ],
+            [
+              31.22868,
+              47.51809
+            ],
+            [
+              31.24368,
+              47.51809
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.71,
+        "acq_date": "2026-11-01",
+        "acq_time": "2358",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Voznesens'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.61173,
+              48.74036
+            ],
+            [
+              26.61173,
+              48.75536
+            ],
+            [
+              26.59673,
+              48.75536
+            ],
+            [
+              26.59673,
+              48.74036
+            ],
+            [
+              26.61173,
+              48.74036
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.16,
+        "acq_date": "2026-11-01",
+        "acq_time": "2358",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Kamianets'-Podil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               38.85428,
               46.33958
             ],
@@ -75542,6 +75698,201 @@
         "brightness": null,
         "NAME_1": "Krasnodar",
         "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81742,
+              44.73006
+            ],
+            [
+              37.81742,
+              44.74506
+            ],
+            [
+              37.80242,
+              44.74506
+            ],
+            [
+              37.80242,
+              44.73006
+            ],
+            [
+              37.81742,
+              44.73006
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.04,
+        "acq_date": "2026-11-01",
+        "acq_time": "2313",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.05368,
+              45.46678
+            ],
+            [
+              40.05368,
+              45.48178
+            ],
+            [
+              40.03868,
+              45.48178
+            ],
+            [
+              40.03868,
+              45.46678
+            ],
+            [
+              40.05368,
+              45.46678
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.73,
+        "acq_date": "2026-11-01",
+        "acq_time": "2313",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Tbilisskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.76173,
+              47.16695
+            ],
+            [
+              31.76173,
+              47.18195
+            ],
+            [
+              31.74673,
+              47.18195
+            ],
+            [
+              31.74673,
+              47.16695
+            ],
+            [
+              31.76173,
+              47.16695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.83,
+        "acq_date": "2026-11-01",
+        "acq_time": "2313",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Mykolayiv",
+        "locality": "Mykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.60528,
+              48.74306
+            ],
+            [
+              26.60528,
+              48.75806
+            ],
+            [
+              26.59028,
+              48.75806
+            ],
+            [
+              26.59028,
+              48.74306
+            ],
+            [
+              26.60528,
+              48.74306
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.17,
+        "acq_date": "2026-11-01",
+        "acq_time": "2313",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Kamianets'-Podil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.86746,
+              44.76509
+            ],
+            [
+              33.86746,
+              44.78009
+            ],
+            [
+              33.85246,
+              44.78009
+            ],
+            [
+              33.85246,
+              44.76509
+            ],
+            [
+              33.86746,
+              44.76509
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.79,
+        "acq_date": "2026-11-02",
+        "acq_time": "54",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Bakhchysarais'kyi"
       }
     },
     {
@@ -119612,6 +119963,84 @@
         "brightness": null,
         "NAME_1": "Krasnodar",
         "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81806,
+              44.72715
+            ],
+            [
+              37.81806,
+              44.74215
+            ],
+            [
+              37.80306,
+              44.74215
+            ],
+            [
+              37.80306,
+              44.72715
+            ],
+            [
+              37.81806,
+              44.72715
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.28,
+        "acq_date": "2026-11-02",
+        "acq_time": "34",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.87018,
+              44.76722
+            ],
+            [
+              33.87018,
+              44.78222
+            ],
+            [
+              33.85518,
+              44.78222
+            ],
+            [
+              33.85518,
+              44.76722
+            ],
+            [
+              33.87018,
+              44.76722
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.1,
+        "acq_date": "2026-11-02",
+        "acq_time": "37",
+        "satellite": "N",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Bakhchysarais'kyi"
       }
     }
   ]
