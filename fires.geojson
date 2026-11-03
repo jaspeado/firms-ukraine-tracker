@@ -10608,6 +10608,120 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          35.14812,
+          47.85955
+        ]
+      },
+      "properties": {
+        "frp": 0.68,
+        "acq_date": "2026-11-02",
+        "acq_time": "2337",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.14301,
+          47.8603
+        ]
+      },
+      "properties": {
+        "frp": 1.17,
+        "acq_date": "2026-11-02",
+        "acq_time": "2337",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.14918,
+          47.86282
+        ]
+      },
+      "properties": {
+        "frp": 1.13,
+        "acq_date": "2026-11-02",
+        "acq_time": "2337",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.14938,
+          48.07821
+        ]
+      },
+      "properties": {
+        "frp": 1.1,
+        "acq_date": "2026-11-02",
+        "acq_time": "2337",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Antratsytivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.91983,
+          48.29403
+        ]
+      },
+      "properties": {
+        "frp": 1.17,
+        "acq_date": "2026-11-02",
+        "acq_time": "2337",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Krasnodons'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80917,
+          44.73455
+        ]
+      },
+      "properties": {
+        "frp": 1.72,
+        "acq_date": "2026-11-02",
+        "acq_time": "2339",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           40.35141,
           51.89784
         ]
@@ -20918,6 +21032,158 @@
         "brightness": null,
         "NAME_1": "Rostov",
         "locality": "Chertkovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.14459,
+          47.86837
+        ]
+      },
+      "properties": {
+        "frp": 1.12,
+        "acq_date": "2026-11-02",
+        "acq_time": "2254",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.15046,
+          48.07635
+        ]
+      },
+      "properties": {
+        "frp": 1.15,
+        "acq_date": "2026-11-02",
+        "acq_time": "2254",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Antratsytivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.15122,
+          48.0809
+        ]
+      },
+      "properties": {
+        "frp": 0.93,
+        "acq_date": "2026-11-02",
+        "acq_time": "2254",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Luhans'k",
+        "locality": "Antratsytivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.09016,
+          48.48338
+        ]
+      },
+      "properties": {
+        "frp": 0.92,
+        "acq_date": "2026-11-03",
+        "acq_time": "34",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Dobropil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80812,
+          44.73698
+        ]
+      },
+      "properties": {
+        "frp": 1.15,
+        "acq_date": "2026-11-03",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80804,
+          44.73786
+        ]
+      },
+      "properties": {
+        "frp": 1.56,
+        "acq_date": "2026-11-03",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.42583,
+          44.82744
+        ]
+      },
+      "properties": {
+        "frp": 0.75,
+        "acq_date": "2026-11-03",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.67834,
+          44.8414
+        ]
+      },
+      "properties": {
+        "frp": 0.9,
+        "acq_date": "2026-11-03",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
       }
     },
     {
