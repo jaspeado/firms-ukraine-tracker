@@ -2115,6 +2115,158 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          22.52791,
+          48.43513
+        ]
+      },
+      "properties": {
+        "frp": 4.38,
+        "acq_date": "2026-11-04",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Mukachivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.46578,
+          50.06246
+        ]
+      },
+      "properties": {
+        "frp": 4.38,
+        "acq_date": "2026-11-04",
+        "acq_time": "1049",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Bilohirs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.82161,
+          51.33604
+        ]
+      },
+      "properties": {
+        "frp": 2.17,
+        "acq_date": "2026-11-04",
+        "acq_time": "1049",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Olevs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.00077,
+          51.37972
+        ]
+      },
+      "properties": {
+        "frp": 3.91,
+        "acq_date": "2026-11-04",
+        "acq_time": "1049",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Ovruts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.62814,
+          52.53363
+        ]
+      },
+      "properties": {
+        "frp": 4.83,
+        "acq_date": "2026-11-04",
+        "acq_time": "1049",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.04371,
+          52.58002
+        ]
+      },
+      "properties": {
+        "frp": 7.24,
+        "acq_date": "2026-11-04",
+        "acq_time": "1049",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Zadonskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.04316,
+          52.58058
+        ]
+      },
+      "properties": {
+        "frp": 13.37,
+        "acq_date": "2026-11-04",
+        "acq_time": "1049",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Zadonskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.53738,
+          48.26152
+        ]
+      },
+      "properties": {
+        "frp": 10.7,
+        "acq_date": "2026-11-04",
+        "acq_time": "1227",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Berehivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           35.07299,
           51.34789
         ]
@@ -3647,6 +3799,139 @@
         "brightness": null,
         "NAME_1": "Donets'k",
         "locality": "Snizhnens'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.27477,
+          51.36151
+        ]
+      },
+      "properties": {
+        "frp": 3.69,
+        "acq_date": "2026-11-04",
+        "acq_time": "1004",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Narodyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.61349,
+          52.06437
+        ]
+      },
+      "properties": {
+        "frp": 3.96,
+        "acq_date": "2026-11-04",
+        "acq_time": "1004",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dytkavi\u010dy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.53935,
+          48.26275
+        ]
+      },
+      "properties": {
+        "frp": 3.83,
+        "acq_date": "2026-11-04",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Berehivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.07289,
+          50.57655
+        ]
+      },
+      "properties": {
+        "frp": 2.0,
+        "acq_date": "2026-11-04",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Radomyshl's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3835,
+          50.98722
+        ]
+      },
+      "properties": {
+        "frp": 3.25,
+        "acq_date": "2026-11-04",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Novohrad-Volyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.00367,
+          51.37604
+        ]
+      },
+      "properties": {
+        "frp": 2.35,
+        "acq_date": "2026-11-04",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zhytomyr",
+        "locality": "Ovruts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.61298,
+          52.06393
+        ]
+      },
+      "properties": {
+        "frp": 7.53,
+        "acq_date": "2026-11-04",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dytkavi\u010dy"
       }
     },
     {
