@@ -4220,6 +4220,123 @@
         "coordinates": [
           [
             [
+              36.2859,
+              47.31721
+            ],
+            [
+              36.2859,
+              47.33221
+            ],
+            [
+              36.2709,
+              47.33221
+            ],
+            [
+              36.2709,
+              47.31721
+            ],
+            [
+              36.2859,
+              47.31721
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.31,
+        "acq_date": "2026-11-03",
+        "acq_time": "2320",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Polohivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.11164,
+              47.33543
+            ],
+            [
+              40.11164,
+              47.35043
+            ],
+            [
+              40.09664,
+              47.35043
+            ],
+            [
+              40.09664,
+              47.33543
+            ],
+            [
+              40.11164,
+              47.33543
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.48,
+        "acq_date": "2026-11-03",
+        "acq_time": "2320",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.95997,
+              48.05013
+            ],
+            [
+              37.95997,
+              48.06513
+            ],
+            [
+              37.94497,
+              48.06513
+            ],
+            [
+              37.94497,
+              48.05013
+            ],
+            [
+              37.95997,
+              48.05013
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.57,
+        "acq_date": "2026-11-03",
+        "acq_time": "2320",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Maki\u2039vs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               35.08049,
               51.34039
             ],

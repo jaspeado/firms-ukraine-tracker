@@ -2058,6 +2058,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          36.2784,
+          47.32471
+        ]
+      },
+      "properties": {
+        "frp": 4.31,
+        "acq_date": "2026-11-03",
+        "acq_time": "2320",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Polohivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.10414,
+          47.34293
+        ]
+      },
+      "properties": {
+        "frp": 0.48,
+        "acq_date": "2026-11-03",
+        "acq_time": "2320",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Oktyabr'skiy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.95247,
+          48.05763
+        ]
+      },
+      "properties": {
+        "frp": 0.57,
+        "acq_date": "2026-11-03",
+        "acq_time": "2320",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Maki\u2039vs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           35.07299,
           51.34789
         ]
