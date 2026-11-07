@@ -8,318 +8,6 @@
         "coordinates": [
           [
             [
-              38.0963,
-              46.61206
-            ],
-            [
-              38.0963,
-              46.62706
-            ],
-            [
-              38.0813,
-              46.62706
-            ],
-            [
-              38.0813,
-              46.61206
-            ],
-            [
-              38.0963,
-              46.61206
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 10.76,
-        "acq_date": "2026-11-02",
-        "acq_time": "943",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Eyskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              22.72281,
-              48.31165
-            ],
-            [
-              22.72281,
-              48.32665
-            ],
-            [
-              22.70781,
-              48.32665
-            ],
-            [
-              22.70781,
-              48.31165
-            ],
-            [
-              22.72281,
-              48.31165
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 10.58,
-        "acq_date": "2026-11-02",
-        "acq_time": "1123",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Zakarpattia",
-        "locality": "Mukachivs'kyi"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              35.15562,
-              47.85205
-            ],
-            [
-              35.15562,
-              47.86705
-            ],
-            [
-              35.14062,
-              47.86705
-            ],
-            [
-              35.14062,
-              47.85205
-            ],
-            [
-              35.15562,
-              47.85205
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 0.68,
-        "acq_date": "2026-11-02",
-        "acq_time": "2337",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Zaporizhia",
-        "locality": "Zaporiz'ka"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              35.15051,
-              47.8528
-            ],
-            [
-              35.15051,
-              47.8678
-            ],
-            [
-              35.13551,
-              47.8678
-            ],
-            [
-              35.13551,
-              47.8528
-            ],
-            [
-              35.15051,
-              47.8528
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.17,
-        "acq_date": "2026-11-02",
-        "acq_time": "2337",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Zaporizhia",
-        "locality": "Zaporiz'ka"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              35.15668,
-              47.85532
-            ],
-            [
-              35.15668,
-              47.87032
-            ],
-            [
-              35.14168,
-              47.87032
-            ],
-            [
-              35.14168,
-              47.85532
-            ],
-            [
-              35.15668,
-              47.85532
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.13,
-        "acq_date": "2026-11-02",
-        "acq_time": "2337",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Zaporizhia",
-        "locality": "Zaporiz'ka"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              39.15688,
-              48.07071
-            ],
-            [
-              39.15688,
-              48.08571
-            ],
-            [
-              39.14188,
-              48.08571
-            ],
-            [
-              39.14188,
-              48.07071
-            ],
-            [
-              39.15688,
-              48.07071
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.1,
-        "acq_date": "2026-11-02",
-        "acq_time": "2337",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Luhans'k",
-        "locality": "Antratsytivs'kyi"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              39.92733,
-              48.28653
-            ],
-            [
-              39.92733,
-              48.30153
-            ],
-            [
-              39.91233,
-              48.30153
-            ],
-            [
-              39.91233,
-              48.28653
-            ],
-            [
-              39.92733,
-              48.28653
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.17,
-        "acq_date": "2026-11-02",
-        "acq_time": "2337",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Luhans'k",
-        "locality": "Krasnodons'kyi"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              37.81667,
-              44.72705
-            ],
-            [
-              37.81667,
-              44.74205
-            ],
-            [
-              37.80167,
-              44.74205
-            ],
-            [
-              37.80167,
-              44.72705
-            ],
-            [
-              37.81667,
-              44.72705
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.72,
-        "acq_date": "2026-11-02",
-        "acq_time": "2339",
-        "satellite": "N21",
-        "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Gelendzhik gorsovet"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
               38.48728,
               47.179339999999996
             ],
@@ -3908,36 +3596,36 @@
         "coordinates": [
           [
             [
-              33.86746,
-              44.76509
+              37.8428,
+              48.87166
             ],
             [
-              33.86746,
-              44.78009
+              37.8428,
+              48.88666
             ],
             [
-              33.85246,
-              44.78009
+              37.827799999999996,
+              48.88666
             ],
             [
-              33.85246,
-              44.76509
+              37.827799999999996,
+              48.87166
             ],
             [
-              33.86746,
-              44.76509
+              37.8428,
+              48.87166
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 0.79,
-        "acq_date": "2026-11-02",
-        "acq_time": "54",
-        "satellite": "N20",
+        "frp": 1.2,
+        "acq_date": "2026-11-06",
+        "acq_time": "2222",
+        "satellite": "N21",
         "brightness": null,
-        "NAME_1": "Crimea",
-        "locality": "Bakhchysarais'kyi"
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
       }
     },
     {
@@ -3947,36 +3635,36 @@
         "coordinates": [
           [
             [
-              38.09991,
-              46.61322
+              37.73104,
+              48.90455
             ],
             [
-              38.09991,
-              46.62822
+              37.73104,
+              48.91955
             ],
             [
-              38.08491,
-              46.62822
+              37.71604,
+              48.91955
             ],
             [
-              38.08491,
-              46.61322
+              37.71604,
+              48.90455
             ],
             [
-              38.09991,
-              46.61322
+              37.73104,
+              48.90455
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 5.58,
-        "acq_date": "2026-11-02",
-        "acq_time": "900",
-        "satellite": "N20",
+        "frp": 1.38,
+        "acq_date": "2026-11-06",
+        "acq_time": "2222",
+        "satellite": "N21",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Eyskiy rayon"
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
       }
     },
     {
@@ -3986,36 +3674,36 @@
         "coordinates": [
           [
             [
-              38.10369,
-              46.61408
+              39.94153,
+              50.59331
             ],
             [
-              38.10369,
-              46.62908
+              39.94153,
+              50.60831
             ],
             [
-              38.08869,
-              46.62908
+              39.92653,
+              50.60831
             ],
             [
-              38.08869,
-              46.61408
+              39.92653,
+              50.59331
             ],
             [
-              38.10369,
-              46.61408
+              39.94153,
+              50.59331
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 5.62,
-        "acq_date": "2026-11-02",
-        "acq_time": "900",
-        "satellite": "N20",
+        "frp": 5.86,
+        "acq_date": "2026-11-06",
+        "acq_time": "2222",
+        "satellite": "N21",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Eyskiy rayon"
+        "NAME_1": "Voronezh",
+        "locality": "Pavlovskiy rayon"
       }
     },
     {
@@ -4025,660 +3713,36 @@
         "coordinates": [
           [
             [
-              37.81498,
-              45.55686
+              39.93457,
+              50.5934
             ],
             [
-              37.81498,
-              45.57186
+              39.93457,
+              50.6084
             ],
             [
-              37.79998,
-              45.57186
+              39.91957,
+              50.6084
             ],
             [
-              37.79998,
-              45.55686
+              39.91957,
+              50.5934
             ],
             [
-              37.81498,
-              45.55686
+              39.93457,
+              50.5934
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 1.92,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
+        "frp": 4.68,
+        "acq_date": "2026-11-06",
+        "acq_time": "2222",
+        "satellite": "N21",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Slavyanskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              37.82061,
-              45.55754
-            ],
-            [
-              37.82061,
-              45.572540000000004
-            ],
-            [
-              37.80561,
-              45.572540000000004
-            ],
-            [
-              37.80561,
-              45.55754
-            ],
-            [
-              37.82061,
-              45.55754
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 3.67,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Slavyanskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              38.435430000000004,
-              46.52672
-            ],
-            [
-              38.435430000000004,
-              46.54172
-            ],
-            [
-              38.42043,
-              46.54172
-            ],
-            [
-              38.42043,
-              46.52672
-            ],
-            [
-              38.435430000000004,
-              46.52672
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 2.84,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Eyskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              38.09666,
-              46.61151
-            ],
-            [
-              38.09666,
-              46.62651
-            ],
-            [
-              38.08166,
-              46.62651
-            ],
-            [
-              38.08166,
-              46.61151
-            ],
-            [
-              38.09666,
-              46.61151
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 4.69,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Eyskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              39.06509,
-              46.63244
-            ],
-            [
-              39.06509,
-              46.64744
-            ],
-            [
-              39.05009,
-              46.64744
-            ],
-            [
-              39.05009,
-              46.63244
-            ],
-            [
-              39.06509,
-              46.63244
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 10.78,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Starominskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              39.06425,
-              46.63616
-            ],
-            [
-              39.06425,
-              46.65116
-            ],
-            [
-              39.04925,
-              46.65116
-            ],
-            [
-              39.04925,
-              46.63616
-            ],
-            [
-              39.06425,
-              46.63616
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 5.63,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Starominskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.31163,
-              46.80159
-            ],
-            [
-              40.31163,
-              46.81659
-            ],
-            [
-              40.29663,
-              46.81659
-            ],
-            [
-              40.29663,
-              46.80159
-            ],
-            [
-              40.31163,
-              46.80159
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 5.48,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.31897,
-              46.80229
-            ],
-            [
-              40.31897,
-              46.81729
-            ],
-            [
-              40.30397,
-              46.81729
-            ],
-            [
-              40.30397,
-              46.80229
-            ],
-            [
-              40.31897,
-              46.80229
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 5.74,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.30388,
-              46.80359
-            ],
-            [
-              40.30388,
-              46.81859
-            ],
-            [
-              40.28888,
-              46.81859
-            ],
-            [
-              40.28888,
-              46.80359
-            ],
-            [
-              40.30388,
-              46.80359
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 3.94,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.31124,
-              46.80427
-            ],
-            [
-              40.31124,
-              46.81927
-            ],
-            [
-              40.29624,
-              46.81927
-            ],
-            [
-              40.29624,
-              46.80427
-            ],
-            [
-              40.31124,
-              46.80427
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 7.34,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.31859,
-              46.80494
-            ],
-            [
-              40.31859,
-              46.81994
-            ],
-            [
-              40.30359,
-              46.81994
-            ],
-            [
-              40.30359,
-              46.80494
-            ],
-            [
-              40.31859,
-              46.80494
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 7.34,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.31083,
-              46.80553
-            ],
-            [
-              40.31083,
-              46.82053
-            ],
-            [
-              40.29583,
-              46.82053
-            ],
-            [
-              40.29583,
-              46.80553
-            ],
-            [
-              40.31083,
-              46.80553
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 5.48,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.31817,
-              46.80624
-            ],
-            [
-              40.31817,
-              46.82124
-            ],
-            [
-              40.30317,
-              46.82124
-            ],
-            [
-              40.30317,
-              46.80624
-            ],
-            [
-              40.31817,
-              46.80624
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 5.74,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.76255,
-              49.43112
-            ],
-            [
-              40.76255,
-              49.44612
-            ],
-            [
-              40.74755,
-              49.44612
-            ],
-            [
-              40.74755,
-              49.43112
-            ],
-            [
-              40.76255,
-              49.43112
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 5.02,
-        "acq_date": "2026-11-02",
-        "acq_time": "1040",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Chertkovskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              35.15209,
-              47.86087
-            ],
-            [
-              35.15209,
-              47.87587
-            ],
-            [
-              35.13709,
-              47.87587
-            ],
-            [
-              35.13709,
-              47.86087
-            ],
-            [
-              35.15209,
-              47.86087
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.12,
-        "acq_date": "2026-11-02",
-        "acq_time": "2254",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Zaporizhia",
-        "locality": "Zaporiz'ka"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              39.15796,
-              48.06885
-            ],
-            [
-              39.15796,
-              48.08385
-            ],
-            [
-              39.14296,
-              48.08385
-            ],
-            [
-              39.14296,
-              48.06885
-            ],
-            [
-              39.15796,
-              48.06885
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.15,
-        "acq_date": "2026-11-02",
-        "acq_time": "2254",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Luhans'k",
-        "locality": "Antratsytivs'kyi"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              39.15872,
-              48.0734
-            ],
-            [
-              39.15872,
-              48.0884
-            ],
-            [
-              39.14372,
-              48.0884
-            ],
-            [
-              39.14372,
-              48.0734
-            ],
-            [
-              39.15872,
-              48.0734
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 0.93,
-        "acq_date": "2026-11-02",
-        "acq_time": "2254",
-        "satellite": "N20",
-        "brightness": null,
-        "NAME_1": "Luhans'k",
-        "locality": "Antratsytivs'kyi"
+        "NAME_1": "Voronezh",
+        "locality": "Pavlovskiy rayon"
       }
     },
     {
@@ -7730,36 +6794,36 @@
         "coordinates": [
           [
             [
-              37.81806,
-              44.72715
+              33.43537,
+              47.85939
             ],
             [
-              37.81806,
-              44.74215
+              33.43537,
+              47.87439
             ],
             [
-              37.80306,
-              44.74215
+              33.42037,
+              47.87439
             ],
             [
-              37.80306,
-              44.72715
+              33.42037,
+              47.85939
             ],
             [
-              37.81806,
-              44.72715
+              33.43537,
+              47.85939
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 1.28,
-        "acq_date": "2026-11-02",
-        "acq_time": "34",
-        "satellite": "N",
+        "frp": 4.53,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Gelendzhik gorsovet"
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
       }
     },
     {
@@ -7769,36 +6833,36 @@
         "coordinates": [
           [
             [
-              33.87018,
-              44.76722
+              37.95966,
+              48.05214
             ],
             [
-              33.87018,
-              44.78222
+              37.95966,
+              48.06714
             ],
             [
-              33.85518,
-              44.78222
+              37.94466,
+              48.06714
             ],
             [
-              33.85518,
-              44.76722
+              37.94466,
+              48.05214
             ],
             [
-              33.87018,
-              44.76722
+              37.95966,
+              48.05214
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 1.1,
-        "acq_date": "2026-11-02",
-        "acq_time": "37",
-        "satellite": "N",
+        "frp": 1.0,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Crimea",
-        "locality": "Bakhchysarais'kyi"
+        "NAME_1": "Donets'k",
+        "locality": "Maki\u2039vs'ka"
       }
     },
     {
@@ -7808,36 +6872,36 @@
         "coordinates": [
           [
             [
-              40.064,
-              45.69945
+              38.76053,
+              48.45666
             ],
             [
-              40.064,
-              45.71445
+              38.76053,
+              48.47166
             ],
             [
-              40.049,
-              45.71445
+              38.74553,
+              48.47166
             ],
             [
-              40.049,
-              45.69945
+              38.74553,
+              48.45666
             ],
             [
-              40.064,
-              45.69945
+              38.76053,
+              48.45666
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 14.44,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 1.19,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Vyselkovskiy rayon"
+        "NAME_1": "Luhans'k",
+        "locality": "Alchevs'ka"
       }
     },
     {
@@ -7847,36 +6911,36 @@
         "coordinates": [
           [
             [
-              39.85522,
-              46.28354
+              38.76749,
+              48.45946
             ],
             [
-              39.85522,
-              46.29854
+              38.76749,
+              48.47446
             ],
             [
-              39.84022,
-              46.29854
+              38.75249,
+              48.47446
             ],
             [
-              39.84022,
-              46.28354
+              38.75249,
+              48.45946
             ],
             [
-              39.85522,
-              46.28354
+              38.76749,
+              48.45946
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 2.14,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 1.19,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Krylovskiy rayon"
+        "NAME_1": "Luhans'k",
+        "locality": "Alchevs'ka"
       }
     },
     {
@@ -7886,36 +6950,36 @@
         "coordinates": [
           [
             [
-              37.88588,
-              46.44622
+              26.60698,
+              48.73872
             ],
             [
-              37.88588,
-              46.46122
+              26.60698,
+              48.75372
             ],
             [
-              37.87088,
-              46.46122
+              26.59198,
+              48.75372
             ],
             [
-              37.87088,
-              46.44622
+              26.59198,
+              48.73872
             ],
             [
-              37.88588,
-              46.44622
+              26.60698,
+              48.73872
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 3.82,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 1.05,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Eyskiy rayon"
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Kamianets'-Podil's'kyi"
       }
     },
     {
@@ -7925,36 +6989,36 @@
         "coordinates": [
           [
             [
-              38.09504,
-              46.61435
+              37.73045,
+              48.90212
             ],
             [
-              38.09504,
-              46.62935
+              37.73045,
+              48.91712
             ],
             [
-              38.08004,
-              46.62935
+              37.71545,
+              48.91712
             ],
             [
-              38.08004,
-              46.61435
+              37.71545,
+              48.90212
             ],
             [
-              38.09504,
-              46.61435
+              37.73045,
+              48.90212
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 5.8,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 1.36,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Eyskiy rayon"
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
       }
     },
     {
@@ -7964,36 +7028,36 @@
         "coordinates": [
           [
             [
-              39.06403,
-              46.63027
+              37.73057,
+              48.90419
             ],
             [
-              39.06403,
-              46.645270000000004
+              37.73057,
+              48.91919
             ],
             [
-              39.04903,
-              46.645270000000004
+              37.71557,
+              48.91919
             ],
             [
-              39.04903,
-              46.63027
+              37.71557,
+              48.90419
             ],
             [
-              39.06403,
-              46.63027
+              37.73057,
+              48.90419
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 7.41,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 1.14,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Starominskiy rayon"
+        "NAME_1": "Donets'k",
+        "locality": "Slovians'kyi"
       }
     },
     {
@@ -8003,36 +7067,36 @@
         "coordinates": [
           [
             [
-              39.06288,
-              46.63355
+              39.69333,
+              50.14054
             ],
             [
-              39.06288,
-              46.64855
+              39.69333,
+              50.15554
             ],
             [
-              39.04788,
-              46.64855
+              39.67833,
+              50.15554
             ],
             [
-              39.04788,
-              46.63355
+              39.67833,
+              50.14054
             ],
             [
-              39.06288,
-              46.63355
+              39.69333,
+              50.14054
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 9.75,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 0.86,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Starominskiy rayon"
+        "NAME_1": "Voronezh",
+        "locality": "Rossoshanskiy rayon"
       }
     },
     {
@@ -8042,36 +7106,36 @@
         "coordinates": [
           [
             [
-              39.06173,
-              46.63684
+              24.4719,
+              50.36572
             ],
             [
-              39.06173,
-              46.65184
+              24.4719,
+              50.380720000000004
             ],
             [
-              39.04673,
-              46.65184
+              24.4569,
+              50.380720000000004
             ],
             [
-              39.04673,
-              46.63684
+              24.4569,
+              50.36572
             ],
             [
-              39.06173,
-              46.63684
+              24.4719,
+              50.36572
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 9.75,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 1.88,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Starominskiy rayon"
+        "NAME_1": "L'viv",
+        "locality": "Radekhivs'kyi"
       }
     },
     {
@@ -8081,36 +7145,36 @@
         "coordinates": [
           [
             [
-              39.06675,
-              46.63767
+              24.47355,
+              50.36953
             ],
             [
-              39.06675,
-              46.65267
+              24.47355,
+              50.38453
             ],
             [
-              39.05175,
-              46.65267
+              24.45855,
+              50.38453
             ],
             [
-              39.05175,
-              46.63767
+              24.45855,
+              50.36953
             ],
             [
-              39.06675,
-              46.63767
+              24.47355,
+              50.36953
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 9.75,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 2.06,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Starominskiy rayon"
+        "NAME_1": "L'viv",
+        "locality": "Radekhivs'kyi"
       }
     },
     {
@@ -8120,36 +7184,36 @@
         "coordinates": [
           [
             [
-              39.06947,
-              46.64507
+              31.86082,
+              52.01709
             ],
             [
-              39.06947,
-              46.66007
+              31.86082,
+              52.032090000000004
             ],
             [
-              39.05447,
-              46.66007
+              31.84582,
+              52.032090000000004
             ],
             [
-              39.05447,
-              46.64507
+              31.84582,
+              52.01709
             ],
             [
-              39.06947,
-              46.64507
+              31.86082,
+              52.01709
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 2.67,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 2.06,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Krasnodar",
-        "locality": "Starominskiy rayon"
+        "NAME_1": "Chernihiv",
+        "locality": "Shchors'kyi"
       }
     },
     {
@@ -8159,192 +7223,36 @@
         "coordinates": [
           [
             [
-              40.31018,
-              46.80194
+              31.85573,
+              52.01802
             ],
             [
-              40.31018,
-              46.81694
+              31.85573,
+              52.03302
             ],
             [
-              40.29518,
-              46.81694
+              31.84073,
+              52.03302
             ],
             [
-              40.29518,
-              46.80194
+              31.84073,
+              52.01802
             ],
             [
-              40.31018,
-              46.80194
+              31.85573,
+              52.01802
             ]
           ]
         ]
       },
       "properties": {
-        "frp": 3.96,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
+        "frp": 2.03,
+        "acq_date": "2026-11-06",
+        "acq_time": "2320",
+        "satellite": "N20",
         "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.32015,
-              46.80348
-            ],
-            [
-              40.32015,
-              46.81848
-            ],
-            [
-              40.30515,
-              46.81848
-            ],
-            [
-              40.30515,
-              46.80348
-            ],
-            [
-              40.32015,
-              46.80348
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 5.31,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.306960000000004,
-              46.81177
-            ],
-            [
-              40.306960000000004,
-              46.82677
-            ],
-            [
-              40.29196,
-              46.82677
-            ],
-            [
-              40.29196,
-              46.81177
-            ],
-            [
-              40.306960000000004,
-              46.81177
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 2.47,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              40.30589,
-              46.81506
-            ],
-            [
-              40.30589,
-              46.83006
-            ],
-            [
-              40.29089,
-              46.83006
-            ],
-            [
-              40.29089,
-              46.81506
-            ],
-            [
-              40.30589,
-              46.81506
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 2.47,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Zernogradskiy rayon"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              38.93126,
-              47.67242
-            ],
-            [
-              38.93126,
-              47.68742
-            ],
-            [
-              38.91626,
-              47.68742
-            ],
-            [
-              38.91626,
-              47.67242
-            ],
-            [
-              38.93126,
-              47.67242
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "frp": 1.94,
-        "acq_date": "2026-11-02",
-        "acq_time": "1019",
-        "satellite": "N",
-        "brightness": null,
-        "NAME_1": "Rostov",
-        "locality": "Matveevo-Kurganskiy rayon"
+        "NAME_1": "Chernihiv",
+        "locality": "Shchors'kyi"
       }
     }
   ]
