@@ -2362,6 +2362,177 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          37.93048,
+          51.13737
+        ]
+      },
+      "properties": {
+        "frp": 4.53,
+        "acq_date": "2026-11-08",
+        "acq_time": "932",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.35175,
+          51.15775
+        ]
+      },
+      "properties": {
+        "frp": 55.58,
+        "acq_date": "2026-11-08",
+        "acq_time": "932",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.34557,
+          51.16873
+        ]
+      },
+      "properties": {
+        "frp": 4.77,
+        "acq_date": "2026-11-08",
+        "acq_time": "932",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.65556,
+          44.57211
+        ]
+      },
+      "properties": {
+        "frp": 9.15,
+        "acq_date": "2026-11-08",
+        "acq_time": "1110",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.65466,
+          44.57544
+        ]
+      },
+      "properties": {
+        "frp": 14.67,
+        "acq_date": "2026-11-08",
+        "acq_time": "1110",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.28085,
+          48.37255
+        ]
+      },
+      "properties": {
+        "frp": 2.65,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.96003,
+          48.46475
+        ]
+      },
+      "properties": {
+        "frp": 13.79,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.96021,
+          48.4671
+        ]
+      },
+      "properties": {
+        "frp": 13.04,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.34614,
+          51.15669
+        ]
+      },
+      "properties": {
+        "frp": 23.92,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           29.27477,
           51.36151
         ]
@@ -4327,6 +4498,215 @@
         "frp": 0.7,
         "acq_date": "2026-11-08",
         "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.56428,
+          46.12815
+        ]
+      },
+      "properties": {
+        "frp": 3.34,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.51426,
+          47.18546
+        ]
+      },
+      "properties": {
+        "frp": 3.62,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43218,
+          47.86656
+        ]
+      },
+      "properties": {
+        "frp": 3.45,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.96395,
+          48.46453
+        ]
+      },
+      "properties": {
+        "frp": 13.27,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.96272,
+          48.46778
+        ]
+      },
+      "properties": {
+        "frp": 4.03,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.96603,
+          50.61227
+        ]
+      },
+      "properties": {
+        "frp": 38.61,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Pavlovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.349,
+          51.15649
+        ]
+      },
+      "properties": {
+        "frp": 6.67,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.35584,
+          51.15723
+        ]
+      },
+      "properties": {
+        "frp": 6.67,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.35489,
+          51.16088
+        ]
+      },
+      "properties": {
+        "frp": 7.02,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.28429,
+          44.18113
+        ]
+      },
+      "properties": {
+        "frp": 6.78,
+        "acq_date": "2026-11-08",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.40153,
+          47.58703
+        ]
+      },
+      "properties": {
+        "frp": 1.68,
+        "acq_date": "2026-11-08",
+        "acq_time": "1210",
         "satellite": "N20",
         "brightness": null,
         "NAME_1": "",

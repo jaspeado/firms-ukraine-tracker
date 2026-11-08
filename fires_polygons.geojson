@@ -4844,6 +4844,357 @@
         "coordinates": [
           [
             [
+              37.93798,
+              51.12987
+            ],
+            [
+              37.93798,
+              51.14487
+            ],
+            [
+              37.92298,
+              51.14487
+            ],
+            [
+              37.92298,
+              51.12987
+            ],
+            [
+              37.93798,
+              51.12987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.53,
+        "acq_date": "2026-11-08",
+        "acq_time": "932",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.35925,
+              51.15025
+            ],
+            [
+              40.35925,
+              51.16525
+            ],
+            [
+              40.34425,
+              51.16525
+            ],
+            [
+              40.34425,
+              51.15025
+            ],
+            [
+              40.35925,
+              51.15025
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 55.58,
+        "acq_date": "2026-11-08",
+        "acq_time": "932",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.35307,
+              51.161229999999996
+            ],
+            [
+              40.35307,
+              51.17623
+            ],
+            [
+              40.33807,
+              51.17623
+            ],
+            [
+              40.33807,
+              51.161229999999996
+            ],
+            [
+              40.35307,
+              51.161229999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.77,
+        "acq_date": "2026-11-08",
+        "acq_time": "932",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.66306,
+              44.56461
+            ],
+            [
+              26.66306,
+              44.57961
+            ],
+            [
+              26.64806,
+              44.57961
+            ],
+            [
+              26.64806,
+              44.56461
+            ],
+            [
+              26.66306,
+              44.56461
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.15,
+        "acq_date": "2026-11-08",
+        "acq_time": "1110",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.66216,
+              44.56794
+            ],
+            [
+              26.66216,
+              44.58294
+            ],
+            [
+              26.64716,
+              44.58294
+            ],
+            [
+              26.64716,
+              44.56794
+            ],
+            [
+              26.66216,
+              44.56794
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 14.67,
+        "acq_date": "2026-11-08",
+        "acq_time": "1110",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.28835,
+              48.36505
+            ],
+            [
+              22.28835,
+              48.38005
+            ],
+            [
+              22.27335,
+              48.38005
+            ],
+            [
+              22.27335,
+              48.36505
+            ],
+            [
+              22.28835,
+              48.36505
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.65,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Uzhhorods'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.967530000000004,
+              48.45725
+            ],
+            [
+              34.967530000000004,
+              48.47225
+            ],
+            [
+              34.95253,
+              48.47225
+            ],
+            [
+              34.95253,
+              48.45725
+            ],
+            [
+              34.967530000000004,
+              48.45725
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.79,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.96771,
+              48.4596
+            ],
+            [
+              34.96771,
+              48.4746
+            ],
+            [
+              34.952709999999996,
+              48.4746
+            ],
+            [
+              34.952709999999996,
+              48.4596
+            ],
+            [
+              34.96771,
+              48.4596
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.04,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.35364,
+              51.14919
+            ],
+            [
+              40.35364,
+              51.16419
+            ],
+            [
+              40.33864,
+              51.16419
+            ],
+            [
+              40.33864,
+              51.14919
+            ],
+            [
+              40.35364,
+              51.14919
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 23.92,
+        "acq_date": "2026-11-08",
+        "acq_time": "1112",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               29.28227,
               51.35401
             ],
@@ -8887,6 +9238,435 @@
         "frp": 0.7,
         "acq_date": "2026-11-08",
         "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.57178,
+              46.12065
+            ],
+            [
+              22.57178,
+              46.13565
+            ],
+            [
+              22.55678,
+              46.13565
+            ],
+            [
+              22.55678,
+              46.12065
+            ],
+            [
+              22.57178,
+              46.12065
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.34,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.52176,
+              47.17796
+            ],
+            [
+              38.52176,
+              47.19296
+            ],
+            [
+              38.50676,
+              47.19296
+            ],
+            [
+              38.50676,
+              47.17796
+            ],
+            [
+              38.52176,
+              47.17796
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.62,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.43968,
+              47.85906
+            ],
+            [
+              33.43968,
+              47.87406
+            ],
+            [
+              33.42468,
+              47.87406
+            ],
+            [
+              33.42468,
+              47.85906
+            ],
+            [
+              33.43968,
+              47.85906
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.45,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.97145,
+              48.45703
+            ],
+            [
+              34.97145,
+              48.472030000000004
+            ],
+            [
+              34.95645,
+              48.472030000000004
+            ],
+            [
+              34.95645,
+              48.45703
+            ],
+            [
+              34.97145,
+              48.45703
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 13.27,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.97022,
+              48.46028
+            ],
+            [
+              34.97022,
+              48.47528
+            ],
+            [
+              34.95522,
+              48.47528
+            ],
+            [
+              34.95522,
+              48.46028
+            ],
+            [
+              34.97022,
+              48.46028
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.03,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Dnipropetrovs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.973530000000004,
+              50.60477
+            ],
+            [
+              39.973530000000004,
+              50.61977
+            ],
+            [
+              39.95853,
+              50.61977
+            ],
+            [
+              39.95853,
+              50.60477
+            ],
+            [
+              39.973530000000004,
+              50.60477
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 38.61,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Pavlovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.3565,
+              51.14899
+            ],
+            [
+              40.3565,
+              51.16399
+            ],
+            [
+              40.341499999999996,
+              51.16399
+            ],
+            [
+              40.341499999999996,
+              51.14899
+            ],
+            [
+              40.3565,
+              51.14899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.67,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.36334,
+              51.14973
+            ],
+            [
+              40.36334,
+              51.16473
+            ],
+            [
+              40.34834,
+              51.16473
+            ],
+            [
+              40.34834,
+              51.14973
+            ],
+            [
+              40.36334,
+              51.14973
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.67,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.36239,
+              51.15338
+            ],
+            [
+              40.36239,
+              51.16838
+            ],
+            [
+              40.34739,
+              51.16838
+            ],
+            [
+              40.34739,
+              51.15338
+            ],
+            [
+              40.36239,
+              51.15338
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.02,
+        "acq_date": "2026-11-08",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.29179,
+              44.17363
+            ],
+            [
+              23.29179,
+              44.18863
+            ],
+            [
+              23.27679,
+              44.18863
+            ],
+            [
+              23.27679,
+              44.17363
+            ],
+            [
+              23.29179,
+              44.17363
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.78,
+        "acq_date": "2026-11-08",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.40903,
+              47.57953
+            ],
+            [
+              23.40903,
+              47.59453
+            ],
+            [
+              23.39403,
+              47.59453
+            ],
+            [
+              23.39403,
+              47.57953
+            ],
+            [
+              23.40903,
+              47.57953
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.68,
+        "acq_date": "2026-11-08",
+        "acq_time": "1210",
         "satellite": "N20",
         "brightness": null,
         "NAME_1": "",
