@@ -2324,6 +2324,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          25.27986,
+          45.95024
+        ]
+      },
+      "properties": {
+        "frp": 1.39,
+        "acq_date": "2026-11-08",
+        "acq_time": "126",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71023,
+          48.97306
+        ]
+      },
+      "properties": {
+        "frp": 1.2,
+        "acq_date": "2026-11-08",
+        "acq_time": "126",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           29.27477,
           51.36151
         ]
@@ -4122,6 +4160,177 @@
         "brightness": null,
         "NAME_1": "Dnipropetrovs'k",
         "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.57394,
+          52.55987
+        ]
+      },
+      "properties": {
+        "frp": 6.81,
+        "acq_date": "2026-11-08",
+        "acq_time": "39",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.56938,
+          52.56127
+        ]
+      },
+      "properties": {
+        "frp": 4.85,
+        "acq_date": "2026-11-08",
+        "acq_time": "39",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.99846,
+          45.13089
+        ]
+      },
+      "properties": {
+        "frp": 0.51,
+        "acq_date": "2026-11-08",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Simferopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.33269,
+          47.03573
+        ]
+      },
+      "properties": {
+        "frp": 0.56,
+        "acq_date": "2026-11-08",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.8161,
+          47.23331
+        ]
+      },
+      "properties": {
+        "frp": 1.48,
+        "acq_date": "2026-11-08",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Neklinovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23154,
+          47.6696
+        ]
+      },
+      "properties": {
+        "frp": 0.58,
+        "acq_date": "2026-11-08",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.95511,
+          47.78756
+        ]
+      },
+      "properties": {
+        "frp": 1.0,
+        "acq_date": "2026-11-08",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.70876,
+          48.97535
+        ]
+      },
+      "properties": {
+        "frp": 1.59,
+        "acq_date": "2026-11-08",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.55225,
+          51.13749
+        ]
+      },
+      "properties": {
+        "frp": 0.7,
+        "acq_date": "2026-11-08",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
       }
     }
   ]
