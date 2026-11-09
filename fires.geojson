@@ -2305,6 +2305,310 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          27.39273,
+          44.75037
+        ]
+      },
+      "properties": {
+        "frp": 9.01,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3844,
+          44.75943
+        ]
+      },
+      "properties": {
+        "frp": 3.0,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67512,
+          45.25953
+        ]
+      },
+      "properties": {
+        "frp": 9.3,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90332,
+          45.35685
+        ]
+      },
+      "properties": {
+        "frp": 2.71,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.32926,
+          45.5024
+        ]
+      },
+      "properties": {
+        "frp": 3.59,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Kiliis'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.58802,
+          46.80478
+        ]
+      },
+      "properties": {
+        "frp": 5.23,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.35323,
+          46.97858
+        ]
+      },
+      "properties": {
+        "frp": 7.23,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.69145,
+          47.4387
+        ]
+      },
+      "properties": {
+        "frp": 2.76,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Mykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.69047,
+          47.44204
+        ]
+      },
+      "properties": {
+        "frp": 2.82,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Mykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.69576,
+          47.44275
+        ]
+      },
+      "properties": {
+        "frp": 2.44,
+        "acq_date": "2026-11-09",
+        "acq_time": "1051",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Mykola\u2039vs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.88369,
+          48.90027
+        ]
+      },
+      "properties": {
+        "frp": 4.08,
+        "acq_date": "2026-11-09",
+        "acq_time": "1053",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Zakarpattia",
+        "locality": "Volovets'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.56094,
+          50.05835
+        ]
+      },
+      "properties": {
+        "frp": 5.05,
+        "acq_date": "2026-11-09",
+        "acq_time": "1053",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Bus'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.22508,
+          50.2335
+        ]
+      },
+      "properties": {
+        "frp": 2.97,
+        "acq_date": "2026-11-09",
+        "acq_time": "1053",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Radyvylivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.95562,
+          50.26464
+        ]
+      },
+      "properties": {
+        "frp": 3.68,
+        "acq_date": "2026-11-09",
+        "acq_time": "1053",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Sokal's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.22489,
+          50.35358
+        ]
+      },
+      "properties": {
+        "frp": 2.28,
+        "acq_date": "2026-11-09",
+        "acq_time": "1053",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "L'viv",
+        "locality": "Sokal's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.45949,
+          51.32988
+        ]
+      },
+      "properties": {
+        "frp": 2.71,
+        "acq_date": "2026-11-09",
+        "acq_time": "1053",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Volyn",
+        "locality": "Manevyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           24.70555,
           48.97563
         ]
@@ -4179,6 +4483,196 @@
         "brightness": null,
         "NAME_1": "Rivne",
         "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.38652,
+          44.76217
+        ]
+      },
+      "properties": {
+        "frp": 3.15,
+        "acq_date": "2026-11-09",
+        "acq_time": "1008",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67289,
+          45.25795
+        ]
+      },
+      "properties": {
+        "frp": 8.96,
+        "acq_date": "2026-11-09",
+        "acq_time": "1008",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.16248,
+          47.73463
+        ]
+      },
+      "properties": {
+        "frp": 7.1,
+        "acq_date": "2026-11-09",
+        "acq_time": "1010",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.69067,
+          48.1996
+        ]
+      },
+      "properties": {
+        "frp": 1.12,
+        "acq_date": "2026-11-09",
+        "acq_time": "1010",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.39586,
+          44.74743
+        ]
+      },
+      "properties": {
+        "frp": 4.47,
+        "acq_date": "2026-11-09",
+        "acq_time": "1149",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3957,
+          44.7481
+        ]
+      },
+      "properties": {
+        "frp": 9.11,
+        "acq_date": "2026-11-09",
+        "acq_time": "1149",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67466,
+          45.25644
+        ]
+      },
+      "properties": {
+        "frp": 8.29,
+        "acq_date": "2026-11-09",
+        "acq_time": "1149",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.22857,
+          50.23269
+        ]
+      },
+      "properties": {
+        "frp": 3.08,
+        "acq_date": "2026-11-09",
+        "acq_time": "1149",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Radyvylivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.87454,
+          50.49551
+        ]
+      },
+      "properties": {
+        "frp": 3.86,
+        "acq_date": "2026-11-09",
+        "acq_time": "1149",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.21299,
+          51.43796
+        ]
+      },
+      "properties": {
+        "frp": 19.86,
+        "acq_date": "2026-11-09",
+        "acq_time": "1151",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Volyn",
+        "locality": "Kamin'-Kashyrs'kyi"
       }
     }
   ]
