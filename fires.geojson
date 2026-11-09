@@ -2191,6 +2191,120 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          31.67652,
+          45.25574
+        ]
+      },
+      "properties": {
+        "frp": 4.21,
+        "acq_date": "2026-11-09",
+        "acq_time": "106",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.66919,
+          45.25826
+        ]
+      },
+      "properties": {
+        "frp": 4.21,
+        "acq_date": "2026-11-09",
+        "acq_time": "106",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71132,
+          48.97485
+        ]
+      },
+      "properties": {
+        "frp": 1.83,
+        "acq_date": "2026-11-09",
+        "acq_time": "106",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.26243,
+          50.54399
+        ]
+      },
+      "properties": {
+        "frp": 3.47,
+        "acq_date": "2026-11-09",
+        "acq_time": "106",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.41983,
+          45.12218
+        ]
+      },
+      "properties": {
+        "frp": 1.33,
+        "acq_date": "2026-11-09",
+        "acq_time": "109",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.27987,
+          45.9511
+        ]
+      },
+      "properties": {
+        "frp": 1.82,
+        "acq_date": "2026-11-09",
+        "acq_time": "109",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           24.70555,
           48.97563
         ]
@@ -3894,6 +4008,177 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7072,
+          48.97486
+        ]
+      },
+      "properties": {
+        "frp": 0.5,
+        "acq_date": "2026-11-09",
+        "acq_time": "22",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.30064,
+          44.22245
+        ]
+      },
+      "properties": {
+        "frp": 0.72,
+        "acq_date": "2026-11-09",
+        "acq_time": "24",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.80624,
+          44.73635
+        ]
+      },
+      "properties": {
+        "frp": 1.31,
+        "acq_date": "2026-11-09",
+        "acq_time": "24",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.41523,
+          45.12343
+        ]
+      },
+      "properties": {
+        "frp": 1.49,
+        "acq_date": "2026-11-09",
+        "acq_time": "24",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28081,
+          45.9507
+        ]
+      },
+      "properties": {
+        "frp": 0.95,
+        "acq_date": "2026-11-09",
+        "acq_time": "24",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.79196,
+          46.04284
+        ]
+      },
+      "properties": {
+        "frp": 1.17,
+        "acq_date": "2026-11-09",
+        "acq_time": "24",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.53655,
+          46.07669
+        ]
+      },
+      "properties": {
+        "frp": 0.82,
+        "acq_date": "2026-11-09",
+        "acq_time": "24",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Skadovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25538,
+          50.54411
+        ]
+      },
+      "properties": {
+        "frp": 1.6,
+        "acq_date": "2026-11-09",
+        "acq_time": "202",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25982,
+          50.54763
+        ]
+      },
+      "properties": {
+        "frp": 1.79,
+        "acq_date": "2026-11-09",
+        "acq_time": "202",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
       }
     }
   ]
