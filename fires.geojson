@@ -2324,6 +2324,82 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          26.60264,
+          48.74881
+        ]
+      },
+      "properties": {
+        "frp": 1.52,
+        "acq_date": "2026-11-09",
+        "acq_time": "2305",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Kamianets'-Podil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25834,
+          50.54196
+        ]
+      },
+      "properties": {
+        "frp": 2.59,
+        "acq_date": "2026-11-09",
+        "acq_time": "2305",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.81808,
+          51.92441
+        ]
+      },
+      "properties": {
+        "frp": 1.11,
+        "acq_date": "2026-11-09",
+        "acq_time": "2305",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Brest",
+        "locality": "Stolin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.18155,
+          52.95816
+        ]
+      },
+      "properties": {
+        "frp": 0.2,
+        "acq_date": "2026-11-09",
+        "acq_time": "2307",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Grodno",
+        "locality": "Slonim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           25.41535,
           45.12153
         ]
@@ -4099,6 +4175,44 @@
         "frp": 2.4,
         "acq_date": "2026-11-10",
         "acq_time": "5",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.26005,
+          50.54337
+        ]
+      },
+      "properties": {
+        "frp": 1.99,
+        "acq_date": "2026-11-10",
+        "acq_time": "143",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.26053,
+          50.54472
+        ]
+      },
+      "properties": {
+        "frp": 1.32,
+        "acq_date": "2026-11-10",
+        "acq_time": "143",
         "satellite": "N20",
         "brightness": null,
         "NAME_1": "Rivne",
