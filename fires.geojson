@@ -2210,6 +2210,139 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          37.4315,
+          45.17633
+        ]
+      },
+      "properties": {
+        "frp": 4.81,
+        "acq_date": "2026-11-11",
+        "acq_time": "1015",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Anapskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.50267,
+          45.19507
+        ]
+      },
+      "properties": {
+        "frp": 12.59,
+        "acq_date": "2026-11-11",
+        "acq_time": "1015",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.50158,
+          45.19834
+        ]
+      },
+      "properties": {
+        "frp": 12.59,
+        "acq_date": "2026-11-11",
+        "acq_time": "1015",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0478,
+          45.67553
+        ]
+      },
+      "properties": {
+        "frp": 2.47,
+        "acq_date": "2026-11-11",
+        "acq_time": "1015",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.58161,
+          45.80036
+        ]
+      },
+      "properties": {
+        "frp": 6.87,
+        "acq_date": "2026-11-11",
+        "acq_time": "1015",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.78971,
+          47.60601
+        ]
+      },
+      "properties": {
+        "frp": 7.58,
+        "acq_date": "2026-11-11",
+        "acq_time": "1015",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Semikarakorskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67327,
+          45.25644
+        ]
+      },
+      "properties": {
+        "frp": 9.76,
+        "acq_date": "2026-11-11",
+        "acq_time": "1155",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           35.33723,
           47.07927
         ]
@@ -3780,6 +3913,272 @@
         "brightness": null,
         "NAME_1": "Krasnodar",
         "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.78844,
+          47.60647
+        ]
+      },
+      "properties": {
+        "frp": 4.84,
+        "acq_date": "2026-11-11",
+        "acq_time": "932",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Semikarakorskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.88589,
+          48.76463
+        ]
+      },
+      "properties": {
+        "frp": 3.52,
+        "acq_date": "2026-11-11",
+        "acq_time": "932",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Tarasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.88933,
+          48.77007
+        ]
+      },
+      "properties": {
+        "frp": 3.52,
+        "acq_date": "2026-11-11",
+        "acq_time": "932",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Tarasovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.46551,
+          45.04145
+        ]
+      },
+      "properties": {
+        "frp": 2.11,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.46697,
+          45.04418
+        ]
+      },
+      "properties": {
+        "frp": 1.82,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.56038,
+          45.12988
+        ]
+      },
+      "properties": {
+        "frp": 3.49,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.31173,
+          45.25491
+        ]
+      },
+      "properties": {
+        "frp": 4.46,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Krasnoarmeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6723,
+          45.25679
+        ]
+      },
+      "properties": {
+        "frp": 8.92,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.83113,
+          45.27163
+        ]
+      },
+      "properties": {
+        "frp": 2.26,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90598,
+          45.35622
+        ]
+      },
+      "properties": {
+        "frp": 1.98,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.74749,
+          45.37262
+        ]
+      },
+      "properties": {
+        "frp": 4.03,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.75161,
+          45.37284
+        ]
+      },
+      "properties": {
+        "frp": 4.03,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Slavyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.53209,
+          45.59585
+        ]
+      },
+      "properties": {
+        "frp": 5.68,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Kiliis'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.11168,
+          47.18605
+        ]
+      },
+      "properties": {
+        "frp": 1.75,
+        "acq_date": "2026-11-11",
+        "acq_time": "1112",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
       }
     }
   ]
