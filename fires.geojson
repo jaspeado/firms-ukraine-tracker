@@ -1526,6 +1526,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          31.67308,
+          45.25816
+        ]
+      },
+      "properties": {
+        "frp": 4.02,
+        "acq_date": "2026-11-12",
+        "acq_time": "9",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67282,
+          45.25919
+        ]
+      },
+      "properties": {
+        "frp": 3.7,
+        "acq_date": "2026-11-12",
+        "acq_time": "9",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43681,
+          47.87292
+        ]
+      },
+      "properties": {
+        "frp": 1.52,
+        "acq_date": "2026-11-12",
+        "acq_time": "9",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.57394,
           52.55987
         ]
@@ -2925,6 +2982,177 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.14095,
+          47.86145
+        ]
+      },
+      "properties": {
+        "frp": 1.91,
+        "acq_date": "2026-11-11",
+        "acq_time": "2326",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1488,
+          47.86452
+        ]
+      },
+      "properties": {
+        "frp": 1.87,
+        "acq_date": "2026-11-11",
+        "acq_time": "2326",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.14184,
+          47.86525
+        ]
+      },
+      "properties": {
+        "frp": 1.91,
+        "acq_date": "2026-11-11",
+        "acq_time": "2326",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.43815,
+          47.87232
+        ]
+      },
+      "properties": {
+        "frp": 1.24,
+        "acq_date": "2026-11-11",
+        "acq_time": "2326",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.41498,
+          44.63242
+        ]
+      },
+      "properties": {
+        "frp": 0.73,
+        "acq_date": "2026-11-11",
+        "acq_time": "2328",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6731,
+          45.25939
+        ]
+      },
+      "properties": {
+        "frp": 4.68,
+        "acq_date": "2026-11-11",
+        "acq_time": "2328",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.66727,
+          45.25986
+        ]
+      },
+      "properties": {
+        "frp": 3.39,
+        "acq_date": "2026-11-11",
+        "acq_time": "2328",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4271,
+          47.86893
+        ]
+      },
+      "properties": {
+        "frp": 2.6,
+        "acq_date": "2026-11-12",
+        "acq_time": "106",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.15302,
+          47.87797
+        ]
+      },
+      "properties": {
+        "frp": 1.44,
+        "acq_date": "2026-11-12",
+        "acq_time": "106",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Zaporizhia",
+        "locality": "Zaporiz'ka"
       }
     }
   ]
