@@ -1526,6 +1526,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          22.10538,
+          44.08076
+        ]
+      },
+      "properties": {
+        "frp": 1.25,
+        "acq_date": "2026-11-13",
+        "acq_time": "132",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           24.7072,
           48.97486
         ]
@@ -2773,6 +2792,25 @@
         "brightness": null,
         "NAME_1": "Belgorod",
         "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.5997,
+          50.61679
+        ]
+      },
+      "properties": {
+        "frp": 0.55,
+        "acq_date": "2026-11-13",
+        "acq_time": "45",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Belgorod"
       }
     }
   ]

@@ -3128,6 +3128,45 @@
         "coordinates": [
           [
             [
+              22.11288,
+              44.07326
+            ],
+            [
+              22.11288,
+              44.08826
+            ],
+            [
+              22.09788,
+              44.08826
+            ],
+            [
+              22.09788,
+              44.07326
+            ],
+            [
+              22.11288,
+              44.07326
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.25,
+        "acq_date": "2026-11-13",
+        "acq_time": "132",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               24.7147,
               48.96736
             ],
@@ -5693,6 +5732,45 @@
         "brightness": null,
         "NAME_1": "Belgorod",
         "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.6072,
+              50.60929
+            ],
+            [
+              36.6072,
+              50.62429
+            ],
+            [
+              36.5922,
+              50.62429
+            ],
+            [
+              36.5922,
+              50.60929
+            ],
+            [
+              36.6072,
+              50.60929
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.55,
+        "acq_date": "2026-11-13",
+        "acq_time": "45",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Belgorod"
       }
     }
   ]
