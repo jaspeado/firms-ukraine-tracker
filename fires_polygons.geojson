@@ -3440,6 +3440,84 @@
         "coordinates": [
           [
             [
+              39.75404,
+              45.09925
+            ],
+            [
+              39.75404,
+              45.11425
+            ],
+            [
+              39.73904,
+              45.11425
+            ],
+            [
+              39.73904,
+              45.09925
+            ],
+            [
+              39.75404,
+              45.09925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.53,
+        "acq_date": "2026-11-14",
+        "acq_time": "917",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Krasnogvardeyskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.91904,
+              44.70836
+            ],
+            [
+              40.91904,
+              44.72336
+            ],
+            [
+              40.90404,
+              44.72336
+            ],
+            [
+              40.90404,
+              44.70836
+            ],
+            [
+              40.91904,
+              44.70836
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.24,
+        "acq_date": "2026-11-14",
+        "acq_time": "1057",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Labinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               33.8677,
               44.76687
             ],
@@ -6434,6 +6512,201 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.93594,
+              44.6686
+            ],
+            [
+              39.93594,
+              44.6836
+            ],
+            [
+              39.92094,
+              44.6836
+            ],
+            [
+              39.92094,
+              44.6686
+            ],
+            [
+              39.93594,
+              44.6686
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.53,
+        "acq_date": "2026-11-14",
+        "acq_time": "1013",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Adygey",
+        "locality": "Maykopskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64176,
+              52.52672
+            ],
+            [
+              39.64176,
+              52.54172
+            ],
+            [
+              39.62676,
+              52.54172
+            ],
+            [
+              39.62676,
+              52.52672
+            ],
+            [
+              39.64176,
+              52.52672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 15.11,
+        "acq_date": "2026-11-14",
+        "acq_time": "1015",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.63474,
+              52.52926
+            ],
+            [
+              39.63474,
+              52.54426
+            ],
+            [
+              39.61974,
+              52.54426
+            ],
+            [
+              39.61974,
+              52.52926
+            ],
+            [
+              39.63474,
+              52.52926
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 15.11,
+        "acq_date": "2026-11-14",
+        "acq_time": "1015",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64056,
+              52.53005
+            ],
+            [
+              39.64056,
+              52.54505
+            ],
+            [
+              39.62556,
+              52.54505
+            ],
+            [
+              39.62556,
+              52.53005
+            ],
+            [
+              39.64056,
+              52.53005
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 15.11,
+        "acq_date": "2026-11-14",
+        "acq_time": "1015",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64397,
+              52.53748
+            ],
+            [
+              39.64397,
+              52.55248
+            ],
+            [
+              39.62897,
+              52.55248
+            ],
+            [
+              39.62897,
+              52.53748
+            ],
+            [
+              39.64397,
+              52.53748
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.7,
+        "acq_date": "2026-11-14",
+        "acq_time": "1015",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
       }
     }
   ]
