@@ -2001,6 +2001,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          34.65756,
+          48.52555
+        ]
+      },
+      "properties": {
+        "frp": 3.74,
+        "acq_date": "2026-11-15",
+        "acq_time": "1040",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Petrykivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.66442,
+          50.89073
+        ]
+      },
+      "properties": {
+        "frp": 5.62,
+        "acq_date": "2026-11-15",
+        "acq_time": "1040",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Chernyanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           40.78844,
           47.60647
         ]
@@ -3856,6 +3894,44 @@
         "brightness": null,
         "NAME_1": "Gomel",
         "locality": "Mazyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6735,
+          45.25541
+        ]
+      },
+      "properties": {
+        "frp": 3.86,
+        "acq_date": "2026-11-15",
+        "acq_time": "956",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67798,
+          45.2567
+        ]
+      },
+      "properties": {
+        "frp": 4.28,
+        "acq_date": "2026-11-15",
+        "acq_time": "956",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
       }
     }
   ]
