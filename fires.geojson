@@ -4186,6 +4186,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          38.92072,
+          50.90746
+        ]
+      },
+      "properties": {
+        "frp": 9.02,
+        "acq_date": "2026-11-17",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Krasnenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           36.5997,
           50.61679
         ]

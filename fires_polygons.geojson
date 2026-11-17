@@ -8588,6 +8588,45 @@
         "coordinates": [
           [
             [
+              38.92822,
+              50.89996
+            ],
+            [
+              38.92822,
+              50.91496
+            ],
+            [
+              38.91322,
+              50.91496
+            ],
+            [
+              38.91322,
+              50.89996
+            ],
+            [
+              38.92822,
+              50.89996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 9.02,
+        "acq_date": "2026-11-17",
+        "acq_time": "1002",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Krasnenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               36.6072,
               50.60929
             ],
