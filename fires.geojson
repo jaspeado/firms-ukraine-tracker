@@ -6631,6 +6631,44 @@
         "NAME_1": "",
         "locality": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.74068,
+          44.04786
+        ]
+      },
+      "properties": {
+        "frp": 5.59,
+        "acq_date": "2026-11-18",
+        "acq_time": "1040",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.15316,
+          47.11117
+        ]
+      },
+      "properties": {
+        "frp": 3.88,
+        "acq_date": "2026-11-18",
+        "acq_time": "1040",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
