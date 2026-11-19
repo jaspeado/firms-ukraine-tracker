@@ -3217,6 +3217,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          31.67234,
+          45.25693
+        ]
+      },
+      "properties": {
+        "frp": 10.55,
+        "acq_date": "2026-11-19",
+        "acq_time": "1104",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90359,
+          45.35574
+        ]
+      },
+      "properties": {
+        "frp": 3.18,
+        "acq_date": "2026-11-19",
+        "acq_time": "1104",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.95646,
+          48.20396
+        ]
+      },
+      "properties": {
+        "frp": 3.04,
+        "acq_date": "2026-11-19",
+        "acq_time": "1106",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Vinnytsya",
+        "locality": "Pishchans'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.63342,
           52.52793
         ]
@@ -6022,6 +6079,158 @@
         "brightness": null,
         "NAME_1": "Crimea",
         "locality": "Simferopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.86708,
+          45.9556
+        ]
+      },
+      "properties": {
+        "frp": 0.7,
+        "acq_date": "2026-11-19",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.60595,
+          48.74886
+        ]
+      },
+      "properties": {
+        "frp": 0.99,
+        "acq_date": "2026-11-19",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Kamianets'-Podil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.70967,
+          48.97727
+        ]
+      },
+      "properties": {
+        "frp": 1.35,
+        "acq_date": "2026-11-19",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.25882,
+          50.54459
+        ]
+      },
+      "properties": {
+        "frp": 0.97,
+        "acq_date": "2026-11-19",
+        "acq_time": "37",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67137,
+          45.25827
+        ]
+      },
+      "properties": {
+        "frp": 7.42,
+        "acq_date": "2026-11-19",
+        "acq_time": "1021",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90142,
+          45.35612
+        ]
+      },
+      "properties": {
+        "frp": 1.64,
+        "acq_date": "2026-11-19",
+        "acq_time": "1021",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.59084,
+          49.44251
+        ]
+      },
+      "properties": {
+        "frp": 3.44,
+        "acq_date": "2026-11-19",
+        "acq_time": "1021",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Cherkasy",
+        "locality": "Cherkas'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6733,
+          45.25541
+        ]
+      },
+      "properties": {
+        "frp": 7.98,
+        "acq_date": "2026-11-19",
+        "acq_time": "1201",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
       }
     }
   ]
