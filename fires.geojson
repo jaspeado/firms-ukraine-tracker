@@ -3046,6 +3046,177 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          26.60291,
+          48.74728
+        ]
+      },
+      "properties": {
+        "frp": 1.69,
+        "acq_date": "2026-11-18",
+        "acq_time": "2337",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Khmel'nyts'kyy",
+        "locality": "Kamianets'-Podil's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93109,
+          51.14046
+        ]
+      },
+      "properties": {
+        "frp": 1.0,
+        "acq_date": "2026-11-18",
+        "acq_time": "2337",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.86855,
+          45.95508
+        ]
+      },
+      "properties": {
+        "frp": 0.79,
+        "acq_date": "2026-11-18",
+        "acq_time": "2339",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.86893,
+          45.95542
+        ]
+      },
+      "properties": {
+        "frp": 0.71,
+        "acq_date": "2026-11-18",
+        "acq_time": "2339",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.71333,
+          48.97631
+        ]
+      },
+      "properties": {
+        "frp": 1.56,
+        "acq_date": "2026-11-19",
+        "acq_time": "117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Tysmenyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.26081,
+          50.54445
+        ]
+      },
+      "properties": {
+        "frp": 1.24,
+        "acq_date": "2026-11-19",
+        "acq_time": "117",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.10468,
+          44.07998
+        ]
+      },
+      "properties": {
+        "frp": 1.06,
+        "acq_date": "2026-11-19",
+        "acq_time": "119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.28104,
+          45.95266
+        ]
+      },
+      "properties": {
+        "frp": 1.71,
+        "acq_date": "2026-11-19",
+        "acq_time": "119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.86765,
+          45.9548
+        ]
+      },
+      "properties": {
+        "frp": 1.07,
+        "acq_date": "2026-11-19",
+        "acq_time": "119",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           39.63342,
           52.52793
         ]
@@ -5832,6 +6003,25 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9949,
+          45.1287
+        ]
+      },
+      "properties": {
+        "frp": 0.69,
+        "acq_date": "2026-11-18",
+        "acq_time": "2256",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Simferopol's'kyi"
       }
     }
   ]
