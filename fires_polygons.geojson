@@ -9984,6 +9984,162 @@
         "NAME_1": "Krasnodar",
         "locality": "Abinskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.840980000000002,
+              44.232
+            ],
+            [
+              27.840980000000002,
+              44.247
+            ],
+            [
+              27.82598,
+              44.247
+            ],
+            [
+              27.82598,
+              44.232
+            ],
+            [
+              27.840980000000002,
+              44.232
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.23,
+        "acq_date": "2026-11-20",
+        "acq_time": "1142",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.73063,
+              44.36818
+            ],
+            [
+              22.73063,
+              44.38318
+            ],
+            [
+              22.71563,
+              44.38318
+            ],
+            [
+              22.71563,
+              44.36818
+            ],
+            [
+              22.73063,
+              44.36818
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.69,
+        "acq_date": "2026-11-20",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.6846,
+              45.2515
+            ],
+            [
+              31.6846,
+              45.2665
+            ],
+            [
+              31.6696,
+              45.2665
+            ],
+            [
+              31.6696,
+              45.2515
+            ],
+            [
+              31.6846,
+              45.2515
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.88,
+        "acq_date": "2026-11-20",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.91422,
+              45.34609
+            ],
+            [
+              30.91422,
+              45.36109
+            ],
+            [
+              30.89922,
+              45.36109
+            ],
+            [
+              30.89922,
+              45.34609
+            ],
+            [
+              30.91422,
+              45.34609
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.02,
+        "acq_date": "2026-11-20",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }

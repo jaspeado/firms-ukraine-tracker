@@ -4864,6 +4864,82 @@
         "NAME_1": "Krasnodar",
         "locality": "Abinskiy rayon"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.83348,
+          44.2395
+        ]
+      },
+      "properties": {
+        "frp": 4.23,
+        "acq_date": "2026-11-20",
+        "acq_time": "1142",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.72313,
+          44.37568
+        ]
+      },
+      "properties": {
+        "frp": 4.69,
+        "acq_date": "2026-11-20",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6771,
+          45.259
+        ]
+      },
+      "properties": {
+        "frp": 5.88,
+        "acq_date": "2026-11-20",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90672,
+          45.35359
+        ]
+      },
+      "properties": {
+        "frp": 3.02,
+        "acq_date": "2026-11-20",
+        "acq_time": "1144",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
