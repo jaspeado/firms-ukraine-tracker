@@ -4883,6 +4883,201 @@
         "coordinates": [
           [
             [
+              28.61722,
+              44.01129
+            ],
+            [
+              28.61722,
+              44.02629
+            ],
+            [
+              28.60222,
+              44.02629
+            ],
+            [
+              28.60222,
+              44.01129
+            ],
+            [
+              28.61722,
+              44.01129
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 24.08,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.724140000000002,
+              44.37018
+            ],
+            [
+              22.724140000000002,
+              44.38518
+            ],
+            [
+              22.70914,
+              44.38518
+            ],
+            [
+              22.70914,
+              44.37018
+            ],
+            [
+              22.724140000000002,
+              44.37018
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.61,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.68026,
+              45.24949
+            ],
+            [
+              31.68026,
+              45.26449
+            ],
+            [
+              31.66526,
+              45.26449
+            ],
+            [
+              31.66526,
+              45.24949
+            ],
+            [
+              31.68026,
+              45.24949
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.71,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.91111,
+              45.34961
+            ],
+            [
+              30.91111,
+              45.36461
+            ],
+            [
+              30.89611,
+              45.36461
+            ],
+            [
+              30.89611,
+              45.34961
+            ],
+            [
+              30.91111,
+              45.34961
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.19,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.52591,
+              48.33651
+            ],
+            [
+              26.52591,
+              48.35151
+            ],
+            [
+              26.51091,
+              48.35151
+            ],
+            [
+              26.51091,
+              48.33651
+            ],
+            [
+              26.52591,
+              48.33651
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.81,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Chernivtsi",
+        "locality": "Khotyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               34.6877,
               51.56471
             ],

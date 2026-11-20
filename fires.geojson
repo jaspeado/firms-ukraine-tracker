@@ -2381,6 +2381,101 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          28.60972,
+          44.01879
+        ]
+      },
+      "properties": {
+        "frp": 24.08,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.71664,
+          44.37768
+        ]
+      },
+      "properties": {
+        "frp": 4.61,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67276,
+          45.25699
+        ]
+      },
+      "properties": {
+        "frp": 7.71,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90361,
+          45.35711
+        ]
+      },
+      "properties": {
+        "frp": 2.19,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.51841,
+          48.34401
+        ]
+      },
+      "properties": {
+        "frp": 2.81,
+        "acq_date": "2026-11-20",
+        "acq_time": "1047",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Chernivtsi",
+        "locality": "Khotyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           34.6802,
           51.57221
         ]
