@@ -2543,6 +2543,552 @@
         "coordinates": [
           [
             [
+              30.17273,
+              47.07255
+            ],
+            [
+              30.17273,
+              47.08755
+            ],
+            [
+              30.15773,
+              47.08755
+            ],
+            [
+              30.15773,
+              47.07255
+            ],
+            [
+              30.17273,
+              47.07255
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.61,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Velykomykhailivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.16661,
+              47.0738
+            ],
+            [
+              30.16661,
+              47.0888
+            ],
+            [
+              30.151609999999998,
+              47.0888
+            ],
+            [
+              30.151609999999998,
+              47.0738
+            ],
+            [
+              30.16661,
+              47.0738
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.61,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Velykomykhailivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.96318,
+              47.78096
+            ],
+            [
+              28.96318,
+              47.79596
+            ],
+            [
+              28.94818,
+              47.79596
+            ],
+            [
+              28.94818,
+              47.78096
+            ],
+            [
+              28.96318,
+              47.78096
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.4,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.26352,
+              48.34854
+            ],
+            [
+              37.26352,
+              48.36354
+            ],
+            [
+              37.24852,
+              48.36354
+            ],
+            [
+              37.24852,
+              48.34854
+            ],
+            [
+              37.26352,
+              48.34854
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.06,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnoarmiis'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.92661,
+              48.96534
+            ],
+            [
+              23.92661,
+              48.98034
+            ],
+            [
+              23.91161,
+              48.98034
+            ],
+            [
+              23.91161,
+              48.96534
+            ],
+            [
+              23.92661,
+              48.96534
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.52,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Dolyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.27021,
+              50.53732
+            ],
+            [
+              26.27021,
+              50.55232
+            ],
+            [
+              26.255209999999998,
+              50.55232
+            ],
+            [
+              26.255209999999998,
+              50.53732
+            ],
+            [
+              26.27021,
+              50.53732
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.95,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rivne",
+        "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.79663,
+              51.06739
+            ],
+            [
+              34.79663,
+              51.082390000000004
+            ],
+            [
+              34.78163,
+              51.082390000000004
+            ],
+            [
+              34.78163,
+              51.06739
+            ],
+            [
+              34.79663,
+              51.06739
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.9,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Sums'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.91071,
+              52.32385
+            ],
+            [
+              33.91071,
+              52.33885
+            ],
+            [
+              33.89571,
+              52.33885
+            ],
+            [
+              33.89571,
+              52.32385
+            ],
+            [
+              33.91071,
+              52.32385
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.82,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.91281,
+              52.32742
+            ],
+            [
+              33.91281,
+              52.34242
+            ],
+            [
+              33.89781,
+              52.34242
+            ],
+            [
+              33.89781,
+              52.32742
+            ],
+            [
+              33.91281,
+              52.32742
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.74,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.90572,
+              52.32898
+            ],
+            [
+              33.90572,
+              52.34398
+            ],
+            [
+              33.89072,
+              52.34398
+            ],
+            [
+              33.89072,
+              52.32898
+            ],
+            [
+              33.90572,
+              52.32898
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.28,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Suzemskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.99716,
+              52.83695
+            ],
+            [
+              29.99716,
+              52.85195
+            ],
+            [
+              29.98216,
+              52.85195
+            ],
+            [
+              29.98216,
+              52.83695
+            ],
+            [
+              29.99716,
+              52.83695
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.53,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.99876,
+              52.84021
+            ],
+            [
+              29.99876,
+              52.85521
+            ],
+            [
+              29.98376,
+              52.85521
+            ],
+            [
+              29.98376,
+              52.84021
+            ],
+            [
+              29.99876,
+              52.84021
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.53,
+        "acq_date": "2026-11-22",
+        "acq_time": "22",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Gomel",
+        "locality": "\u017dlobin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.110870000000002,
+              44.07174
+            ],
+            [
+              22.110870000000002,
+              44.08674
+            ],
+            [
+              22.09587,
+              44.08674
+            ],
+            [
+              22.09587,
+              44.07174
+            ],
+            [
+              22.110870000000002,
+              44.07174
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.6,
+        "acq_date": "2026-11-22",
+        "acq_time": "24",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.28869,
+              45.94439
+            ],
+            [
+              25.28869,
+              45.95939
+            ],
+            [
+              25.27369,
+              45.95939
+            ],
+            [
+              25.27369,
+              45.94439
+            ],
+            [
+              25.28869,
+              45.94439
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.06,
+        "acq_date": "2026-11-22",
+        "acq_time": "24",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               26.74818,
               44.04036
             ],
@@ -5693,6 +6239,825 @@
         "brightness": null,
         "NAME_1": "Kursk",
         "locality": "Sudzhanskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.96301,
+              48.05082
+            ],
+            [
+              37.96301,
+              48.06582
+            ],
+            [
+              37.94801,
+              48.06582
+            ],
+            [
+              37.94801,
+              48.05082
+            ],
+            [
+              37.96301,
+              48.05082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.98,
+        "acq_date": "2026-11-21",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Maki\u2039vs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.92556,
+              48.09101
+            ],
+            [
+              37.92556,
+              48.10601
+            ],
+            [
+              37.91056,
+              48.10601
+            ],
+            [
+              37.91056,
+              48.09101
+            ],
+            [
+              37.92556,
+              48.09101
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.58,
+        "acq_date": "2026-11-21",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Maki\u2039vs'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.56492,
+              48.28629
+            ],
+            [
+              36.56492,
+              48.30129
+            ],
+            [
+              36.54992,
+              48.30129
+            ],
+            [
+              36.54992,
+              48.28629
+            ],
+            [
+              36.56492,
+              48.28629
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.56,
+        "acq_date": "2026-11-21",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Mezhivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.26239,
+              48.34927
+            ],
+            [
+              37.26239,
+              48.36427
+            ],
+            [
+              37.24739,
+              48.36427
+            ],
+            [
+              37.24739,
+              48.34927
+            ],
+            [
+              37.26239,
+              48.34927
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.08,
+        "acq_date": "2026-11-21",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Krasnoarmiis'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.40551,
+              50.22067
+            ],
+            [
+              33.40551,
+              50.23567
+            ],
+            [
+              33.39051,
+              50.23567
+            ],
+            [
+              33.39051,
+              50.22067
+            ],
+            [
+              33.40551,
+              50.22067
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.75,
+        "acq_date": "2026-11-21",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Poltava",
+        "locality": "Lokhvyts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.79409,
+              51.06707
+            ],
+            [
+              34.79409,
+              51.08207
+            ],
+            [
+              34.77909,
+              51.08207
+            ],
+            [
+              34.77909,
+              51.06707
+            ],
+            [
+              34.79409,
+              51.06707
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.7,
+        "acq_date": "2026-11-21",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Sums'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.509,
+              52.8128
+            ],
+            [
+              34.509,
+              52.8278
+            ],
+            [
+              34.494,
+              52.8278
+            ],
+            [
+              34.494,
+              52.8128
+            ],
+            [
+              34.509,
+              52.8128
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.95,
+        "acq_date": "2026-11-21",
+        "acq_time": "2337",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Navlinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.81592,
+              44.72892
+            ],
+            [
+              37.81592,
+              44.74392
+            ],
+            [
+              37.80092,
+              44.74392
+            ],
+            [
+              37.80092,
+              44.72892
+            ],
+            [
+              37.81592,
+              44.72892
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.52,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.86629,
+              44.76519
+            ],
+            [
+              33.86629,
+              44.78019
+            ],
+            [
+              33.85129,
+              44.78019
+            ],
+            [
+              33.85129,
+              44.76519
+            ],
+            [
+              33.86629,
+              44.76519
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.22,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Bakhchysarais'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.68488,
+              44.8331
+            ],
+            [
+              37.68488,
+              44.8481
+            ],
+            [
+              37.66988,
+              44.8481
+            ],
+            [
+              37.66988,
+              44.8331
+            ],
+            [
+              37.68488,
+              44.8331
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.32,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.67633,
+              44.83794
+            ],
+            [
+              37.67633,
+              44.852940000000004
+            ],
+            [
+              37.66133,
+              44.852940000000004
+            ],
+            [
+              37.66133,
+              44.83794
+            ],
+            [
+              37.67633,
+              44.83794
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.88,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Krasnodar",
+        "locality": "Novorossiysk gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              34.00703,
+              45.12161
+            ],
+            [
+              34.00703,
+              45.13661
+            ],
+            [
+              33.99203,
+              45.13661
+            ],
+            [
+              33.99203,
+              45.12161
+            ],
+            [
+              34.00703,
+              45.12161
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.63,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Crimea",
+        "locality": "Simferopol's'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.67714,
+              45.25004
+            ],
+            [
+              31.67714,
+              45.26504
+            ],
+            [
+              31.66214,
+              45.26504
+            ],
+            [
+              31.66214,
+              45.25004
+            ],
+            [
+              31.67714,
+              45.25004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.96,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.11466,
+              45.28659
+            ],
+            [
+              25.11466,
+              45.30159
+            ],
+            [
+              25.09966,
+              45.30159
+            ],
+            [
+              25.09966,
+              45.28659
+            ],
+            [
+              25.11466,
+              45.28659
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.78,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.03936,
+              46.29998
+            ],
+            [
+              33.03936,
+              46.31498
+            ],
+            [
+              33.02436,
+              46.31498
+            ],
+            [
+              33.02436,
+              46.29998
+            ],
+            [
+              33.03936,
+              46.29998
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.91,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Kherson",
+        "locality": "Skadovs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.16706,
+              47.07407
+            ],
+            [
+              30.16706,
+              47.08907
+            ],
+            [
+              30.15206,
+              47.08907
+            ],
+            [
+              30.15206,
+              47.07407
+            ],
+            [
+              30.16706,
+              47.07407
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.46,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Velykomykhailivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.95917,
+              47.78376
+            ],
+            [
+              28.95917,
+              47.79876
+            ],
+            [
+              28.94417,
+              47.79876
+            ],
+            [
+              28.94417,
+              47.78376
+            ],
+            [
+              28.95917,
+              47.78376
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.91,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.92138,
+              48.96613
+            ],
+            [
+              23.92138,
+              48.98113
+            ],
+            [
+              23.90638,
+              48.98113
+            ],
+            [
+              23.90638,
+              48.96613
+            ],
+            [
+              23.92138,
+              48.96613
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.32,
+        "acq_date": "2026-11-21",
+        "acq_time": "2339",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Dolyns'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              27.30745,
+              44.21698
+            ],
+            [
+              27.30745,
+              44.23198
+            ],
+            [
+              27.29245,
+              44.23198
+            ],
+            [
+              27.29245,
+              44.21698
+            ],
+            [
+              27.30745,
+              44.21698
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 0.99,
+        "acq_date": "2026-11-22",
+        "acq_time": "119",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.95959,
+              47.78254
+            ],
+            [
+              28.95959,
+              47.79754
+            ],
+            [
+              28.944589999999998,
+              47.79754
+            ],
+            [
+              28.944589999999998,
+              47.78254
+            ],
+            [
+              28.95959,
+              47.78254
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.14,
+        "acq_date": "2026-11-22",
+        "acq_time": "119",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.926660000000002,
+              48.96588
+            ],
+            [
+              23.926660000000002,
+              48.98088
+            ],
+            [
+              23.91166,
+              48.98088
+            ],
+            [
+              23.91166,
+              48.96588
+            ],
+            [
+              23.926660000000002,
+              48.96588
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.18,
+        "acq_date": "2026-11-22",
+        "acq_time": "119",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Ivano-Frankivs'k",
+        "locality": "Dolyns'kyi"
       }
     }
   ]
