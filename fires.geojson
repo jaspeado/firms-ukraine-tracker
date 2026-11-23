@@ -2077,6 +2077,196 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.50969,
+          47.46608
+        ]
+      },
+      "properties": {
+        "frp": 11.8,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.86913,
+          47.80285
+        ]
+      },
+      "properties": {
+        "frp": 16.29,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.86777,
+          47.80621
+        ]
+      },
+      "properties": {
+        "frp": 5.42,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.84992,
+          47.80653
+        ]
+      },
+      "properties": {
+        "frp": 3.6,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82307,
+          50.91421
+        ]
+      },
+      "properties": {
+        "frp": 3.38,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Liskinskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.80614,
+          51.11626
+        ]
+      },
+      "properties": {
+        "frp": 2.34,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.93328,
+          51.14046
+        ]
+      },
+      "properties": {
+        "frp": 4.49,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.29312,
+          51.22117
+        ]
+      },
+      "properties": {
+        "frp": 4.82,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Bobrovskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.48059,
+          51.82014
+        ]
+      },
+      "properties": {
+        "frp": 2.98,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ramonskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.42842,
+          52.02683
+        ]
+      },
+      "properties": {
+        "frp": 2.37,
+        "acq_date": "2026-11-23",
+        "acq_time": "949",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Voronezh",
+        "locality": "Ramonskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           22.86708,
           45.9556
         ]
@@ -4350,6 +4540,25 @@
         "brightness": null,
         "NAME_1": "Krasnodar",
         "locality": "Gelendzhik gorsovet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.51189,
+          47.46677
+        ]
+      },
+      "properties": {
+        "frp": 5.35,
+        "acq_date": "2026-11-23",
+        "acq_time": "906",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Ust'-Donetskiy rayon"
       }
     }
   ]
