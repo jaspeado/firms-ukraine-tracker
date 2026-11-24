@@ -1925,6 +1925,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          30.90168,
+          45.35416
+        ]
+      },
+      "properties": {
+        "frp": 4.25,
+        "acq_date": "2026-11-24",
+        "acq_time": "1110",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           37.25759,
           48.3548
         ]
@@ -4046,6 +4065,120 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8038,
+          44.23142
+        ]
+      },
+      "properties": {
+        "frp": 3.79,
+        "acq_date": "2026-11-24",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.80907,
+          44.23299
+        ]
+      },
+      "properties": {
+        "frp": 3.79,
+        "acq_date": "2026-11-24",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.80507,
+          44.23322
+        ]
+      },
+      "properties": {
+        "frp": 6.18,
+        "acq_date": "2026-11-24",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.54521,
+          44.0466
+        ]
+      },
+      "properties": {
+        "frp": 5.92,
+        "acq_date": "2026-11-24",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.54959,
+          44.04682
+        ]
+      },
+      "properties": {
+        "frp": 6.1,
+        "acq_date": "2026-11-24",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6748,
+          46.818
+        ]
+      },
+      "properties": {
+        "frp": 11.45,
+        "acq_date": "2026-11-24",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Ivanivs'kyi"
       }
     }
   ]

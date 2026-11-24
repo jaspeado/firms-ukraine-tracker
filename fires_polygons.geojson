@@ -3947,6 +3947,45 @@
         "coordinates": [
           [
             [
+              30.90918,
+              45.34666
+            ],
+            [
+              30.90918,
+              45.36166
+            ],
+            [
+              30.89418,
+              45.36166
+            ],
+            [
+              30.89418,
+              45.34666
+            ],
+            [
+              30.90918,
+              45.34666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.25,
+        "acq_date": "2026-11-24",
+        "acq_time": "1110",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               37.26509,
               48.3473
             ],
@@ -8306,6 +8345,240 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.8113,
+              44.22392
+            ],
+            [
+              22.8113,
+              44.23892
+            ],
+            [
+              22.7963,
+              44.23892
+            ],
+            [
+              22.7963,
+              44.22392
+            ],
+            [
+              22.8113,
+              44.22392
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.79,
+        "acq_date": "2026-11-24",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.81657,
+              44.22549
+            ],
+            [
+              22.81657,
+              44.24049
+            ],
+            [
+              22.801569999999998,
+              44.24049
+            ],
+            [
+              22.801569999999998,
+              44.22549
+            ],
+            [
+              22.81657,
+              44.22549
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 3.79,
+        "acq_date": "2026-11-24",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.81257,
+              44.22572
+            ],
+            [
+              22.81257,
+              44.24072
+            ],
+            [
+              22.79757,
+              44.24072
+            ],
+            [
+              22.79757,
+              44.22572
+            ],
+            [
+              22.81257,
+              44.22572
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.18,
+        "acq_date": "2026-11-24",
+        "acq_time": "1028",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.55271,
+              44.0391
+            ],
+            [
+              24.55271,
+              44.0541
+            ],
+            [
+              24.53771,
+              44.0541
+            ],
+            [
+              24.53771,
+              44.0391
+            ],
+            [
+              24.55271,
+              44.0391
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.92,
+        "acq_date": "2026-11-24",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.55709,
+              44.03932
+            ],
+            [
+              24.55709,
+              44.05432
+            ],
+            [
+              24.542089999999998,
+              44.05432
+            ],
+            [
+              24.542089999999998,
+              44.03932
+            ],
+            [
+              24.55709,
+              44.03932
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 6.1,
+        "acq_date": "2026-11-24",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.6823,
+              46.8105
+            ],
+            [
+              30.6823,
+              46.8255
+            ],
+            [
+              30.6673,
+              46.8255
+            ],
+            [
+              30.6673,
+              46.8105
+            ],
+            [
+              30.6823,
+              46.8105
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 11.45,
+        "acq_date": "2026-11-24",
+        "acq_time": "1208",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Odessa",
+        "locality": "Ivanivs'kyi"
       }
     }
   ]
