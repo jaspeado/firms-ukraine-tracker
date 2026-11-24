@@ -1868,6 +1868,63 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          33.3847,
+          47.84315
+        ]
+      },
+      "properties": {
+        "frp": 0.92,
+        "acq_date": "2026-11-23",
+        "acq_time": "2343",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.78531,
+          52.30519
+        ]
+      },
+      "properties": {
+        "frp": 2.99,
+        "acq_date": "2026-11-23",
+        "acq_time": "2343",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Seredyno-Buds'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.49459,
+          52.38192
+        ]
+      },
+      "properties": {
+        "frp": 0.95,
+        "acq_date": "2026-11-23",
+        "acq_time": "2343",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           37.25759,
           48.3548
         ]
@@ -3856,6 +3913,139 @@
         "brightness": null,
         "NAME_1": "Rostov",
         "locality": "Ust'-Donetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.48984,
+          52.38363
+        ]
+      },
+      "properties": {
+        "frp": 0.7,
+        "acq_date": "2026-11-23",
+        "acq_time": "2301",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.49089,
+          52.38734
+        ]
+      },
+      "properties": {
+        "frp": 0.6,
+        "acq_date": "2026-11-23",
+        "acq_time": "2301",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Bryansk",
+        "locality": "Trubchevskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.788,
+          52.30791
+        ]
+      },
+      "properties": {
+        "frp": 1.84,
+        "acq_date": "2026-11-24",
+        "acq_time": "39",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Seredyno-Buds'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90525,
+          45.35761
+        ]
+      },
+      "properties": {
+        "frp": 1.2,
+        "acq_date": "2026-11-24",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.92813,
+          45.37597
+        ]
+      },
+      "properties": {
+        "frp": 2.63,
+        "acq_date": "2026-11-24",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.02937,
+          46.89846
+        ]
+      },
+      "properties": {
+        "frp": 0.93,
+        "acq_date": "2026-11-24",
+        "acq_time": "41",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.41926,
+          45.12365
+        ]
+      },
+      "properties": {
+        "frp": 0.86,
+        "acq_date": "2026-11-24",
+        "acq_time": "43",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
       }
     }
   ]
