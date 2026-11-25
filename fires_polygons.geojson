@@ -6942,6 +6942,45 @@
         "NAME_1": "Krasnodar",
         "locality": "Novorossiysk gorsovet"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              30.91348,
+              45.34606
+            ],
+            [
+              30.91348,
+              45.36106
+            ],
+            [
+              30.89848,
+              45.36106
+            ],
+            [
+              30.89848,
+              45.34606
+            ],
+            [
+              30.91348,
+              45.34606
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.76,
+        "acq_date": "2026-11-25",
+        "acq_time": "1149",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }

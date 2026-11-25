@@ -3382,6 +3382,25 @@
         "NAME_1": "Krasnodar",
         "locality": "Novorossiysk gorsovet"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.90598,
+          45.35356
+        ]
+      },
+      "properties": {
+        "frp": 2.76,
+        "acq_date": "2026-11-25",
+        "acq_time": "1149",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
     }
   ]
 }
