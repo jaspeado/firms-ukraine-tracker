@@ -4064,6 +4064,84 @@
         "coordinates": [
           [
             [
+              31.68274,
+              45.24961
+            ],
+            [
+              31.68274,
+              45.26461
+            ],
+            [
+              31.66774,
+              45.26461
+            ],
+            [
+              31.66774,
+              45.24961
+            ],
+            [
+              31.68274,
+              45.24961
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.38,
+        "acq_date": "2026-11-26",
+        "acq_time": "1034",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              33.43732,
+              47.85926
+            ],
+            [
+              33.43732,
+              47.87426
+            ],
+            [
+              33.42232,
+              47.87426
+            ],
+            [
+              33.42232,
+              47.85926
+            ],
+            [
+              33.43732,
+              47.85926
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.34,
+        "acq_date": "2026-11-26",
+        "acq_time": "1034",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               27.30745,
               44.21698
             ],
@@ -6551,6 +6629,162 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.08137,
+              50.67666
+            ],
+            [
+              25.08137,
+              50.69166
+            ],
+            [
+              25.06637,
+              50.69166
+            ],
+            [
+              25.06637,
+              50.67666
+            ],
+            [
+              25.08137,
+              50.67666
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 1.09,
+        "acq_date": "2026-11-26",
+        "acq_time": "143",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Volyn",
+        "locality": "Luts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.6827,
+              45.24739
+            ],
+            [
+              31.6827,
+              45.26239
+            ],
+            [
+              31.6677,
+              45.26239
+            ],
+            [
+              31.6677,
+              45.24739
+            ],
+            [
+              31.6827,
+              45.24739
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.88,
+        "acq_date": "2026-11-26",
+        "acq_time": "949",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              31.68562,
+              45.25075
+            ],
+            [
+              31.68562,
+              45.26575
+            ],
+            [
+              31.67062,
+              45.26575
+            ],
+            [
+              31.67062,
+              45.25075
+            ],
+            [
+              31.68562,
+              45.25075
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.89,
+        "acq_date": "2026-11-26",
+        "acq_time": "1129",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.2091,
+              48.95908
+            ],
+            [
+              35.2091,
+              48.97408
+            ],
+            [
+              35.1941,
+              48.97408
+            ],
+            [
+              35.1941,
+              48.95908
+            ],
+            [
+              35.2091,
+              48.95908
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.81,
+        "acq_date": "2026-11-26",
+        "acq_time": "1132",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Mahdalynivs'kyi"
       }
     }
   ]

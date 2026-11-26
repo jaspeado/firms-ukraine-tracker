@@ -1982,6 +1982,44 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          31.67524,
+          45.25711
+        ]
+      },
+      "properties": {
+        "frp": 5.38,
+        "acq_date": "2026-11-26",
+        "acq_time": "1034",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.42982,
+          47.86676
+        ]
+      },
+      "properties": {
+        "frp": 4.34,
+        "acq_date": "2026-11-26",
+        "acq_time": "1034",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "KryvyiRig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           27.29995,
           44.22448
         ]
@@ -3191,6 +3229,82 @@
         "brightness": null,
         "NAME_1": "",
         "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.07387,
+          50.68416
+        ]
+      },
+      "properties": {
+        "frp": 1.09,
+        "acq_date": "2026-11-26",
+        "acq_time": "143",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Volyn",
+        "locality": "Luts'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6752,
+          45.25489
+        ]
+      },
+      "properties": {
+        "frp": 2.88,
+        "acq_date": "2026-11-26",
+        "acq_time": "949",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.67812,
+          45.25825
+        ]
+      },
+      "properties": {
+        "frp": 4.89,
+        "acq_date": "2026-11-26",
+        "acq_time": "1129",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "",
+        "locality": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2016,
+          48.96658
+        ]
+      },
+      "properties": {
+        "frp": 2.81,
+        "acq_date": "2026-11-26",
+        "acq_time": "1132",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Dnipropetrovs'k",
+        "locality": "Mahdalynivs'kyi"
       }
     }
   ]
