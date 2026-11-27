@@ -1545,6 +1545,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          33.37899,
+          50.69378
+        ]
+      },
+      "properties": {
+        "frp": 7.58,
+        "acq_date": "2026-11-27",
+        "acq_time": "1017",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Romens'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           40.51189,
           47.46677
         ]

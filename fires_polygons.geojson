@@ -3167,6 +3167,45 @@
         "coordinates": [
           [
             [
+              33.38649,
+              50.68628
+            ],
+            [
+              33.38649,
+              50.70128
+            ],
+            [
+              33.37149,
+              50.70128
+            ],
+            [
+              33.37149,
+              50.68628
+            ],
+            [
+              33.38649,
+              50.68628
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 7.58,
+        "acq_date": "2026-11-27",
+        "acq_time": "1017",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Sumy",
+        "locality": "Romens'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               40.51939,
               47.45927
             ],
