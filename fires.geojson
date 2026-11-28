@@ -1203,6 +1203,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          40.03111,
+          48.37828
+        ]
+      },
+      "properties": {
+        "frp": 2.6,
+        "acq_date": "2026-11-28",
+        "acq_time": "956",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Kamenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           33.788,
           52.30791
         ]
@@ -2849,6 +2868,82 @@
         "brightness": null,
         "NAME_1": "Rivne",
         "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.56962,
+          48.79443
+        ]
+      },
+      "properties": {
+        "frp": 2.77,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kramators'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9352,
+          51.13857
+        ]
+      },
+      "properties": {
+        "frp": 4.7,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.63343,
+          52.53744
+        ]
+      },
+      "properties": {
+        "frp": 5.43,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5741,
+          52.55769
+        ]
+      },
+      "properties": {
+        "frp": 16.6,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
       }
     }
   ]

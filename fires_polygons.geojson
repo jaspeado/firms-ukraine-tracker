@@ -2465,6 +2465,45 @@
         "coordinates": [
           [
             [
+              40.03861,
+              48.370779999999996
+            ],
+            [
+              40.03861,
+              48.38578
+            ],
+            [
+              40.02361,
+              48.38578
+            ],
+            [
+              40.02361,
+              48.370779999999996
+            ],
+            [
+              40.03861,
+              48.370779999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.6,
+        "acq_date": "2026-11-28",
+        "acq_time": "956",
+        "satellite": "N21",
+        "brightness": null,
+        "NAME_1": "Rostov",
+        "locality": "Kamenskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               33.7955,
               52.30041
             ],
@@ -5849,6 +5888,162 @@
         "brightness": null,
         "NAME_1": "Rivne",
         "locality": "Zdolbunivs'kyi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.57712,
+              48.78693
+            ],
+            [
+              37.57712,
+              48.80193
+            ],
+            [
+              37.56212,
+              48.80193
+            ],
+            [
+              37.56212,
+              48.78693
+            ],
+            [
+              37.57712,
+              48.78693
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 2.77,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Donets'k",
+        "locality": "Kramators'ka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.9427,
+              51.13107
+            ],
+            [
+              37.9427,
+              51.14607
+            ],
+            [
+              37.9277,
+              51.14607
+            ],
+            [
+              37.9277,
+              51.13107
+            ],
+            [
+              37.9427,
+              51.13107
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 4.7,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Belgorod",
+        "locality": "Starooskol'skiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.64093,
+              52.529939999999996
+            ],
+            [
+              39.64093,
+              52.54494
+            ],
+            [
+              39.62593,
+              52.54494
+            ],
+            [
+              39.62593,
+              52.529939999999996
+            ],
+            [
+              39.64093,
+              52.529939999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 5.43,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetskiy rayon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.5816,
+              52.55019
+            ],
+            [
+              39.5816,
+              52.56519
+            ],
+            [
+              39.5666,
+              52.56519
+            ],
+            [
+              39.5666,
+              52.55019
+            ],
+            [
+              39.5816,
+              52.55019
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "frp": 16.6,
+        "acq_date": "2026-11-28",
+        "acq_time": "1053",
+        "satellite": "N20",
+        "brightness": null,
+        "NAME_1": "Lipetsk",
+        "locality": "Lipetsk"
       }
     }
   ]
